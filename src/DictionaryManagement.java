@@ -1,9 +1,36 @@
+import org.w3c.dom.ls.LSInput;
+
+import java.util.HashMap;
 import java.util.Scanner;
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors
 
 
 public class DictionaryManagement extends Dictionary {
+    public void insertFromCommandline() {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String[] temp = new String[3];
+       for(int i=0; i<=n; i++) {
+           String s = sc.nextLine();
+           temp = s.split("\t\t");
+           if (temp.length == 2) {
+               Word insert = new Word();
+               insert.setWord_target(temp[0]);
+               insert.setWord_explain(temp[1]);
+               super.getWordlist().put(temp[0],insert);
+           }
+
+           if (temp.length == 3) {
+               Word insert = new Word();
+               insert.setWord_target(temp[0]);
+               insert.setWord_form(temp[1]);
+               insert.setWord_explain(temp[2]);
+               super.getWordlist().put(temp[0],insert);
+           }
+       }
+
+    }
     public void insertFromFilePath() throws FileNotFoundException {
 
 
@@ -16,47 +43,38 @@ public class DictionaryManagement extends Dictionary {
             //System.out.println(s);
             String[] temp = s.split("\t\t");
 
-            super.getWordlist()[getSize()] = new Word();
+
+
             if (temp.length == 2) {
-                super.getWordlist()[getSize()].setWord_target(temp[0]);
-                super.getWordlist()[getSize()].setWord_explain(temp[1]);
-                setSize(getSize() + 1);
+                Word insert = new Word();
+                insert.setWord_target(temp[0]);
+                insert.setWord_explain(temp[1]);
+                super.getWordlist().put(temp[0],insert);
             } // từ và nghĩa
 
             if (temp.length == 3) {
-                super.getWordlist()[getSize()].setWord_target(temp[0]);
-                super.getWordlist()[getSize()].setWord_form(temp[1]);
-                super.getWordlist()[getSize()].setWord_explain(temp[2]);
-                setSize(getSize() + 1);
+                Word insert = new Word();
+                insert.setWord_target(temp[0]);
+                insert.setWord_form(temp[1]);
+                insert.setWord_explain(temp[2]);
+                super.getWordlist().put(temp[0],insert);
             } // từ ,từ loại và nghĩa
 
         }
 
         return;
     }
-
-    public void insertFromCommandline() {
+    public void dictionaryLookup() {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String[] temp = new String[3];
-       for(int i=0; i<=n; i++) {
-           super.getWordlist()[getSize()] = new Word();
-           String s = sc.nextLine();
-           temp = s.split("\t\t");
-           if (temp.length == 2) {
-               super.getWordlist()[getSize()].setWord_target(temp[0]);
-               super.getWordlist()[getSize()].setWord_explain(temp[1]);
-               setSize(getSize() + 1);
-           }
+        String in = sc.nextLine();
+        String s;
+        if(super.getWordlist().get(in).getWord_form() != null)
+        {
+            s =  super.getWordlist().get(in).getWord_form()
+                    + " " + super.getWordlist().get(in).getWord_explain();
+        }
+        else  s = super.getWordlist().get(in).getWord_explain();
 
-           if (temp.length == 3) {
-               super.getWordlist()[getSize()].setWord_target(temp[0]);
-               super.getWordlist()[getSize()].setWord_form(temp[1]);
-               super.getWordlist()[getSize()].setWord_explain(temp[2]);
-               setSize(getSize() + 1);
-           }
-       }
-
+        System.out.println(s);
     }
-
 }

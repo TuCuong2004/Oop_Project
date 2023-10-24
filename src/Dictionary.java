@@ -1,20 +1,16 @@
-public class Dictionary {
-    private Word [] wordlist = new Word[10000];
-    private int size = 0;
+import java.util.AbstractMap;
+import java.util.HashMap;
+import java.util.Map;
 
-    public Word[] getWordlist() {
+public class Dictionary {
+    private HashMap<String,Word> wordlist = new HashMap<String,Word>();
+
+    public HashMap<String, Word> getWordlist() {
         return wordlist;
     }
 
-    public void setWordlist(Word[] wordlist) {
+    public void setWordlist(HashMap<String, Word> wordlist) {
         this.wordlist = wordlist;
     }
 
-    public int getSize() {
-        return size;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
-    }
 }
