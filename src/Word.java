@@ -1,5 +1,4 @@
 public class Word {
-    public static int count=0;
     private String word_target;
     private String word_explain;
     private String word_form;
@@ -7,14 +6,12 @@ public class Word {
     public Word(String word_target, String word_explain) {
         this.word_target = word_target;
         this.word_explain = word_explain;
-        count++;
     }
 
     public Word(String word_target, String word_explain, String word_form) {
         this.word_target = word_target;
         this.word_explain = word_explain;
         this.word_form = word_form;
-        count++;
     }
 
     public Word() {}
