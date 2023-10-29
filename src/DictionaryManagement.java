@@ -57,7 +57,7 @@ public class DictionaryManagement extends Dictionary {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Name input file: ");
         String filePath = scanner.nextLine();
-        insertFromFilePath(filePath);
+        insertFromFilePath(filePath);   
     }
 
     public void dictionaryLookup() {

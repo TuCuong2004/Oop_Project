@@ -37,8 +37,16 @@ public class CommandlineApp {
                 case 4 -> dictionaryCommandline.showAllWords();
                 case 5 -> dictionaryCommandline.dictionaryLookup();
                 case 6 -> dictionaryCommandline.dictionarySearcher();
-//                case 7:
-                case 8 -> dictionaryCommandline.insertFromFilePath();
+                case 7 -> {
+                    Game game = new Game();
+                    game.start();
+                }
+                case 8 -> {
+                    System.out.println("nhập đường dẫn :");
+                    Scanner sc = new Scanner(System.in);
+                    String path = sc.nextLine();
+                    dictionaryCommandline.insertFromFilePath(path);
+                }
                 default -> System.out.println("Action not supported");
             }
         }
