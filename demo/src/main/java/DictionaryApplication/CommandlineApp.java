@@ -1,7 +1,14 @@
+package DictionaryApplication;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class CommandlineApp {
+public class CommandlineApp  {
 
     private DictionaryCommandline dictionaryCommandline;
     private Scanner scanner;
@@ -15,13 +22,13 @@ public class CommandlineApp {
         while (true) {
             System.out.println("""
                     Welcome to My Application!
-                    [0] Exit
+                    [0] Exit // javaFX tự có rồi
                     [1] Add
-                    [2] Remove
-                    [3] Update
-                    [4] Display
+                    [2] Remove // Alert của add
+                    [3] Update // bỏ
+                    [4] Display // chắc là menu :)
                     [5] Lookup
-                    [6] Search
+                    [6] Search // làm cùng lookup
                     [7] Game
                     [8] Import from file""");
             System.out.print("Chọn: ");
@@ -51,4 +58,19 @@ public class CommandlineApp {
             }
         }
     }
+
+    Stage window ;
+    Scene scene1,scene2;
+    Button button1  = new Button();
+    Button button2 = new Button();
+    Button button3 = new Button();
+//    @Override
+//    public void start(Stage stage) throws IOException {
+//    }
+//
+//
+//
+//    public static void main(String[] args) {
+//        launch();
+//    }
 }

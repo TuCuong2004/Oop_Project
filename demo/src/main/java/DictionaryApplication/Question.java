@@ -1,3 +1,5 @@
+package DictionaryApplication;
+
 public class Question {
     private String question;
     private String select;

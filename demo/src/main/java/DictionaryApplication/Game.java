@@ -1,8 +1,9 @@
+package DictionaryApplication;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.lang.Math;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Game {
@@ -13,7 +14,7 @@ public class Game {
     }
 
     public void insertFromFilePath() throws FileNotFoundException {
-        String filePath = "src\\question.txt";
+        String filePath = "dsrc\\main\\java\\com\\example\\demo1\\question.txt";
         File path = new File(filePath);
 
         Scanner sc = new Scanner(path);

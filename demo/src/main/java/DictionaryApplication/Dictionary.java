@@ -1,6 +1,6 @@
-import java.util.AbstractMap;
+package DictionaryApplication;
+
 import java.util.HashMap;
-import java.util.Map;
 
 public class Dictionary {
     private HashMap<String,Word> wordlist = new HashMap<String,Word>();

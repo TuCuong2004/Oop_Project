@@ -1,15 +1,14 @@
-//import org.w3c.dom.ls.LSInput;
+package DictionaryApplication;//import org.w3c.dom.ls.LSInput;
 
-import java.util.HashMap;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.io.File;  // Import the File class
-import java.io.FileNotFoundException;  // Import this class to handle errors
 
 
 public class DictionaryManagement extends Dictionary {
 
     public DictionaryManagement() throws FileNotFoundException {
-        insertFromFilePath("src\\dictionaries.txt");
+        insertFromFilePath("src\\main\\java\\com\\example\\demo1\\dictionaries.txt");
     }
 
     public void insertFromCommandline() {

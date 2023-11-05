@@ -1,7 +1,6 @@
+package DictionaryApplication;
+
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.security.spec.RSAOtherPrimeInfo;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class DictionaryCommandline extends DictionaryManagement {
