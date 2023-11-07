@@ -24,12 +24,12 @@
             </AnchorPane>
             <AnchorPane layoutX="218.0" layoutY="70.0" maxHeight="383.0" maxWidth="551.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="title" stylesheets="@../Utils/style.css">
                 <children>
-                    <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" styleClass="add-button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <image>
                             <Image url="@../Utils/icons/icons8_search_64px.png" />
                         </image>
                     </ImageView>
-                    <Button fx:id="search_button" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToSearch" prefHeight="0.0" prefWidth="0.0" styleClass="menu-item" AnchorPane.bottomAnchor="0.3333333333333286" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.666666666666643" AnchorPane.topAnchor="1.0">
+                    <Button fx:id="search_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToSearch" opacity="0.0" prefHeight="0.0" prefWidth="0.0" styleClass="menu-item" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <tooltip>
                             <Tooltip text="search" />
                         </tooltip>

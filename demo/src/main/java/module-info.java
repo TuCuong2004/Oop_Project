@@ -7,6 +7,4 @@ module com.example.demo {
 
     opens Run to javafx.fxml;
     exports Run;
-    exports Controllers;
-    opens Controllers to javafx.fxml;
 }
