@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="153.0" prefWidth="407.0" styleClass="root1" stylesheets="@../Utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.ImportController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="12.0" prefHeight="125.0" prefWidth="377.0" styleClass="root">
+         <children>
+            <TextField fx:id="text_field_path" layoutX="54.0" layoutY="49.0" opacity="0.51" prefHeight="25.0" prefWidth="269.0" styleClass="header-translate" />
+            <Text fill="#9f45b0" layoutX="14.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PATH" />
+            <ImageView fitHeight="28.0" fitWidth="29.0" layoutX="335.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Utils/icons/icons8_edit_property_64px.png" />
+               </image>
+            </ImageView>
+            <Text fill="#9f45b0" layoutX="95.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nhập đường dẫn" textAlignment="CENTER" wrappingWidth="187.4700469970703" AnchorPane.bottomAnchor="88.05859375" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="94.0" AnchorPane.topAnchor="13.576171875">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="button_ok" layoutX="139.0" layoutY="83.0" mnemonicParsing="false" onAction="#press_button_ok" opacity="0.83" styleClass="trans-button" text="Ok" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

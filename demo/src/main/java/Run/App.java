@@ -1,5 +1,6 @@
 package Run;
 
+import DictionaryApplication.DictionaryCommandline;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,9 +11,11 @@ import java.io.IOException;
 public class App extends Application {
     public static Stage window;
     public static String scene_type;
+    public static DictionaryCommandline dictionaryCommandline;
 
     @Override
     public void start(Stage stage) throws IOException {
+
         window = stage;
         FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("menu.fxml"));
         Scene scene_menu = new Scene(fxmlLoader_menu.load(), 650, 450);

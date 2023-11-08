@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="450.0" prefWidth="650.0" styleClass="root1" stylesheets="@../Utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.MenuController">
     <children>
-        <AnchorPane layoutX="15.0" layoutY="7.0" prefHeight="420.0" prefWidth="620.0" styleClass="root" AnchorPane.bottomAnchor="23.66666666666663" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="16.33333333333337" AnchorPane.topAnchor="7.0">
+        <AnchorPane layoutX="16.0" layoutY="15.0" prefHeight="420.0" prefWidth="620.0" styleClass="root" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="15.0">
             <ImageView fitHeight="205.0" fitWidth="200.0" layoutX="354.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
                 <Image url="@../Utils/images/logo.png" />
             </ImageView>
@@ -38,30 +38,30 @@
             </AnchorPane>
             <AnchorPane layoutX="89.0" layoutY="243.0" maxHeight="383.0" maxWidth="551.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="title" stylesheets="@../Utils/style.css">
                 <children>
-                    <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" styleClass="menu-item" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                        <tooltip>
-                            <Tooltip text="translate" />
-                        </tooltip>
-                    </Button>
                     <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <image>
                             <Image url="@../Utils/icons/icons8_google_translate_64px.png" />
                         </image>
                     </ImageView>
+                    <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.0" prefHeight="0.0" prefWidth="0.0" styleClass="menu-item" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <tooltip>
+                            <Tooltip text="translate" />
+                        </tooltip>
+                    </Button>
                 </children>
             </AnchorPane>
             <AnchorPane layoutX="218.0" layoutY="243.0" maxHeight="383.0" maxWidth="551.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="title">
                 <children>
-                    <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" styleClass="menu-item" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                        <tooltip>
-                            <Tooltip text="add dictionnary" />
-                        </tooltip>
-                    </Button>
                     <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <image>
                             <Image url="@../Utils/icons/icons8_edit_property_64px.png" />
                         </image>
                     </ImageView>
+                    <Button fx:id="import_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#openImportAlert" opacity="0.0" prefHeight="0.0" prefWidth="0.0" styleClass="menu-item" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <tooltip>
+                            <Tooltip text="add dictionnary" />
+                        </tooltip>
+                    </Button>
                 </children>
             </AnchorPane>
             <AnchorPane layoutX="416.0" layoutY="243.0" maxHeight="383.0" maxWidth="551.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="title">

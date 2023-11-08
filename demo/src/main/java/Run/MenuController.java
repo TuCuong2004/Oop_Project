@@ -22,7 +22,10 @@ public class MenuController {
     private Button add_button;
     @FXML
     private Button search_button;
+    @FXML
+    private Button import_button;
     private Stage stage;
+    public static Stage import_alert;
     private Scene scene;
     private Parent root;
 
@@ -43,5 +46,13 @@ public class MenuController {
         Scene scene = new Scene(fxmlLoader_menu.load());
         stage.setScene(scene);
         stage.show();
+    }
+
+    public  void openImportAlert(ActionEvent event) throws IOException {
+        import_alert = new Stage();
+        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("import.fxml"));
+        Scene scene = new Scene(fxmlLoader_menu.load());
+        import_alert.setScene(scene);
+        import_alert.show();
     }
 }
