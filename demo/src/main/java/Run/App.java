@@ -6,12 +6,21 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class App extends Application {
     public static Stage window;
     public static String scene_type;
     public static DictionaryCommandline dictionaryCommandline;
+
+    static {
+        try {
+            dictionaryCommandline = new DictionaryCommandline();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     @Override
     public void start(Stage stage) throws IOException {

@@ -24,6 +24,8 @@ public class MenuController {
     private Button search_button;
     @FXML
     private Button import_button;
+    @FXML
+    private Button game_button;
     private Stage stage;
     public static Stage import_alert;
     private Scene scene;
@@ -54,5 +56,13 @@ public class MenuController {
         Scene scene = new Scene(fxmlLoader_menu.load());
         import_alert.setScene(scene);
         import_alert.show();
+    }
+
+    public void goToGame(ActionEvent event) throws IOException {
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("game.fxml"));
+        Scene scene = new Scene(fxmlLoader_menu.load());
+        stage.setScene(scene);
+        stage.show();
     }
 }

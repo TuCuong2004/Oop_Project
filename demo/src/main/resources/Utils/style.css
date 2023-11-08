@@ -264,3 +264,9 @@
 .exit-button:hover{
      -fx-background-color: #b22a00;
 }
+.header-translate-filled{
+     -fx-background-color:   #44008b;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 7 7 0 0;
+    -fx-border-radius: 7 7 0 0;
+}

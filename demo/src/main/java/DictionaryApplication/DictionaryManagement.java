@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class DictionaryManagement extends Dictionary {
 
     public DictionaryManagement() throws FileNotFoundException {
-        insertFromFilePath("src\\main\\java\\com\\example\\demo1\\dictionaries.txt");
+        insertFromFilePath("src\\main\\java\\DictionaryApplication\\dictionaries.txt");
     }
 
     public void insertFromCommandline() {
