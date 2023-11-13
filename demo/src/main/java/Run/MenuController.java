@@ -7,6 +7,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -18,6 +19,7 @@ import static javafx.fxml.FXMLLoader.load;
 
 
 public class MenuController {
+
     @FXML
     private Button add_button;
     @FXML
@@ -34,20 +36,40 @@ public class MenuController {
     public MenuController() {
     }
 
+    @FXML
+    private AnchorPane container;
+    private void setNode(Node node) {
+        container.getChildren().clear();
+        container.getChildren().add(node);
+    }
+
+    @FXML
+    private void showComponent(String path) {
+        try {
+            AnchorPane component = FXMLLoader.load(getClass().getResource(path));
+            setNode(component);
+        } catch (IOException e) {
+            e.fillInStackTrace();
+        }
+    }
+
     public void goToAdd(ActionEvent event) throws IOException {
-       stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("add.fxml"));
-        Scene scene = new Scene(fxmlLoader_menu.load());
-        stage.setScene(scene);
-        stage.show();
+//       stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("add.fxml"));
+//        Scene scene = new Scene(fxmlLoader_menu.load());
+//        stage.setScene(scene);
+//        stage.show();
+        showComponent("add.fxml");
     }
 
     public void goToSearch(ActionEvent event) throws IOException {
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("search.fxml"));
-        Scene scene = new Scene(fxmlLoader_menu.load());
-        stage.setScene(scene);
-        stage.show();
+//        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("search.fxml"));
+//        Scene scene = new Scene(fxmlLoader_menu.load());
+//        stage.setScene(scene);
+//        stage.show();
+        showComponent("search.fxml");
+
     }
 
     public  void openImportAlert(ActionEvent event) throws IOException {
@@ -59,10 +81,13 @@ public class MenuController {
     }
 
     public void goToGame(ActionEvent event) throws IOException {
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("game.fxml"));
-        Scene scene = new Scene(fxmlLoader_menu.load());
-        stage.setScene(scene);
-        stage.show();
+//        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("game.fxml"));
+//        Scene scene = new Scene(fxmlLoader_menu.load());
+//        stage.setScene(scene);
+//        stage.show();
+        showComponent("game.fxml");
     }
+
+
 }

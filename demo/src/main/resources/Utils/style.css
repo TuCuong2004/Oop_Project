@@ -18,6 +18,8 @@
 }
 .menu{
     -fx-padding: 0;
+    -fx-background-color: transparent
+
 }
 .menu-item{
  -fx-background-color: transparent;
