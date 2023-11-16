@@ -1,7 +1,6 @@
 package Run;
 
-import DictionaryApplication.Question;
-import DictionaryApplication.Word;
+import DictionaryApplication.DictionaryCommandline.Word;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;

@@ -7,83 +7,78 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="530.0" prefWidth="830.0" styleClass="root1" stylesheets="@../Utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.MenuController">
-    <children>
-        <AnchorPane fx:id="container" layoutX="48.0" layoutY="10.0" prefHeight="510.0" prefWidth="770.0" styleClass="root" AnchorPane.bottomAnchor="11.333333333333371" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="14.666666666666742" AnchorPane.topAnchor="10.0" />
-      <Button fx:id="import_button" layoutX="14.0" layoutY="189.0" mnemonicParsing="false" onAction="#openImportAlert" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/import.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="import" />
-         </tooltip>
-      </Button>
-      <Button fx:id="search_button" layoutX="14.0" layoutY="251.0" mnemonicParsing="false" onAction="#goToSearch" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/loupe.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="search" />
-         </tooltip>
-      </Button>
-      <Button fx:id="add_button" layoutX="14.0" layoutY="313.0" mnemonicParsing="false" onAction="#goToAdd" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/add.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="add" />
-         </tooltip>
-      </Button>
-      <Button fx:id="game_button" layoutX="14.0" layoutY="373.0" mnemonicParsing="false" onAction="#goToGame" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/console.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="game" />
-         </tooltip>
-      </Button>
-      <Button layoutX="14.0" layoutY="474.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/logout.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="exit" />
-         </tooltip>
-      </Button>
-    </children>
+<AnchorPane prefHeight="530.0" prefWidth="830.0" styleClass="header" stylesheets="@../Utils/style.css"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.MenuController">
+   <AnchorPane fx:id="container" layoutX="48.0" layoutY="10.0" prefHeight="510.0" prefWidth="770.0" styleClass="root"
+               AnchorPane.bottomAnchor="11.333333333333371" AnchorPane.leftAnchor="48.0"
+               AnchorPane.rightAnchor="14.666666666666742" AnchorPane.topAnchor="10.0"/>
+   <Button fx:id="import_button" layoutX="14.0" layoutY="189.0" mnemonicParsing="false" onAction="#openImportAlert"
+           prefHeight="25.0" prefWidth="25.0" styleClass="menu">
+      <graphic>
+         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+               <Rectangle2D/>
+            </viewport>
+            <Image url="@../Utils/icons/import.png"/>
+         </ImageView>
+      </graphic>
+      <tooltip>
+         <Tooltip text="import"/>
+      </tooltip>
+   </Button>
+   <Button fx:id="search_button" layoutX="14.0" layoutY="251.0" mnemonicParsing="false" onAction="#goToSearch"
+           prefHeight="25.0" prefWidth="25.0" styleClass="menu">
+      <graphic>
+         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+               <Rectangle2D/>
+            </viewport>
+            <Image url="@../Utils/icons/loupe.png"/>
+         </ImageView>
+      </graphic>
+      <tooltip>
+         <Tooltip text="search"/>
+      </tooltip>
+   </Button>
+   <Button fx:id="add_button" layoutX="14.0" layoutY="313.0" mnemonicParsing="false" onAction="#goToAdd"
+           prefHeight="25.0" prefWidth="25.0" styleClass="menu">
+      <graphic>
+         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+               <Rectangle2D/>
+            </viewport>
+            <Image url="@../Utils/icons/add.png"/>
+         </ImageView>
+      </graphic>
+      <tooltip>
+         <Tooltip text="add"/>
+      </tooltip>
+   </Button>
+   <Button fx:id="game_button" layoutX="14.0" layoutY="373.0" mnemonicParsing="false" onAction="#goToGame"
+           prefHeight="25.0" prefWidth="25.0" styleClass="menu">
+      <graphic>
+         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+               <Rectangle2D/>
+            </viewport>
+            <Image url="@../Utils/icons/console.png"/>
+         </ImageView>
+      </graphic>
+      <tooltip>
+         <Tooltip text="game"/>
+      </tooltip>
+   </Button>
+   <Button layoutX="14.0" layoutY="474.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
+      <graphic>
+         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+               <Rectangle2D/>
+            </viewport>
+            <Image url="@../Utils/icons/logout.png"/>
+         </ImageView>
+      </graphic>
+      <tooltip>
+         <Tooltip text="exit"/>
+      </tooltip>
+   </Button>
 </AnchorPane>
