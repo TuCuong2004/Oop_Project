@@ -1,9 +1,8 @@
-package DictionaryApplication.DictionaryCommandline;
+package DictionaryApplication;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Dictionary extends ArrayList<Word> {
+public class Dictionary {
     private HashMap<String,Word> wordlist = new HashMap<String,Word>();
 
     public HashMap<String, Word> getWordlist() {

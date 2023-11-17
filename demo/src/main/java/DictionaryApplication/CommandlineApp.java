@@ -1,5 +1,6 @@
-package DictionaryApplication.DictionaryCommandline;
+package DictionaryApplication;
 
+import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
@@ -9,8 +10,8 @@ import java.util.Scanner;
 
 public class CommandlineApp  {
 
-    private final DictionaryCommandline dictionaryCommandline;
-    private final Scanner scanner;
+    private DictionaryCommandline dictionaryCommandline;
+    private Scanner scanner;
 
     public CommandlineApp() throws FileNotFoundException {
         scanner = new Scanner(System.in);

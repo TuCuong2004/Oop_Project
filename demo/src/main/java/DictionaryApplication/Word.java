@@ -1,4 +1,4 @@
-package DictionaryApplication.DictionaryCommandline;
+package DictionaryApplication;
 
 public class Word {
     private String word_target;

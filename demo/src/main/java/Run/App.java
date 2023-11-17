@@ -1,6 +1,6 @@
 package Run;
 
-import DictionaryApplication.DictionaryCommandline.DictionaryCommandline;
+import DictionaryApplication.DictionaryCommandline;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

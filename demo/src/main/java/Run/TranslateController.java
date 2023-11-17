@@ -60,7 +60,7 @@ public class TranslateController implements Initializable {
         String trans = new String();
         trans = translate(sourceLanguage,toLanguage,srcText);
         toLangField.setText(trans);
-        GgTranslateTextToSpeech.play(trans,toLanguage);
+        GgTranslateTextToSpeech.play(trans,sourceLanguage);
     }
 
     @FXML

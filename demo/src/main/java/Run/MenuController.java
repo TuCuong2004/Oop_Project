@@ -13,6 +13,10 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Objects;
 
+import static Run.App.scene_type;
+import static Run.App.window;
+import static javafx.fxml.FXMLLoader.load;
+
 
 public class MenuController {
 
@@ -44,7 +48,7 @@ public class MenuController {
     @FXML
     private void showComponent(String path) {
         try {
-            AnchorPane component = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(path)));
+            AnchorPane component = FXMLLoader.load(getClass().getResource(path));
             setNode(component);
         } catch (IOException e) {
             e.fillInStackTrace();
