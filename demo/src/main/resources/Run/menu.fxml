@@ -85,5 +85,20 @@
             <Tooltip text="exit" />
          </tooltip>
       </Button>
+      <Button fx:id="translate_button" layoutX="14.0" layoutY="123.0" mnemonicParsing="false" onAction="#gotoTranslate" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Utils/icons/icons8_google_translate_48px.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+         <tooltip>
+            <Tooltip text="translate" />
+         </tooltip>
+      </Button>
     </children>
 </AnchorPane>

@@ -21,6 +21,8 @@ import static javafx.fxml.FXMLLoader.load;
 public class MenuController {
 
     @FXML
+    Button translate_button;
+    @FXML
     private Button add_button;
     @FXML
     private Button search_button;
@@ -89,5 +91,8 @@ public class MenuController {
         showComponent("game.fxml");
     }
 
+    public void gotoTranslate(ActionEvent event) throws IOException {
+        showComponent("translateAPI.fxml");
+    }
 
 }

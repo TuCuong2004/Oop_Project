@@ -4,6 +4,8 @@ module com.example.demo {
 
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
+    requires json.simple;
+    requires jlayer;
 
     opens Run to javafx.fxml;
     exports Run;
