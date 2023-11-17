@@ -1,4 +1,4 @@
-package DictionaryApplication;
+package DictionaryApplication.DictionaryCommandline;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;

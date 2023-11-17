@@ -1,4 +1,4 @@
-package DictionaryApplication;
+package DictionaryApplication.DictionaryCommandline;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Game {
-    private HashMap<Question, String> questionlist = new HashMap<>();
+    private final HashMap<Question, String> questionlist = new HashMap<>();
 
     public HashMap<Question, String> getQuestionlist() {
         return questionlist;
@@ -36,7 +36,7 @@ public class Game {
     public void start() throws FileNotFoundException {
         insertFromFilePath();
         int rand = ThreadLocalRandom.current().nextInt(1,59);
-        String answer = new String();
+        String answer = "";
         for (Question selectquestion : questionlist.keySet()) {
             rand--;
             if (rand == 0) {
