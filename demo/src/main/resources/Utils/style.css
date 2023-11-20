@@ -1,5 +1,5 @@
 @font-face {
-    src: url("fonts/Poppins-Regular.ttf"),
+    src: url("fonts/Poppins-Regular.ttf");
 }
 .root{
    /*  -fx-background-color: linear-gradient(to top right,#752e65, #44008b);
@@ -34,7 +34,7 @@
 .menu-item:focused{
  -fx-background-color: #c6a1d6;
 }
-.search-box{
+.main-searcher, .search-box{
     -fx-background-color:   #44008b;
     -fx-background-radius: 30;
     -fx-border-radius: 30;
@@ -266,7 +266,7 @@
 .exit-button:hover{
      -fx-background-color: #b22a00;
 }
-.header-translate-filled{
+.header, .header-translate-filled{
      -fx-background-color:   #44008b;
     -fx-border-width: 1.5;
     -fx-background-radius: 7 7 0 0;
