@@ -18,24 +18,21 @@ public class ImportController {
     Alert alert;
 
     @FXML
-    void press_button_ok() throws FileNotFoundException {
+    void press_button_ok() {
         try{
             System.out.println(text_field_path.getText());
             dictionaryCommandline.insertFromFilePath(text_field_path.getText());
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Success");
-            alert.setHeaderText("File imported");
+            alert.setHeaderText("File imported!");
             alert.showAndWait();
             import_alert.close();
         }catch (FileNotFoundException e){
             System.out.println(e.getMessage());
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Error");
-            alert.setHeaderText("File path not found:");
+            alert.setHeaderText("File path not found!");
             alert.showAndWait();
         }
-
-
-
     }
 }

@@ -1,9 +1,10 @@
 package DictionaryApplication;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Dictionary {
-    private HashMap<String,Word> wordlist = new HashMap<String,Word>();
+public class Dictionary extends ArrayList<Word> {
+    private HashMap<String,Word> wordlist = new HashMap<>();
 
     public HashMap<String, Word> getWordlist() {
         return wordlist;
@@ -12,5 +13,4 @@ public class Dictionary {
     public void setWordlist(HashMap<String, Word> wordlist) {
         this.wordlist = wordlist;
     }
-
 }

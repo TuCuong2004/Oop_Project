@@ -30,7 +30,5 @@ public class DictionaryCommandline extends DictionaryManagement {
                 System.out.println(word);
         }
     }
-
-
 }
 
