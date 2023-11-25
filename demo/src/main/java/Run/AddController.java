@@ -2,7 +2,7 @@ package Run;
 
 import DictionaryApplication.DictionaryAlerts.DictionaryAlerts;
 import DictionaryApplication.Dictionary;
-import DictionaryApplication.DictionaryCommandline;
+import DictionaryApplication.DictionaryCommandLine;
 import DictionaryApplication.Word;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 
 public class AddController implements Initializable {
     private final Dictionary dictionary = new Dictionary();
-    private final DictionaryCommandline dictionaryCommandline = new DictionaryCommandline();
+    private final DictionaryCommandLine dictionaryCommandline = new DictionaryCommandLine();
     private final DictionaryAlerts dictionaryAlerts = new DictionaryAlerts();
 
     @FXML

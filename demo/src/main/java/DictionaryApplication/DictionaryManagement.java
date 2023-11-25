@@ -1,4 +1,5 @@
 package DictionaryApplication;//import org.w3c.dom.ls.LSInput
+
 import DictionaryApplication.Trie.Trie;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -8,8 +9,10 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+import static Run.App.dictionaryCommandline;
+
 public class DictionaryManagement extends Dictionary {
-    private final Trie trie = new Trie();
+    public static final Trie trie = new Trie();
     public final String path = "demo/src/main/java/DictionaryApplication/dictionaries.txt";
 
     public DictionaryManagement() throws FileNotFoundException {
@@ -26,10 +29,9 @@ public class DictionaryManagement extends Dictionary {
             String form = sc.nextLine();
             System.out.print("Mean: ");
             String explain = sc.nextLine();
-            if(form.isEmpty()){
+            if (form.isEmpty()) {
                 super.getWordlist().put(word, new Word(word, explain));
-            }
-            else{
+            } else {
                 super.getWordlist().put(word, new Word(word, explain, form));
             }
         }
@@ -102,18 +104,24 @@ public class DictionaryManagement extends Dictionary {
         }
     }
 
+    public Word getWord(String word_target) {
+        Word relust = null;
+        if (super.getWordlist().get(word_target) == null) {
+            System.out.println("Not found!");
+        } else {
+            return super.getWordlist().get(word_target);
+        }
+        return relust;
+    }
+
     public void dictionaryLookup() {
         Scanner sc = new Scanner(System.in);
         String word_target = sc.nextLine();
-        if(super.getWordlist().get(word_target) == null){
-            System.out.println("Not found!");
-        }
-        else{
-            Word word = super.getWordlist().get(word_target);
-            if(word.getWord_form() != null){
-                System.out.println("Form: " + word.getWord_form());
+        if(getWord(word_target) != null) {
+            if (getWord(word_target).getWord_form() != null) {
+                System.out.println("Form: " + getWord(word_target).getWord_form() );
             }
-            System.out.println("Mean: " + word.getWord_explain());
+            System.out.println("Mean: " + getWord(word_target).getWord_explain());
         }
     }
 
@@ -122,16 +130,25 @@ public class DictionaryManagement extends Dictionary {
      */
     public ObservableList<String> dictionaryLookUp(String key) {
         ObservableList<String> list = FXCollections.observableArrayList();
-        try {
+        int count = 20;
+//        try {
             List<String> results = trie.autoComplete(key);
-            if (results != null) {
-                int length = Math.min(results.size(), 15);
-                for (int i = 0; i < length; ++i) {
-                    list.add(results.get(i));
-                }
+//            if (results != null) {
+//                int length = Math.min(results.size(), 15);
+//                for (int i = 0; i < length; ++i) {
+//                    list.add(results.get(i));
+//                }
+//            }
+//        } catch (Exception exception) {
+//            System.out.println("Something went wrong with dictionary looking up: " + exception);
+        for (String word : super.getWordlist().keySet()) {
+            if (count <= 0) {
+                break;
             }
-        } catch (Exception exception) {
-            System.out.println("Something went wrong with dictionary looking up: " + exception);
+            if (word.startsWith(key)) {
+                list.add(word);
+                count--;
+            }
         }
         return list;
     }
@@ -182,23 +199,17 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Update word meaning by its index.
      */
-    public void updateWord(Dictionary dictionary, int index, String meaning, String path) {
-        try {
-            dictionary.get(index).setWord_explain(meaning);
-            dictionaryExportToFile(dictionary, path);
-        } catch (NullPointerException nullPointerException) {
-            System.out.println("Updating Null Exception: " + nullPointerException);
-        }
+    public void updateWord(String wordTarget, String wordExplain) {
+        Word word = new Word(wordTarget,wordExplain);
+        dictionaryCommandline.getWordlist().replace(wordTarget,word);
     }
 
     /**
      * Delete a word by its index.
      */
-    public void deleteWord(Dictionary dictionary, int index, String path) {
+    public void deleteWord(String wordTarget) {
         try {
-            dictionary.remove(index);
-            setTrie(dictionary);
-            dictionaryExportToFile(dictionary, path);
+            dictionaryCommandline.getWordlist().remove(wordTarget);
         } catch (NullPointerException nullPointerException) {
             System.out.println("Deleting Null Exception: " + nullPointerException);
         }
@@ -237,13 +248,42 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Set a trie from dictionary.
      */
-    public void setTrie(Dictionary dictionary) {
+    public void setTrie() {
         try {
-            for (Word word : dictionary) {
-                trie.insert(word.getWord_target());
+            for (String word : dictionaryCommandline.getWordlist().keySet()) {
+                trie.insert(word);
             }
         } catch (NullPointerException nullPointerException) {
             System.out.println("Set Trie Null Exception: " + nullPointerException);
         }
+    }
+
+    public void test() {
+        for(char s : trie.getChildren().keySet()) System.out.println(s);
+    }
+
+    public ObservableList<String> dictionarySearch(String key) {
+        ObservableList<String> list = FXCollections.observableArrayList();
+        int count = 20;
+        try {
+            List<String> results = trie.autoComplete(key);
+            if (results != null) {
+                int length = Math.min(results.size(), 15);
+                for (int i = 0; i < length; ++i) {
+                    list.add(results.get(i));
+                }
+            }
+        } catch (Exception exception) {
+            System.out.println("Something went wrong with dictionary looking up: " + exception);
+//        for (String word : super.getWordlist().keySet()) {
+//            if (count <= 0) {
+//                break;
+//            }
+//            if (word.startsWith(key)) {
+//                list.add(word);
+//                count--;
+//            }
+        }
+        return list;
     }
 }
