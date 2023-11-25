@@ -13,10 +13,10 @@ import static Run.App.dictionaryCommandline;
 
 public class DictionaryManagement extends Dictionary {
     public static final Trie trie = new Trie();
-    public final String path = "demo/src/main/java/DictionaryApplication/dictionaries.txt";
+    public final String path = "demo/src/main/resources/Utils/dictionaries.txt";
 
     public DictionaryManagement() throws FileNotFoundException {
-        insertFromFilePath(path);
+        insertFromFile();
     }
 
     public void insertFromCommandline() {
@@ -63,7 +63,7 @@ public class DictionaryManagement extends Dictionary {
 //        System.out.print("Name input file: ");
         try {
             //String filePath = scanner.nextLine();
-            insertFromFilePath(path);
+            insertFromFilePath("demo/src/main/java/DictionaryApplication/dictionaries.txt");
         } catch (NoSuchElementException e) {
             System.out.println("No file input!");
         } catch (IllegalStateException e) {
@@ -74,36 +74,38 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Import data from dictionary.
      */
-    public void insertFromFile(Dictionary dictionary, String path) {
+    public void insertFromFile(String path) {
         try {
             FileReader fileReader = new FileReader(path);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String englishWord = bufferedReader.readLine();
             englishWord = englishWord.replace("|", "");
             String line;
-            while (bufferedReader.readLine() != null) {
+            while ((line = bufferedReader.readLine()) != null) {
                 Word word = new Word();
                 word.setWord_target(englishWord.trim());
-                line = bufferedReader.readLine();
-                while (line != null) {
-                    if (!line.startsWith("|")) {
-                        line = line.concat("\n");
-                    } else {
+                String meaning = line + "\n";
+                System.out.println(word.getWord_target());
+                while ((line = bufferedReader.readLine()) != null)
+                    if (!line.startsWith("|")) meaning += line + "\n";
+                    else {
                         englishWord = line.replace("|", "");
                         break;
                     }
-                }
-                word.setWord_explain(englishWord.trim());
-                dictionary.add(word);
+                word.setWord_explain(meaning.trim());
+                super.getWordlist().put(word.getWord_target(),word);
             }
             bufferedReader.close();
-        } catch (IOException ioException) {
-            System.out.println("An I/O exception of some sort has occurred: " + ioException);
-        } catch (Exception exception) {
-            System.out.println("Something went wrong with inserting: " + exception);
+        } catch (IOException e) {
+            System.out.println("An error occur with file: " + e);
+        } catch (Exception e) {
+            System.out.println("Something went wrong: " + e);
         }
     }
 
+    public void insertFromFile() {
+        insertFromFile(path);
+    }
     public Word getWord(String word_target) {
         Word relust = null;
         if (super.getWordlist().get(word_target) == null) {
