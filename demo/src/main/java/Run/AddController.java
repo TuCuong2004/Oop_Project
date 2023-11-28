@@ -13,9 +13,11 @@ import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
+import static Run.App.dictionaryCommandline;
+
 public class AddController implements Initializable {
     private final Dictionary dictionary = new Dictionary();
-    private final DictionaryCommandLine dictionaryCommandline = new DictionaryCommandLine();
+//    private final DictionaryCommandLine dictionaryCommandline = new DictionaryCommandLine();
     private final DictionaryAlerts dictionaryAlerts = new DictionaryAlerts();
 
     @FXML
@@ -82,8 +84,8 @@ public class AddController implements Initializable {
             if (option.get() == ButtonType.OK) {
                 Word word = new Word(englishWord, meaning);
                 String path = "C:\\Users\\Admin\\IdeaProjects\\Oop_Project\\demo\\src\\main\\resources\\Utils\\dictionaries.txt";
-                if (dictionary.contains(word)) {
-                    int indexOfWord = dictionaryCommandline.dictionarySearcher(dictionary, englishWord);
+                if (dictionaryCommandline.getWord(englishWord) != null) {
+//                    int indexOfWord = dictionaryCommandline.dictionarySearcher(dictionary, englishWord);
                     Alert selectionAlert = dictionaryAlerts.alertConfirmation("This word has already existed",
                             "Từ này đã tồn tại.\nBạn hãy thay thế hoặc bổ sung nghĩa vừa nhập cho từ này.");
                     selectionAlert.getButtonTypes().clear();
@@ -97,15 +99,17 @@ public class AddController implements Initializable {
                     if (selection.isPresent()) {
 
                         if (selection.get() == replaceButton) {
-                            dictionary.get(indexOfWord).setWord_explain(meaning);
-                            dictionaryCommandline.dictionaryExportToFile(dictionary, path);
+//                            dictionary.get(indexOfWord).setWord_explain(meaning);
+                            dictionaryCommandline.getWord(word.getWord_target()).setWord_explain(word.getWord_explain());
+//                            dictionaryCommandline.dictionaryExportToFile(dictionary, path);
                             showSuccessAlert();
                         }
 
                         if (selection.get() == insertButton) {
-                            String oldMeaning = dictionary.get(indexOfWord).getWord_explain();
-                            dictionary.get(indexOfWord).setWord_explain(oldMeaning + "\n-> " + meaning);
-                            dictionaryCommandline.dictionaryExportToFile(dictionary, path);
+                            String oldMeaning = dictionaryCommandline.getWord(word.getWord_target()).getWord_explain();
+//                            dictionary.get(indexOfWord).setWord_explain(oldMeaning + "\n-> " + meaning);
+                            dictionaryCommandline.getWord(word.getWord_target()).setWord_explain(oldMeaning + "\n-> " + meaning);
+//                            dictionaryCommandline.dictionaryExportToFile(dictionary, path);
                             showSuccessAlert();
                         }
 
@@ -115,10 +119,12 @@ public class AddController implements Initializable {
                         }
                     }
                 } else {
-                    dictionary.add(word);
-                    dictionaryCommandline.addWord(word, path);
+//                    dictionary.add(word);
+                    dictionaryCommandline.addWord(word);
+                    System.out.println("add mà");
                     showSuccessAlert();
                 }
+//                dictionaryCommandline.setTrie();
                 addButton.setDisable(true);
                 resetInput();
             } else if (option.get() == ButtonType.CANCEL) {

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class CommandlineApp  {
 
-    private DictionaryCommandLine dictionaryCommandline;
+    private final DictionaryCommandLine dictionaryCommandline;
     private Scanner scanner;
 
     public CommandlineApp() throws FileNotFoundException {

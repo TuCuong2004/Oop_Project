@@ -5,6 +5,8 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -12,7 +14,7 @@ import java.util.Scanner;
 import static Run.App.dictionaryCommandline;
 
 public class DictionaryManagement extends Dictionary {
-    public static final Trie trie = new Trie();
+    private Trie trie = new Trie();
     public final String path = "demo/src/main/resources/Utils/dictionaries.txt";
 
     public DictionaryManagement() throws FileNotFoundException {
@@ -85,7 +87,6 @@ public class DictionaryManagement extends Dictionary {
                 Word word = new Word();
                 word.setWord_target(englishWord.trim());
                 String meaning = line + "\n";
-                System.out.println(word.getWord_target());
                 while ((line = bufferedReader.readLine()) != null)
                     if (!line.startsWith("|")) meaning += line + "\n";
                     else {
@@ -211,7 +212,7 @@ public class DictionaryManagement extends Dictionary {
      */
     public void deleteWord(String wordTarget) {
         try {
-            dictionaryCommandline.getWordlist().remove(wordTarget);
+            super.getWordlist().remove(wordTarget);
         } catch (NullPointerException nullPointerException) {
             System.out.println("Deleting Null Exception: " + nullPointerException);
         }
@@ -220,17 +221,12 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Add a word to file.
      */
-    public void addWord(Word word, String path) {
-        try {
-            FileWriter fileWriter = new FileWriter(path, true);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write("|" + word.getWord_target() + "\n" + word.getWord_explain());
-            bufferedWriter.newLine();
-        } catch (IOException ioException) {
-            System.out.println("Adding I/O Exception: " + ioException);
-        } catch (NullPointerException nullPointerException) {
-            System.out.println("Adding Null Exception: " + nullPointerException);
-        }
+    public void addWord(Word word) {
+//        if(super.getWordlist().get(word.getWord_target()) != null) {
+//            super.getWordlist().put(word.getWord_target(),word);
+//        }
+//        else System.out.println("từ này đã có trong từ điển");
+        super.getWordlist().put(word.getWord_target(),word);
     }
 
     /**
@@ -251,9 +247,11 @@ public class DictionaryManagement extends Dictionary {
      * Set a trie from dictionary.
      */
     public void setTrie() {
+        trie = new Trie();
         try {
             for (String word : dictionaryCommandline.getWordlist().keySet()) {
                 trie.insert(word);
+//                System.out.println(word);
             }
         } catch (NullPointerException nullPointerException) {
             System.out.println("Set Trie Null Exception: " + nullPointerException);
@@ -287,5 +285,15 @@ public class DictionaryManagement extends Dictionary {
 //            }
         }
         return list;
+    }
+
+    public void saveChage () throws IOException {
+        StringBuilder dictionarytxt = new StringBuilder();
+        for(Word word : super.getWordlist().values())
+        {
+                dictionarytxt.append("|" + word.getWord_target() + "\n" + word.getWord_explain() + "\n");
+        }
+
+        Files.write(Paths.get("demo/src/main/resources/Utils/dictionaries.txt"), dictionarytxt.toString().getBytes());
     }
 }

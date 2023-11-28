@@ -13,13 +13,14 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Objects;
 
-import static Run.App.scene_type;
-import static Run.App.window;
+import static Run.App.*;
 import static javafx.fxml.FXMLLoader.load;
 
 
 public class MenuController {
 
+    @FXML
+    public Button exitButton;
     @FXML
     Button translate_button;
     @FXML
@@ -93,6 +94,11 @@ public class MenuController {
 
     public void gotoTranslate(ActionEvent event) throws IOException {
         showComponent("translateAPI.fxml");
+    }
+
+    public void exit(ActionEvent event) throws  IOException {
+        dictionaryCommandline.saveChage();
+        System.exit(0);
     }
 
 }

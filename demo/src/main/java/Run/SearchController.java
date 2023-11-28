@@ -87,7 +87,7 @@ public class SearchController implements Initializable {
 //            System.out.println("File not found error!");
 //        }
 //        System.out.println(dictionary.size());
-        dictionaryManagement.setTrie();
+        dictionaryCommandline.setTrie();
 //        setListDefault(0);
 //
         searchTerm.setOnKeyTyped(keyEvent -> {
@@ -223,10 +223,11 @@ public class SearchController implements Initializable {
         Optional<ButtonType> option = alertWarning.showAndWait();
         if (option.isPresent()) {
             if (option.get() == ButtonType.OK) {
-                dictionaryManagement.deleteWord(selectedWord.getWord_target());
+                dictionaryCommandline.deleteWord(selectedWord.getWord_target());
 //                renewListOfResultsAfterDeleting();
                 dictionaryAlerts.showAlertInformation("Announcement(Thông báo)",
                         "Successfully deleted(Xoá từ thành công)!");
+                dictionaryCommandline.setTrie();
             } else {
                 dictionaryAlerts.showAlertWarning("Announcement(Thông báo)",
                         "Deletion failed or cancelled(Xoá từ thất bại hoặc đã bị huỷ)!");
