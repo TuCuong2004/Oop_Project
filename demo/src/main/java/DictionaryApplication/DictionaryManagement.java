@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class DictionaryManagement extends Dictionary {
     private final Trie trie = new Trie();
-    public final String path = "C:\\Users\\Admin\\IdeaProjects\\Oop_Project\\demo\\src\\main\\resources\\Utils\\dictionaries.txt";
+    public final String path = "demo\\src\\main\\resources\\Utils\\dictionaries.txt";
 
     public DictionaryManagement() throws FileNotFoundException {
         insertFromFilePath(path);

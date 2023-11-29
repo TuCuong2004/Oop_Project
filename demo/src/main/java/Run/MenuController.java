@@ -1,27 +1,36 @@
 package Run;
 
+import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.Objects;
+import java.util.ResourceBundle;
 
 import static Run.App.scene_type;
 import static Run.App.window;
 import static javafx.fxml.FXMLLoader.load;
 
 
-public class MenuController {
+public class MenuController implements Initializable {
+    private static final int DURATION = 300;
+    private static final int DASHBOARD_WIDTH = 173;
 
     @FXML
-    Button translate_button;
+    private Button translate_button;
     @FXML
     private Button add_button;
     @FXML
@@ -30,6 +39,12 @@ public class MenuController {
     private Button import_button;
     @FXML
     private Button game_button;
+    @FXML
+    private VBox dashboard;
+    @FXML
+    private AnchorPane shadowPane;
+    @FXML
+    private AnchorPane menuPane;
     private Stage stage;
     public static Stage import_alert;
     private Scene scene;
@@ -89,10 +104,74 @@ public class MenuController {
 //        stage.setScene(scene);
 //        stage.show();
         showComponent("game.fxml");
+        removeOthers(event);
     }
 
     public void gotoTranslate(ActionEvent event) throws IOException {
         showComponent("translateAPI.fxml");
     }
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        shadowPane.setVisible(false);
+        dashboard.setLayoutX(-DASHBOARD_WIDTH);
+        makeMouseEvent(search_button);
+        makeMouseEvent(add_button);
+        makeMouseEvent(translate_button);
+        makeMouseEvent(game_button);
+        makeMouseEvent(import_button);
+    }
+
+    public void setDashboardVisible() {
+        shadowPane.setVisible(true);
+//        dashboard.setLayoutX(0);
+        if (dashboard.getLayoutX() >= 0) return;
+        TranslateTransition transition = new TranslateTransition();
+        transition.setNode(dashboard);
+        transition.setByX(DASHBOARD_WIDTH);
+        transition.setDuration(Duration.millis(DURATION));
+        transition.play();
+        shadowPane.toFront();
+        dashboard.toFront();
+//        dashboard.setLayoutX(0);
+    }
+
+    public void setDashboardHidden() {
+        shadowPane.setVisible(false);
+//        dashboard.setLayoutX(-200);
+//        if(dashboard.getLayoutX() <= -200) return;
+        TranslateTransition transition = new TranslateTransition();
+        transition.setNode(dashboard);
+        transition.setByX(-DASHBOARD_WIDTH);
+        transition.setDuration(Duration.millis(DURATION));
+        transition.play();
+        dashboard.setLayoutX(-DASHBOARD_WIDTH);
+    }
+
+    public void clickMenuButton() throws IOException {
+        setDashboardVisible();
+    }
+
+    public void clickMenuPaneButton() throws IOException {
+        setDashboardHidden();
+    }
+
+    public void removeOthers(ActionEvent event) {
+        for (int i = 0; i < ((AnchorPane) ((Node) (event.getSource())).getScene().getRoot()).getChildren().size(); i++) {
+            if (((AnchorPane) ((Node) (event.getSource())).getScene().getRoot()).getChildren().get(i) != this.dashboard
+                    && ((AnchorPane) ((Node) (event.getSource())).getScene().getRoot()).getChildren().get(i) != shadowPane) {
+                ((AnchorPane) ((Node) (event.getSource())).getScene().getRoot()).getChildren().remove(i);
+                i--;
+            }
+        }
+    }
+
+    private void makeMouseEvent(Button button){
+        button.addEventHandler(MouseEvent.MOUSE_ENTERED,
+                e -> button.setStyle("-fx-background-color: #7f57c2;" +
+                        "-fx-background-radius: 16;"));
+        button.addEventHandler(MouseEvent.MOUSE_EXITED,
+                e -> button.setStyle("-fx-background-color: transparent;" +
+                        "-fx-background-radius: 16;"));
+    }
 }

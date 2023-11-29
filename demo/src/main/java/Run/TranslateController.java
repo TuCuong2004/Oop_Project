@@ -38,8 +38,6 @@ public class TranslateController implements Initializable {
         toLangField.setEditable(false);
     }
 
-
-
     @FXML
     private void handleOnClickTranslateBtn() throws IOException, URISyntaxException {
         String srcText = sourceLangField.getText();

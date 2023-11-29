@@ -1,104 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
 <AnchorPane prefHeight="530.0" prefWidth="830.0" styleClass="root1" stylesheets="@../Utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.MenuController">
     <children>
         <AnchorPane fx:id="container" layoutX="48.0" layoutY="10.0" prefHeight="510.0" prefWidth="770.0" styleClass="root" AnchorPane.bottomAnchor="11.333333333333371" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="14.666666666666742" AnchorPane.topAnchor="10.0" />
-      <Button fx:id="import_button" layoutX="14.0" layoutY="189.0" mnemonicParsing="false" onAction="#openImportAlert" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/import.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="import" />
-         </tooltip>
-      </Button>
-      <Button fx:id="search_button" layoutX="14.0" layoutY="251.0" mnemonicParsing="false" onAction="#goToSearch" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/loupe.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="search" />
-         </tooltip>
-      </Button>
-      <Button fx:id="add_button" layoutX="14.0" layoutY="313.0" mnemonicParsing="false" onAction="#goToAdd" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/add.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="add" />
-         </tooltip>
-      </Button>
-      <Button fx:id="game_button" layoutX="14.0" layoutY="373.0" mnemonicParsing="false" onAction="#goToGame" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/console.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="game" />
-         </tooltip>
-      </Button>
-      <Button layoutX="14.0" layoutY="474.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/logout.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="exit" />
-         </tooltip>
-      </Button>
-      <Button fx:id="translate_button" layoutX="14.0" layoutY="123.0" mnemonicParsing="false" onAction="#gotoTranslate" prefHeight="25.0" prefWidth="25.0" styleClass="menu">
-         <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Utils/icons/icons8_google_translate_48px.png" />
-               </image>
-               <viewport>
-                  <Rectangle2D />
-               </viewport>
-            </ImageView>
-         </graphic>
-         <tooltip>
-            <Tooltip text="translate" />
-         </tooltip>
-      </Button>
+      <ImageView fx:id="menu" fitHeight="45.0" fitWidth="49.0" onMouseClicked="#clickMenuButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Utils/icons/menu-burger.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="shadowPane" onMouseClicked="#clickMenuPaneButton" prefHeight="530.0" prefWidth="830.0" style="-fx-background-color: rgba(0, 0 ,0, 0.5);">
+         <children>
+            <AnchorPane fx:id="menuPane" layoutY="1.0" prefHeight="538.0" prefWidth="173.0" style="-fx-background-color: #222222;">
+               <children>
+                  <VBox fx:id="dashboard" prefHeight="530.0" prefWidth="173.0">
+                     <children>
+                        <HBox prefHeight="45.0" prefWidth="173.0" spacing="50.0">
+                           <children>
+                              <ImageView fitHeight="66.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="35.0">
+                                 <graphic>
+                                    <ImageView fitHeight="26.0" fitWidth="237.0" pickOnBounds="true" preserveRatio="true" styleClass="menu">
+                                       <image>
+                                          <Image url="@../Utils/icons/cross.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Button fx:id="translate_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#gotoTranslate" prefHeight="45.0" prefWidth="173.0" styleClass="menu" text="Dịch api" textAlignment="RIGHT" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/language.png" />
+                                 </image>
+                                 <viewport>
+                                    <Rectangle2D />
+                                 </viewport>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Button>
+                        <Button fx:id="import_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#openImportAlert" prefHeight="45.0" prefWidth="173.0" styleClass="menu" text="Import" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/import.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="search_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#goToSearch" prefHeight="45.0" prefWidth="173.0" styleClass="menu" text="Search" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/loupe.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="add_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#goToAdd" prefHeight="45.0" prefWidth="173.0" styleClass="menu" text="Add" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/add.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="game_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#goToGame" prefHeight="45.0" prefWidth="173.0" styleClass="menu" text="Game" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/console.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="173.0" styleClass="menu" text="Quit" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/logout.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
     </children>
 </AnchorPane>
