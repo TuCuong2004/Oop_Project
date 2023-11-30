@@ -14,6 +14,7 @@ import java.util.Scanner;
 import static Run.App.dictionaryCommandline;
 
 public class DictionaryManagement extends Dictionary {
+
     private Trie trie = new Trie();
     public final String path = "demo/src/main/resources/Utils/dictionaries.txt";
 
