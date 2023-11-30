@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Dictionary extends ArrayList<Word> {
-    private HashMap<String,Word> wordlist = new HashMap<String,Word>();
+    private HashMap<String,Word> wordlist = new HashMap<>();
 
     public HashMap<String, Word> getWordlist() {
         return wordlist;

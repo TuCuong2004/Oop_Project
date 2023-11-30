@@ -1,19 +1,25 @@
 package DictionaryApplication;//import org.w3c.dom.ls.LSInput
+
 import DictionaryApplication.Trie.Trie;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+import static Run.App.dictionaryCommandline;
+
 public class DictionaryManagement extends Dictionary {
-    private final Trie trie = new Trie();
-    public final String path = "demo\\src\\main\\resources\\Utils\\dictionaries.txt";
+
+    private Trie trie = new Trie();
+    public final String path = "demo/src/main/resources/Utils/dictionaries.txt";
 
     public DictionaryManagement() throws FileNotFoundException {
-        insertFromFilePath(path);
+        insertFromFile();
     }
 
     public void insertFromCommandline() {
@@ -26,10 +32,9 @@ public class DictionaryManagement extends Dictionary {
             String form = sc.nextLine();
             System.out.print("Mean: ");
             String explain = sc.nextLine();
-            if(form.isEmpty()){
+            if (form.isEmpty()) {
                 super.getWordlist().put(word, new Word(word, explain));
-            }
-            else{
+            } else {
                 super.getWordlist().put(word, new Word(word, explain, form));
             }
         }
@@ -61,7 +66,7 @@ public class DictionaryManagement extends Dictionary {
 //        System.out.print("Name input file: ");
         try {
             //String filePath = scanner.nextLine();
-            insertFromFilePath(path);
+            insertFromFilePath("demo/src/main/java/DictionaryApplication/dictionaries.txt");
         } catch (NoSuchElementException e) {
             System.out.println("No file input!");
         } catch (IllegalStateException e) {
@@ -72,48 +77,55 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Import data from dictionary.
      */
-    public void insertFromFile(Dictionary dictionary, String path) {
+    public void insertFromFile(String path) {
         try {
             FileReader fileReader = new FileReader(path);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String englishWord = bufferedReader.readLine();
             englishWord = englishWord.replace("|", "");
             String line;
-            while (bufferedReader.readLine() != null) {
+            while ((line = bufferedReader.readLine()) != null) {
                 Word word = new Word();
                 word.setWord_target(englishWord.trim());
-                line = bufferedReader.readLine();
-                while (line != null) {
-                    if (!line.startsWith("|")) {
-                        line = line.concat("\n");
-                    } else {
+                String meaning = line + "\n";
+                while ((line = bufferedReader.readLine()) != null)
+                    if (!line.startsWith("|")) meaning += line + "\n";
+                    else {
                         englishWord = line.replace("|", "");
                         break;
                     }
-                }
-                word.setWord_explain(englishWord.trim());
-                dictionary.add(word);
+                word.setWord_explain(meaning.trim());
+                super.getWordlist().put(word.getWord_target(),word);
             }
             bufferedReader.close();
-        } catch (IOException ioException) {
-            System.out.println("An I/O exception of some sort has occurred: " + ioException);
-        } catch (Exception exception) {
-            System.out.println("Something went wrong with inserting: " + exception);
+        } catch (IOException e) {
+            System.out.println("An error occur with file: " + e);
+        } catch (Exception e) {
+            System.out.println("Something went wrong: " + e);
         }
+    }
+
+    public void insertFromFile() {
+        insertFromFile(path);
+    }
+    public Word getWord(String word_target) {
+        Word relust = null;
+        if (super.getWordlist().get(word_target) == null) {
+            System.out.println("Not found!");
+        } else {
+            return super.getWordlist().get(word_target);
+        }
+        return relust;
     }
 
     public void dictionaryLookup() {
         Scanner sc = new Scanner(System.in);
         String word_target = sc.nextLine();
-        if(super.getWordlist().get(word_target) == null){
-            System.out.println("Not found!");
-        }
-        else{
-            Word word = super.getWordlist().get(word_target);
-            if(word.getWord_form() != null){
-                System.out.println("Form: " + word.getWord_form());
+        if(getWord(word_target) != null) {
+            if (getWord(word_target).getWord_form() != null) {
+                System.out.println("Form: " + getWord(word_target).getWord_form() );
             }
-            System.out.println("Mean: " + word.getWord_explain());
+            System.out.println("Mean: " + getWord(word_target).getWord_explain());
         }
     }
 
@@ -122,16 +134,25 @@ public class DictionaryManagement extends Dictionary {
      */
     public ObservableList<String> dictionaryLookUp(String key) {
         ObservableList<String> list = FXCollections.observableArrayList();
-        try {
+        int count = 20;
+//        try {
             List<String> results = trie.autoComplete(key);
-            if (results != null) {
-                int length = Math.min(results.size(), 15);
-                for (int i = 0; i < length; ++i) {
-                    list.add(results.get(i));
-                }
+//            if (results != null) {
+//                int length = Math.min(results.size(), 15);
+//                for (int i = 0; i < length; ++i) {
+//                    list.add(results.get(i));
+//                }
+//            }
+//        } catch (Exception exception) {
+//            System.out.println("Something went wrong with dictionary looking up: " + exception);
+        for (String word : super.getWordlist().keySet()) {
+            if (count <= 0) {
+                break;
             }
-        } catch (Exception exception) {
-            System.out.println("Something went wrong with dictionary looking up: " + exception);
+            if (word.startsWith(key)) {
+                list.add(word);
+                count--;
+            }
         }
         return list;
     }
@@ -182,23 +203,17 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Update word meaning by its index.
      */
-    public void updateWord(Dictionary dictionary, int index, String meaning, String path) {
-        try {
-            dictionary.get(index).setWord_explain(meaning);
-            dictionaryExportToFile(dictionary, path);
-        } catch (NullPointerException nullPointerException) {
-            System.out.println("Updating Null Exception: " + nullPointerException);
-        }
+    public void updateWord(String wordTarget, String wordExplain) {
+        Word word = new Word(wordTarget,wordExplain);
+        dictionaryCommandline.getWordlist().replace(wordTarget,word);
     }
 
     /**
      * Delete a word by its index.
      */
-    public void deleteWord(Dictionary dictionary, int index, String path) {
+    public void deleteWord(String wordTarget) {
         try {
-            dictionary.remove(index);
-            setTrie(dictionary);
-            dictionaryExportToFile(dictionary, path);
+            super.getWordlist().remove(wordTarget);
         } catch (NullPointerException nullPointerException) {
             System.out.println("Deleting Null Exception: " + nullPointerException);
         }
@@ -207,17 +222,12 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Add a word to file.
      */
-    public void addWord(Word word, String path) {
-        try {
-            FileWriter fileWriter = new FileWriter(path, true);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write("|" + word.getWord_target() + "\n" + word.getWord_explain());
-            bufferedWriter.newLine();
-        } catch (IOException ioException) {
-            System.out.println("Adding I/O Exception: " + ioException);
-        } catch (NullPointerException nullPointerException) {
-            System.out.println("Adding Null Exception: " + nullPointerException);
-        }
+    public void addWord(Word word) {
+//        if(super.getWordlist().get(word.getWord_target()) != null) {
+//            super.getWordlist().put(word.getWord_target(),word);
+//        }
+//        else System.out.println("từ này đã có trong từ điển");
+        super.getWordlist().put(word.getWord_target(),word);
     }
 
     /**
@@ -237,13 +247,54 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Set a trie from dictionary.
      */
-    public void setTrie(Dictionary dictionary) {
+    public void setTrie() {
+        trie = new Trie();
         try {
-            for (Word word : dictionary) {
-                trie.insert(word.getWord_target());
+            for (String word : dictionaryCommandline.getWordlist().keySet()) {
+                trie.insert(word);
+//                System.out.println(word);
             }
         } catch (NullPointerException nullPointerException) {
             System.out.println("Set Trie Null Exception: " + nullPointerException);
         }
+    }
+
+    public void test() {
+        for(char s : trie.getChildren().keySet()) System.out.println(s);
+    }
+
+    public ObservableList<String> dictionarySearch(String key) {
+        ObservableList<String> list = FXCollections.observableArrayList();
+        int count = 20;
+        try {
+            List<String> results = trie.autoComplete(key);
+            if (results != null) {
+                int length = Math.min(results.size(), 15);
+                for (int i = 0; i < length; ++i) {
+                    list.add(results.get(i));
+                }
+            }
+        } catch (Exception exception) {
+            System.out.println("Something went wrong with dictionary looking up: " + exception);
+//        for (String word : super.getWordlist().keySet()) {
+//            if (count <= 0) {
+//                break;
+//            }
+//            if (word.startsWith(key)) {
+//                list.add(word);
+//                count--;
+//            }
+        }
+        return list;
+    }
+
+    public void saveChage () throws IOException {
+        StringBuilder dictionarytxt = new StringBuilder();
+        for(Word word : super.getWordlist().values())
+        {
+                dictionarytxt.append("|" + word.getWord_target() + "\n" + word.getWord_explain() + "\n");
+        }
+
+        Files.write(Paths.get("demo/src/main/resources/Utils/dictionaries.txt"), dictionarytxt.toString().getBytes());
     }
 }

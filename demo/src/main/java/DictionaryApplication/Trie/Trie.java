@@ -44,6 +44,7 @@ public class Trie {
         for (char c : diagnosis.toCharArray()) {
             if (!node.children.containsKey(c)) {
                 node.add(c);
+//                System.out.println(c);
             }
             node = node.children.get(c);
         }
@@ -53,7 +54,9 @@ public class Trie {
     public List<String> autoComplete(String prefix) {
         Trie node = this;
         for (char c : prefix.toCharArray()) {
+//            System.out.println(c);
             if (!node.children.containsKey(c)) {
+//                System.out.println("sao lại ko có");
                 return null;
             }
             node = node.children.get(c);
@@ -72,5 +75,9 @@ public class Trie {
             diagnosisResults.addAll(childPrefixes);
         }
         return diagnosisResults;
+    }
+
+    public Map<Character, Trie> getChildren() {
+        return children;
     }
 }

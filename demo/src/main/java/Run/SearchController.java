@@ -3,6 +3,8 @@ package Run;
 import DictionaryApplication.Dictionary;
 import DictionaryApplication.DictionaryAlerts.DictionaryAlerts;
 import DictionaryApplication.DictionaryManagement;
+import DictionaryApplication.GgTranslateTextToSpeech;
+import DictionaryApplication.Word;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 import javafx.collections.FXCollections;
@@ -17,6 +19,8 @@ import java.io.FileNotFoundException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
+
+import static Run.App.dictionaryCommandline;
 
 public class SearchController implements Initializable {
 
@@ -43,6 +47,7 @@ public class SearchController implements Initializable {
     private ListView<String> listResults;
     @FXML
     private Pane headerOfExplanation;
+    private  Word selectedWord ;
     private int indexOfSelectedWord;
     private int firstIndexOfListFound;
 
@@ -52,23 +57,23 @@ public class SearchController implements Initializable {
     /**
      * Set default format of list.
      */
-    private void setListDefault(int index) {
-        list.clear();
-        if (index == 0) {
-            listHeader.setText("The first 20 words(20 từ đầu tiên)");
-        } else {
-            listHeader.setText("Related results(Kết quả liên quan)");
-        }
-        //Add 20 related results to list.
-        for (int i = index; i < index + 20; ++i) {
-            list.add(dictionary.get(i).getWord_target());
-        }
-        //Bring the searching results from list to result list.
-        listResults.setItems(list);
-        //Set the text of the word target and explanation of the results.
-        englishWord.setText(dictionary.get(index).getWord_target());
-        englishWord.setText(dictionary.get(index).getWord_explain());
-    }
+//    private void setListDefault(int index) {
+//        list.clear();
+//        if (index == 0) {
+//            listHeader.setText("The first 20 words(20 từ đầu tiên)");
+//        } else {
+//            listHeader.setText("Related results(Kết quả liên quan)");
+//        }
+//        //Add 20 related results to list.
+//        for (int i = index; i < index + 20; ++i) {
+//            list.add(dictionary.get(i).getWord_target());
+//        }
+//        //Bring the searching results from list to result list.
+//        listResults.setItems(list);
+//        //Set the text of the word target and explanation of the results.
+//        englishWord.setText(dictionary.get(index).getWord_target());
+//        englishWord.setText(dictionary.get(index).getWord_explain());
+//    }
 
     /**
      * Override initialize method.
@@ -77,35 +82,35 @@ public class SearchController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         //dictionaryManagement.insertFromFile(dictionary, path);
 //        try {
-//            dictionaryManagement.insertFromFilePath();
+//            dictionaryCommandline.insertFromFilePath();
 //        } catch (FileNotFoundException e) {
 //            System.out.println("File not found error!");
 //        }
 //        System.out.println(dictionary.size());
-//        dictionaryManagement.setTrie(dictionary);
-        setListDefault(0);
+        dictionaryCommandline.setTrie();
+//        setListDefault(0);
 //
-//        searchTerm.setOnKeyTyped(keyEvent -> {
-//            if (searchTerm.getText().isEmpty()) {
-//                cancelButton.setVisible(false);
+        searchTerm.setOnKeyTyped(keyEvent -> {
+            if (searchTerm.getText().isEmpty()) {
+                cancelButton.setVisible(false);
 //                setListDefault(0);
-//            } else {
-//                cancelButton.setVisible(true);
-//                handleOnKeyTyped();
-//            }
-//        });
+            } else {
+                cancelButton.setVisible(true);
+                handleOnKeyTyped();
+            }
+        });
 //
-//        cancelButton.setOnAction(actionEvent -> {
-//            searchTerm.clear();
-//            notAvailableAlert.setVisible(false);
-//            cancelButton.setVisible(false);
+        cancelButton.setOnAction(actionEvent -> {
+            searchTerm.clear();
+            notAvailableAlert.setVisible(false);
+            cancelButton.setVisible(false);
 //            setListDefault(0);
-//        });
+        });
 
-//        explanation.setVisible(false);
-//        saveButton.setVisible(false);
-//        cancelButton.setVisible(false);
-//        notAvailableAlert.setVisible(false);
+        explanation.setVisible(false);
+        saveButton.setVisible(false);
+        cancelButton.setVisible(false);
+        notAvailableAlert.setVisible(false);
     }
 
     /**
@@ -116,16 +121,17 @@ public class SearchController implements Initializable {
         list.clear();
         String searchKey = searchTerm.getText().trim();
         //Search results using search key, then add them to list.
-        list = dictionaryManagement.dictionaryLookUp(searchKey);
+        list = dictionaryCommandline.dictionarySearch(searchKey);
         //If the word searched is not available in dictionary.
         if (list.isEmpty()) {
             notAvailableAlert.setVisible(true);
-            setListDefault(firstIndexOfListFound);
+//            setListDefault(firstIndexOfListFound);
+//            System.out.println("lỗi ở đây");
         } else /* if available */ {
             notAvailableAlert.setVisible(false);
             listHeader.setText("Result available(Kết quả tìm kiếm có sẵn)!");
             listResults.setItems(list);
-            firstIndexOfListFound = dictionaryManagement.dictionarySearcher(dictionary, list.get(0));
+//            firstIndexOfListFound = dictionaryManagement.dictionarySearcher(dictionary, list.get(0));
         }
     }
 
@@ -134,12 +140,12 @@ public class SearchController implements Initializable {
      */
     @FXML
     private void handleMouseClickAWord() {
-        String selectedWord = listResults.getSelectionModel().getSelectedItem();
-        if (selectedWord != null) {
-            indexOfSelectedWord = dictionaryManagement.dictionarySearcher(dictionary, selectedWord);
+        String selectedWordTarget = listResults.getSelectionModel().getSelectedItem();
+        if (selectedWordTarget != null) {
+            selectedWord = dictionaryCommandline.getWord(selectedWordTarget);
             if (indexOfSelectedWord == -1) return;
-            englishWord.setText(dictionary.get(indexOfSelectedWord).getWord_target());
-            englishWord.setText(dictionary.get(indexOfSelectedWord).getWord_explain());
+            englishWord.setText(selectedWord.getWord_target());
+            explanation.setText(selectedWord.getWord_explain());
             headerOfExplanation.setVisible(true);
             explanation.setVisible(true);
             explanation.setEditable(false);
@@ -164,13 +170,8 @@ public class SearchController implements Initializable {
      */
     @FXML
     private void handleClickingSoundButton() {
-        System.setProperty("freetts.voices", "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
-        if (voice != null) {
-            voice.allocate();
-            voice.speak(dictionary.get(indexOfSelectedWord).getWord_target());
-        } else {
-            throw new IllegalStateException("Error: Cannot find voice: kevin16 !");
+        if(selectedWord != null) {
+            GgTranslateTextToSpeech.play(selectedWord.getWord_target(), "en");
         }
     }
 
@@ -184,8 +185,7 @@ public class SearchController implements Initializable {
         Optional<ButtonType> option = alertConfirmation.showAndWait();
         if (option.isPresent()) {
             if (option.get() == ButtonType.OK) {
-                dictionaryManagement.updateWord(dictionary, indexOfSelectedWord,
-                        explanation.getText(), path);
+                dictionaryManagement.updateWord(selectedWord.getWord_target(),explanation.getText());
                 dictionaryAlerts.showAlertInformation("Successfully updated!",
                         "Cập nhật nghĩa thành công!");
             } else {
@@ -223,10 +223,11 @@ public class SearchController implements Initializable {
         Optional<ButtonType> option = alertWarning.showAndWait();
         if (option.isPresent()) {
             if (option.get() == ButtonType.OK) {
-                dictionaryManagement.deleteWord(dictionary, indexOfSelectedWord, path);
-                renewListOfResultsAfterDeleting();
+                dictionaryCommandline.deleteWord(selectedWord.getWord_target());
+//                renewListOfResultsAfterDeleting();
                 dictionaryAlerts.showAlertInformation("Announcement(Thông báo)",
                         "Successfully deleted(Xoá từ thành công)!");
+                dictionaryCommandline.setTrie();
             } else {
                 dictionaryAlerts.showAlertWarning("Announcement(Thông báo)",
                         "Deletion failed or cancelled(Xoá từ thất bại hoặc đã bị huỷ)!");

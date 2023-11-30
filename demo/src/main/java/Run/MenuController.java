@@ -20,8 +20,7 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-import static Run.App.scene_type;
-import static Run.App.window;
+import static Run.App.*;
 import static javafx.fxml.FXMLLoader.load;
 
 
@@ -30,7 +29,9 @@ public class MenuController implements Initializable {
     private static final int DASHBOARD_WIDTH = 173;
 
     @FXML
-    private Button translate_button;
+    public Button exitButton;
+    @FXML
+    Button translate_button;
     @FXML
     private Button add_button;
     @FXML
@@ -109,6 +110,11 @@ public class MenuController implements Initializable {
 
     public void gotoTranslate(ActionEvent event) throws IOException {
         showComponent("translateAPI.fxml");
+    }
+
+    public void exit(ActionEvent event) throws  IOException {
+        dictionaryCommandline.saveChage();
+        System.exit(0);
     }
 
     @Override
