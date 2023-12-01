@@ -1,5 +1,7 @@
 package Run;
 
+import java.util.*;
+
 import DictionaryApplication.Question;
 import DictionaryApplication.Word;
 import javafx.fxml.FXML;
@@ -12,7 +14,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import static Run.App.dictionaryCommandline;
 public class GameController {
-
+    @FXML
+    List<Button> buttonList;
     @FXML
     Button button1;
     @FXML
@@ -49,42 +52,32 @@ public class GameController {
     Pane pane5;
     @FXML
     Pane pane6;
+    Map<String, Integer> wordExplain;
+    Map<String , Integer> wordTarget;
+    Map<Integer, Boolean> wordIsSelect;
+    List<String> wordList = new ArrayList<>(dictionaryCommandline.getWordlist().keySet());
 
-
-    private static int[] shuffleArray(int[] array) {
-        Random random = new Random();
-
-        // Thực hiện hoán vị từ cuối lên đầu mảng
-        for (int i = array.length - 1; i > 0; i--) {
-            int index = random.nextInt(i + 1);
-
-            // Hoán vị
-            int temp = array[index];
-            array[index] = array[i];
-            array[i] = temp;
-        }
-
-        return array;
-    }
-    public Word[] getWordList() {
-        Word[] wordLits = new Word[6];
-        int rand = ThreadLocalRandom.current().nextInt(1,59);
-        String[] word = new String[6];
-        String[] explain = new String[6];
+    public void insertNewWord() {
+        wordIsSelect.put(0, true);
         for(int i=0; i<6; i++) {
-            for (String selectquestion : dictionaryCommandline.getWordlist().keySet()) {
-                rand--;
-                if (rand == 0) {
-                    wordLits[i].setWord_explain(dictionaryCommandline.getWordlist().get(selectquestion).getWord_explain());
-                   wordLits[i].setWord_target( dictionaryCommandline.getWordlist().get(selectquestion).getWord_target());
-                    break;
-                }
+            Random random = new Random();
+            int randomNumber = 0;
+            while (wordIsSelect.get(randomNumber)) {
+                randomNumber = random.nextInt(103931);
             }
+            wordTarget.put(wordList.get(randomNumber), randomNumber);
+            wordExplain.put(dictionaryCommandline.getWordlist().get(wordList.get(randomNumber)).getWord_explain(), randomNumber);
         }
-        return wordLits;
     }
     public void setButton() {
-
+        int i1 = 6;
+        int i2 = 6;
+        for(String key : wordTarget.keySet())
+        {
+            if(i1 == 6)
+            {
+            }
+        }
     }
     void gameStart () {
 
