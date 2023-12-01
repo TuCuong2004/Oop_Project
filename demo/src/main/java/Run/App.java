@@ -25,7 +25,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         window = stage;
         FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("menu.fxml"));
-        Scene scene_menu = new Scene(fxmlLoader_menu.load(), 1000, 530);
+        Scene scene_menu = new Scene(fxmlLoader_menu.load(), 830, 530);
         window.setScene(scene_menu);
         window.show();
     }
