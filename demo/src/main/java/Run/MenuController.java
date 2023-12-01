@@ -29,9 +29,11 @@ public class MenuController implements Initializable {
     private static final int DASHBOARD_WIDTH = 173;
 
     @FXML
-    public Button exitButton;
+    private Button exitButton;
     @FXML
-    Button translate_button;
+    private Button closeMenu_button;
+    @FXML
+    private Button translate_button;
     @FXML
     private Button add_button;
     @FXML
@@ -40,6 +42,8 @@ public class MenuController implements Initializable {
     private Button import_button;
     @FXML
     private Button game_button;
+    @FXML
+    private Button commandLine_button;
     @FXML
     private VBox dashboard;
     @FXML
@@ -126,12 +130,17 @@ public class MenuController implements Initializable {
         makeMouseEvent(translate_button);
         makeMouseEvent(game_button);
         makeMouseEvent(import_button);
+        makeMouseEvent(commandLine_button);
+        makeMouseEvent(exitButton);
+        makeMouseEvent(closeMenu_button);
     }
 
     public void setDashboardVisible() {
         shadowPane.setVisible(true);
 //        dashboard.setLayoutX(0);
-        if (dashboard.getLayoutX() >= 0) return;
+        if (dashboard.getLayoutX() >= 0){
+            return;
+        }
         TranslateTransition transition = new TranslateTransition();
         transition.setNode(dashboard);
         transition.setByX(DASHBOARD_WIDTH);
@@ -174,10 +183,10 @@ public class MenuController implements Initializable {
 
     private void makeMouseEvent(Button button){
         button.addEventHandler(MouseEvent.MOUSE_ENTERED,
-                e -> button.setStyle("-fx-background-color: #7f57c2;" +
-                        "-fx-background-radius: 16;"));
+                e -> button.setStyle("-fx-background-color: rgb(234,235,237);" +
+                        "-fx-background-radius: 6;"));
         button.addEventHandler(MouseEvent.MOUSE_EXITED,
                 e -> button.setStyle("-fx-background-color: transparent;" +
-                        "-fx-background-radius: 16;"));
+                        "-fx-background-radius: 6;"));
     }
 }
