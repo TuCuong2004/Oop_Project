@@ -112,7 +112,7 @@ public class MenuController implements Initializable {
 //        stage.setScene(scene);
 //        stage.show();
         showComponent("game.fxml");
-        removeOthers(event);
+//        removeOthers(event);
     }
 
     public void gotoTranslate(ActionEvent event) throws IOException {

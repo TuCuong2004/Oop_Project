@@ -272,3 +272,15 @@
     -fx-background-radius: 7 7 0 0;
     -fx-border-radius: 7 7 0 0;
 }
+.game-panel-filled{
+     -fx-background-color:   #44008b;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-radius: 0 0 0 0;
+}
+.game-panel{
+    -fx-border-color:  #966FBD;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-radius: 0 0 0 0;
+}
