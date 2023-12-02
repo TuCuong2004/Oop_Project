@@ -74,6 +74,11 @@
                             </Button>
                      <ChoiceBox fx:id="sourceLanguageChoiceBox" layoutX="81.0" layoutY="16.0" prefWidth="150.0" />
                      <ChoiceBox fx:id="toLanguageChoiceBox" layoutX="429.0" layoutY="16.0" prefWidth="150.0" />
+                     <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="601.0" layoutY="17.0" onMouseClicked="#bookMarkWord" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../Utils/icons/bookmark.png" />
+                        </image>
+                     </ImageView>
                         </children>
                     </Pane>
                     <TextArea fx:id="sourceLangField" layoutY="55.0" prefHeight="207.0" prefWidth="323.0" promptText="Type.." styleClass="src-speech-field" wrapText="true" />

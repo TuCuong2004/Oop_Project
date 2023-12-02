@@ -112,7 +112,7 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <Button fx:id="commandLine_button" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Cmd" textFill="#1f2328">
+                        <Button fx:id="commandLine_button" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#gotoCommandLine" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Cmd" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>

@@ -7,10 +7,15 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,10 +34,9 @@ public class TranslateController implements Initializable {
     @FXML
     private TextArea sourceLangField, toLangField;
     @FXML
-    private ImageView sourceSpeaker, toSpeaker;
-    @FXML
     private Button translateBtn;
-    private final String[] language = {"Tiếng Việt", "Tiếng Anh"};
+    private Stage bookMarkStage;
+    private final String[] language = {"Tiếng Việt", "Tiếng Anh", "Tiếng Pháp", "Tiếng Đức"};
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -64,6 +68,8 @@ public class TranslateController implements Initializable {
         return switch (language) {
             case "Tiếng Anh" -> "en";
             case "Tiếng Việt" -> "vi";
+            case "Tiếng Pháp" -> "fr";
+            case "Tiếng Đức" -> "de";
             default -> "";
         };
     }
@@ -94,6 +100,34 @@ public class TranslateController implements Initializable {
         String tmpLang = sourceLanguageChoiceBox.getValue();
         sourceLanguageChoiceBox.setValue(toLanguageChoiceBox.getValue());
         toLanguageChoiceBox.setValue(tmpLang);
+    }
+
+    @FXML
+    private void bookMarkWord() {
+        String word_target = sourceLangField.getText();
+        String word_explain = toLangField.getText();
+        if (bookMarkStage == null) {
+            bookMarkStage = createBookMarkStage(word_target, word_explain);
+        }
+        bookMarkStage.show();
+    }
+
+    private Stage createBookMarkStage(String word_target, String word_explain) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("bookmark.fxml"));
+        Stage stage = new Stage();
+
+        try {
+            Parent root = loader.load();
+            Bookmark bookmark = loader.getController();
+            bookmark.setBookMarkText(word_target, word_explain, stage);
+            Scene scene = new Scene(root, 432, 300);
+            stage.setScene(scene);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return stage;
     }
 
     private static String translate(String langFrom, String langTo, String text) throws IOException, URISyntaxException {
