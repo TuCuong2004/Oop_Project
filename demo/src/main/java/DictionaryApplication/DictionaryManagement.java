@@ -79,23 +79,29 @@ public class DictionaryManagement extends Dictionary {
      */
     public void insertFromFile(String path) {
         try {
+            int i=0;
             FileReader fileReader = new FileReader(path);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String englishWord = bufferedReader.readLine();
             englishWord = englishWord.replace("|", "");
-            String line;
+            String line = "";
             while ((line = bufferedReader.readLine()) != null) {
                 Word word = new Word();
                 word.setWord_target(englishWord.trim());
                 String meaning = line + "\n";
-                while ((line = bufferedReader.readLine()) != null)
-                    if (!line.startsWith("|")) meaning += line + "\n";
-                    else {
-                        englishWord = line.replace("|", "");
-                        break;
+                while ((line = bufferedReader.readLine()) != null) {
+                    if (!line.startsWith("/")) {
+                        if (!line.startsWith("|")) meaning += line + "\n";
+                        else {
+                            englishWord = line.replace("|", "");
+                            break;
+                        }
+                    } else {
+                        word.setWord_form(line);
                     }
-                word.setWord_explain(meaning.trim());
-                super.getWordlist().put(word.getWord_target(),word);
+                    word.setWord_explain(meaning.trim());
+                    super.getWordlist().put(word.getWord_target(), word);
+                }
             }
             bufferedReader.close();
         } catch (IOException e) {
