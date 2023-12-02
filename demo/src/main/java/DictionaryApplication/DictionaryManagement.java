@@ -18,7 +18,7 @@ public class DictionaryManagement extends Dictionary {
     private Trie trie = new Trie();
     public final String path = "demo/src/main/resources/Utils/dictionaries.txt";
 
-    public DictionaryManagement() throws FileNotFoundException {
+    public DictionaryManagement() {
         insertFromFile();
     }
 
@@ -288,13 +288,13 @@ public class DictionaryManagement extends Dictionary {
         return list;
     }
 
-    public void saveChage () throws IOException {
-        StringBuilder dictionarytxt = new StringBuilder();
+    public void saveChange () throws IOException {
+        StringBuilder dictionaryTxt = new StringBuilder();
         for(Word word : super.getWordlist().values())
         {
-                dictionarytxt.append("|" + word.getWord_target() + "\n" + word.getWord_explain() + "\n");
+                dictionaryTxt.append("|" + word.getWord_target() + "\n" + word.getWord_explain() + "\n");
         }
 
-        Files.write(Paths.get("demo/src/main/resources/Utils/dictionaries.txt"), dictionarytxt.toString().getBytes());
+        Files.write(Paths.get("demo/src/main/resources/Utils/dictionaries.txt"), dictionaryTxt.toString().getBytes());
     }
 }

@@ -1,5 +1,6 @@
 package Run;
 
+import DictionaryApplication.CommandlineApp;
 import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -15,6 +16,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Objects;
@@ -60,6 +62,7 @@ public class MenuController implements Initializable {
 
     @FXML
     private AnchorPane container;
+
     private void setNode(Node node) {
         container.getChildren().clear();
         container.getChildren().add(node);
@@ -94,7 +97,7 @@ public class MenuController implements Initializable {
 
     }
 
-    public  void openImportAlert(ActionEvent event) throws IOException {
+    public void openImportAlert(ActionEvent event) throws IOException {
         import_alert = new Stage();
         FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("import.fxml"));
         Scene scene = new Scene(fxmlLoader_menu.load());
@@ -116,8 +119,15 @@ public class MenuController implements Initializable {
         showComponent("translateAPI.fxml");
     }
 
-    public void exit(ActionEvent event) throws  IOException {
-        dictionaryCommandline.saveChage();
+    public void gotoCommandLine(ActionEvent event) throws IOException {
+        dictionaryCommandline.saveChange();
+        window.close();
+        CommandlineApp commandlineApp = new CommandlineApp();
+        commandlineApp.start();
+    }
+
+    public void exit(ActionEvent event) throws IOException {
+        dictionaryCommandline.saveChange();
         System.exit(0);
     }
 
@@ -138,7 +148,7 @@ public class MenuController implements Initializable {
     public void setDashboardVisible() {
         shadowPane.setVisible(true);
 //        dashboard.setLayoutX(0);
-        if (dashboard.getLayoutX() >= 0){
+        if (dashboard.getLayoutX() >= 0) {
             return;
         }
         TranslateTransition transition = new TranslateTransition();
@@ -181,7 +191,7 @@ public class MenuController implements Initializable {
         }
     }
 
-    private void makeMouseEvent(Button button){
+    private void makeMouseEvent(Button button) {
         button.addEventHandler(MouseEvent.MOUSE_ENTERED,
                 e -> button.setStyle("-fx-background-color: rgb(234,235,237);" +
                         "-fx-background-radius: 6;"));

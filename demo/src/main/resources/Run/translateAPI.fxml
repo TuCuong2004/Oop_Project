@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="510.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.TranslateController">
+<AnchorPane prefHeight="510.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.TranslateController">
     <Pane prefHeight="91.0" prefWidth="769.0" styleClass="header">
         <children>
             <Pane layoutX="240.0" layoutY="20.0">
@@ -54,32 +60,9 @@
             </Pane>
             <Pane layoutX="65.0" layoutY="80.0">
                 <children>
+               <VBox layoutY="55.0" prefHeight="207.0" prefWidth="323.0" />
                     <Pane prefHeight="57.0" prefWidth="645.0" styleClass="header-translate">
                         <children>
-                            <Label fx:id="englishLabel" layoutX="104.0" layoutY="13.0" prefHeight="37.0" prefWidth="100.0" text="English" textFill="#9f45b0">
-                                <font>
-                                    <Font name="System Bold" size="16.0" />
-                                </font>
-                                <graphic>
-                                    <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-                                        <image>
-                                            <Image url="@../Utils/icons/icons8_great_britain_48px.png" />
-                                        </image>
-                                    </ImageView>
-                                </graphic>
-                            </Label>
-                            <Label fx:id="vietnameseLabel" layoutX="426.0" layoutY="14.0" prefHeight="37.0" prefWidth="130.0" text="Vietnamese" textFill="#9f45b0">
-                                <font>
-                                    <Font name="System Bold" size="16.0" />
-                                </font>
-                                <graphic>
-                                    <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-                                        <image>
-                                            <Image url="@../Utils/icons/icons8_vietnam_48px.png" />
-                                        </image>
-                                    </ImageView>
-                                </graphic>
-                            </Label>
                             <Button fx:id="switchToggle" layoutX="302.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleOnClickSwitchToggle" styleClass="switch-button">
                                 <graphic>
                                     <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
@@ -89,6 +72,13 @@
                                     </ImageView>
                                 </graphic>
                             </Button>
+                     <ChoiceBox fx:id="sourceLanguageChoiceBox" layoutX="81.0" layoutY="16.0" prefWidth="150.0" />
+                     <ChoiceBox fx:id="toLanguageChoiceBox" layoutX="429.0" layoutY="16.0" prefWidth="150.0" />
+                     <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="601.0" layoutY="17.0" onMouseClicked="#bookMarkWord" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../Utils/icons/bookmark.png" />
+                        </image>
+                     </ImageView>
                         </children>
                     </Pane>
                     <TextArea fx:id="sourceLangField" layoutY="55.0" prefHeight="207.0" prefWidth="323.0" promptText="Type.." styleClass="src-speech-field" wrapText="true" />
@@ -102,6 +92,16 @@
                             </ImageView>
                         </graphic>
                     </Button>
+               <ImageView fx:id="sourceSpeaker" fitHeight="25.0" fitWidth="25.0" layoutX="14.0" layoutY="224.0" onMouseClicked="#handleSourceSpeaker" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../Utils/icons/volume.png" />
+                  </image>
+               </ImageView>
+               <ImageView fx:id="toSpeaker" fitHeight="25.0" fitWidth="25.0" layoutX="337.0" layoutY="224.0" onMouseClicked="#handleToSpeaker" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../Utils/icons/volume.png" />
+                  </image>
+               </ImageView>
                 </children>
             </Pane>
         </children>

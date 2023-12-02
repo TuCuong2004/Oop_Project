@@ -21,13 +21,13 @@ public class CommandlineApp  {
         while (true) {
             System.out.println("""
                     Welcome to My Application!
-                    [0] Exit // javaFX tự có rồi
+                    [0] Exit
                     [1] Add
-                    [2] Remove // Alert của add
-                    [3] Update // bỏ
-                    [4] Display // chắc là menu :)
+                    [2] Remove
+                    [3] Update
+                    [4] Display
                     [5] Lookup
-                    [6] Search // làm cùng lookup
+                    [6] Search
                     [7] Game
                     [8] Import from file""");
             System.out.print("Chọn: ");

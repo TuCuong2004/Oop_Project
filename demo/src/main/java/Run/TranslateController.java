@@ -2,26 +2,52 @@ package Run;
 
 
 import DictionaryApplication.GgTranslateTextToSpeech;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class TranslateController implements Initializable {
     private String sourceLanguage = "en";
     private String toLanguage = "vi";
-    private boolean isToVietnameseLang = true;
+    @FXML
+    private ChoiceBox<String> sourceLanguageChoiceBox;
+    @FXML
+    private ChoiceBox<String> toLanguageChoiceBox;
+    @FXML
+    private TextArea sourceLangField, toLangField;
+    @FXML
+    private Button translateBtn;
+    private Stage bookMarkStage;
+    private final String[] language = {"Tiếng Việt", "Tiếng Anh", "Tiếng Pháp", "Tiếng Đức"};
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        sourceLanguageChoiceBox.getItems().addAll(language);
+        sourceLanguageChoiceBox.setValue("Tiếng Anh");
+        sourceLanguageChoiceBox.getSelectionModel().selectedIndexProperty().addListener((observableValue, number, t1) -> sourceLanguage = setLanguageToTranslate(language[t1.intValue()]));
+
+        toLanguageChoiceBox.getItems().addAll(language);
+        toLanguageChoiceBox.setValue("Tiếng Việt");
+        toLanguageChoiceBox.getSelectionModel().selectedIndexProperty().addListener((observableValue, number, t1) -> toLanguage = setLanguageToTranslate(language[t1.intValue()]));
+
         translateBtn.setOnAction(event -> {
             try {
                 handleOnClickTranslateBtn();
@@ -38,44 +64,76 @@ public class TranslateController implements Initializable {
         toLangField.setEditable(false);
     }
 
+    private String setLanguageToTranslate(String language) {
+        return switch (language) {
+            case "Tiếng Anh" -> "en";
+            case "Tiếng Việt" -> "vi";
+            case "Tiếng Pháp" -> "fr";
+            case "Tiếng Đức" -> "de";
+            default -> "";
+        };
+    }
+
     @FXML
     private void handleOnClickTranslateBtn() throws IOException, URISyntaxException {
         String srcText = sourceLangField.getText();
-        String trans;
-        trans = translate(sourceLanguage,toLanguage,srcText);
+        String trans = translate(sourceLanguage, toLanguage, srcText);
         toLangField.setText(trans);
-        GgTranslateTextToSpeech.play(trans,sourceLanguage);
+    }
+
+    @FXML
+    private void handleSourceSpeaker() {
+        GgTranslateTextToSpeech.play(sourceLangField.getText(), sourceLanguage);
+    }
+
+    @FXML
+    private void handleToSpeaker() {
+        GgTranslateTextToSpeech.play(toLangField.getText(), toLanguage);
     }
 
     @FXML
     private void handleOnClickSwitchToggle() {
-        sourceLangField.clear();
-        toLangField.clear();
-        if (isToVietnameseLang) {
-            englishLabel.setLayoutX(426);
-            vietnameseLabel.setLayoutX(104);
-            sourceLanguage = "vi";
-            toLanguage = "en";
-        } else {
-            englishLabel.setLayoutX(100);
-            vietnameseLabel.setLayoutX(426);
-            sourceLanguage = "en";
-            toLanguage = "vi";
-        }
-        isToVietnameseLang = !isToVietnameseLang;
+        String tmpText = sourceLangField.getText();
+        sourceLangField.setText(toLangField.getText());
+        toLangField.setText(tmpText);
+
+        String tmpLang = sourceLanguageChoiceBox.getValue();
+        sourceLanguageChoiceBox.setValue(toLanguageChoiceBox.getValue());
+        toLanguageChoiceBox.setValue(tmpLang);
     }
 
     @FXML
-    private TextArea sourceLangField, toLangField;
+    private void bookMarkWord() {
+        String word_target = sourceLangField.getText();
+        String word_explain = toLangField.getText();
+        if (bookMarkStage == null) {
+            bookMarkStage = createBookMarkStage(word_target, word_explain);
+        }
+        bookMarkStage.show();
+    }
 
-    @FXML
-    private Button translateBtn;
+    private Stage createBookMarkStage(String word_target, String word_explain) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("bookmark.fxml"));
+        Stage stage = new Stage();
 
-    @FXML
-    private Label englishLabel , vietnameseLabel;
+        try {
+            Parent root = loader.load();
+            Bookmark bookmark = loader.getController();
+            bookmark.setBookMarkText(word_target, word_explain, stage);
+            Scene scene = new Scene(root, 432, 300);
+            stage.setScene(scene);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return stage;
+    }
 
     private static String translate(String langFrom, String langTo, String text) throws IOException, URISyntaxException {
-        // INSERT YOU URL HERE
+        if (langTo.equals(langFrom)) {
+            return text;
+        }
         String urlStr = "https://script.google.com/macros/s/AKfycbzrWtn-y_EEAuij3SwdNDZc5_sHAvUxVorOSUh_Fa2eV5KNalz1Ag8JaKPhdHsYdt0r/exec" +
                 "?q=" + URLEncoder.encode(text, StandardCharsets.UTF_8) +
                 "&target=" + langTo +
