@@ -7,6 +7,7 @@ import javafx.collections.ObservableList;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -64,6 +65,7 @@ public class DictionaryManagement extends Dictionary {
     public void insertFromFilePath() throws FileNotFoundException {
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Name input file: ");
+        super.setWordlist(new HashMap<>());
         try {
             //String filePath = scanner.nextLine();
             insertFromFilePath("demo/src/main/java/DictionaryApplication/dictionaries.txt");
@@ -79,29 +81,27 @@ public class DictionaryManagement extends Dictionary {
      */
     public void insertFromFile(String path) {
         try {
-            int i=0;
             FileReader fileReader = new FileReader(path);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String englishWord = bufferedReader.readLine();
             englishWord = englishWord.replace("|", "");
-            String line = "";
+            String line;
             while ((line = bufferedReader.readLine()) != null) {
                 Word word = new Word();
                 word.setWord_target(englishWord.trim());
-                String meaning = line + "\n";
-                while ((line = bufferedReader.readLine()) != null) {
-                    if (!line.startsWith("/")) {
-                        if (!line.startsWith("|")) meaning += line + "\n";
-                        else {
-                            englishWord = line.replace("|", "");
-                            break;
-                        }
-                    } else {
-                        word.setWord_form(line);
-                    }
-                    word.setWord_explain(meaning.trim());
-                    super.getWordlist().put(word.getWord_target(), word);
+                if(line.startsWith("/")) {
+                    word.setWord_form(line);
+                    line = bufferedReader.readLine();
                 }
+                String meaning = line + "\n";
+                while ((line = bufferedReader.readLine()) != null)
+                    if (!line.startsWith("|")) meaning += line + "\n";
+                    else {
+                        englishWord = line.replace("|", "");
+                        break;
+                    }
+                word.setWord_explain(meaning.trim());
+                super.getWordlist().put(word.getWord_target(),word);
             }
             bufferedReader.close();
         } catch (IOException e) {
