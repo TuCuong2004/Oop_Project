@@ -83,7 +83,7 @@ public class AddController implements Initializable {
         if (option.isPresent()) {
             if (option.get() == ButtonType.OK) {
                 Word word = new Word(englishWord, meaning);
-                String path = "C:\\Users\\Admin\\IdeaProjects\\Oop_Project\\demo\\src\\main\\resources\\Utils\\dictionaries.txt";
+//                String path = "C:\\Users\\Admin\\IdeaProjects\\Oop_Project\\demo\\src\\main\\resources\\Utils\\dictionaries.txt";
                 if (dictionaryCommandline.getWord(englishWord) != null) {
 //                    int indexOfWord = dictionaryCommandline.dictionarySearcher(dictionary, englishWord);
                     Alert selectionAlert = dictionaryAlerts.alertConfirmation("This word has already existed",
