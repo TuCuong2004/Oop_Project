@@ -15,6 +15,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import model.WordSearchModel;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -71,10 +72,11 @@ public class MenuController implements Initializable {
     @FXML
     private void showComponent(String path) {
         try {
-            AnchorPane component = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(path)));
+            Parent component;
+            component = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(path)));
             setNode(component);
         } catch (IOException e) {
-            e.fillInStackTrace();
+            e.printStackTrace();
         }
     }
 
@@ -111,7 +113,7 @@ public class MenuController implements Initializable {
 //        Scene scene = new Scene(fxmlLoader_menu.load());
 //        stage.setScene(scene);
 //        stage.show();
-        showComponent("game.fxml");
+        showComponent("word_search.fxml");
 //        removeOthers(event);
     }
 
