@@ -9,10 +9,10 @@
 
 <AnchorPane prefHeight="300.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.Bookmark">
    <children>
-      <TextArea fx:id="word_target" layoutX="51.0" layoutY="100.0" prefHeight="150.0" prefWidth="150.0" styleClass="src-speech-field" />
-      <TextArea fx:id="word_explain" layoutX="249.0" layoutY="100.0" prefHeight="150.0" prefWidth="150.0" />
-      <Button fx:id="saveButton" layoutX="208.0" layoutY="260.0" mnemonicParsing="false" onAction="#addToDictionary" text="Save" />
-      <TextField alignment="CENTER" prefHeight="75.0" prefWidth="432.0" text="Bạn muốn thêm vào từ điển?" />
+      <TextArea fx:id="word_target" layoutX="51.0" layoutY="100.0" prefHeight="150.0" prefWidth="150.0" styleClass="english-word-input" />
+      <TextArea fx:id="word_explain" layoutX="249.0" layoutY="100.0" prefHeight="150.0" prefWidth="150.0" styleClass="english-word-input" />
+      <Button fx:id="saveButton" layoutX="174.0" layoutY="256.0" mnemonicParsing="false" onAction="#addToDictionary" styleClass="add-button" text="Save" />
+      <TextField alignment="CENTER" editable="false" prefHeight="75.0" prefWidth="432.0" styleClass="english-word-input" text="Bạn muốn thêm vào từ điển?" />
       <ImageView fitHeight="25.0" fitWidth="150.0" layoutX="51.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Utils/icons/icons8_great_britain_48px.png" />

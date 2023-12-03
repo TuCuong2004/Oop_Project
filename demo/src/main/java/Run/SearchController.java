@@ -47,6 +47,8 @@ public class SearchController implements Initializable {
     private ListView<String> listResults;
     @FXML
     private Pane headerOfExplanation;
+    @FXML
+    private TextField pronouced;
     private  Word selectedWord ;
     private int indexOfSelectedWord;
     private int firstIndexOfListFound;
@@ -144,6 +146,7 @@ public class SearchController implements Initializable {
         if (selectedWordTarget != null) {
             selectedWord = dictionaryCommandline.getWord(selectedWordTarget);
             if (indexOfSelectedWord == -1) return;
+            pronouced.setText(selectedWord.getWord_form());
             englishWord.setText(selectedWord.getWord_target());
             explanation.setText(selectedWord.getWord_explain());
             headerOfExplanation.setVisible(true);

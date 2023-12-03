@@ -108,7 +108,7 @@ public class GameController {
                 randomNumber = random.nextInt(2914);
             }
             wordTarget.put(wordList.get(randomNumber), randomNumber);
-            wordExplain.put(dictionaryCommandline.getWordlist().get(wordList.get(randomNumber)).getWord_explain(), randomNumber);
+            wordExplain.put(dictionaryManagement.getWordlist().get(wordList.get(randomNumber)).getWord_explain(), randomNumber);
         }
     }
 
