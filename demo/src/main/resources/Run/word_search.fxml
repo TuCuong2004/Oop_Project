@@ -9,12 +9,12 @@
    <children>
       <GridPane fx:id="gridPane" hgap="5" layoutX="50.0" layoutY="50.0" vgap="5">
       </GridPane>
-      <Button fx:id="submitButton" layoutX="520.0" layoutY="82.0" mnemonicParsing="false" onAction="#handleSubmitButtonClick" text="Submit" />
-      <Label fx:id="foundWordsLabel" alignment="TOP_LEFT" layoutX="509.0" layoutY="134.0" prefHeight="275.0" prefWidth="225.0" text="Đã thấy từ: " />
-      <Button fx:id="deleteWordButton" layoutX="622.0" layoutY="82.0" mnemonicParsing="false" onAction="#restartWord" text="Xóa" />
+      <Button fx:id="submitButton" layoutX="504.0" layoutY="98.0" mnemonicParsing="false" onAction="#handleSubmitButtonClick" prefHeight="32.0" prefWidth="109.0" styleClass="game-button" text="Submit" />
+      <Label fx:id="foundWordsLabel" alignment="TOP_LEFT" layoutX="504.0" layoutY="136.0" prefHeight="275.0" prefWidth="225.0" styleClass="meaning-input" text="Đã thấy từ: " />
+      <Button fx:id="deleteWordButton" layoutX="612.0" layoutY="98.0" mnemonicParsing="false" onAction="#restartWord" prefHeight="32.0" prefWidth="117.0" styleClass="game-button" text="Xóa" />
       <Button fx:id="highScoreButton" layoutX="504.0" layoutY="470.0" mnemonicParsing="false" onAction="#showHighScores" text="Điểm cao" />
-      <Button fx:id="suggestWordButton" layoutX="640.0" layoutY="470.0" mnemonicParsing="false" onAction="#showSuggest" text="Gợi ý" />
-      <Button fx:id="restartGameButton" layoutX="150.0" layoutY="24.0" mnemonicParsing="false" onAction="#restartGame" text="Tạo lại bảng" />
-      <Label fx:id="scoreLabel" layoutX="504.0" layoutY="412.0" prefHeight="33.0" prefWidth="191.0" text="Điểm: 0" />
+      <Button fx:id="suggestWordButton" layoutX="618.0" layoutY="427.0" mnemonicParsing="false" onAction="#showSuggest" styleClass="add-button" text="Gợi ý" />
+      <Button fx:id="restartGameButton" layoutX="151.0" layoutY="8.0" mnemonicParsing="false" onAction="#restartGame" prefWidth="163.0" styleClass="add-button" text="Tạo lại bảng" />
+      <Label fx:id="scoreLabel" layoutX="504.0" layoutY="423.0" prefHeight="33.0" prefWidth="81.0" styleClass="meaning-input" text="Điểm: 0" />
    </children>
 </AnchorPane>

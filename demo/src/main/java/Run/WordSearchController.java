@@ -249,7 +249,7 @@ public class WordSearchController implements Initializable {
     private void setStyleForButton(Button button) {
         button.setEffect(null);
         button.setStyle(
-                "-fx-background-color: rgba(0, 0, 255, 0.1); " +
+                "-fx-background-color: #a7c957; " +
                         "-fx-font-size: 15; " +
                         "-fx-font-family: Arial; " +
                         "-fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%); " +

@@ -31,7 +31,7 @@ public class WordSearchModel {
         List<String> values = new ArrayList<>(dictionaryManagement.getWordlist().keySet());
         words = new ArrayList<>();
 
-        while (words.size() <= 1) {
+        while (words.size() <= 10) {
             String word = values.get(rand.nextInt(values.size()));
             if (word.length() < GRID_SIZE && !word.contains(" ") && !words.contains(word.toUpperCase())) {
                 words.add(word.toUpperCase());
@@ -62,7 +62,7 @@ public class WordSearchModel {
             }
         }
 
-//        fillEmptySpaces();
+        fillEmptySpaces();
         board.print();
     }
 

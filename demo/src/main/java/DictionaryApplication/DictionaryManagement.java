@@ -298,7 +298,7 @@ public class DictionaryManagement extends Dictionary {
         StringBuilder dictionaryTxt = new StringBuilder();
         for(Word word : super.getWordlist().values())
         {
-                dictionaryTxt.append("|" + word.getWord_target() + "\n" + word.getWord_explain() + "\n");
+                dictionaryTxt.append("|" + word.getWord_target() + "\n" + word.getWord_form() + "\n" + word.getWord_explain() + "\n");
         }
 
         Files.write(Paths.get("demo/src/main/resources/Utils/dictionaries.txt"), dictionaryTxt.toString().getBytes());
