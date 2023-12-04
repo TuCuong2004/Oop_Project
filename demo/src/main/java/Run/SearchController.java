@@ -49,7 +49,7 @@ public class SearchController implements Initializable {
     private Pane headerOfExplanation;
     @FXML
     private TextField pronouced;
-    private  Word selectedWord ;
+    private Word selectedWord;
     private int indexOfSelectedWord;
     private int firstIndexOfListFound;
 
@@ -125,13 +125,17 @@ public class SearchController implements Initializable {
         //Search results using search key, then add them to list.
         list = dictionaryCommandline.dictionarySearch(searchKey);
         //If the word searched is not available in dictionary.
+        if (list.size() >= 15) {
+            listHeader.setText("Có hơn " + list.size() + " kết quả liên quan");
+        } else {
+            listHeader.setText("Có " + list.size() + " kết quả liên quan");
+        }
         if (list.isEmpty()) {
             notAvailableAlert.setVisible(true);
 //            setListDefault(firstIndexOfListFound);
 //            System.out.println("lỗi ở đây");
         } else /* if available */ {
             notAvailableAlert.setVisible(false);
-            listHeader.setText("Result available(Kết quả tìm kiếm có sẵn)!");
             listResults.setItems(list);
 //            firstIndexOfListFound = dictionaryManagement.dictionarySearcher(dictionary, list.get(0));
         }
@@ -173,7 +177,7 @@ public class SearchController implements Initializable {
      */
     @FXML
     private void handleClickingSoundButton() {
-        if(selectedWord != null) {
+        if (selectedWord != null) {
             GgTranslateTextToSpeech.play(selectedWord.getWord_target(), "en");
         }
     }
@@ -188,7 +192,7 @@ public class SearchController implements Initializable {
         Optional<ButtonType> option = alertConfirmation.showAndWait();
         if (option.isPresent()) {
             if (option.get() == ButtonType.OK) {
-                dictionaryManagement.updateWord(selectedWord.getWord_target(),explanation.getText());
+                dictionaryManagement.updateWord(selectedWord.getWord_target(), explanation.getText());
                 dictionaryAlerts.showAlertInformation("Successfully updated!",
                         "Cập nhật nghĩa thành công!");
             } else {

@@ -44,7 +44,9 @@ public class MenuController implements Initializable {
     @FXML
     private Button import_button;
     @FXML
-    private Button game_button;
+    private Button wordSearchGame_button;
+    @FXML
+    private Button connectGame_button;
     @FXML
     private Button commandLine_button;
     @FXML
@@ -107,13 +109,22 @@ public class MenuController implements Initializable {
         import_alert.show();
     }
 
-    public void goToGame(ActionEvent event) throws IOException {
+    public void goToWordSearchGame(ActionEvent event) throws IOException {
 //        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 //        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("game.fxml"));
 //        Scene scene = new Scene(fxmlLoader_menu.load());
 //        stage.setScene(scene);
 //        stage.show();
         showComponent("word_search.fxml");
+//        removeOthers(event);
+    }
+    public void goToConnectWordGame(ActionEvent event) throws IOException {
+//        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("game.fxml"));
+//        Scene scene = new Scene(fxmlLoader_menu.load());
+//        stage.setScene(scene);
+//        stage.show();
+        showComponent("game.fxml");
 //        removeOthers(event);
     }
 
@@ -140,7 +151,8 @@ public class MenuController implements Initializable {
         makeMouseEvent(search_button);
         makeMouseEvent(add_button);
         makeMouseEvent(translate_button);
-        makeMouseEvent(game_button);
+        makeMouseEvent(wordSearchGame_button);
+        makeMouseEvent(connectGame_button);
         makeMouseEvent(import_button);
         makeMouseEvent(commandLine_button);
         makeMouseEvent(exitButton);
