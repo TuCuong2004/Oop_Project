@@ -15,9 +15,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-import model.WordSearchModel;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Objects;
@@ -133,14 +131,14 @@ public class MenuController implements Initializable {
     }
 
     public void gotoCommandLine(ActionEvent event) throws IOException {
-        dictionaryCommandline.saveChange();
+        dictionaryCommandline.saveChanges();
         window.close();
         CommandlineApp commandlineApp = new CommandlineApp();
         commandlineApp.start();
     }
 
     public void exit(ActionEvent event) throws IOException {
-        dictionaryCommandline.saveChange();
+        dictionaryCommandline.saveChanges();
         System.exit(0);
     }
 

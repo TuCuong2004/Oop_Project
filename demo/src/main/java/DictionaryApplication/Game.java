@@ -14,7 +14,7 @@ public class Game {
     }
 
     public void insertFromFilePath() throws FileNotFoundException {
-        String filePath = "src\\main\\java\\com\\example\\demo1\\question.txt";
+        String filePath = "demo/src/main/java/DictionaryApplication/question.txt";
         File path = new File(filePath);
 
         Scanner sc = new Scanner(path);

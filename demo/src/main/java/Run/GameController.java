@@ -16,7 +16,7 @@ import static Run.App.dictionaryCommandline;
 
 public class GameController {
     @FXML
-    List<Button> buttonList;
+    Button startButton;
     @FXML
     Button button1;
     @FXML
@@ -164,6 +164,7 @@ public class GameController {
     public void gameStart() throws FileNotFoundException {
         insertNewWord();
         setButton();
+        startButton.setVisible(false);
 
 //        for(int i=1; i<=12; i++){
 //            paneIsVisible.put(i,true);

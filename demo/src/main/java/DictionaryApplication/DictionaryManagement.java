@@ -90,9 +90,13 @@ public class DictionaryManagement extends Dictionary {
                 Word word = new Word();
                 word.setWord_target(englishWord.trim());
                 if(line.startsWith("/")) {
-                    word.setWord_form(line);
+                    word.setSpelling(line);
                     line = bufferedReader.readLine();
                 }
+//                if (line.startsWith("*")) {
+//                    word.(line);
+//                    line = bufferedReader.readLine();
+//                }
                 String meaning = line + "\n";
                 while ((line = bufferedReader.readLine()) != null)
                     if (!line.startsWith("|")) meaning += line + "\n";
@@ -128,8 +132,8 @@ public class DictionaryManagement extends Dictionary {
         Scanner sc = new Scanner(System.in);
         String word_target = sc.nextLine();
         if(getWord(word_target) != null) {
-            if (getWord(word_target).getWord_form() != null) {
-                System.out.println("Form: " + getWord(word_target).getWord_form() );
+            if (getWord(word_target).getSpelling() != null) {
+                System.out.println("Form: " + getWord(word_target).getSpelling() );
             }
             System.out.println("Mean: " + getWord(word_target).getWord_explain());
         }
@@ -294,11 +298,11 @@ public class DictionaryManagement extends Dictionary {
         return list;
     }
 
-    public void saveChange () throws IOException {
+    public void saveChanges() throws IOException {
         StringBuilder dictionaryTxt = new StringBuilder();
-        for(Word word : super.getWordlist().values())
+        for(Word word : dictionaryCommandline.getWordlist().values())
         {
-                dictionaryTxt.append("|" + word.getWord_target() + "\n" + word.getWord_form() + "\n" + word.getWord_explain() + "\n");
+                dictionaryTxt.append("|" + word.getWord_target() + "\n" + (word.getSpelling() != null ? word.getSpelling() + "\n" : "") + word.getWord_explain() + "\n");
         }
 
         Files.write(Paths.get("demo/src/main/resources/Utils/dictionaries.txt"), dictionaryTxt.toString().getBytes());
