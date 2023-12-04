@@ -34,7 +34,7 @@
                               </ImageView>
                               <Button fx:id="closeMenu_button" mnemonicParsing="false" styleClass="menu">
                                  <graphic>
-                                    <ImageView fx:id="clo" fitHeight="26.0" fitWidth="22.0" onMouseClicked="#clickMenuPaneButton" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fx:id="clo" fitHeight="26.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@../Utils/icons/x-button.png" />
                                        </image>
@@ -46,7 +46,7 @@
                               <Insets bottom="15.0" />
                            </VBox.margin>
                         </HBox>
-                        <Button fx:id="translate_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#gotoTranslate" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Dịch api" textAlignment="RIGHT" textFill="#1f2328">
+                        <Button fx:id="translate_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#gotoTranslate" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Dịch online" textAlignment="RIGHT" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -64,7 +64,7 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <Button fx:id="import_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#openImportAlert" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Import" textFill="#1f2328">
+                        <Button fx:id="import_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#openImportAlert" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Nhập file" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -76,7 +76,7 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <Button fx:id="search_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#goToSearch" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Search" textFill="#1f2328">
+                        <Button fx:id="search_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#goToSearch" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Tra cứu từ điển" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -88,7 +88,7 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <Button fx:id="add_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#goToAdd" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Add" textFill="#1f2328">
+                        <Button fx:id="add_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#goToAdd" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Thêm vào từ điển" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -100,7 +100,7 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <Button fx:id="game_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#goToGame" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Game" textFill="#1f2328">
+                        <Button fx:id="wordSearchGame_button" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#goToWordSearchGame" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Game tìm từ" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -112,7 +112,19 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <Button fx:id="commandLine_button" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#gotoCommandLine" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Cmd" textFill="#1f2328">
+                        <Button fx:id="connectGame_button" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#goToConnectWordGame" onMouseClicked="#clickMenuPaneButton" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="  Game nối từ">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Utils/icons/puzzle-piece.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="commandLine_button" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#gotoCommandLine" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text=" Command line" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -124,7 +136,7 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <Button fx:id="exitButton" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Quit" textFill="#1f2328">
+                        <Button fx:id="exitButton" alignment="TOP_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="28.0" prefWidth="173.0" styleClass="menu" text="Thoát" textFill="#1f2328">
                            <graphic>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>

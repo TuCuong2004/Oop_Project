@@ -37,7 +37,7 @@ public class WordSearchModel {
                 words.add(word.toUpperCase());
             }
         }
-        System.out.println(words);
+//        System.out.println(words);
     }
 
     public void generateGrid() {
@@ -63,7 +63,7 @@ public class WordSearchModel {
         }
 
         fillEmptySpaces();
-        board.print();
+//        board.print();
     }
 
     boolean isValid(String word, int row, int col, boolean isHorizontal) {
