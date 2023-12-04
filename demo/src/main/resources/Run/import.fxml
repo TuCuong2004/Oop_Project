@@ -19,7 +19,7 @@
                   <Image url="@../Utils/icons/import1.png" />
                </image>
             </ImageView>
-            <Text fill="#46b071" layoutX="95.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nhập đường dẫn" textAlignment="CENTER" wrappingWidth="187.4700469970703" AnchorPane.bottomAnchor="88.05859375" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="94.0" AnchorPane.topAnchor="13.576171875">
+            <Text fill="#46b071" layoutX="95.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhập đường dẫn" textAlignment="CENTER" wrappingWidth="187.4700469970703" AnchorPane.bottomAnchor="88.05859375" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="94.0" AnchorPane.topAnchor="13.576171875">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>

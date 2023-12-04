@@ -13,10 +13,10 @@ import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import javafx.util.Pair;
-import model.HighScoreManager;
 import model.Score;
 import model.WordSearchModel;
 
@@ -39,12 +39,8 @@ public class WordSearchController implements Initializable {
     @FXML
     private Button deleteWordButton;
     @FXML
-    private Button highScoreButton;
-    @FXML
     private Button suggestWordButton;
-    private static Stage highScoreStage;
     private static Stage winningStage;
-    private HighScoreManager highScoreManager;
     private DropShadow highlightEffect = new DropShadow();
 
     private List<Button> letterButtons = new ArrayList<>();
@@ -59,8 +55,7 @@ public class WordSearchController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         gridPane.setAlignment(Pos.CENTER);
-        highlightEffect.setColor(javafx.scene.paint.Color.YELLOW);
-        highScoreManager = new HighScoreManager();
+        highlightEffect.setColor(Color.BLUE);
         score = new Score();
         if (model == null) {
             model = new WordSearchModel();
@@ -94,7 +89,7 @@ public class WordSearchController implements Initializable {
                 updateScoreLabel();
                 showAlert("Congratulations!", "You found the word: " + selectedWord);
 
-                if(model.getWords().isEmpty()){
+                if (model.getWords().isEmpty()) {
                     winningStage = new Stage();
                     FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
                     Scene scene = new Scene(fxmlLoaderGame.load());
@@ -120,7 +115,6 @@ public class WordSearchController implements Initializable {
         gridPane.getChildren().clear();
         letterButtons.clear();
         foundWordsLabel.setText("Đã thấy từ: ");
-        highScoreManager.getHighScores().add(score);
         score.setScore(0);
         updateScoreLabel();
 
@@ -133,7 +127,7 @@ public class WordSearchController implements Initializable {
         }
     }
 
-    public void startNewGame(){
+    public void startNewGame() {
         model = new WordSearchModel();
         initModel(model);
 
@@ -153,15 +147,6 @@ public class WordSearchController implements Initializable {
     @FXML
     private void restartWord() {
         clearSelection();
-    }
-
-    @FXML
-    private void showHighScores() throws IOException {
-        highScoreStage = new Stage();
-        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("high_score.fxml"));
-        Scene scene = new Scene(fxmlLoader_menu.load());
-        highScoreStage.setScene(scene);
-        highScoreStage.show();
     }
 
     @FXML
@@ -188,13 +173,12 @@ public class WordSearchController implements Initializable {
         selectedLetters.setLength(0);
         selectedLetterButtons.forEach(this::setStyleForButton);
         selectedLetterButtons.clear();
-        System.out.println("Selection cleared");
     }
 
 
     private void handleLetterButtonClick(int row, int col) {
         Button clickedButton = letterButtons.get(row * WordSearchModel.GRID_SIZE + col);
-        if(selectedLetterButtons.contains(clickedButton)){
+        if (selectedLetterButtons.contains(clickedButton)) {
             return;
         }
         char clickedLetter = model.getBoard().getGrid()[row][col];
@@ -208,7 +192,6 @@ public class WordSearchController implements Initializable {
         }
         selectedLetterButtons.add(clickedButton);
 
-        System.out.println("Selected Letters: " + selectedLetters.toString());
     }
 
     private void showAlert(String title, String content) {
@@ -252,9 +235,9 @@ public class WordSearchController implements Initializable {
                 "-fx-background-color: #a7c957; " +
                         "-fx-font-size: 15; " +
                         "-fx-font-family: Arial; " +
-                        "-fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%); " +
+                        "-fx-text-fill: #4831d4; " +
                         "-fx-stroke: black; " +
-                        "-fx-stroke-width: 1;"
+                        "-fx-stroke-width: 2;"
         );
     }
 }

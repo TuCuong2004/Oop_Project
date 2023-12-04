@@ -24,14 +24,14 @@ public class ImportController {
             dictionaryCommandline.insertFromFilePath(text_field_path.getText());
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Success");
-            alert.setHeaderText("File imported!");
+            alert.setHeaderText("Thêm thành công!");
             alert.showAndWait();
             import_alert.close();
         }catch (FileNotFoundException e){
             System.out.println(e.getMessage());
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Error");
-            alert.setHeaderText("File path not found!");
+            alert.setHeaderText("Không tìm thấy file!");
             alert.showAndWait();
         }
     }

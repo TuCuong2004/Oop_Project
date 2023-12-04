@@ -54,7 +54,7 @@
              </Label>
          </Pane>
          <Pane layoutX="-1.0" layoutY="46.0" prefHeight="45.0" prefWidth="263.0" styleClass="title" stylesheets="@../Utils/style.css">
-             <Label fx:id="listHeader" layoutX="33.0" prefHeight="45.0" prefWidth="230.0" text="20 kết quả liên quan" textFill="WHITE">
+             <Label fx:id="listHeader" layoutX="33.0" prefHeight="45.0" prefWidth="230.0" text="Kết quả" textFill="WHITE">
                  <font>
                      <Font name="System Bold Italic" size="16.5" />
                  </font>
@@ -92,7 +92,7 @@
                             <Tooltip text="Xóa từ này" />
                         </tooltip>
                     </Button>
-                    <Label fx:id="englishWord" layoutX="5.0" layoutY="5.0" prefHeight="35.0" prefWidth="273.0" text="abbbbbbbbbbbbbbbbbbb" textFill="#24ebb3" wrapText="true">
+                    <Label fx:id="englishWord" layoutX="5.0" layoutY="5.0" prefHeight="35.0" prefWidth="273.0" text="Hello world!!!" textFill="#24ebb3" wrapText="true">
                         <font>
                             <Font name="System Bold" size="17.0" />
                         </font>
