@@ -5,8 +5,6 @@ import DictionaryApplication.DictionaryAlerts.DictionaryAlerts;
 import DictionaryApplication.DictionaryManagement;
 import DictionaryApplication.GgTranslateTextToSpeech;
 import DictionaryApplication.Word;
-import com.sun.speech.freetts.Voice;
-import com.sun.speech.freetts.VoiceManager;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -48,7 +46,7 @@ public class SearchController implements Initializable {
     @FXML
     private Pane headerOfExplanation;
     @FXML
-    private TextField pronouced;
+    private TextField pronounced;
     private Word selectedWord;
     private int indexOfSelectedWord;
     private int firstIndexOfListFound;
@@ -149,8 +147,8 @@ public class SearchController implements Initializable {
         String selectedWordTarget = listResults.getSelectionModel().getSelectedItem();
         if (selectedWordTarget != null) {
             selectedWord = dictionaryCommandline.getWord(selectedWordTarget);
-            if (indexOfSelectedWord == -1) return;
-            pronouced.setText(selectedWord.getWord_form());
+//            if (indexOfSelectedWord == -1) return;
+            pronounced.setText(selectedWord.getSpelling());
             englishWord.setText(selectedWord.getWord_target());
             explanation.setText(selectedWord.getWord_explain());
             headerOfExplanation.setVisible(true);

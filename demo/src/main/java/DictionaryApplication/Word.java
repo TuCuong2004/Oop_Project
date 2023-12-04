@@ -3,17 +3,30 @@ package DictionaryApplication;
 public class Word {
     private String word_target;
     private String word_explain;
-    private String word_form;
+    private String spelling;
+
+    private String wordForm;
+
+    private String example;
+
 
     public Word(String word_target, String word_explain) {
         this.word_target = word_target;
         this.word_explain = word_explain;
     }
 
-    public Word(String word_target, String word_explain, String word_form) {
+    public Word(String word_target, String word_explain, String spelling) {
         this.word_target = word_target;
         this.word_explain = word_explain;
-        this.word_form = word_form;
+        this.spelling = spelling;
+    }
+
+    public Word(String word_target, String word_explain, String spelling, String wordForm, String example) {
+        this.word_target = word_target;
+        this.word_explain = word_explain;
+        this.spelling = spelling;
+        this.wordForm = wordForm;
+        this.example = example;
     }
 
     public Word() {}
@@ -34,11 +47,13 @@ public class Word {
         this.word_explain = word_explain;
     }
 
-    public String getWord_form() {
-        return word_form;
+    public String getSpelling() {
+        return spelling;
     }
 
-    public void setWord_form(String word_form) {
-        this.word_form = word_form;
+    public void setSpelling(String spelling) {
+        this.spelling = spelling;
     }
+
+
 }

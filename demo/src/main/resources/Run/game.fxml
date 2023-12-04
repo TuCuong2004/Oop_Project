@@ -43,6 +43,6 @@
       <Button fx:id="button10" layoutX="408.0" layoutY="276.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnButton10" opacity="0.0" prefHeight="60.0" prefWidth="250.0" styleClass="game-panel" stylesheets="@../Utils/style.css" textAlignment="CENTER" textFill="#c30808" />
       <Button fx:id="button11" layoutX="408.0" layoutY="336.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnButton11" opacity="0.0" prefHeight="60.0" prefWidth="250.0" styleClass="game-panel" stylesheets="@../Utils/style.css" textAlignment="CENTER" textFill="#c30808" />
       <Button fx:id="button12" layoutX="408.0" layoutY="396.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnButton12" opacity="0.0" prefHeight="60.0" prefWidth="250.0" styleClass="game-panel" stylesheets="@../Utils/style.css" textAlignment="CENTER" textFill="#c30808" />
-      <Button layoutX="275.0" layoutY="32.0" mnemonicParsing="false" onAction="#gameStart" prefHeight="33.0" prefWidth="137.0" text="Start" />
+      <Button fx:id="startButton" layoutX="275.0" layoutY="32.0" mnemonicParsing="false" onAction="#gameStart" prefHeight="33.0" prefWidth="137.0" styleClass="english-word-input" text="Start" />
    </children>
 </AnchorPane>

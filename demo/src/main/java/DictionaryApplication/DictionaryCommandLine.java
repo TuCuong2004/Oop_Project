@@ -16,7 +16,7 @@ public class DictionaryCommandLine extends DictionaryManagement {
             System.out.printf("%-5d| %-15s| %-10s| %s\n",
                     count,
                     word.getWord_target(),
-                    word.getWord_form() == null ? "" : word.getWord_form(),
+                    word.getSpelling() == null ? "" : word.getSpelling(),
                     word.getWord_explain());
         }
     }

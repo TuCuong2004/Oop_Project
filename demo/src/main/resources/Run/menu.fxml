@@ -16,7 +16,7 @@
 
       <ImageView fx:id="menu" fitHeight="45.0" fitWidth="49.0" onMouseClicked="#clickMenuButton" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Utils/icons/menu-burger.png" />
+            <Image url="@../Utils/icons/options-lines.png" />
          </image>
       </ImageView>
       <AnchorPane fx:id="shadowPane" onMouseClicked="#clickMenuPaneButton" prefHeight="530.0" prefWidth="830.0" style="-fx-background-color: rgba(0, 0 ,0, 0.3);">
