@@ -50,12 +50,7 @@ public class AddController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        try {
-            dictionaryCommandline.insertFromFilePath();
-        } catch (FileNotFoundException e) {
-            System.out.println("File Error!");
-//            throw new RuntimeException(e);
-        }
+//        dictionaryCommandline.insertFromFile();
         if (wordExplainInput.getText().isEmpty() || wordTargetInput.getText().isEmpty()) {
             addButton.setDisable(true);
         }
