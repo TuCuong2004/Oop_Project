@@ -12,7 +12,6 @@ import javafx.scene.layout.Pane;
 
 import java.util.Random;
 
-import static Run.App.dictionaryCommandline;
 
 public class GameController {
     @FXML
