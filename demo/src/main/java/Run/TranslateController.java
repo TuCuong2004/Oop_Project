@@ -36,16 +36,16 @@ public class TranslateController implements Initializable {
     @FXML
     private Button translateBtn;
     private Stage bookMarkStage;
-    private final String[] language = {"Tiếng Việt", "Tiếng Anh", "Tiếng Pháp", "Tiếng Đức"};
+    private final String[] language = {"Tiếng Việt", "Tiếng Anh", "Tiếng Pháp", "Tiếng Đức"};
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         sourceLanguageChoiceBox.getItems().addAll(language);
-        sourceLanguageChoiceBox.setValue("Tiếng Anh");
+        sourceLanguageChoiceBox.setValue("Tiếng Việt");
         sourceLanguageChoiceBox.getSelectionModel().selectedIndexProperty().addListener((observableValue, number, t1) -> sourceLanguage = setLanguageToTranslate(language[t1.intValue()]));
 
         toLanguageChoiceBox.getItems().addAll(language);
-        toLanguageChoiceBox.setValue("Tiếng Việt");
+        toLanguageChoiceBox.setValue("Tiếng Anh");
         toLanguageChoiceBox.getSelectionModel().selectedIndexProperty().addListener((observableValue, number, t1) -> toLanguage = setLanguageToTranslate(language[t1.intValue()]));
 
         translateBtn.setOnAction(event -> {

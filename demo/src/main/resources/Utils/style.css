@@ -21,6 +21,11 @@
      -fx-background-radius: 5;
      -fx-border-radius: 5; */
 }
+.root2{
+     -fx-background-color: white;
+     -fx-background-radius: 5;
+     -fx-border-radius: 5;
+}
 .root1{
      -fx-background-color: linear-gradient(to top right,#344e41, #a3b18a);
      -fx-background-radius: 5;
@@ -203,6 +208,7 @@
     -fx-background-radius: 5;
     -fx-border-radius: 5;
     -fx-background-color : white;
+    -fx-font-family: Arial;
 }
 .add-button{
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
