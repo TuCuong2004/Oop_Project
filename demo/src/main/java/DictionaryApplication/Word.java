@@ -29,7 +29,24 @@ public class Word {
         this.example = example;
     }
 
-    public Word() {}
+    public Word() {
+    }
+
+    public String getWordForm() {
+        return wordForm;
+    }
+
+    public void setWordForm(String wordForm) {
+        this.wordForm = wordForm;
+    }
+
+    public String getExample() {
+        return example;
+    }
+
+    public void setExample(String example) {
+        this.example = example;
+    }
 
     public String getWord_target() {
         return word_target;
@@ -54,6 +71,4 @@ public class Word {
     public void setSpelling(String spelling) {
         this.spelling = spelling;
     }
-
-
 }

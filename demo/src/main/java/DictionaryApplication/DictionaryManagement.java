@@ -17,7 +17,7 @@ import static Run.App.dictionaryCommandline;
 public class DictionaryManagement extends Dictionary {
 
     private Trie trie = new Trie();
-    public final String path = "demo/src/main/resources/Utils/dictionaries.txt";
+    public final String path = "demo/src/main/resources/Utils/test.txt";
 
     public DictionaryManagement() {
         insertFromFile();
@@ -89,21 +89,30 @@ public class DictionaryManagement extends Dictionary {
             while ((line = bufferedReader.readLine()) != null) {
                 Word word = new Word();
                 word.setWord_target(englishWord.trim());
-                if(line.startsWith("/")) {
+                if (line.startsWith("/")) {
                     word.setSpelling(line);
                     line = bufferedReader.readLine();
                 }
-//                if (line.startsWith("*")) {
-//                    word.(line);
-//                    line = bufferedReader.readLine();
-//                }
+                if (line.startsWith("*")) {
+                    word.setWordForm(line);
+                    line = bufferedReader.readLine();
+                }
+                if (line.startsWith("=")) {
+//                    line = line.replace("=", "!");
+//                    if (line.contains("+")) line = line.replace("+", "\n-");
+                    //System.out.println(line);
+                    word.setExample(line);
+                    System.out.println(word.getExample());
+                    line = bufferedReader.readLine();
+                }
                 String meaning = line + "\n";
-                while ((line = bufferedReader.readLine()) != null)
-                    if (!line.startsWith("|")) meaning += line + "\n";
-                    else {
+                while ((line = bufferedReader.readLine()) != null) {
+                    if (line.startsWith("-")) meaning += line + "\n";
+                    else if (line.startsWith("|")) {
                         englishWord = line.replace("|", "");
                         break;
                     }
+                }
                 word.setWord_explain(meaning.trim());
                 super.getWordlist().put(word.getWord_target(),word);
             }
@@ -119,13 +128,12 @@ public class DictionaryManagement extends Dictionary {
         insertFromFile(path);
     }
     public Word getWord(String word_target) {
-        Word relust = null;
-        if (super.getWordlist().get(word_target) == null) {
-            System.out.println("Not found!");
+        if (dictionaryCommandline.getWordlist().containsKey(word_target)) {
+            return dictionaryCommandline.getWordlist().get(word_target);
         } else {
-            return super.getWordlist().get(word_target);
+            System.out.println("Not found!");
         }
-        return relust;
+        return null;
     }
 
     public void dictionaryLookup() {
@@ -302,7 +310,11 @@ public class DictionaryManagement extends Dictionary {
         StringBuilder dictionaryTxt = new StringBuilder();
         for(Word word : dictionaryCommandline.getWordlist().values())
         {
-                dictionaryTxt.append("|" + word.getWord_target() + "\n" + (word.getSpelling() != null ? word.getSpelling() + "\n" : "") + word.getWord_explain() + "\n");
+                dictionaryTxt.append("|" + word.getWord_target() + "\n"
+                        + (word.getSpelling() != null ? word.getSpelling() + "\n" : "")
+                        + (word.getWordForm() != null ? word.getWordForm() + "\n" : "")
+                        + word.getWord_explain() + "\n"
+                        + (word.getExample() != null ? word.getExample() + "\n" : "") + '\n');
         }
 
         Files.write(Paths.get("demo/src/main/resources/Utils/dictionaries.txt"), dictionaryTxt.toString().getBytes());
