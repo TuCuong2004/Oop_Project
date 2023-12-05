@@ -40,7 +40,7 @@ public class SearchController implements Initializable {
     @FXML
     private Label englishWord, listHeader, notAvailableAlert;
     @FXML
-    private TextArea explanation;
+    private TextArea explanation /*IPA_pronunciation, partOfSpeech, example*/;
     @FXML
     private ListView<String> listResults;
     @FXML
@@ -108,6 +108,10 @@ public class SearchController implements Initializable {
         });
 
         explanation.setVisible(false);
+//        IPA_pronunciation.setVisible(false);
+//        partOfSpeech.setVisible(false);
+//        example.setVisible(false);
+
         saveButton.setVisible(false);
         cancelButton.setVisible(false);
         notAvailableAlert.setVisible(false);
@@ -150,7 +154,7 @@ public class SearchController implements Initializable {
 //            if (indexOfSelectedWord == -1) return;
             pronounced.setText(selectedWord.getSpelling());
             englishWord.setText(selectedWord.getWord_target());
-            explanation.setText(selectedWord.getWord_explain());
+            explanation.setText(selectedWord.getWord_explain() + '\n' + selectedWord.getExample() + '\n' + selectedWord.getWordForm());
             headerOfExplanation.setVisible(true);
             explanation.setVisible(true);
             explanation.setEditable(false);

@@ -1,14570 +1,11559 @@
 |cancel
-null
-null
 (v)
 hủy bỏ, xóa bỏ
+
 |nicely
-null
-null
 (adv)
 thú vị, dễ chịu
+
 |prepare
-null
-null
 (v)
 sửa soạn, chuẩn bị
+
 |half
-null
-null
 pro(n) (adv)
 một nửa, phần chia đôi, nửa giờ; nửa
+
 |govern
-null
-null
 (v)
 cai trị, thống trị, cầm quyền
+
 |shooting
-null
-null
 (n)
 sự bắn, sự phóng đi
+
 |hall
-null
-null
 (n)
 đại sảnh, tòa (thị chính), hội trường
+
 |explanation
-null
-null
 (n)
 sự giải nghĩa, giải thích
+
 |pollution
-null
-null
 (n)
 sự ô nhiễm
+
 |remote
-null
-null
 (adj)
 xa, xa xôi, xa cách
+
 |salary
-null
-null
 (n)
 tiền lương
+
 |pretend
-null
-null
 (v)
 giả vờ, giả bộ, làm ra vẻ
+
 |rider
-null
-null
 (n)
 người cưỡi ngựa, người đi xe đạp
+
 |without
-null
-null
 (prep)
 không, không có
+
 |tea
-null
-null
 (n)
 cây chè, trà, chè
+
 |drunk
-null
-null
 (adj)
 say rượu
+
 |pick
-null
-null
 (v)
 cuốc (đất); đào, khoét (lỗ)
+
 |calculate
-null
-null
 (v)
 tính toán
+
 |in front of
-null
-null
-null
 ở phía trước
+
 |prison
-null
-null
 (n)
 nhà tù
+
 |such as
-null
-null
-null
 đến nỗi, đến mức
+
 |energy
-null
-null
 (n)
 năng lượng, nghị lực, sinh lực
+
 |audience
-null
-null
 (n)
 thính, khan giả
+
 |successfully
-null
-null
 (adv)
 thành công, thắng lợi, thành đạt
+
 |solid
-null
-null
 (adj) (n)
 rắn; thể rắn, chất rắn
+
 |thus
-null
-null
 (adv)
 như vậy, như thế, do đó
+
 |meanwhile
-null
-null
 (adv)
 trong lúc đó, trong lúc ấy
+
 |sexually
-null
-null
 (adv)
 giới tính, các vấn đề sinh lý
+
 |possess
-null
-null
 (v)
 có, chiếm hữu
+
 |investment
-null
-null
 (n)
 sự đầu tư, vốn đầu tư
+
 |require
-null
-null
 (v)
 đòi hỏi, yêu cầu, quy định
+
 |scratch
-null
-null
 (v) (n)
 cào, làm xước da; sự cào, sự trầy xước da
+
 |analysis
-null
-null
 (n)
 sự phân tích
+
 |fashionable
-null
-null
 (adj)
 đúng mốt, hợp thời trang
+
 |journalist
-null
-null
 (n)
 nhà báo
+
 |size
-null
-null
 (n)
 cỡ
+
 |left
-null
-null
 (adv) (n)
 bên trái; về phía trái
+
 |rounded
-null
-null
 (adj)
 bị làm thành tròn; phát triển đầy đủ
+
 |sideways
-null
-null
 (adj) (adv)
 ngang, từ một bên; sang bên
+
 |wing
-null
-null
 (n)
 cánh, sự bay, sự cất cánh
+
 |wine
-null
-null
 (n)
 rượu, đồ uống
+
 |object
-null
-null
 (n)
 vật, vật thể; phản đối, chống lại
+
 |wind
-null
-null
 (n) (v)
 gió, quấn lại, cuộn lại
+
 |newspaper
-null
-null
 (n)
 báo
+
 |chapter
-null
-null
 (n)
 chương (sách)
+
 |flight
-null
-null
 (n)
 sự bỏ chạy, rút chạy; sự bay, chuyến bay
+
 |hang
-null
-null
 (v)
 treo, mắc
+
 |role
-null
-null
 (n)
 vai (diễn), vai trò
+
 |independent
-null
-null
 (adj)
 độc lập
+
 |ahead
-null
-null
 (adv)
 trước, về phía trước
+
 |milligram
-null
-null
-null
 mi-li-gam
+
 |roll
-null
-null
 (n) (v)
 cuốn, cuộn, sự lăn tròn; lăn, cuốn, quấn, cuộn
+
 |turn
-null
-null
 (v) (n)
 quay, xoay, vặn; sự quay, vòng quay
+
 |blond
-null
-null
 (adj)
 vàng hoe
+
 |elect
-null
-null
 (v)
 bầu, quyết định
+
 |weekly
-null
-null
 (adj)
 mỗi tuần một lần, hàng tuần
+
 |example
-null
-null
 (n)
 thí dụ, ví dụ
+
 |gold
-null
-null
 (n) (adj)
 vàng; bằng vàng
+
 |result
-null
-null
 (n) (v)
 kết quả; bởi, do.. mà ra, kết quả là...
+
 |opposition
-null
-null
 (n)
 sự đối lập, sự đối nhau; sự chống lại, sự phản đối;phe đối lập
+
 |commission
-null
-null
 (n) (v)
 hội đồng, ủy ban, sự ủy nhiệm, sự ủy thác,
+
 |after
-null
-null
 (prep) (conj)
 sau, đằng sau, sau khi
+
 |quiet
-null
-null
 (adj)
 lặng, yên lặng, yên tĩnh
+
 |connect
-null
-null
 (v)
 kết nối, nối
+
 |hand
-null
-null
 (n) (v)
 tay, bàn tay; trao tay, truyền cho
+
 |policy
-null
-null
 (n)
 chính sách, cách xử sự, điều khoản, hợp đồng
+
 |address
-null
-null
 (n) (v)
 địa chỉ, đề địa chỉ
+
 |committee
-null
-null
 (n)
 ủy ban
+
 |salt
-null
-null
 (n)
 muối
+
 |artistic
-null
-null
 (adj)
 thuộc nghệ thuật, thuộc mỹ thuật
+
 |union
-null
-null
 (n)
 liên hiệp, sự đoàn kết, sự hiệp nhất
+
 |blood
-null
-null
 (n)
 máu, huyết; sự tàn sát, chém giết
+
 |ruined
-null
-null
 (adj)
 bị hỏng, bị đổ nát, bị phá sản
+
 |printing
-null
-null
 (n)
 sự in, thuật in, kỹ sảo in
+
 |straight
-null
-null
 (adv) (adj)
 thẳng, không cong
+
 |the
-null
-null
-null
 cái, con, người, ấy này, duy nhất
+
 |photograph
-null
-null
 (n) (v)
 ảnh, bức ảnh; chụp ảnh
+
 |sale
-null
-null
 (n)
 việc bán hàng
+
 |police
-null
-null
 (n)
 cảnh sát, công an
+
 |blue
-null
-null
 (adj) (n)
 xanh, màu xanh
+
 |outdoors
-null
-null
 (adv)
 ở ngoài trời, ở ngoài nhà
+
 |throw
-null
-null
 (v)
 ném, vứt, quăng
+
 |exciting
-null
-null
 (adj)
 hứng thú, thú vị
+
 |obvious
-null
-null
 (adj)
 rõ ràng, rành mạch, hiển nhiên
+
 |thank
-null
-null
 (v)
 cám ơn
+
 |information
-null
-null
 (n)
 tin tức, tài liệu, kiến thức
+
 |novel
-null
-null
 (n)
 tiểu thuyết, truyện
+
 |discuss
-null
-null
 (v)
 thảo luận, tranh luận
+
 |standard
-null
-null
 (n) (adj)
 tiêu chuẩn, chuẩn, mãu; làm tiêu chuẩn, phù hợp với tiêu chuẩn
+
 |acceptable
-null
-null
 (adj)
 có thể chấp nhận, chấp thuận
+
 |violent
-null
-null
 (adj)
 mãnh liệt, mạnh mẽ, hung dữ
+
 |correct
-null
-null
 (adj) (v)
 đúng, chính xác; sửa, sửa chữa
+
 |resolve
-null
-null
 (v)
 quyết định, kiên quyết (làm gì); giải quyết (vấn đề, khó khăn)
+
 |reader
-null
-null
 (n)
 người đọc, độc giả
+
 |sharply
-null
-null
 (adv)
 sắc, nhọn, bén
+
 |confront
-null
-null
 (v)
 đối mặt, đối diện, đối chiếu
+
 |good
-null
-null
 (adj) (n)
 tốt, hay, tuyệt; điều tốt, điều thiện
+
 |dominate
-null
-null
 (v)
 chiếm ưu thế, có ảnh hưởng, chi phối; kiềm chế
+
 |empty
-null
-null
 (adj) (v)
 trống, rỗng; đổ, dốc; uống, làm cạn
+
 |faithful
-null
-null
 (adj)
 trung thành, chung thủy, trung thực
+
 |reproduce
-null
-null
 (v)
 tái sản xuất
+
 |wish
-null
-null
 (v) (n)
 ước, mong muốn; sự mong ước, lòng mong muốn
+
 |institution
-null
-null
 (n)
 sự thành lập, lập; cơ quan, trụ sở
+
 |tie
-null
-null
 (v) (n)
 buộc, cột, trói; dây buộc, dây trói, dây giày
+
 |wise
-null
-null
 (adj)
 khôn ngoan, sáng suốt, thông thái
+
 |ambition
-null
-null
 (n)
 hoài bão, khát vọng
+
 |tin
-null
-null
 (n)
 thiếc
+
 |serious
-null
-null
 (adj)
 đứng đắn, nghiêm trang
+
 |tip
-null
-null
 (n) (v)
 đầu, mút, đỉnh, chóp; bịt đầu, lắp đầu vào
+
 |pan
-null
-null
 (n)
 xoong, chảo
+
 |export
-null
-null
 (v) (n)
 xuất khẩu; hàng xuất khẩu, sự xuất khẩu
+
 |laugh
-null
-null
 (v) (n)
 cười; tiếng cười
+
 |area
-null
-null
 (n)
 diện tích, bề mặt
+
 |fall over
-null
-null
-null
 ngã lộn nhào, bị đổ
+
 |murder
-null
-null
 (n) (v)
 tội giết người, tội ám sát; giết người, ám sát
+
 |invitation
-null
-null
 (n)
 lời mời, sự mời
+
 |pay
-null
-null
 (v) (n)
 trả, thanh toán, nộp; tiền lương
+
 |check
-null
-null
 (v) (n)
 kiểm tra; sự kiểm tra
+
 |enormous
-null
-null
 (adj)
 to lớn, khổng lồ
+
 |list
-null
-null
 (n) (v)
 danh sách; ghi vào danh sách
+
 |onto
-null
-null
 (prep)
 về phía trên, lên trên
+
 |strange
-null
-null
 (adj)
 xa lạ, chưa quen
+
 |lack
-null
-null
 (n) (v)
 sự thiếu; thiếu
+
 |sand
-null
-null
 (n)
 cát
+
 |wire
-null
-null
 (n)
 dây (kim loại)
+
 |aside
-null
-null
 (adv)
 về một bên, sang một bên
+
 |circumstance
-null
-null
 (n)
 hoàn cảnh, trường hợp, tình huống
+
 |revise
-null
-null
 (v)
 đọc lại, xem lại, sửa lại, ôn lại
+
 |success
-null
-null
 (n)
 sự thành công, sự thành đạt
+
 |creature
-null
-null
 (n)
 sinh vật, loài vật
+
 |shocking
-null
-null
 (adj)
 gây ra căm phẫn, tồi tệ, gây kích động
+
 |child
-null
-null
 (n)
 đứa bé, đứa trẻ
+
 |harm
-null
-null
 (n) (v)
 thiệt hại, tổn hao; làm hại, gây thiệt hại
+
 |regional
-null
-null
 (adj)
 vùng, địa phương
+
 |downwards
-null
-null
 (adv)
 xuống, đi xuống
+
 |provided
-null
-null
 (conj)
 với điều kiện là, miễn là
+
 |rope
-null
-null
 (n)
 dây cáp, dây thừng, xâu, chuỗi
+
 |instrument
-null
-null
 (n)
 dụng cụ âm nhạc khí
+
 |gasoline
-null
-null
 (n)
 dầu lửa, dầu hỏa, xăng
+
 |medium
-null
-null
 (adj) (n)
 trung bình, trung, vừa; sự trung gian, sự môi giới
+
 |remove
-null
-null
 (v)
 dời đi, di chuyển
+
 |society
-null
-null
 (n)
 xã hội
+
 |nowhere
-null
-null
 (adv)
 không nơi nào, không ở đâu
+
 |romantic
-null
-null
 (adj)
 lãng mạn
+
 |root
-null
-null
 (n)
 gốc, rễ
+
 |hard
-null
-null
 (adj) (adv)
 cứng, rắn, hà khắc; hết sức cố gắng, tích cực
+
 |multiply
-null
-null
 (v)
 nhân lên, làm tăng lên nhiều lần; sinh sôi nảy nở
+
 |spoil
-null
-null
 (v)
 cướp, cướp đọat
+
 |tonne
-null
-null
 (n)
 tấn
+
 |lend
-null
-null
 (v)
 cho vay, cho mượn
+
 |live
-null
-null
 (v) (adj) (adv)
 sống, hoạt động
+
 |roof
-null
-null
 (n)
 mái nhà, nóc
+
 |pilot
-null
-null
 (n)
 phi công
+
 |ticket
-null
-null
 (n)
 vé
+
 |cheek
-null
-null
 (n)
 má
+
 |umbrella
-null
-null
 (n)
 ô, dù
+
 |victory
-null
-null
 (n)
 chiến thắng
+
 |mobile
-null
-null
 (adj)
 chuyển động, di động
+
 |perform
-null
-null
 (v)
 biểu diễn; làm, thực hiện
+
 |peak
-null
-null
 (n)
 lưỡi trai; đỉnh, chóp
+
 |concentrate
-null
-null
 (v)
 tập trung
+
 |expose
-null
-null
 (v)
 trưng bày, phơi bày
+
+|better
+* 
+//
++ b
+= 
+
 |explosion
-null
-null
 (n)
 sự nổ, sự phát triển ồ ạt
+
 |with
-null
-null
 (prep)
 với, cùng
+
 |complaint
-null
-null
 (n)
 lời than phiền, than thở; sự khiếu nại, đơn kiện
+
 |service
-null
-null
 (n)
 sự phục vụ, sự hầu hạ
+
 |there
-null
-null
 (adv)
 ở nơi đó, tại nơi đó
+
 |lady
-null
-null
 (n)
 người yêu, vợ, quý bà, tiểu thư
+
 |permit
-null
-null
 (v)
 /'pə:mit/ cho phép, cho cơ hội
+
 |translation
-null
-null
 (n)
 sự dịch
+
 |well
-null
-null
 (adv) (adj)
 tốt, giỏi; ôi, may quá!
+
 |cancer
-null
-null
 (n)
 bệnh ung thư
+
 |suitable
-null
-null
 (adj)
 hợp, phù hợp, thích hợp với
+
 |magazine
-null
-null
 (n)
 tạp chí
+
 |pocket
-null
-null
 (n)
 túi (quần áo, trong xe hơi), túi tiền
+
 |pile
-null
-null
 (n) (v)
 cọc, chồng, đống, pin; đóng cọc, chất chồng
+
 |channel
-null
-null
 (n)
 kênh (TV, radio), eo biển
+
 |focus
-null
-null
 (v) (n)
 tập trung; trung tâm, trọng tâm
+
 |entire
-null
-null
 (adj)
 toàn thể, toàn bộ
+
 |pill
-null
-null
 (n)
 viên thuốc
+
 |experiment
-null
-null
 (n) (v)
 cuộc thí nghiệm, thí nghiệm
+
 |flour
-null
-null
 (n)
 bột, bột mỳ
+
 |implication
-null
-null
 (n)
 sự lôi kéo, sự liên can, điều gợi ý
+
 |reservation
-null
-null
 (n)
 sự hạn chế, điều kiện hạn chế
+
 |block
-null
-null
 (n) (v)
 khối, tảng (đá); làm ngăn cản, ngăn chặn
+
 |hate
-null
-null
 (v) (n)
 ghét; lòng căm ghét, thù hận
+
 |per
-null
-null
 (prep)
 cho mỗi
+
 |flow
-null
-null
 (n) (v)
 sự chảy; chảy
+
 |pet
-null
-null
 (n)
 cơn nóng giận; vật cưng, người được yêu thích
+
 |order
-null
-null
 (n) (v)
 thứ, bậc; ra lệnh
+
 |wage
-null
-null
 (n)
 tiền lương, tiền công
+
 |period
-null
-null
 (n)
 kỳ, thời kỳ, thời gian; thời đại
+
 |proceed
-null
-null
 (v)
 tiến lên, theo đuổi, tiếp diễn
+
 |musical
-null
-null
 (adj) (thuộc)
 nhạc, âm nhạc; du dương, êm ái
+
 |movie theater
-null
-null
-null
 rạp chiếu phim
+
 |understand
-null
-null
 (v)
 hiểu, nhận thức
+
 |birth
-null
-null
 (n)
 sự ra đời, sự sinh đẻ
+
 |dismiss
-null
-null
 (v)
 giải tán (quân đội, đám đông); sa thải (người làm)
+
 |litre
-null
-null
 (n)
 lít
+
 |propose
-null
-null
 (v)
 đề nghị, đề xuất, đưa ra
+
 |slowly
-null
-null
 (adv)
 một cách chậm chạp, chậm dần
+
 |heaven
-null
-null
 (n)
 thiên đường
+
 |jointly
-null
-null
 (adv)
 cùng nhau, cùng chung
+
 |intelligence
-null
-null
 (n)
 sự hiểu biết, trí thông minh
+
 |reform
-null
-null
 (v) (n)
 cải cách, cải thiện, cải tạo; sự cải cách, sự cải thiện, cải tạo
+
 |ever
-null
-null
 (adv)
 từng, từ trước tới giờ
+
 |winner
-null
-null
 (n)
 người thắng cuộc
+
 |even
-null
-null
 (adv) (adj)
 ngay cả, ngay, lại còn; bằng phẳng, điềm đạm,ngang bằng
+
 |install
-null
-null
 (v)
 đặt (hệ thống máy móc, thiết bị...)
+
 |strongly
-null
-null
 (adv)
 khỏe, chắc chắn
+
 |restriction
-null
-null
 (n)
 sự hạn chế, sự giới hạn
+
 |yours sincerely
-null
-null
-null
 bạn chân thành của anh, chị.. (viết ở cuối thư)
+
 |crazy
-null
-null
 (adj)
 điên, mất trí
+
 |indication
-null
-null
 (n)
 sự chỉ, sự biểu thị, sự biểu lộ
+
 |coach
-null
-null
 (n)
 huấn luyện viên
+
 |engaged
-null
-null
 (adj)
 đã đính ước, đã hứa hôn
+
 |gun
-null
-null
 (n)
 súng
+
 |pink
-null
-null
 (adj) (n)
 màu hồng; hoa cẩm chướng, tình trạng tốt, hoàn hảo
+
 |wait
-null
-null
 (v)
 chờ đợi
+
 |save
-null
-null
 (v)
 cứu, lưu
+
 |guy
-null
-null
 (n)
 bù nhìn, anh chàng, gã
+
 |protection
-null
-null
 (n)
 sự bảo vệ, sự che chở
+
 |pint
-null
-null
 (n)
 panh (= 0, 58 lít (E);=0, 473 lít (A))
+
 |toe
-null
-null
 (n)
 ngón chân (người)
+
 |matter
-null
-null
 (n) (v)
 chất, vật chất; có ý nghĩa, có tính chất quan trọng
+
 |restrict
-null
-null
 (v)
 hạn chế, giới hạn
+
 |bandage
-null
-null
 (n) (v)
 dải băng; băng bó
+
 |injured
-null
-null
 (adj)
 bị tổn thương, bị xúc phạm
+
 |ton
-null
-null
 (n)
 tấn
+
 |top
-null
-null
 (n) (adj)
 chóp, đỉnh; đứng đầu, trên hết
+
 |surname
-null
-null
 (n)
 họ
+
 |noise
-null
-null
 (n)
 tiếng ồn, sự huyên náo
+
 |toy
-null
-null
 (n) (adj)
 đồ chơi, đồ trang trí; thể loại đồ chơi
+
 |violence
-null
-null
 (n)
 sự ác liệt, sự dữ dội; bạo lực
+
 |consequence
-null
-null
 (n)
 kết quả, hậu quả
+
 |product
-null
-null
 (n)
 sản phẩm
+
 |famous
-null
-null
 (adj)
 nổi tiếng
+
 |particularly
-null
-null
 (adv)
 một cách đặc biệt, cá biệt, riêng biệt
+
 |question
-null
-null
 (n) (v)
 câu hỏi; hỏi, chất vấn
+
 |spirit
-null
-null
 (n)
 tinh thần, tâm hồn, linh hồn
+
 |cheap
-null
-null
 (adj)
 rẻ
+
 |noisy
-null
-null
 (adj)
 ồn ào, huyên náo
+
 |produce
-null
-null
 (v)
 sản xuất, chế tạo
+
 |granddaughter
-null
-null
 (n)
 cháu gái
+
 |picture
-null
-null
 (n)
 bức vẽ, bức họa
+
 |cheat
-null
-null
 (v) (n)
 lừa, lừa đảo; trò lừa đảo, trò gian lận
+
 |regard
-null
-null
 (v) (n)
 nhìn, đánh giá; cái nhìn, sự quan tâm, sự chú ý (lời chúc tụng cuối thư)
+
 |infect
-null
-null
 (v)
 nhiễm, tiêm nhiễm, đầu độc, lan truyền
+
 |capital
-null
-null
 (n) (adj)
 thủ đô, tiền vốn; chủ yếu, chính yếu, cơ bản
+
 |bacteria
-null
-null
 (n)
 vi khuẩn
+
 |minor
-null
-null
 (adj)
 nhỏ hơn, thứ yếu, không quan trọng
+
 |arrow
-null
-null
 (n)
 tên, mũi tên
+
 |equally
-null
-null
 (adv)
 bằng nhau, ngang bằng
+
 |fuel
-null
-null
 (n)
 chất đốt, nhiên liệu
+
 |cow
-null
-null
 (n)
 con bò cái
+
 |manner
-null
-null
 (n)
 /'mænз/ cách, lối, kiểu; dáng, vẻ, thái độ
+
 |employee
-null
-null
 (n)
 người lao động, người làm công
+
 |look at
-null
-null
-null
 nhìn, ngắm, xem
+
 |upon
-null
-null
 (prep)
 trên, ở trên
+
 |at first
-null
-null
-null
 trực tiếp
+
 |associate
-null
-null
 (v)
 kết giao, liên kết, kết hợp, cho cộng tác
+
 |harmful
-null
-null
 (adj)
 gây tai hại, có hại
+
 |rather than
-null
-null
-null
 hơn là
+
 |wake
-null
-null
 (v)
 thức dậy, tỉnh thức
+
 |pin
-null
-null
 (n) (v)
 đinh ghim; ghim, kẹp
+
 |charity
-null
-null
 (n)
 lòng từ thiện, lòng nhân đức; sự bố thí
+
 |towel
-null
-null
 (n)
 khăn tắm, khăn lau
+
 |academic
-null
-null
 (adj)
 thuộc học viện, ĐH, viện hàn lâm
+
 |whether
-null
-null
 (conj)
 có..không; có... chăng; không biết có.. không
+
 |function
-null
-null
 (n) (v)
 chức năng; họat động, chạy (máy)
+
 |raise
-null
-null
 (v)
 nâng lên, đưa lên, ngẩng lên
+
 |spoon
-null
-null
 (n)
 cái thìa
+
 |west
-null
-null
 (n) (adj) (adv)
 phía Tây, theo phía tây, về hướng tây
+
 |employer
-null
-null
 (n)
 chủ, người sử dụng lao động
+
 |quite
-null
-null
 (adv)
 hoàn toàn, hầu hết
+
 |pipe
-null
-null
 (n)
 ống dẫn (khí, nước...)
+
 |mineral
-null
-null
 (n) (adj)
 công nhân, thợ mỏ; khoáng
+
 |stock
-null
-null
 (n)
 kho sự trữ, hàng dự trữ, vốn
+
 |representative
-null
-null
 (n) (adj)
 điều tiêu biểu, tượng trưng, mẫu; miêu tả, biểu hiện, đại diện
+
 |tower
-null
-null
 (n)
 tháp
+
 |traffic
-null
-null
 (n)
 sự đi lại, sự giao thông, sự chuyển động
+
 |actress
-null
-null
 (n)
 diễn viên nữ
+
 |beneath
-null
-null
 (prep) (adv)
 ở dưới, dưới thấp
+
 |comparison
-null
-null
 (n)
 sự so sánh
+
 |including
-null
-null
 (prep)
 bao gồm, kể cả
+
 |law
-null
-null
 (n)
 luật
+
 |lay
-null
-null
 (v)
 xếp, đặt, bố trí
+
 |plenty
-null
-null
 pro(n) (adv) (n)
 nhiều, sự thừa; sự sung túc, sự phong phú
+
 |less
-null
-null
 pro (n) (adv)
 nhỏ bé, ít hơn; số lượng ít hơn
+
 |basis
-null
-null
 (n)
 nền tảng, cơ sở
+
 |adventure
-null
-null
 (n)
 sự phiêu lưu, mạo hiểm
+
 |army
-null
-null
 (n)
 quân đội
+
 |senator
-null
-null
 (n)
 thượng nghị sĩ
+
 |condition
-null
-null
 (n)
 điều kiện, tình cảnh, tình thế
+
 |thirsty
-null
-null
 (adj)
 khát, cảm thấy khát
+
 |ceremony
-null
-null
 (n)
 nghi thức, nghi lễ
+
 |improve
-null
-null
 (v)
 cải thiện, cái tiến, mở mang
+
 |snow
-null
-null
 (n) (v)
 tuyết; tuyết rơi
+
 |try
-null
-null
 (v)
 thử, cố gắng
+
 |evil
-null
-null
 (adj) (n)
 xấu, ác; điều xấu, điều ác, điều tai hại
+
 |governor
-null
-null
 (n)
 thủ lĩnh, chủ; kẻ thống trị
+
 |rarely
-null
-null
 (adv)
 hiếm khi, ít khi
+
 |basic
-null
-null
 (adj)
 cơ bản, cơ sở
+
 |lake
-null
-null
 (n)
 hồ
+
 |twist
-null
-null
 (v) (n)
 xoắn, cuộn, quắn; sự xoắn, vòng xoắn
+
 |chicken
-null
-null
 (n)
 gà, gà con, thịt gà
+
 |locate
-null
-null
 (v)
 xác định vị trí, định vị
+
 |unite
-null
-null
 (v)
 liên kết, hợp nhất, hợp lại, kết thân
+
 |bush
-null
-null
 (n)
 bụi cây, bụi rậm
+
 |fruit
-null
-null
 (n)
 quả, trái cây
+
 |university
-null
-null
 (n)
 trường đại học
+
 |prisoner
-null
-null
 (n)
 tù nhân
+
 |cause
-null
-null
 (n) (v)
 nguyên nhân, nguyên do; gây ra, gây nên
+
 |technique
-null
-null
 (n)
 kỹ sảo, kỹ thuật, phương pháp kỹ thuật
+
 |accidentally
-null
-null
 (adv)
 tình cờ, ngẫu nhiên
+
 |effective
-null
-null
 (adj)
 có kết quả, có hiệu lực
+
 |pursue
-null
-null
 (v)
 đuổi theo, đuổi bắt
+
 |teacher
-null
-null
 (n)
 giáo viên
+
 |similarly
-null
-null
 (adv)
 tương tự, giống nhau
+
 |intended
-null
-null
 (adj)
 có ý định, có dụng ý
+
 |swimming pool
-null
-null
 (n)
 bể nước
+
 |busy
-null
-null
 (adj)
 bận, bận rộn
+
 |design
-null
-null
 (n) (v)
 sự thiết kế, kế hoạch, đề cương. phác thảo
+
 |extra
-null
-null
 (adj) (n) (adv)
 thêm, phụ, ngoại; thứ thêm, phụ
+
 |muscle
-null
-null
 (n)
 cơ, bắp thịt
+
 |generous
-null
-null
 (adj)
 rộng lượng, khoan hồng, hào phóng
+
 |land
-null
-null
 (n) (v)
 đất, đất canh tác, đất đai
+
 |victim
-null
-null
 (n)
 nạn nhân
+
 |jelly
-null
-null
 (n)
 thạch
+
 |department
-null
-null
 (n)
 cục, sở, ty, ban, khoa; gian hàng, khu bày hàng
+
 |floor
-null
-null
 (n)
 sàn, tầng (nhà)
+
 |possibility
-null
-null
 (n)
 khă năng, triển vọng
+
 |lane
-null
-null
 (n)
 đường nhỏ (làng, hẻm phố)
+
 |direction
-null
-null
 (n)
 sự điều khiển, sự chỉ huy
+
 |exhibition
-null
-null
 (n)
 cuộc triển lãm, trưng bày
+
 |burn
-null
-null
 (v)
 đốt, đốt cháy, thắp, nung, thiêu
+
 |chief
-null
-null
 (adj) (n)
 trọng yếu, chính yếu; thủ lĩnh, lãnh tụ, người đứng đầu, sếp
+
 |countryside
-null
-null
 (n)
 miền quê, miền nông thôn
+
 |aircraft
-null
-null
 (n)
 máy bay, tàu bay, khí cầu
+
 |automatic
-null
-null
 (adj)
 tự động
+
 |lamp
-null
-null
 (n)
 đèn
+
 |satisfying
-null
-null
 (adj)
 đem lại sự thỏa mãn, làm thỏa mãn, làm vừa ý
+
 |cry
-null
-null
 (v) (n)
 khóc, kêu la; sự khóc, tiếng khóc, sự kêu la
+
 |opening
-null
-null
 (n)
 khe hở, lỗ; sự bắt đầu, sự khai mạc, lễ khánh thành
+
 |doctor
-null
-null
 (n)
 bác sĩ y khoa, tiến sĩ
+
 |industrial
-null
-null
 (adj) (thuộc)
 công nghiệp, kỹ nghệ
+
 |jewellery
-null
-null
 n)
 nữ trang, kim hoàn
+
 |bury
-null
-null
 (v)
 chôn cất, mai táng
+
 |conduct
-null
-null
 (v) (n)
 điều khiển, chỉ đạo, chỉ huy; sự điều khiển, chỉ huy
+
 |obey
-null
-null
 (v)
 vâng lời, tuân theo, tuân lệnh
+
 |stable
-null
-null
 (adj) (n)
 ổn định, bình tĩnh, vững vàng; chuồng ngưa
+
 |look for
-null
-null
-null
 tìm kiếm
+
 |spoken
-null
-null
 (adj)
 nói theo 1 cách nào đó
+
 |interested
-null
-null
 (adj)
 có thích thú, có quan tâm, có chú ý
+
 |respond
-null
-null
 (v)
 hưởng ứng, phản ứng lại, trả lời
+
 |tidy
-null
-null
 (adj) (v)
 sạch sẽ, ngăn nắp, gọn gàng
+
 |formerly
-null
-null
 (adv)
 trước đây, thuở xưa
+
 |incident
-null
-null
 (n)
 việc xảy ra, việc có liên quan
+
 |wall
-null
-null
 (n)
 tường, vách
+
 |walk
-null
-null
 (v) (n)
 đi, đi bộ; sự đi bộ, sự đi dạo
+
 |quietly
-null
-null
 (adv)
 lặng, yên lặng, yên tĩnh
+
 |in general
-null
-null
-null
 nói chung, đại khái
+
 |marry
-null
-null
 (v)
 cưới (vợ), lấy (chồng)
+
 |concert
-null
-null
 (n)
 buổi hòa nhạc
+
 |decay
-null
-null
 (n) (v)
 tình trạng suy tàn, suy sụp, tình trạng đổ nát
+
 |pity
-null
-null
 (n)
 lòng thương hại, điều đáng tiếc, đáng thương
+
 |discussion
-null
-null
 (n)
 sự thảo luận, sự tranh luận
+
 |absorb
-null
-null
 (v)
 thu hút, hấp thu, lôi cuốn
+
 |supply
-null
-null
 (n) (v)
 sự cung cấp, nguồn cung cấp; cung cấp, đáp ứng, tiếp tế
+
 |uncertain
-null
-null
 (adj)
 không chắc chắn, khôn biết rõ ràng
+
 |concern
-null
-null
 (v) (n)
 liên quan, dính líu tới; sự liên quan, sự dính líu tới
+
 |leg
-null
-null
 (n)
 chân (người, thú, bàn..)
+
 |unimportant
-null
-null
 (adj)
 không quan trọng, không trọng đại
+
 |beautiful
-null
-null
 (adj)
 đẹp
+
 |mountain
-null
-null
 (n)
 núi
+
 |yours truly
-null
-null
-null
 lời kết thúc thư (bạn chân thành của...)
+
 |let
-null
-null
 (v)
 cho phép, để cho
+
 |press
-null
-null
 (n) (v)
 sự ép, sự nén, sự ấn; ép, nén, bóp, ấn
+
 |meeting
-null
-null
 (n)
 cuộc mít tinh, cuộc biểu tình
+
 |welcome
-null
-null
 (v) (adj) (n)
 chào mừng, hoan nghênh
+
 |element
-null
-null
 (n)
 yếu tố, nguyên tố
+
 |give sth away
-null
-null
-null
 cho, phát
+
 |environmental
-null
-null
 (adj)
 thuộc về môi trường
+
 |good at
-null
-null
-null
 tiến bộ ở
+
 |separately
-null
-null
 (adv)
 không cùng nhau, thành người riêng, vật riêng
+
 |pace
-null
-null
 (n)
 bước chân, bước
+
 |want
-null
-null
 (v)
 muốn
+
 |probable
-null
-null
 (adj)
 có thể, có khả năng
+
 |forecast
-null
-null
 (n) (v)
 sự dự đoán, dự báo; dự đoán, dự báo
+
 |opposite
-null
-null
-null
 (adj) (adv) (n)prep.đối nhau, ngược nhau; trước mặt, đối diện; điều trái ngược
+
 |thickly
-null
-null
 (adv)
 dày; dày đặc; thành lớp dày
+
 |recognize
-null
-null
 (v)
 nhận ra, nhận diện; công nhận, thừa nhận
+
 |pack
-null
-null
 (v) (n)
 gói, bọc; bó, gói
+
 |each
-null
-null
 pro(n)
 mỗi
+
 |difference
-null
-null
 (n)
 sự khác nhau
+
 |reality
-null
-null
 (n)
 sự thật, thực tế, thực tại
+
 |offend
-null
-null
 (v)
 xúc phạm, làm bực mình, làm khó chịu
+
 |circle
-null
-null
 (n)
 đường tròn, hình tròn
+
 |cup
-null
-null
 (n)
 tách, chén
+
 |polite
-null
-null
 (adj)
 lễ phép, lịch sự
+
 |cut
-null
-null
 (v) (n)
 cắt, chặt; sự cắt
+
 |perfectly
-null
-null
 (adv)
 một cách hoàn hảo
+
 |entertainment
-null
-null
 (n)
 sự giải trí, sự tiếp đãi, chiêu đãi
+
 |neatly
-null
-null
 (adv)
 gọn gàng, ngăn nắp
+
 |probably
-null
-null
 (adv)
 hầu như chắc chắn
+
 |document
-null
-null
 (n)
 văn kiện, tài liệu, tư liệu
+
 |killing
-null
-null
 (n)
 sự giết chóc, sự tàn sát
+
 |battery
-null
-null
 (n)
 pin, ắc quy
+
 |chase
-null
-null
 (v) (n)
 săn bắt; sự săn bắt
+
 |prize
-null
-null
 (n)
 giải, giải thưởng
+
 |accident
-null
-null
 (n)
 tai nạn, rủi ro
+
 |moment
-null
-null
 (n)
 chốc, lát
+
 |promote
-null
-null
 (v)
 thăng chức, thăng cấp
+
 |hairdresser
-null
-null
 (n)
 thợ làm tóc
+
 |routine
-null
-null
 (n) (adj)
 thói thường, lệ thường, thủ tục; thường lệ, thông thường
+
 |excuse
-null
-null
 (n) (v)
 lời xin lỗi, bào chữa; xin lỗi, tha thứ, tha lỗi
+
 |pot
-null
-null
 (n)
 can, bình, lọ...
+
 |tear
-null
-null
 (v) (n)
 xé, làm rắch; chỗ rách, miếng xe; nước mắt
+
 |humour
-null
-null
 (n)
 sự hài hước, sự hóm hỉnh
+
 |divorce
-null
-null
 (n) (v)
 sự ly dị
+
 |attach
-null
-null
 (v)
 gắn, dán, trói, buộc
+
 |shout
-null
-null
 (v) (n)
 hò hét, reo hò; sự la hét, sự hò reo
+
 |escape
-null
-null
 (v) (n)
 trốn thoát, thoát khỏi; sự trốn thoát, lỗi thoát
+
 |funny
-null
-null
 (adj)
 buồn cười, khôi hài
+
 |situation
-null
-null
 (n)
 hoàn cảnh, địa thế, vị trí
+
 |latest
-null
-null
 (adj) (n)
 muộn nhất, chậm nhất, gần đây nhất
+
 |receive
-null
-null
 (v)
 nhận, lĩnh, thu
+
 |think
-null
-null
 (v)
 nghĩ, suy nghĩ
+
 |ingredient
-null
-null
 (n)
 phần hợp thành, thành phần
+
 |team
-null
-null
 (n)
 đội, nhóm
+
 |entirely
-null
-null
 (adv)
 toàn vẹn, trọn vẹn, toàn bộ
+
 |religion
-null
-null
 (n)
 tôn giáo
+
 |timetable
-null
-null
 (n)
 kế hoạch làm việc, thời gian biểu
+
 |diagram
-null
-null
 (n)
 biểu đồ
+
 |prayer
-null
-null
 (n)
 sự cầu nguyện
+
 |speech
-null
-null
 (n)
 sự nói, khả năng nói, lời nói, cách nói, bài nói
+
 |watch
-null
-null
 (v) (n)
 đồng hồ, nhìn, theo dõi, quan sát; sự canh gác, sự canh phòng
+
 |clap
-null
-null
 (v) (n)
 vỗ, vỗ tay; tiếng nổ, tiếng vỗ tay
+
 |purple
-null
-null
 (adj) (n)
 tía, có màu tía; màu tía
+
 |quit
-null
-null
 (v)
 thoát, thoát ra
+
 |polish
-null
-null
 (n) (v)
 nước bóng, nước láng; đánh bóng, làm cho láng
+
 |cabinet
-null
-null
 (n)
 tủ có nhiều ngăn đựng đồ
+
 |chart
-null
-null
 (n) (v)
 đồ thị, biểu đồ; vẽ đồ thị, lập biểu đồ
+
 |thing
-null
-null
 (n)
 cái, đồ, vật
+
 |fashion
-null
-null
 (n)
 mốt, thời trang
+
 |insurance
-null
-null
 (n)
 sự bảo hiểm
+
 |surely
-null
-null
 (adv)
 chắc chắn
+
 |medical
-null
-null
 (adj) (thuộc)
 y học
+
 |principle
-null
-null
 (n)
 cơ bản, chủ yếu; nguyên lý, nguyên tắc
+
 |fridge
-null
-null
 (n)
 tủ lạnh
+
 |friendship
-null
-null
 (n)
 tình bạn, tình hữu nghị
+
 |till
-null
-null
-null
 cho đến khi, tới lúc mà
+
 |attend
-null
-null
 (v)
 dự, có mặt
+
 |lid
-null
-null
 (n)
 nắp, vung (xoong, nồi..); mi mắt (eyelid)
+
 |importantly
-null
-null
 (adv)
 quan trọng, trọng yếu
+
 |goods
-null
-null
 (n)
 của cải, tài sản, hàng hóa
+
 |lie
-null
-null
 (v) (n)
 nói dối; lời nói dối, sự dối trá
+
 |source
-null
-null
 (n)
 nguồn
+
 |secure
-null
-null
 (adj) (v)
 chắc chắn, đảm bảo; bảo đảm, giữ an ninh
+
 |smell
-null
-null
 (v) (n)
 ngửi; sự ngửi, khứu giác
+
 |used to
-null
-null
 (v)
 đã quen dùng
+
 |unable
-null
-null
 (adj)
 không thể, không có khẳ năng
+
 |lip
-null
-null
 (n)
 môi
+
 |late
-null
-null
 (adj) (adv)
 trễ, muộn
+
 |uncontrolled
-null
-null
 (adj)
 không bị kiềm chế, không bị kiểm tra
+
 |school
-null
-null
 (n)
 đàn cá, bầy cá, trường học
+
 |separation
-null
-null
 (n)
 sự chia cắt, phân ly, sự chia tay, ly thân
+
 |continue
-null
-null
 (v)
 tiếp tục, làm tiếp
+
 |shoot
-null
-null
 (v)
 vụt qua, chạy qua, ném, phóng, bắn; đâm ra, trồi ra
+
 |realize
-null
-null
 (v)
 thực hiện, thực hành
+
 |brush
-null
-null
 (n) (v)
 bàn chải; chải, quét
+
 |actual
-null
-null
 (adj)
 thực tế, có thật
+
 |chest
-null
-null
 (n)
 tủ, rương, hòm
+
 |eastern
-null
-null
 (adj)
 đông
+
 |glass
-null
-null
 (n)
 kính, thủy tinh, cái cốc, ly
+
 |tension
-null
-null
 (n)
 sự căng, độ căng, tình trạng căng
+
 |definite
-null
-null
 (adj)
 xác định, định rõ, rõ ràng
+
 |last
-null
-null
 (adv) (n) (v)
 lầm cuối, sau cùng; người cuối cùng
+
 |ultimate
-null
-null
 (adj)
 cuối cùng, sau cùng
+
 |adapt
-null
-null
 (v)
 tra, lắp vào
+
 |widely
-null
-null
 (adv)
 nhiều, xa; rộng rãi
+
 |wash
-null
-null
 (v)
 rửa, giặt
+
 |doubt
-null
-null
 (n) (v)
 sự nghi ngờ, sự ngờ vực; nghi ngờ, ngờ vực
+
 |jacket
-null
-null
 (n)
 áo vét
+
 |weight
-null
-null
 (n)
 trọng lượng
+
 |cheerful
-null
-null
 (adj)
 vui mừng, phấn khởi, hồ hởi
+
 |uncomfortable
-null
-null
 (adj)
 bất tiện, không tiện lợi
+
 |develop
-null
-null
 (v)
 phát triển, mở rộng; trình bày, bày tỏ
+
 |surprising
-null
-null
 (adj)
 làm ngạc nhiên, làm bất ngờ
+
 |warn
-null
-null
 (v)
 báo cho biết, cảnh báo
+
 |warm
-null
-null
 (adj) (v)
 ấm, ấm áp; làm cho nóng, hâm nóng
+
 |exaggerated
-null
-null
 (adj)
 cường điệu, phòng đại
+
 |guilty
-null
-null
 (adj)
 có tội, phạm tội, tội lỗi
+
 |measure
-null
-null
 (v) (n)
 đo, đo lường; sự đo lường, đơn vị đo lường
+
 |suited
-null
-null
 (adj)
 hợp, phù hợp, thích hợp với
+
 |overall
-null
-null
 (adj) (adv)
 toàn bộ, toàn thể; tất cả, bao gồm
+
 |fixed
-null
-null
 (adj)
 đứng yên, bất động
+
 |receipt
-null
-null
 (n)
 công thức; đơn thuốc
+
 |page
-null
-null
 (n)
 trang (sách)
+
 |assume
-null
-null
 (v)
 mang, khoác, có, lấy (cái vẻ, tính chất…)
+
 |swim
-null
-null
 (v)
 bơi lội
+
 |full
-null
-null
 (adj)
 đầy, đầy đủ
+
 |pepper
-null
-null
 (n)
 hạt tiêu, cây ớt
+
 |away
-null
-null
 (adv)
 xa, xa cách, rời xa, đi xa
+
 |memory
-null
-null
 (n)
 bộ nhớ, trí nhớ, kỉ niệm
+
 |scientist
-null
-null
 (n)
 nhà khoa học
+
 |concept
-null
-null
 (n)
 khái niệm
+
 |impossible
-null
-null
 (adj)
 không thể làm được, không thể xảy ra
+
 |effort
-null
-null
 (n)
 sự cố gắng, sự nỗ lực
+
 |video
-null
-null
 (n)
 video
+
 |surroundings
-null
-null
 (n)
 vùng xung quanh, môi trường xung quanh
+
 |wave
-null
-null
 (n) (v)
 sóng, gợn nước; gợn sóng, uốn thành sóng
+
 |disaster
-null
-null
 (n)
 tai họa, thảm họa
+
 |weapon
-null
-null
 (n)
 vũ khí
+
 |stare
-null
-null
 (v) (n)
 nhìn chằm chằm; sự nhìn chằm chằm
+
 |retired
-null
-null
 (adj)
 ẩn dật, hẻo lánh, đã về hưu, đã nghỉ việc
+
 |painful
-null
-null
 (adj)
 đau đớn, đau khổ
+
 |steady
-null
-null
 (adj)
 vững chắc, vững vàng, kiến định
+
 |vote
-null
-null
 (n) (v)
 sự bỏ phiếu, sự bầu cử; bỏ phiếu, bầu cử
+
 |early
-null
-null
 (adj) (adv)
 sớm
+
 |convention
-null
-null
 (n)
 hội nghị, hiệp định, quy ước
+
 |opposing
-null
-null
 (adj)
 tính đối kháng, đối chọi
+
 |pain
-null
-null
 (n)
 sự đau đớn, sự đau khổ
+
 |disease
-null
-null
 (n)
 căn bệnh, bệnh tật
+
 |ought to
-null
-null
 (v)
 phải, nên, hẳn là
+
 |suspicion
-null
-null
 (n)
 sự nghi ngờ, sự ngờ vực
+
 |purchase
-null
-null
 (n) (v)
 sự mua, sự tậu; mua, sắm, tậu
+
 |refusal
-null
-null
 (n)
 sự từ chối, sự khước từ
+
 |start
-null
-null
 (v) (n)
 bắt đầu, khởi động; sự bắt đầu, sự khởi đầu, khởi hành
+
 |engineer
-null
-null
 (n)
 kỹ sư
+
 |pair
-null
-null
 (n)
 đôi, cặp
+
 |manage
-null
-null
 (v)
 quản lý, trông nom, điều khiển
+
 |equal
-null
-null
 (n) (v)
 ngang, bằng; người ngang hàng, ngang tài,sức
+
 |fund
-null
-null
 (n) (v)
 kho, quỹ; tài trợ, tiền bạc, để tiền vào công quỹ
+
 |typical
-null
-null
 (adj)
 tiêu biểu, điển hình, đặc trưng
+
 |initially
-null
-null
 (adv)
 vào lúc ban đầu, ban đ
+
 |short
-null
-null
 (adj)
 ngắn, cụt
+
 |time
-null
-null
 (n)
 thời gian, thì giờ
+
 |pub
-null
-null
 (n)
 quán rượu, tiệm rượu
+
 |finance
-null
-null
 (n) (v)
 tài chính; tài trợ, cấp vốn
+
 |studio
-null
-null
 (n)
 xưởng phim, trường quay; phòng thu
+
 |downward
-null
-null
 (adj)
 xuống, đi xuống
+
 |shadow
-null
-null
 (n)
 bóng, bóng tối, bóng râm, bóng má
+
 |make sure
-null
-null
-null
 chắc chắn, làm cho chắc chắn
+
 |program
-null
-null
 (n) (v)
 chương trình; lên chương trình
+
 |put
-null
-null
 (v)
 đặt, để, cho vào
+
 |climb
-null
-null
 (v)
 leo, trèo
+
 |offence
-null
-null
 (n)
 sự vi phạm, sự phạm tội
+
 |whoever
-null
-null
 pro (n)
 ai, người nào, bất cứ ai, bất cứ người nào, dù ai
+
 |unload
-null
-null
 (v)
 tháo, dỡ
+
 |season
-null
-null
 (n)
 mùa
+
 |payment
-null
-null
 (n)
 sự trả tiền, số tiền trả, tiền bồi thường
+
 |specifically
-null
-null
 (adv)
 đặc trưng, riêng biệt
+
 |enter
-null
-null
 (v)
 đi vào, gia nhập
+
 |trap
-null
-null
 (n) (v)
 đồ đạc, hành lý; bẫy, cạm bãy; bẫy, giữ, chặn lạ
+
 |lonely
-null
-null
 (adj)
 cô đơn, bơ vơ
+
 |pale
-null
-null
 (adj)
 tái, nhợt
+
 |struggle
-null
-null
 (v) (n)
 đấu tranh; cuộc đấu tranh, cuộc chiến đấu
+
 |warmth
-null
-null
 (n)
 trạng thái ấm, sự ấm áp; hơi ấm
+
 |lesson
-null
-null
 (n)
 bài học
+
 |destroy
-null
-null
 (v)
 phá, phá hoại, phá huỷ, tiêu diệt, triệt phá
+
 |ambulance
-null
-null
 (n)
 xe cứu thương, xe cấp cứu
+
 |philosophy
-null
-null
 (n)
 triết học, triết lý
+
 |priority
-null
-null
 (n)
 sự ưu tế, quyền ưu tiên
+
 |slope
-null
-null
 (n) (v)
 dốc, đường dốc, độ dốc; nghiêng, dốc
+
 |junior
-null
-null
 (adj) (n)
 trẻ hơn, ít tuổi hơn; người ít tuổi hơn
+
 |coast
-null
-null
 (n)
 sự lao dốc; bờ biển
+
 |provide
-null
-null
 (v)
 chuẩn bị đầy đủ, dự phòng; cung cấp, chu cấp
+
 |light
-null
-null
 (n) (adj) (v)
 ánh sáng; nhẹ, nhẹ nhàng; đốt, thắp sáng
+
 |passenger
-null
-null
 (n)
 hành khách
+
 |tiny
-null
-null
 (adj)
 rất nhỏ, nhỏ xíu
+
 |valuable
-null
-null
 (adj)
 có giá trị lớn, đáng giá
+
 |primary
-null
-null
 (adj)
 nguyên thủy, đầu tiên; thời cổ đại, nguyên sinh; sơ cấp, tiểu học
+
 |look forward to
-null
-null
-null
 mong đợi cách hân hoan
+
 |infection
-null
-null
 (n)
 sự nhiễm, sự đầu độc
+
 |artist
-null
-null
 (n)
 nghệ sĩ
+
 |lazy
-null
-null
 (adj)
 lười biếng
+
 |teaching
-null
-null
 (n)
 sự dạy, công việc dạy học
+
 |layer
-null
-null
 (n)
 lớp
+
 |smart
-null
-null
 (adj)
 mạnh, ác liệt,khéo léo, nhanh trí
+
 |triangle
-null
-null
 (n)
 hình tam giác
+
 |accidental
-null
-null
 (adj)
 tình cờ, bất ngờ
+
 |glasses
-null
-null
 (n)
 kính đeo mắt
+
 |tourist
-null
-null
 (n)
 khách du lịch
+
 |computer
-null
-null
 (n)
 máy tính
+
 |low
-null
-null
 (adj) (adv)
 thấp, bé, lùn
+
 |assure
-null
-null
 (v)
 đảm bảo, cam đoan
+
 |consult
-null
-null
 (v)
 tra cứu, tham khảo, thăm dò, hỏi ý kiến
+
 |theme
-null
-null
 (n)
 đề tài, chủ đề
+
 |smash
-null
-null
 (v) (n)
 đập, vỡ tan thành mảnh; sự đập, vỡ tàn thành mảnh
+
 |stick out for
-null
-null
-null
 đòi, đạt được cái gì
+
 |merely
-null
-null
 (adv)
 chỉ, đơn thuần
+
 |tire
-null
-null
 (v) (n)
 làm mệt mỏi, trở nên mệt nhọc; lốp, vỏ xe
+
 |wealth
-null
-null
 (n)
 sự giàu có, sự giàu sang
+
 |editor
-null
-null
 (n)
 người thu thập và xuất bản, chủ bút
+
 |means
-null
-null
 (n)
 của cải, tài sản, phương tiện
+
 |desire
-null
-null
 (n) (v)
 ước muốn; thèm muốn, ao ước
+
 |performer
-null
-null
 (n)
 người biểu diễn, người trình diễn
+
 |survive
-null
-null
 (v)
 sống lâu hơn, tiếp tục sống, sống sót
+
 |wallet
-null
-null
 (n)
 cái ví
+
 |efficient
-null
-null
 (adj)
 có hiệu lực, có hiệu quả
+
 |initial
-null
-null
 (adj) (n)
 ban đầu, lúc đầu; chữ đầu (của 1 tên gọi)
+
 |chair
-null
-null
 (n)
 ghế
+
 |unfortunately
-null
-null
 (adv)
 một cách đáng tiếc, một cách không may
+
 |reverse
-null
-null
 (v) (n)
 đảo, ngược lại; điều trái ngược, mặt trái
+
 |chat
-null
-null
 (v) (n)
 nói chuyện, tán gẫu; chuyện phiếm, chuyện gẫu
+
 |permanent
-null
-null
 (adj)
 lâu dài, vĩnh cửu, thường xuyên
+
 |fellow
-null
-null
 (n)
 anh chàng (đang yêu), đồng chí
+
 |fetch
-null
-null
 (v)
 tìm về, đem về; làm bực mình; làm say mê, quyến rũ
+
 |organized
-null
-null
 (adj)
 có trật tự, ngăn nắp, được sắp xếp, được tổ chức
+
 |garden
-null
-null
 (n)
 vườn
+
 |choice
-null
-null
 (n)
 sự lựa chọn
+
 |travel
-null
-null
 (v) (n)
 đi lại, đi du lịch, di chuyển; sự đi, những chuyến đi
+
 |facility
-null
-null
 (n)
 điều kiện dễ dàng, sự dễ dàng, thuận lợi
+
 |door
-null
-null
 (n)
 cửa, cửa ra vào
+
 |quick
-null
-null
 (adj)
 nhanh
+
 |before
-null
-null
 prep., conj., (adv)
 trước, đằng trước
+
 |friendly
-null
-null
 (adj)
 thân thiện, thân mật
+
 |possession
-null
-null
 (n)
 quyền sở hữu, vật sở hữu
+
 |tell
-null
-null
 (v)
 nói, nói với
+
 |replace
-null
-null
 (v)
 thay thế
+
 |husband
-null
-null
 (n)
 người chồng
+
 |stomach
-null
-null
 (n)
 dạ dày
+
 |experience
-null
-null
 (n) (v)
 kinh nghiệm; trải qua, nếm mùi
+
 |hip
-null
-null
 (n)
 hông
+
 |hit
-null
-null
 (v) (n)
 đánh, đấm, ném trúng; đòn, cú đấm
+
 |make up
-null
-null
 (n)
 đồ hóa trang, son phấn
+
 |major
-null
-null
 (adj)
 lớn, nhiều hơn, trọng đại, chủ yếu
+
 |beat
-null
-null
 (n) (v)
 tiếng đập, sự đập; đánh đập, đấm
+
 |emphasis
-null
-null
 (n)
 sự nhấn mạnh, tầm quan trọng
+
 |interrupt
-null
-null
 (v)
 làm gián đoạn, ngắt lời
+
 |affair
-null
-null
 (n)
 việc
+
 |bear
-null
-null
 (v)
 mang, cầm, vác, đeo, ôm
+
 |consider
-null
-null
 (v)
 cân nhắc, xem xét; để ý, quan tâm, lưu ý đến
+
 |day
-null
-null
 (n)
 ngày, ban ngày
+
 |potential
-null
-null
 (adj) (n)
 tiềm năng; khả năng, tiềm lực
+
 |combination
-null
-null
 (n)
 sự kết hợp, sự phối hợp
+
 |group
-null
-null
 (n)
 nhóm
+
 |obtain
-null
-null
 (v)
 đạt được, giành được
+
 |repeatedly
-null
-null
 (adv)
 lặp đi lặp lại nhiều lần
+
 |island
-null
-null
 (n)
 /´ailənd/ hòn đảo
+
 |resist
-null
-null
 (v)
 chống lại, phản đổi, kháng cự
+
 |particular
-null
-null
 (adj)
 riêng biệt, cá biệt
+
 |history
-null
-null
 (n)
 lịch sử, sử học
+
 |illegal
-null
-null
 (adj)
 trái luật, bất hợp pháp
+
 |water
-null
-null
 (n)
 nước
+
 |pause
-null
-null
 (v) (n)
 tạm nghỉ, dừng; sự tạm nghỉ, sự tạm ngừng
+
 |formal
-null
-null
 (adj)
 trang trọng,theo nghi thức
+
 |careless
-null
-null
 (adj)
 sơ suất, cầu thả
+
 |square
-null
-null
 (adj) (n)
 vuông, vuông vắn; dạng hình vuông, hình vuông
+
 |twice
-null
-null
 (adv)
 hai lần
+
 |absolutely
-null
-null
 (adv)
 tuyệt đối, hoàn toàn
+
 |soap
-null
-null
 (n)
 xà phòng
+
 |entertain
-null
-null
 (v)
 giải trí, tiếp đón, chiêu đãi
+
 |ease
-null
-null
 (n) (v)
 sự thanh thản, sự thoải mái; làm thanh thản, làm yên tâm
+
 |request
-null
-null
 (n) (v)
 lời thỉnh cầu, lời đề nghị, yêu cầu; thỉnh cầu
+
 |tent
-null
-null
 (n)
 lều, rạp
+
 |critical
-null
-null
 (adj)
 phê bình, phê phán; khó tính
+
 |mathematics
-null
-null
 (n)
 toán học,môn toán
+
 |part
-null
-null
 (n)
 phần, bộ phận
+
 |elsewhere
-null
-null
 (adv)
 ở một nơi nào khác
+
 |percent
-null
-null
 (n)
 phần trăm
+
 |point
-null
-null
 (n) (v)
 mũi nhọn, điểm; vót, làm nhọn, chấm (câu..)
+
 |general
-null
-null
 (adj)
 chung, chung chung; tổng
+
 |tend
-null
-null
 (v)
 trông nom, chăm sóc, giữ gìn, hầu hạ
+
 |frighten
-null
-null
 (v)
 làm sợ, làm hoảng sợ
+
 |relief
-null
-null
 (n)
 sự giảm nhẹ, sự làm cho khuây khỏa; sự trợ cấo; sự đền bù
+
 |hospital
-null
-null
 (n)
 bệnh viện, nhà thương
+
 |wildly
-null
-null
 (adv)
 dại, hoang
+
 |introduction
-null
-null
 (n)
 sự giới thiệu, lời giới thiệu
+
 |park
-null
-null
 (n) (v)
 công viên, vườn hoa; khoanh vùng thành công viên
+
 |ceiling
-null
-null
 (n)
 trần nhà
+
 |deserve
-null
-null
 (v)
 đáng, xứng đáng
+
 |process
-null
-null
 (n) (v)
 quá trình, sự tiến triển, quy trình; chế biến, gia công, xử lý
+
 |restore
-null
-null
 (v)
 hoàn lại, trả lại; sửa chữa lại, phục hồi lại
+
 |alternative
-null
-null
 (n) (adj)
 sự lựa chọn; lựa chọn
+
 |clear
-null
-null
 (adj) (v)
 lau chùi, quét dọn
+
 |encounter
-null
-null
 (v) (n)
 chạm chán, bắt gặp; sự chạm trán, sự bắt gặp
+
 |heavily
-null
-null
 (adv)
 nặng, nặng nề
+
 |clean
-null
-null
 (adj) (v)
 sạch, sạch sẽ
+
 |colleague
-null
-null
 (n)
 bạn đồng nghiệp
+
 |morally
-null
-null
 (adv)
 có đạo đức
+
 |meal
-null
-null
 (n)
 bữa ăn
+
 |sock
-null
-null
 (n)
 tất ngắn, miếng lót giày
+
 |diamond
-null
-null
 (n)
 kim cương
+
 |build
-null
-null
 (v)
 xây dựng
+
 |entertainer
-null
-null
 (n)
 người quản trò, người tiếp đãi, chiêu đãi
+
 |approve
-null
-null
 (v)
 tán thành, đồng ý, chấp thuận
+
 |mean
-null
-null
 (v)
 nghĩa, có nghĩa là
+
 |earn
-null
-null
 (v)
 kiếm (tiền), giành (phần thưởng)
+
 |neither
-null
-null
 pro (n) (adv)
 không này mà cũng không kia
+
 |glad
-null
-null
 (adj)
 vui lòng, sung sướng
+
 |meat
-null
-null
 (n)
 thịt
+
 |chew
-null
-null
 (v)
 nhai, ngẫm nghĩ
+
 |further
-null
-null
 (adj)
 xa hơn nữa; thêm nữa
+
 |hurry
-null
-null
 (v) (n)
 sự vội vàng, sự gấp rút
+
 |account
-null
-null
 (n) (v)
 tài khoản, kế toán; tính toán
+
 |mostly
-null
-null
 (adv)
 hầu hết, chủ yếu là
+
 |innocent
-null
-null
 (adj)
 vô tội, trong trắng, ngây thơ
+
 |beef
-null
-null
 (n)
 thịt bò
+
 |parliament
-null
-null
 (n)
 nghi viện, quốc hội
+
 |advance
-null
-null
 (n) (v)
 sự tiến bộ, tiến lên; đưa lên, đề xuất
+
 |path
-null
-null
 (n)
 đường mòn; hướng đi
+
 |crack
-null
-null
 (n) (v)
 cừ, xuất sắc; làm nứt, làm vỡ, nứt nẻ, rạn nứt
+
 |trip
-null
-null
 (n) (v)
 cuộc dạo chơi, cuộc du ngoạn; đi dạo, du ngoạn
+
 |record
-null
-null
 (n) (v)
 bản ghi, sự ghi, bản thu, sự thu; thu, ghi chép
+
 |railway
-null
-null
 (n)
 đường sắt
+
 |find out sth
-null
-null
-null
 khám phá, tìm ra
+
 |hunting
-null
-null
 (n)
 sự đi săn
+
 |strict
-null
-null
 (adj)
 nghiêm khắc, chặt chẽ, khắt khe
+
 |beer
-null
-null
 (n)
 rượu bia
+
 |safely
-null
-null
 (adv)
 an toàn, chắc chắn, đáng tin
+
 |crisp
-null
-null
 (adj)
 giòn
+
 |jump
-null
-null
 (v) (n)
 nhảy; sự nhảy, bước nhảy
+
 |knowledge
-null
-null
 (n)
 sự hiểu biết, tri thức
+
 |soft
-null
-null
 (adj)
 mềm, dẻo
+
 |happen
-null
-null
 (v)
 xảy ra, xảy đến
+
 |pass
-null
-null
 (v)
 qua, vượt qua, ngang qua
+
 |festival
-null
-null
 (n)
 lễ hội, đại hội liên hoan
+
 |mile
-null
-null
 (n)
 dặm (đo lường)
+
 |past
-null
-null
 (adj) (adv)
 quá khứ, dĩ vãng; quá, qua
+
 |impact
-null
-null
 (n)
 sự và chạm, sự tác động, ảnh hưởng
+
 |loyal
-null
-null
 (adj)
 trung thành, trung kiên
+
 |mild
-null
-null
 (adj)
 nhẹ, êm dịu, ôn hòa
+
 |preference
-null
-null
 (n)
 sự thích hơn, sự ưa hơn; cái được ưa thích hơn
+
 |shock
-null
-null
 (v) (n)
 sự đụng chạm, va chạm, sự kích động, sự choáng
+
 |bill
-null
-null
 (n)
 hóa đơn, giấy bạc
+
 |opportunity
-null
-null
 (n)
 cơ hội, thời cơ
+
 |court
-null
-null
 (n)
 sân, sân (tennis...), tòa án, quan tòa, phiên tòa
+
 |easy
-null
-null
 (adj)
 dễ dàng, dễ tính, ung dung
+
 |whose
-null
-null
 pro (n)
 của ai
+
 |venture
-null
-null
 (n) (v)
 sự án kinh doanh, công việc kinh doanh; liều, mạo hiểm, cả gan
+
 |buyer
-null
-null
 (n)
 người mua
+
 |population
-null
-null
 (n)
 dân cư, dân số; mật độ dân số
+
 |senior
-null
-null
 (adj) (n)
 nhiều tuổi hơn, dành cho trẻ em trên 11t, sinh viên năm cuối trường trung học, cao đẳng
+
 |enthusiasm
-null
-null
 (n)
 sự hăng hái, sự nhiệt tình
+
 |route
-null
-null
 (n)
 đường đi, lộ trình, tuyến đường
+
 |adult
-null
-null
 (n) (adj)
 người lớn, người trưởng thành;
+
 |attitude
-null
-null
 (n)
 thái độ, quan điểm
+
 |relative
-null
-null
 (adj) (n)
 có liên quan đến; người có họ, đại từ quan hệ
+
 |organ
-null
-null
 (n)
 đàn óoc gan
+
 |average
-null
-null
 adj., (n)
 trung bình, số trung bình, mức trung bình
+
 |treatment
-null
-null
 (n)
 sự đối xử, sự đối đãi, sự cư xử (với người nào)
+
 |compare
-null
-null
 (v)
 so sánh, đối chiếu
+
 |mirror
-null
-null
 (n)
 gương
+
 |soil
-null
-null
 (n)
 đất trồng; vết bẩn
+
 |bottle
-null
-null
 (n)
 chai, lọ
+
 |transparent
-null
-null
 (adj)
 trong suốt; dễ hiểu, sáng sủa
+
 |interior
-null
-null
 (n) (adj)
 phần trong, phía trong; ở trong, ở phía trong
+
 |involvement
-null
-null
 (n)
 sự gồm, sự bao hàm; sự để, dồn hết tâm trí vào
+
 |grass
-null
-null
 (n)
 cỏ; bãi cỏ, đồng cỏ
+
 |farming
-null
-null
 (n)
 công việc trồng trọt, đồng áng
+
 |unlike
-null
-null
-null
 không giống, khác
+
 |hearing
-null
-null
 (n)
 sự nghe, thính giác
+
 |wednesday
-null
-null
 (n)
 thứ 4
+
 |term
-null
-null
 (n)
 giới hạn, kỳ hạn, khóa, kỳ học
+
 |wedding
-null
-null
 (n)
 lễ cưới, hôn lễ
+
 |spare
-null
-null
 (adj) (n)
 thừa thãi, dự trữ, rộng rãi; đồ dự trữ, đồ dự phòng
+
 |grateful
-null
-null
 (adj)
 biết ơn, dễ chịu, khoan khoái
+
 |mind
-null
-null
 (n) (v)
 tâm trí, tinh thần, trí tuệ; chú ý, để ý, chăm sóc, quan tâm
+
 |chip
-null
-null
 (n)
 vỏ bào, mảnh vỡ, chỗ sứt, mẻ
+
 |business
-null
-null
 (n)
 việc buôn bán, thương mại, kinh doanh
+
 |chin
-null
-null
 (n)
 cằm
+
 |waitress
-null
-null
 (n)
 người nữ hầu bàn
+
 |tail
-null
-null
 (n)
 đuôi, đoạn cuối
+
 |emotional
-null
-null
 (adj)
 cảm động, xúc động, xúc cảm; dễ cảm động, dễ xúc cảm
+
 |staff
-null
-null
 (n)
 gậy quyền, quyền trượng, nhân viên, cán bộ
+
 |involve
-null
-null
 (v)
 bao gồm, bao hàm; thu hút, dồn tâm trí
+
 |partly
-null
-null
 (adv)
 đến chừng mực nào đó, phần nào đó
+
 |possible
-null
-null
 (adj)
 có thể, có thể thực hiện
+
 |right
-null
-null
 (adj) (adv) (n)
 thẳng, phải, tốt; ngay, đúng; điều thiện, điều phải, bên phải
+
 |noticeable
-null
-null
 (adj)
 đáng chú ý, đáng để ý
+
 |march
-null
-null
-null
 tháng ba
+
 |be going to
-null
-null
-null
 sắp sửa, có ý định
+
 |meet
-null
-null
 (v)
 gặp, gặp gỡ
+
 |stage
-null
-null
 (n)
 tầng, bệ
+
 |series
-null
-null
 (n)
 loạt, dãy, chuỗi
+
 |borrow
-null
-null
 (v)
 vay, mượn
+
 |maximum
-null
-null
 (adj) (n)
 cực độ, tối đa; trị số cực đại, lượng cực đại, cực độ
+
 |waiter
-null
-null
 (n)
 người hầu bàn, người đợi, người trông chờ
+
 |desert
-null
-null
 (n)
 sa mạc; công
+
 |under
-null
-null
 (adv)
 dưới, ở dưới; ở phía dưới, về phía dưới
+
 |quarter
-null
-null
 (n)
 1/4, 15 phút
+
 |represent
-null
-null
 (v)
 miêu tả, hình dung; đại diện, thay mặt
+
 |compete
-null
-null
 (v)
 đua tranh, ganh đua, cạnh tranh
+
 |die
-null
-null
 (v)
 chết, từ trần, hy sinh
+
 |dig
-null
-null
 (v)
 đào bới, xới
+
 |thickness
-null
-null
 (n)
 tính chất dày, độ dày, bề dày
+
 |sometimes
-null
-null
 (adv)
 thỉnh thoảng, đôi khi
+
 |leave out
-null
-null
-null
 bỏ quên, bỏ sót
+
 |emergency
-null
-null
 (n)
 tình trạng khẩn cấp
+
 |promise
-null
-null
 (v) (n)
 hứa, lời hứa
+
 |down
-null
-null
 (adv) (prep)
 xuống
+
 |hold
-null
-null
 (v) (n)
 cầm, nắm, giữ; sự cầm, sự nắm giữ
+
 |habit
-null
-null
 (n)
 thói quen, tập quán
+
 |later
-null
-null
 (adv) (adj)
 chậm hơn
+
 |passport
-null
-null
 (n)
 hộ chiếu
+
 |prior
-null
-null
 (adj)
 trước, ưu tiên
+
 |bird
-null
-null
 (n)
 chim
+
 |rubber
-null
-null
 (n)
 cao su
+
 |club
-null
-null
 (n)
 câu lạc bộ; gậy, dùi cui
+
 |legal
-null
-null
 (adj)
 hợp pháp
+
 |underwear
-null
-null
 (n)
 quần lót
+
 |talk
-null
-null
 (v) (n)
 nói chuyện, trò chuyện; cuộc trò chuyện, cuộc thảo luận
+
 |highway
-null
-null
 (n)
 đường quốc lộ
+
 |reply
-null
-null
 (n) (v)
 sự trả lời, sự hồi âm; trả lời, hồi âm
+
 |signal
-null
-null
 (n) (v)
 dấu hiệu, tín hiệu; ra hiệu, báo hiệu
+
 |possibly
-null
-null
 (adv)
 có lẽ, có thể, có thể chấp nhận được
+
 |train
-null
-null
 (n) (v)
 xe lửa, tàu hỏa; dạy, rèn luyện, đào tạo
+
 |journey
-null
-null
 (n)
 cuộc hành trình (đường bộ); quãng đường, chặng đường đi
+
 |test
-null
-null
 (n) (v)
 bài kiểm tra, sự thử nghiệm, xét nghiệm; kiểm tra
+
 |planet
-null
-null
 (n)
 hành tinh
+
 |finally
-null
-null
 (adv)
 cuối cùng, sau cùng
+
 |count
-null
-null
 (v)
 đếm, tính
+
 |varied
-null
-null
 (adj)
 thuộc nhiều loại khác nhau, những vẻ đa dạng
+
 |brown
-null
-null
 (adj) (n)
 nâu, màu nâu
+
 |publicly
-null
-null
 (adv)
 công khai, công cộng
+
 |regarding
-null
-null
 (prep)
 về, về việc, đối với (vấn đề...)
+
 |take
-null
-null
 (v)
 sự cầm nắm, sự lấy
+
 |vision
-null
-null
 (n)
 sự nhìn, thị lực
+
 |accompany
-null
-null
 (v)
 đi theo, đi cùng, kèm theo
+
 |petrol
-null
-null
 (n)
 xăng dầu
+
 |immediate
-null
-null
 (adj)
 lập tức, tức thì
+
 |blame
-null
-null
 (v) (n)
 khiển trách, mắng trách; sự khiển trách, sự mắng trách
+
 |final
-null
-null
 (adj) (n)
 cuối cùng, cuộc đấu chung kết
+
 |relatively
-null
-null
 (adv)
 có liên quan, có quan hệ
+
 |tackle
-null
-null
 (v) (n)
 giải quyết, khắc phục, bàn thảo; đồ dùng,dụng cụ
+
 |reckon
-null
-null
 (v)
 tính, đếm
+
 |confusion
-null
-null
 (n)
 sự lộn xộn, sự rối loạn
+
 |occasion
-null
-null
 (n)
 dịp, cơ hội
+
 |some
-null
-null
 pro(n)
 một it, một vài
+
 |loan
-null
-null
 (n)
 sự vay mượn
+
 |squeeze
-null
-null
 (v) (n)
 ép, vắt, xiết; sự ép, sự vắt, sự xiết
+
 |blank
-null
-null
 (adj) (n)
 trống, để trắng; sự trống rỗng
+
 |rather
-null
-null
 (adv)
 thà.. còn hơn, thích... hơn
+
 |importance
-null
-null
 (n)
 sự quan trọng, tầm quan trọng
+
 |session
-null
-null
 (n)
 buổi họp, phiên họp, buổi, phiên
+
 |additional
-null
-null
 (adj)
 thêm vào, tăng thêm
+
 |back
-null
-null
 (n)adj., (adv)., (v)
 lưng, về phía sau, trở lại
+
 |training
-null
-null
 (n)
 sự dạy dỗ, sự huấn luyện, sự đào tạo
+
 |expectation
-null
-null
 (n)
 sự mong chờ, sự chờ đợi
+
 |title
-null
-null
 (n)
 đầu đề, tiêu đề; tước vị, tư cách
+
 |primarily
-null
-null
 (adv)
 trước hết, đầu tiên
+
 |miss
-null
-null
 (v) (n)
 lỡ, trượt; sự trượt, sự thiếu vắng
+
 |pound
-null
-null
 (n)
 pao - đơn vị đo lường
+
 |yours faithfully
-null
-null
-null
 bạn chân thành
+
 |load
-null
-null
 (n) (v)
 gánh nặng, vật nặng; chất, chở
+
 |bite
-null
-null
 (v) (n)
 cắn, ngoạm; sự cắn, sự ngoạm
+
 |ignore
-null
-null
 (v)
 phớt lờ, tỏ ra không biết đến
+
 |company
-null
-null
 (n)
 công ty
+
 |nuclear
-null
-null
 (adj) (thuộc)
 hạt nhân
+
 |reception
-null
-null
 (n)
 sự nhận, sự tiếp nhận, sự đón tiếp
+
 |tank
-null
-null
 (n)
 thùng, két, bể
+
 |human
-null
-null
 (adj) (n) (thuộc)
 con người, loài người
+
 |just
-null
-null
 (adv)
 đúng, vừa đủ; vừa mới, chỉ
+
 |notice
-null
-null
 (n) (v)
 thông báo, yết thị; chú ý, để ý, nhận biết
+
 |poetry
-null
-null
 (n)
 thi ca; chất thơ
+
 |prince
-null
-null
 (n)
 hoàng tử
+
 |owner
-null
-null
 (n)
 người chủ, chủ nhân
+
 |midnight
-null
-null
 (n)
 nửa đêm, 12h đêm
+
 |grandson
-null
-null
 (n)
 cháu trai
+
 |holy
-null
-null
 (adj)
 linh thiêng; sùng đạo
+
 |spelling
-null
-null
 (n)
 sự viết chính tả
+
 |relax
-null
-null
 (v)
 giải trí, nghỉ ngơi
+
 |custom
-null
-null
 (n)
 phong tục, tục lệ, thói quen, tập quán
+
 |length
-null
-null
 (n)
 chiều dài, độ dài
+
 |priest
-null
-null
 (n)
 linh mục, thầy tu
+
 |monitor
-null
-null
 (n) (v)
 lớp trưởng, màn hình máy tính; nghe, ghi phát thanh, giám sát
+
 |permission
-null
-null
 (n)
 sự cho phép, giấy phép
+
 |grand
-null
-null
 (adj)
 rộng lớn, vĩ đại
+
 |strictly
-null
-null
 (adv)
 một cách nghiêm khắc
+
 |hole
-null
-null
 (n)
 lỗ, lỗ trống; hang
+
 |schedule
-null
-null
 (n) (v)
 kế hoạch làm việc, bản liệt kê; lên thời khóa biểu, lên kế hoạch
+
 |print
-null
-null
 (v) (n)
 in, xuất bản; sự in ra
+
 |material
-null
-null
 (n) (adj)
 nguyên vật liệu; vật chất, hữu hình
+
 |encouragement
-null
-null
 (n)
 niềm cổ vũ, động viên, khuyến khích, sự làm can đảm
+
 |beach
-null
-null
 (n)
 bãi biển
+
 |interpret
-null
-null
 (v)
 giải thích
+
 |universe
-null
-null
 (n)
 vũ trụ
+
 |iron
-null
-null
 (n) (v)
 sắt; bọc sắt
+
 |grant
-null
-null
 (v) (n)
 cho, ban, cấp; sự cho, sự ban, sự cấp
+
 |president
-null
-null
 (n)
 hiệu trưởng, chủ tịnh, tổng thống
+
 |explain
-null
-null
 (v)
 giải nghĩa, giải thích
+
 |qualified
-null
-null
 (adj)
 đủ tư cách, điều kiện, khả năng
+
 |discount
-null
-null
 (n)
 sự bớt giá, sự chiết khấu, tiền bớt, chiết khấu
+
 |construct
-null
-null
 (v)
 xây dựng
+
 |convert
-null
-null
 (v)
 đổi, biến đổi
+
 |attempt
-null
-null
 (n) (v)
 sự cố gắng, sự thử; cố gắng, thử
+
 |go up
-null
-null
-null
 đi lên
+
 |soon
-null
-null
 (adv)
 sớm, chẳng bao lâu nữa
+
 |thick
-null
-null
 (adj)
 dày; đậm
+
 |division
-null
-null
 (n)
 sự chia, sự phân chia, sự phân loại
+
 |tablet
-null
-null
 (n)
 tấm, bản, thẻ phiến
+
 |hook
-null
-null
 (n)
 cái móc; bản lề; lưỡi câu
+
 |melt
-null
-null
 (v)
 tan ra, chảy ra; làm tan chảy ra
+
 |balance
-null
-null
 (n) (v)
 cái cân; làm cho cân bằng, tương xứng
+
 |tape
-null
-null
 (n)
 băng, băng ghi âm; dải, dây
+
 |bend
-null
-null
 (v) (n)
 chỗ rẽ, chỗ uốn; khuỷu tay; cúi xuống, uốn cong
+
 |lock
-null
-null
 (v) (n)
 mớ tóc, mớ bông; khóa
+
 |stand up
-null
-null
-null
 đứng dậy
+
 |pitch
-null
-null
 (n)
 sân (chơi các môn thể thao); đầu hắc ín
+
 |text
-null
-null
 (n)
 nguyên văn, bản văn, chủ đề, đề tài
+
 |usually
-null
-null
 (adv)
 thường thường
+
 |whereas
-null
-null
 (conj)
 nhưng ngược lại, trong khi
+
 |proudly
-null
-null
 (adv)
 một cách tự hào, một cách hãnh diện
+
 |kindness
-null
-null
 (n)
 sự tử tế, lòng tốt
+
 |fear
-null
-null
 (n) (v)
 sự sợ hãi, e sợ; sợ, lo ngại
+
 |cookie
-null
-null
 (n)
 bánh quy
+
 |belt
-null
-null
 (n)
 dây lưng, thắt lưng
+
 |printer
-null
-null
 (n)
 máy in, thợ in
+
 |electrical
-null
-null
 (adj) (thuộc)
 điện
+
 |statue
-null
-null
 (n)
 tượng
+
 |cream
-null
-null
 (n)
 kem
+
 |sense
-null
-null
 (n)
 giác quan, tri giác, cảm giác
+
 |protest
-null
-null
 (n) (v)
 sự phản đối, sự phản kháng; phản đối, phản kháng
+
 |sensitive
-null
-null
 (adj)
 dễ bị thương, dễ bị hỏng; dễ bị xúc phạm
+
 |bell
-null
-null
 (n)
 cái chuông, tiếng chuông
+
 |heavy
-null
-null
 (adj)
 nặng, nặng nề
+
 |afford
-null
-null
 (v)
 có thể, có đủ khả năng, điều kiện (làm gì)
+
 |physically
-null
-null
 (adv)
 về thân thể, theo luật tự nhiên
+
 |field
-null
-null
 (n)
 cánh đồng, bãi chiến trường
+
 |underground
-null
-null
 (adj) (adv)
 dưới mặt đất, ngầm dưới đất; ngầm
+
 |impression
-null
-null
 (n)
 ấn tượng, cảm giác; sự in, đóng dấu
+
 |interval
-null
-null
 (n)
 khoảng (k-t.gian), khoảng cách
+
 |machinery
-null
-null
 (n)
 máy móc, thiết bị
+
 |status
-null
-null
 (n)
 tình trạng, địa vị, thân phận
+
 |each other
-null
-null
 pro(n)
 nhau, lẫn nhau
+
 |trading
-null
-null
 (n)
 sự kinh doanh, việc mua bán
+
 |upset
-null
-null
 (v) (adj)
 làm đổ, đánh đổ
+
 |thief
-null
-null
 (n)
 kẻ trộm, kẻ cắp
+
 |embarrassed
-null
-null
 (adj)
 lúng túng, bối rối, ngượng; mang nợ
+
 |unpleasant
-null
-null
 (adj)
 không dễ chịu, khó chịu, khó ưa
+
 |dot
-null
-null
 (n)
 chấm nhỏ, điểm; của hồi môn
+
 |skin
-null
-null
 (n)
 da, vỏ
+
 |deliver
-null
-null
 (v)
 cứu khỏi, thoát khỏi, bày tỏ, giãi bày
+
 |stamp
-null
-null
 (n) (v)
 tem; dán tem
+
 |summer
-null
-null
 (n)
 mùa hè
+
 |mention
-null
-null
 (v)
 kể ra, nói đến, đề cập
+
 |mad
-null
-null
 (adj)
 điên, mất trí; bực điên người
+
 |file
-null
-null
 (n)
 hồ sơ, tài liệu
+
 |government
-null
-null
 (n)
 chính phủ, nội các; sự cai trị
+
 |legally
-null
-null
 (adv)
 hợp pháp
+
 |stream
-null
-null
 (n)
 dòng suối
+
 |member
-null
-null
 (n)
 thành viên, hội viên
+
 |nurse
-null
-null
 (n)
 y tá
+
 |crime
-null
-null
 (n)
 tội, tội ác, tội phạm
+
 |disapprove
-null
-null
 (v)
 không tán thành, phản đối, chê
+
 |stand
-null
-null
 (v) (n)
 đứng, sự đứng
+
 |map
-null
-null
 (n)
 bản đồ
+
 |surround
-null
-null
 (v)
 vây quanh, bao quanh
+
 |together
-null
-null
 (adv)
 cùng nhau, cùng với
+
 |illness
-null
-null
 (n)
 sự đau yếu, ốm, bệnh tật
+
 |cigarette
-null
-null
 (n)
 điếu thuốc lá
+
 |faucet
-null
-null
 (n)
 vòi (ở thùng rượu....)
+
 |socially
-null
-null
 (adv)
 có tính xã hội
+
 |within
-null
-null
 (prep)
 trong vong thời gian, trong khoảng thời gian
+
 |forward
-null
-null
 (adj) (adv)
 về tương lai, sau này ở phía trước,tiến về phía trước
+
 |strike
-null
-null
 (v) (n)
 đánh, đập, bãi công, đình công; cuộc bãi công, cuộc đình công
+
 |health
-null
-null
 (n)
 sức khỏe, thể chất, sự lành mạnh
+
 |positive
-null
-null
 (adj)
 xác thực, rõ ràng, tích cực, lạc quan
+
 |menu
-null
-null
 (n)
 thực đơn
+
 |prospect
-null
-null
 (n)
 viễn cảnh, toàn cảnh; triển vọng, mong chờ
+
 |machine
-null
-null
 (n)
 máy, máy móc
+
 |able
-null
-null
 (adj)
 có năng lực, có tài
+
 |efficiently
-null
-null
 (adv)
 có hiệu quả, hiệu nghiệm
+
 |evening
-null
-null
 (n)
 buổi chiều, tối
+
 |return
-null
-null
 (v) (n)
 trở lại, trở về; sự trở lại, sự trở về
+
 |surprised at
-null
-null
 (adj)
 ngạc nhiên
+
 |instance
-null
-null
 (n)
 thí dị, ví dụ; trường hợp cá biệt
+
 |mail
-null
-null
 (n) (v)
 thư từ, bưu kiện; gửi qua bưu điện
+
 |presumably
-null
-null
 (adv)
 có thể được, có lẽ
+
 |subject
-null
-null
 (n)
 chủ đề, đề tài; chủ ngữ
+
 |use
-null
-null
 (v) (n)
 sử dụng, dùng; sự dùng, sự sử dụng
+
 |practically
-null
-null
 (adv)
 về mặt thực hành; thực tế
+
 |recognition
-null
-null
 (n)
 sự công nhận, sự thừa nhận
+
 |feel
-null
-null
 (v)
 cảm thấy
+
 |main
-null
-null
 (adj)
 chính, chủ yếu, trọng yếu nhất
+
 |sadness
-null
-null
 (n)
 sự buồn rầu, sự buồn bã
+
 |terribly
-null
-null
 (adv)
 tồi tệ, không chịu nổi
+
 |serve
-null
-null
 (v)
 phục vụ, phụng sự
+
 |cough
-null
-null
 (v) (n)
 ho, sự ho, tiếng hoa
+
 |blade
-null
-null
 (n)
 lưỡi (dao, kiếm); lá (cỏ, cây); mái (chèo); cánh (chong chóng)
+
 |smile
-null
-null
 (v) (n)
 cười, mỉm cười; nụ cười, vẻ tươi cười
+
 |arrangement
-null
-null
 (n)
 sự sắp xếp, sắp đặt, sự sửa soạn
+
 |strip
-null
-null
 (v) (n)
 cởi, lột (quần áo); sự cởi quần áo
+
 |make fun of
-null
-null
-null
 đùa cợt, chế giễu, chế nhạo
+
 |solution
-null
-null
 (n)
 sự giải quyết, giải pháp
+
 |fine
-null
-null
 (adj)
 tốt, giỏi
+
 |find
-null
-null
 (v)
 tìm, tìm thấy
+
 |continuous
-null
-null
 (adj)
 liên tục, liên tiếp
+
 |opponent
-null
-null
 (n)
 địch thủ, đối thủ, kẻ thù
+
 |host
-null
-null
 (n) (v)
 chủ nhà, chủ tiệc; dẫn (c.trình), đăng cai tổ chức (hội nghị)
+
 |backward
-null
-null
 (adj)
 về phía sau, lùi lại
+
 |grain
-null
-null
 (n)
 thóc lúa, hạt, hột; tính chất, bản chất
+
 |used to sth
-null
-null
-null
 sử dụng cái gì, sử dụng để làm cái gì
+
 |credit
-null
-null
 (n)
 sự tin, lòng tin, danh tiếng; tiền gửi ngân hàng
+
 |international
-null
-null
 (adj)
 quốc tế
+
 |terrible
-null
-null
 (adj)
 khủng khiếp, ghê sợ
+
 |alter
-null
-null
 (v)
 thay đổi, biến đổi, sửa đổi
+
 |combine
-null
-null
 (v)
 kết hợp, phối hợp
+
 |upward
-null
-null
 (adj)
 lên, hướng lên, đi lên
+
 |waste
-null
-null
 (v) (n) (adj)
 lãng phí, uổng phí; vùng hoang vu, sa mạc; bỏ hoang
+
 |citizen
-null
-null
 (n)
 người thành thị
+
 |ideal
-null
-null
 (adj) (n) (thuộc)
 quan niệm, tư tưởng; lý tưởng
+
 |comedy
-null
-null
 (n)
 hài kịch
+
 |illustrate
-null
-null
 (v)
 minh họa, làm rõ ý
+
 |occur
-null
-null
 (v)
 xảy ra, xảy đến, xuất hiện
+
 |pleasant
-null
-null
 (adj)
 vui vẻ, dễ thương; dịu dàng, thân mật
+
 |relaxing
-null
-null
 (adj)
 làm giảm, bớt căng thẳng
+
 |difficult
-null
-null
 (adj)
 khó, khó khăn, gay go
+
 |equipment
-null
-null
 (n)
 trang, thiết bị
+
 |dry
-null
-null
 (adj) (v)
 khô, cạn; làm khô, sấy khô
+
 |film
-null
-null
 (n) (v)
 phim, được dựng thành phim
+
 |pressure
-null
-null
 (n)
 sức ép, áp lực, áp suất
+
 |seriously
-null
-null
 (adv)
 đứng đắn, nghiêm trang
+
 |sort
-null
-null
 (n) (v)
 thứ, hạng loại; lựa chọn, sắp xếp, phân loại
+
 |fill
-null
-null
 (v)
 làm đấy, lấp kín
+
 |dentist
-null
-null
 (n)
 nha sĩ
+
 |heart
-null
-null
 (n)
 tim, trái tim
+
 |put sth on
-null
-null
-null
 mặc (áo), đội (mũ), đi (giày)
+
 |painter
-null
-null
 (n)
 họa sĩ
+
 |feed
-null
-null
 (v)
 cho ăn, nuôi
+
 |millimetre
-null
-null
-null
 mi-li-met
+
 |forget
-null
-null
 (v)
 quên
+
 |professor
-null
-null
 (n)
 giáo sư, giảng viên
+
 |convenient
-null
-null
 (adj)
 tiện lợi, thuận lợi, thích hợp
+
 |horn
-null
-null
 (n)
 sừng (trâu, bò...)
+
 |task
-null
-null
 (n)
 nhiệm vụ, nghĩa vụ, bài tập, công tác, công việc
+
 |specialist
-null
-null
 (n)
 chuyên gia, chuyên viên
+
 |background
-null
-null
 (n)
 phía sau; nền
+
 |true
-null
-null
 (adj)
 đúng, thật
+
 |sore
-null
-null
 (adj)
 đau, nhức
+
 |valley
-null
-null
 (n)
 thung lũng
+
 |position
-null
-null
 (n)
 vị trí, chỗ
+
 |present
-null
-null
 (n) (v)
 có mặt, hiện diện; hiện nay, hiện thời; bày tỏ, giới thiệu, trình bày
+
 |softly
-null
-null
 (adv)
 một cách mềm dẻo
+
 |since
-null
-null
 (adv)
 từ, từ khi; từ khi, từ lúc đó; từ đó, từ lúc ấy
+
 |soup
-null
-null
 (n)
 xúp, canh, cháo
+
 |belong
-null
-null
 (v)
 thuộc về, của, thuộc quyền sở hữu
+
 |stair
-null
-null
 (n)
 bậc thang
+
 |soul
-null
-null
 (n)
 tâm hồn, tâm trí, linh hồn
+
 |certificate
-null
-null
 (n)
 giấy chứng nhận, bằng, chứng chỉ
+
 |dangerous
-null
-null
 (adj)
 nguy hiểm
+
 |mess
-null
-null
 (n)
 tình trạng bừa bộn, tình trạng lộn xộn; người nhếch nhác, bẩn thỉu
+
 |sour
-null
-null
 (adj)
 chua, có vị giấm
+
 |nonsense
-null
-null
 (n)
 lời nói vô lý, vô nghĩa
+
 |breath
-null
-null
 (n)
 hơi thở, hơi
+
 |ball
-null
-null
 (n)
 quả bóng
+
 |transform
-null
-null
 (v)
 thay đổi, biến đổi
+
 |rented
-null
-null
 (adj)
 được thuê, được mướn
+
 |advise
-null
-null
 (v)
 khuyên, khuyên bảo, răn bảo
+
 |repeat
-null
-null
 (v)
 nhắc lại, lặp lại
+
 |smoking
-null
-null
 (n)
 sự hút thuốc
+
 |genuine
-null
-null
 (adj)
 thành thật, chân thật; xác thực
+
 |make
-null
-null
 (v) (n)
 làm, chế tạo; sự chế tạo
+
 |experienced
-null
-null
 (adj)
 có kinh nghiệm, từng trải, giàu kinh nghiệm
+
 |in favour of
-null
-null
-null
 ủng hộ cái gì
+
 |impressive
-null
-null
 (adj)
 gây ấn tượng mạnh; hùng vĩ, oai vệ
+
 |thread
-null
-null
 (n)
 chỉ, sợi chỉ, sợi dây
+
 |exactly
-null
-null
 (adv)
 chính xác, đúng đắn
+
 |rapidly
-null
-null
 (adv)
 nhanh, nhanh chóng
+
 |shocked
-null
-null
 (adj)
 bị kích động, bị va chạm, bị sốc
+
 |structure
-null
-null
 (n)
 kết cấu, cấu trúc
+
 |master
-null
-null
 (n)
 chủ, chủ nhân, thầy giáo, thạc sĩ
+
 |orange
-null
-null
 (n) (adj)
 quả cam; có màu da cam
+
 |outdoor
-null
-null
 (adj)
 ngoài trời, ở ngoài
+
 |extraordinary
-null
-null
 (adj)
 đặc biệt, lạ thường, khác thường
+
 |witness
-null
-null
 (n) (v)
 sự làm chứng, bằng chứng; chứng kiến, làm chứng
+
 |attraction
-null
-null
 (n)
 sự hút, sức hút
+
 |conventional
-null
-null
 (adj)
 quy ước
+
 |regulation
-null
-null
 (n)
 sự điều chỉnh, điều lệ, quy tắc
+
 |complicate
-null
-null
 (v)
 làm phức tạp, rắc rối
+
 |due
-null
-null
 (adj)
 đến kỳ hạn (trả nợ); xứng đáng, thích đáng
+
 |bake
-null
-null
 (v)
 nung, nướng bằng lò
+
 |accommodation
-null
-null
 (n)
 sự thích nghi, điều tiết
+
 |mere
-null
-null
 (adj)
 chỉ là
+
 |biscuit
-null
-null
 (n)
 bánh quy
+
 |threat
-null
-null
 (n)
 sự đe dọa, lời đe dọa
+
 |fence
-null
-null
 (n)
 hàng rào
+
 |invention
-null
-null
 (n)
 sự phát minh, sự sáng chế
+
 |curl
-null
-null
 (v) (n)
 quăn, xoắn, uốn quăn, làm xoắn; sự uốn quăn
+
 |inform
-null
-null
 (v)
 báo cho biết, cung cấp tin tức
+
 |depend
-null
-null
 (v)
 phụ thuộc, tùy thuộc; dựa vào, ỷ vào, trông mong vào
+
 |glue
-null
-null
 (n) (v)
 keo, hồ; gắn lại, dán bằng keo, hồ
+
 |sized
-null
-null
-null
 đã được định cỡ
+
 |about
-null
-null
 (adv) (prep)
 khoảng, về
+
 |commit
-null
-null
 (v)
 giao, gửi, ủy nhiệm, ủy thác; tống giam, bỏ tù
+
 |scream
-null
-null
 (v) (n)
 gào thét, kêu lên; tiếng thét, tiếng kêu to
+
 |cure
-null
-null
 (v) (n)
 chữa trị, điều trị; cách chữa bệnh, cách điều trị; thuốc
+
 |curb
-null
-null
 (v)
 kiềm chế, nén lại, hạn chế
+
 |danger
-null
-null
 (n)
 sự nguy hiểm, mối hiểm nghèo; nguy cơ, mối đe dọa
+
 |take place
-null
-null
-null
 xảy ra, được cử hành, được tổ chức
+
 |crash
-null
-null
 (n) (v)
 vải thô; sự rơi (máy bay), sự phá sản, sụp đổ; phá tan tành
+
 |cover
-null
-null
 (v) (n)
 bao bọc, che phủ; vỏ, vỏ bọc
+
 |theatre
-null
-null
 (n)
 rạp hát, nhà hát
+
 |firm
-null
-null
 (n) (adj) (adv)
 hãng, công ty; chắc, kiên quyết, vững vàng
+
 |character
-null
-null
 (n)
 tính cách, đặc tính, nhân vật
+
 |reflect
-null
-null
 (v)
 phản chiếu, phản hồi, phản ánh
+
 |contribution
-null
-null
 (n)
 sự đóng góp, sự góp phần
+
 |meaning
-null
-null
 (n)
 ý, ý nghĩa
+
 |above
-null
-null
 (adv)
 ở trên
+
 |fire
-null
-null
 (n) (v)
 lửa; đốt cháy
+
 |stick
-null
-null
 (v) (n)
 đâm, thọc, chọc, cắm, dính; cái gậy, qua củi, cán
+
 |band
-null
-null
 (n)
 băng, đai, nẹp
+
 |runner
-null
-null
 (n)
 người chạy
+
 |height
-null
-null
 (n)
 chiều cao, độ cao; đỉnh, điểm cao
+
 |resident
-null
-null
 (n) (adj)
 người sinh sống, trú ngụ, khách trọ; có nhà ở, cư trú, thường trú
+
 |in memory of
-null
-null
-null
 sự tưởng nhớ
+
 |distinguish
-null
-null
 (v)
 phân biệt, nhận ra, nghe ra
+
 |singing
-null
-null
 (n)
 sự hát, tiếng hát
+
 |spray
-null
-null
 (n) (v)
 máy, ống, bình phụt, bơm, phun; bơm, phun, xịt
+
 |mall
-null
-null
-null
 búa
+
 |invent
-null
-null
 (v)
 phát minh, sáng chế
+
 |outer
-null
-null
 (adj)
 ở phía ngoài, ở xa hơn
+
 |frozen
-null
-null
 (adj)
 lạnh giá
+
 |decorative
-null
-null
 (adj)
 để trang hoàng, để trang trí, để làm cảnh
+
 |substantial
-null
-null
 (adj)
 thực tế, đáng kể, quan trọng
+
 |benefit
-null
-null
 (n) (v)
 lợi, lợi ích; giúp ích, làm lợi cho
+
 |flood
-null
-null
 (n) (v)
 lụt, lũ lụt; tràn đầy, tràn ngập
+
 |something
-null
-null
 pro(n)
 một điều gì đó, một việc gì đó, một cái gì đó
+
 |intention
-null
-null
 (n)
 ý định, mục đích
+
 |quality
-null
-null
 n)
 chất lượng, phẩm chất
+
 |pointed
-null
-null
 (adj)
 nhọn, có đầu nhọn
+
 |enthusiastic
-null
-null
 (adj)
 hăng hái, say mê, nhiệt tình
+
 |rude
-null
-null
 (adj)
 bất lịch sự, thô lỗ; thô sơ, đơn giản
+
 |funeral
-null
-null
 (n)
 lễ tang, đám tang
+
 |unique
-null
-null
 (adj)
 độc nhất vô nhị
+
 |impatiently
-null
-null
 (adv)
 nóng lòng, sốt ruột
+
 |except
-null
-null
 (prep) (conj)
 trừ ra, không kể; trừ phi
+
 |sincere
-null
-null
 (adj)
 thật thà, thẳng thắng, chân thành
+
 |ministry
-null
-null
 (n)
 bộ
+
 |infectious
-null
-null
 (adj)
 lây, nhiễm
+
 |religious
-null
-null
 (adj) (thuộc)
 tôn giáo
+
 |shower
-null
-null
 (n)
 vòi hoa sen, sự tắm vòi hoa sen
+
 |nevertheless
-null
-null
 (adv)
 tuy nhiên, tuy thế mà
+
 |fact
-null
-null
 (n)
 việc, sự việc, sự kiện
+
 |shelter
-null
-null
 (n) (v)
 sự nương tựa, sự che chở, sự ẩn náu; che chở, bảo vệ
+
 |examine
-null
-null
 (v)
 thẩm tra, khám xét, hỏi han (thí sinh)
+
 |fundamental
-null
-null
 (adj)
 cơ bản, cơ sở, chủ yếu
+
 |global
-null
-null
 (adj)
 v toàn cầu, toàn thể, toàn bộ
+
 |industry
-null
-null
 (n)
 công nghiệp, kỹ nghệ
+
 |believe
-null
-null
 (v)
 tin, tin tưởng
+
 |long
-null
-null
 (adj) (adv)
 dài, xa; lâu
+
 |remember
-null
-null
 (v)
 nhớ, nhớ lại
+
 |entitle
-null
-null
 (v)
 cho tiêu đề, cho tên (sách); cho quyền làm gì
+
 |into
-null
-null
 (prep)
 vào, vào trong
+
 |outline
-null
-null
 (v) (n)
 vẽ, phác tảo; đường nét, hình dáng, nét ngoài
+
 |unless
-null
-null
 (conj)
 trừ phi, trừ khi, nếu không
+
 |frightening
-null
-null
 (adj)
 kinh khủng, khủng khiếp
+
 |temperature
-null
-null
 (n)
 nhiệt độ
+
 |free
-null
-null
 (adj) (v) (adv)
 miễn phí, tự do, giải phóng, trả tự do
+
 |relationship
-null
-null
 (n)
 mối quan hệ, mối liên lạc
+
 |mix
-null
-null
 (v) (n)
 pha, trộn lẫn; sự pha trộn
+
 |destruction
-null
-null
 (n)
 sự phá hoại, sự phá hủy, sự tiêu diệt
+
 |striped
-null
-null
 (adj)
 có sọc, có vằn
+
 |honour
-null
-null
 (n)
 danh dự, thanh danh, lòng kính trọng
+
 |stiff
-null
-null
 (adj)
 cứng, cứng rắn, kiên quyết
+
 |bother
-null
-null
 (v)
 làm phiền, quấy rầy, làm bực mình
+
 |expression
-null
-null
 (n)
 sự diễn tả, sự bày tỏ, biểu lộ, sự diễn đạt
+
 |middle
-null
-null
 (n) (adj)
 giữa, ở giữa
+
 |reaction
-null
-null
 (n)
 sự phản ứng; sự phản tác dụng
+
 |star
-null
-null
 (n) (v)
 ngôi sao, dán sao, trang trí hình sao, đánh dấu sao
+
 |though
-null
-null
 (adv)
 dù, dù cho, mặc dù; mặc dù, tuy nhiên, tuy vậy
+
 |trousers
-null
-null
 (n)
 quần
+
 |thorough
-null
-null
 (adj)
 cẩn thận, kỹ lưỡng
+
 |knitting
-null
-null
 (n)
 việc đan; hàng dệt kim
+
 |people
-null
-null
 (n)
 dân tộc, dòng giống; người
+
 |stay
-null
-null
 (v) (n)
 ở lại, lưu lại; sự ở lại, sự lưu lại
+
 |actually
-null
-null
 (adv)
 hiện nay, hiện tại
+
 |diary
-null
-null
 (n)
 sổ nhật ký; lịch ghi nhớ
+
 |extensive
-null
-null
 (adj)
 rộng rãi, bao quát
+
 |face
-null
-null
 (n) (v)
 mặt, thể diện; đương đầu, đối phó, đối mặt
+
 |abandon
-null
-null
 (v)
 bỏ, từ bỏ
+
 |afraid
-null
-null
 (adj)
 sợ, sợ hãi, hoảng sợ
+
 |fish
-null
-null
 (n) (v)
 cá, món cá; câu cá, bắt cá
+
 |progress
-null
-null
 (n) (v)
 sự tiến tới, sự tiến triển; tiến bộ, tiến triển, phát triển
+
 |invite
-null
-null
 (v)
 mời
+
 |operation
-null
-null
 (n)
 sự hoạt động, quá trình hoạt động
+
 |open
-null
-null
 (adj) (v)
 mở, ngỏ; mở, bắt đầu, khai mạc
+
 |calculation
-null
-null
 (n)
 sự tính toán
+
 |devote
-null
-null
 (v)
 hiến dâng, dành hết cho
+
 |agent
-null
-null
 (n)
 đại lý, tác nhân
+
 |treat
-null
-null
 (v)
 đối xử, đối đãi, cư xử
+
 |suffering
-null
-null
 (n)
 sự đau đớn, sự đau khổ
+
 |approximate
-null
-null
 (+to) (adj)
 giống với, giống hệt với
+
 |invest
-null
-null
 (v)
 đầu tư
+
 |rapid
-null
-null
 (adj)
 nhanh, nhanh chóng
+
 |project
-null
-null
 (n) (v)
 đề án, dự án,kế hoạch; dự kiến, kế hoạch
+
 |reputation
-null
-null
 (n)
 sự nổi tiếng, nổi danh
+
 |ice
-null
-null
 (n)
 băng, nước đá
+
 |independence
-null
-null
 (n)
 sự độc lập, nền độc lập
+
 |inside
-null
-null
 (n) (adj)
 mặt trong, phía, phần trong; ở trong, nội bộ
+
 |mainly
-null
-null
 (adv)
 chính, chủ yếu, phần lớn
+
 |motorcycle
-null
-null
 (n)
 xe mô tô
+
 |presentation
-null
-null
 (n)
 bài thuyết trình, sự trình diện, sự giới thiệu
+
 |whenever
-null
-null
 (conj)
 bất cứ lúc nào, lúc nào
+
 |post office
-null
-null
 (n)
 bưu điện
+
 |roughly
-null
-null
 (adv)
 gồ ghề, lởm chởm
+
 |awkward
-null
-null
 (adj)
 vụng về, lung túng
+
 |emotionally
-null
-null
 (adv)
 xúc động
+
 |ruin
-null
-null
 (v) (n)
 làm hỏng, làm đổ nát, làm phá sản; sự hỏng, sự đổ nát, sự phá sản
+
 |surprise
-null
-null
 (n) (v)
 sự ngạc nhiên, sự bất ngờ; làm ngạc nhiên
+
 |suitcase
-null
-null
 (n)
 va li
+
 |beard
-null
-null
 (n)
 râu
+
 |impatient
-null
-null
 (adj)
 thiếu kiên nhẫn, nóng vội
+
 |celebrate
-null
-null
 (v)
 kỷ niệm, làm lễ kỷ niệm; tán dương, ca tụng
+
 |please
-null
-null
 (v)
 làm vui lòng, vừa lòng, mong... vui lòng, xin mời
+
 |collection
-null
-null
 (n)
 sự sưu tập, sự tụ họp
+
 |look
-null
-null
 (v) (n)
 nhìn; cái nhìn
+
 |opposed to
-null
-null
-null
 chống lại, phản đối
+
 |laboratory
-null
-null
 (n)
 phòng thí nghiệm
+
 |flying
-null
-null
 (adj) (n)
 biết bay; sự bay, chuyến bay
+
 |campaign
-null
-null
 (n)
 chiến dịch, cuộc vận động
+
 |look after
-null
-null
-null
 trông nom, chăm sóc
+
 |vital
-null
-null
 (adj) (thuộc)
 sự sống, cần cho sự sống
+
 |conflict
-null
-null
 (n) (v)
 xung đột, va chạm; sự xung đột, sự va chạm
+
 |loudly
-null
-null
 (adv)
 ầm ĩ, inh ỏi
+
 |knock
-null
-null
 (v) (n)
 đánh, đập; cú đánh
+
 |rough
-null
-null
 (adj)
 gồ ghề, lởm chởm
+
 |lord
-null
-null
 (n)
 Chúa, vua
+
 |mass
-null
-null
 (n) (adj)
 khối, khối lượng; quần chúng, đại chúng
+
 |proper
-null
-null
 (adj)
 đúng, thích đáng, thích hợp
+
 |recording
-null
-null
 (n)
 sự ghi, sự thu âm
+
 |rule
-null
-null
 (n) (v)
 quy tắc, điều lệ, luật lệ; cai trị, chỉ huy, điều khiển
+
 |get off
-null
-null
-null
 ra khỏi, thoát khỏi, xuống ( xe buýt,xe lửa,...)
+
 |poisonous
-null
-null
 (adj)
 độc, có chất độc, gây chết, bệnh
+
 |assistance
-null
-null
 (n)
 sự giúp đỡ
+
 |vegetable
-null
-null
 (n)
 rau, thực vật
+
 |bitter
-null
-null
 (adj)
 đắng; đắng cay, chua xót
+
 |speed
-null
-null
 (n)
 tốc độ, vận tốc
+
 |admit
-null
-null
 (v)
 nhận vào, cho vào, kết hợp
+
 |poem
-null
-null
 (n)
 bài thơ
+
 |common
-null
-null
 (adj)
 công, công cộng, thông thường, phổ biến
+
 |interest
-null
-null
 (n) (v)
 sự thích thú, sự quan tâm, chú ý; làm quan tâm, chú ý
+
 |themselves
-null
-null
 pro(n)
 tự chúng, tự họ, tự
+
 |definition
-null
-null
 (n)
 sự định nghĩa, lời định nghĩa
+
 |bath
-null
-null
 (n)
 sự tắm
+
 |every
-null
-null
 (det)
 mỗi, mọi
+
 |sit down
-null
-null
-null
 ngồi xuống
+
 |shave
-null
-null
 (v)
 cạo (râu), bào, đẽo (gỗ)
+
 |twin
-null
-null
 (n) (adj)
 sinh đôi, tạo thành cặp; cặp song sinh
+
 |summary
-null
-null
 (n)
 bản tóm tắt
+
 |winning
-null
-null
 (adj)
 đang dành thắng lợi, thắng cuộc
+
 |recently
-null
-null
 (adv)
 gần đây, mới đây
+
 |politician
-null
-null
 (n)
 nhà chính trị, chính khách
+
 |dramatic
-null
-null
 (adj)
 như kịch, như đóng kịch, thích hợp với sân khấu
+
 |separated
-null
-null
 (adj)
 ly thân
+
 |indeed
-null
-null
 (adv)
 thật vậy, quả thật
+
 |bedroom
-null
-null
 (n)
 phòng ngủ
+
 |artificial
-null
-null
 (adj)
 nhân tạo
+
 |imaginary
-null
-null
 (adj)
 tưởng tượng, ảo
+
 |disagree
-null
-null
 (v)
 bất đồng, không đồng ý, khác, không giống; không hợp
+
 |healthy
-null
-null
 (adj)
 khỏe mạnh, lành mạnh
+
 |removal
-null
-null
 (n)
 viêc di chuyển, việc dọn nhà, dời đi
+
 |formula
-null
-null
 (n)
 công thức, thể thức, cách thức
+
 |comment
-null
-null
 (n) (v)
 lời bình luận, lời chú giải; bình luận, phê bình, chú thích, dẫn giải
+
 |step
-null
-null
 (n) (v)
 bước; bước, bước đi
+
 |disgust
-null
-null
 (v) (n)
 làm ghê tởm, làm kinh tởm, làm phẫn nộ
+
 |forever
-null
-null
 (adv)
 mãi mãi
+
 |mark
-null
-null
 (n) (v)
 dấu, nhãn, nhãn mác; đánh dấu, ghi dấu
+
 |base
-null
-null
 (n) (v)
 cơ sở, cơ bản, nền móng; đặt tên, đặt cơ sở trên cái gì
+
 |employ
-null
-null
 (v)
 dùng, thuê ai làm gì
+
 |trend
-null
-null
 (n)
 phương hướng, xu hướng, chiều hướng
+
 |folding
-null
-null
 (adj)
 gấp lại được
+
 |whole
-null
-null
 (adj) (n)
 bình an vô sự, không suy suyển, không hư hỏng; toàn bộ, tất cả, toàn thể
+
 |during
-null
-null
 (prep)
 trong lúc, trong thời gian
+
 |fair
-null
-null
 (adj)
 hợp lý, công bằng; thuận lợi
+
 |revolution
-null
-null
 (n)
 cuộc cách mạng
+
 |related to
-null
-null
 (adj)
 có liên quan, có quan hệ với ai, cái gì
+
 |consist
-null
-null
 (v) (+of)
 gồm có
+
 |preparation
-null
-null
 (n)
 sự sửa soạn, sự chuẩn bị
+
 |relation
-null
-null
 (n)
 mối quan hệ, sự liên quan, liên lạc
+
 |loss
-null
-null
 (n)
 sự mất, sự thua
+
 |elevator
-null
-null
 (n)
 máy nâng, thang máy
+
 |grammar
-null
-null
 (n)
 ngữ pháp, văn phạm
+
 |relate
-null
-null
 (v)
 kể lại, thuật lại; liên hệ, liên quan
+
 |enable
-null
-null
 (v)
 làm cho có thể, có khả năng; cho phép ai làm gì
+
 |lost
-null
-null
 (adj)
 thua, mất
+
 |premises
-null
-null
 (n)
 biệt thự
+
 |price
-null
-null
 (n)
 giá
+
 |safety
-null
-null
 (n)
 sự an toàn, sự chắc chăn
+
 |decoration
-null
-null
 (n)
 sự trang hoàng, đồ trang hoàng, trang trí
+
 |profession
-null
-null
 (n)
 nghề, nghề nghiệp
+
 |still
-null
-null
 (adv) (adj)
 đứng yên; vẫn, vẫn còn
+
 |van
-null
-null
 (n)
 tiền đội, quân tiên phong; xe tải
+
 |biology
-null
-null
 (n)
 sinh vật học
+
 |arise
-null
-null
 (v)
 xuất hiện, nảy ra, nảy sinh ra
+
 |lose
-null
-null
 (v)
 mất, thua, lạc
+
 |swelling
-null
-null
 (n)
 sự sưng lên, sự phồng ra
+
 |imagination
-null
-null
 (n)
 trí tưởng tượng, sự tưởng tượng
+
 |resistance
-null
-null
 (n)
 sự chống lại, sự phản đối, sự kháng cự
+
 |underneath
-null
-null
 (prep) (adv)
 dưới, bên dưới
+
 |dancer
-null
-null
 (n)
 diễn viên múa, người nhảy múa
+
 |fail
-null
-null
 (v)
 sai, thất bại
+
 |enjoyment
-null
-null
 (n)
 sự thích thú, sự có được, được hưởng
+
 |enjoyable
-null
-null
 (adj)
 thú vị, thích thú
+
 |among
-null
-null
 (prep)
 giữa, ở giữa
+
 |convince
-null
-null
 (v)
 làm cho tin, thuyết phục; làm cho nhận thức thấy
+
 |mate
-null
-null
 (n) (v)
 bạn, bạn nghề; giao phối
+
 |irritating
-null
-null
 (adj)
 làm phát cáu, chọc tức
+
 |pride
-null
-null
 (n)
 sự kiêu hãnh, sự hãnh diện; tính kiêu căng, tự phụ
+
 |breakfast
-null
-null
 (n)
 bữa điểm tâm, bữa sáng
+
 |theory
-null
-null
 (n)
 lý thuyết, học thuyết
+
 |broadcast
-null
-null
 (v) (n)
 tung ra khắp nơi,truyền rộng rãi; phát thanh,quảng bá
+
 |steel
-null
-null
 (n)
 thép, ngành thép
+
 |extension
-null
-null
 (n)
 sự giơ, duỗi; sự kéo dài, sự dành cho, gửi lời
+
 |internal
-null
-null
 (adj)
 ở trong, bên trong, nội địa
+
 |signature
-null
-null
 (n)
 chữ ký
+
 |steep
-null
-null
 (adj)
 dốc, dốc đứng
+
 |thumb
-null
-null
 (n)
 ngón tay cái
+
 |tongue
-null
-null
 (n)
 lưỡi
+
 |enjoy
-null
-null
 (v)
 thưởng thức, thích thú cái gì, được hưởng, có được
+
 |foundation
-null
-null
 (n)
 sự thành lập, sự sáng lập; tổ chức
+
 |secret
-null
-null
 (adj) (n)
 bí mật; điều bí mật
+
 |feel sick
-null
-null
-null
 buồn nôn
+
 |ourselves
-null
-null
 pro(n)
 bản thân chúng ta, bản thân chúng tôi
+
 |substitute
-null
-null
 (n) (v)
 người, vật thay thế; thay thế
+
 |foreign
-null
-null
 (adj) (thuộc)
 nước ngoài, từ nước ngoài, ở nước ngoài
+
 |punch
-null
-null
 (v) (n)
 đấm, thụi; quả đấm, cú thụi
+
 |across
-null
-null
 (adv) (prep)
 qua, ngang qua
+
 |naturally
-null
-null
 (adv)
 vốn, tự nhiên, đương nhiên
+
 |uniform
-null
-null
 (n) (adj)
 đồng phục; đều, giống nhau, đồng dạng
+
 |fall
-null
-null
 (v) (n)
 rơi, ngã, sự rơi, ngã
+
 |identity
-null
-null
 (n)
 cá tính, nét nhận dạng; tính đồng nhất, giống hệt
+
 |moreover
-null
-null
 (adv)
 hơn nữa, ngoài ra, vả lại
+
 |mysterious
-null
-null
 (adj)
 thần bí, huyền bí, khó hiểu
+
 |ear
-null
-null
 (n)
 tai
+
 |federal
-null
-null
 (adj)
 liên bang
+
 |indoors
-null
-null
 (adv)
 ở trong nhà
+
 |eat
-null
-null
 (v)
 ăn
+
 |steer
-null
-null
 (v)
 lái (tàu, ô tô...), hướng dẫn; hướng theo
+
 |event
-null
-null
 (n)
 sự việc, sự kiện
+
 |wherever
-null
-null
 (conj)
 ở bất cứ nơi nào, ở bất cứ nơi đâu
+
 |finger
-null
-null
 (n)
 ngón tay
+
 |loud
-null
-null
 (adj) (adv)
 to, inh ỏi, ầm ĩ; to, lớn (nói)
+
 |reward
-null
-null
 (n) (v)
 sự thưởng, phần thưởng; thưởng, thưởng công
+
 |include
-null
-null
 (v)
 bao gồm, tính cả
+
 |alongside
-null
-null
 (prep) (adv)
 sát cạnh, kế bên, dọc theo
+
 |swallow
-null
-null
 (v)
 nuốt, nuốt chửng
+
 |agency
-null
-null
 (n)
 tác dụng, lực; môi giới, trung gian
+
 |disagreement
-null
-null
 (n)
 sự bất đồng, sự không đồng ý, sự khác nhau
+
 |sting
-null
-null
 (v) (n)
 châm, chích, đốt; ngòi, vòi (ong, muỗi), nọc (rắn); sự châm, chích
+
 |juice
-null
-null
 (n)
 nước ép (rau, củ, quả)
+
 |nice
-null
-null
 (adj)
 đẹp, thú vị, dễ chịu
+
 |opinion
-null
-null
 (n)
 ý kiến, quan điểm
+
 |altogether
-null
-null
 (adv)
 hoàn toàn, hầu như; nói chung
+
 |liquid
-null
-null
 (n) (adj)
 chất lỏng; lỏng, êm ái, du dương, không vững
+
 |soldier
-null
-null
 (n)
 lính, quân nhân
+
 |culture
-null
-null
 (n)
 văn hóa, sự mở mang, sự giáo dục
+
 |sleeve
-null
-null
 (n)
 tay áo, ống tay
+
 |stir
-null
-null
 (v)
 khuấy, đảo
+
 |upsetting
-null
-null
 (adj)
 tính đánh đổ, làm đổ
+
 |first
-null
-null
 (adv) (n)
 thứ nhất, đầu tiên, trước hết; người, vật đầu tiên, thứ nhất
+
 |insult
-null
-null
 (v) (n)
 lăng mạ, xỉ nhục; lời lăng mạ, sự xỉ nhục
+
 |voice
-null
-null
 (n)
 tiếng, giọng nói
+
 |perfect
-null
-null
 (adj)
 hoàn hảo
+
 |prefer
-null
-null
 (v)
 thích hơn
+
 |prepared
-null
-null
 (adj)
 đã được chuẩn bị
+
 |craft
-null
-null
 (n)
 nghề, nghề thủ công
+
 |existence
-null
-null
 (n)
 sự tồn tại, sự sống
+
 |float
-null
-null
 (v)
 nổi, trôi, lơ lửng
+
 |minority
-null
-null
 (n)
 phần ít, thiểu số
+
 |pole
-null
-null
 (n)
 người Ba Lan; cực (nam châm, trái đất...)
+
 |tight
-null
-null
 (adj) (adv)
 kín, chặt, chật
+
 |space
-null
-null
 (n)
 khoảng trống, khoảng cách
+
 |reference
-null
-null
 (n)
 sự tham khảo, hỏi ý kiến
+
 |chamber
-null
-null
 (n)
 buồng, phòng, buồng ngủ
+
 |spite
-null
-null
 (n)
 sự giận, sự hận thù
+
 |arrange
-null
-null
 (v)
 sắp xếp, sắp đặt, sửa soạn
+
 |nephew
-null
-null
 (n)
 cháu trai
+
 |publicity
-null
-null
 (n)
 sự công khai, sự quảng cáo
+
 |on purpose
-null
-null
-null
 cố tình, cố ý, có chủ tâm
+
 |exaggerate
-null
-null
 (v)
 cường điệu, phóng đại
+
 |sufficient for
-null
-null
 (adj)
 đủ, thích đáng
+
 |discover
-null
-null
 (v)
 khám phá, phát hiện ra, nhận ra
+
 |spell
-null
-null
 (v) (n)
 đánh vần; sự thu hút, sự quyến rũ, say mê
+
 |midday
-null
-null
 (n)
 trưa, buổi trưa
+
 |imply
-null
-null
 (v)
 ngụ ý, bao hàm
+
 |bottom
-null
-null
 (n) (adj)
 phần dưới cùng, thấp nhất; cuối, cuối cùng
+
 |ill
-null
-null
 (adj)
 ốm
+
 |capture
-null
-null
 (v) (n)
 bắt giữ, bắt; sự bắt giữ, sự bị bắt
+
 |commitment
-null
-null
 (n)
 sự phạm tội, sự tận tụy, tận tâm
+
 |excite
-null
-null
 (v)
 kích thích, kích động
+
 |finished
-null
-null
 (adj)
 hoàn tất, hoàn thành
+
 |revision
-null
-null
 (n)
 sự xem lại, sự đọc lại, sự sửa lại, sự ôn lại
+
 |manufacture
-null
-null
 (v) (n)
 sự chế tạo, sự sản xuất, chế tạo, sản xuất
+
 |qualification
-null
-null
 (n)
 phẩm chất, năng lực; khả năng chuyên môn
+
 |make friends with
-null
-null
-null
 kết bạn với
+
 |speaker
-null
-null
 (n)
 người nói, người diễn thuyết
+
 |fame
-null
-null
 (n)
 tên tuổi, danh tiếng
+
 |mud
-null
-null
 (n)
 bùn
+
 |repair
-null
-null
 (v) (n)
 sửa chữa, chỉnh tu; sự sửa chữa, sự chỉnh tu
+
 |the rest
-null
-null
-null
 vật, cái còn lại, những người, cái khác
+
 |death
-null
-null
 (n)
 sự chết, cái chết
+
 |arrival
-null
-null
 (n)
 sự đến, sự tới nơi
+
 |steal
-null
-null
 (v)
 ăn cắp, ăn trộm
+
 |advice
-null
-null
 (n)
 lời khuyên, lời chỉ bảo
+
 |scientific
-null
-null
 (adj) (thuộc)
 khoa học, có tính khoa học
+
 |frequent
-null
-null
 (adj)
 thường xuyên
+
 |winter
-null
-null
 (n)
 mùa đông
+
 |membership
-null
-null
 (n)
 tư cách hội viên, địa vị hội viên
+
 |powder
-null
-null
 (n)
 bột, bụi
+
 |error
-null
-null
 (n)
 lỗi, sự sai sót, sai lầm
+
 |platform
-null
-null
 (n)
 nền, bục, bệ; thềm, sân ga
+
 |network
-null
-null
 (n)
 mạng lưới, hệ thống
+
 |jealous
-null
-null
 (adj)
 ghen, ghen tị
+
 |throw sth away
-null
-null
-null
 ném đi, vứt đi, liệng đi
+
 |trace
-null
-null
 (v) (n)
 phát hiện, tìm thấy, vạch, chỉ ra, phác họa; dấu, vết
+
 |paper
-null
-null
 (n)
 giấy
+
 |public
-null
-null
 (adj) (n)
 chung, công cộng; công chúng, nhân dân
+
 |walking
-null
-null
 (n)
 sự đi, sự đi bộ
+
 |spend
-null
-null
 (v)
 tiêu, xài
+
 |steam
-null
-null
 (n)
 hơi nước
+
 |track
-null
-null
 (n)
 phần của đĩa; đường mòn, đường đua
+
 |value
-null
-null
 (n) (v)
 giá trị, ước tính, định giá
+
 |fortune
-null
-null
 (n)
 sự giàu có, sự thịnh vượng
+
 |quantity
-null
-null
 (n)
 lượng, số lượng
+
 |grave
-null
-null
 (n) (adj)
 mộ, dấu huyền; trang nghiêm, nghiêm trọng
+
 |advantage
-null
-null
 (n)
 sự thuận lợi, lợi ích, lợi thế
+
 |assistant
-null
-null
 (n) (adj)
 người giúp đỡ, người phụ tá; giúp đỡ
+
 |ink
-null
-null
 (n)
 mực
+
 |instead
-null
-null
 (adv)
 để thay thế
+
 |rush
-null
-null
 (v) (n)
 xông lên, lao vào, xô đẩy; sự xông lên, sự lao vào, sự xô đẩy
+
 |ultimately
-null
-null
 (adv)
 cuối cùng, sau cùng
+
 |command
-null
-null
 (v) (n)
 ra lệnh, chỉ huy; lệnh, mệnh lệnh, quyền ra lệnh, quyền chỉ huy
+
 |expensive
-null
-null
 (adj)
 đắt
+
 |performance
-null
-null
 (n)
 sự làm, sự thực hiện, sự thi hành, sự biểu diễn
+
 |trade
-null
-null
 (n) (v)
 thương mại, buôn bán; buôn bán, trao đổi
+
 |round
-null
-null
-null
 (adj) (adv) (n)tròn, vòng quanh, xung quanh
+
 |growth
-null
-null
 (n)
 sự lớn lên, sự phát triển
+
 |irritated
-null
-null
 (adj)
 tức giận, cáu tiết
+
 |landscape
-null
-null
 (n)
 phong cảnh
+
 |carrot
-null
-null
 (n)
 củ cà rốt
+
 |normally
-null
-null
 (adv)
 thông thường, như thường lệ
+
 |exception
-null
-null
 (n)
 sự trừ ra, sự loại ra
+
 |temporary
-null
-null
 (n)
 tạm thời, nhất thời, lâm thời
+
 |bicycle
-null
-null
 (n)
 xe đạp
+
 |egg
-null
-null
 (n)
 trứng
+
 |sufficiently
-null
-null
 (adv)
 đủ, thích đáng
+
 |leading
-null
-null
 (adj)
 lãnh đạo, dẫn đầu
+
 |awful
-null
-null
 (adj)
 oai nghiêm, dễ sợ
+
 |politically
-null
-null
 (adv)
 về mặt chính trị; khôn ngoan, thận trọng; sảo quyệt
+
 |branch
-null
-null
 (n)
 ngành; nhành cây, nhánh song, ngả đường
+
 |urge
-null
-null
 (v) (n)
 thúc, giục, giục giã; sự thúc đẩy, sự thôi thúc
+
 |via
-null
-null
 (prep)
 qua, theo đường
+
 |properly
-null
-null
 (adv)
 một cách đúng đắn, một cách thích đáng
+
 |score
-null
-null
 (n) (v)
 điểm số, bản thắng, tỷ số; đạt được, thành công, cho điểm
+
 |music
-null
-null
 (n)
 nhạc, âm nhạc
+
 |quote
-null
-null
 (v)
 trích dẫn
+
 |poor
-null
-null
 (adj)
 nghèo
+
 |absent
-null
-null
 (adj)
 vắng mặt, nghỉ
+
 |empire
-null
-null
 (n)
 đế chế, đế quốc
+
 |farm
-null
-null
 (n)
 trang trại
+
 |neat
-null
-null
 (adj)
 sạch, ngăn nắp; rành mạch
+
 |understanding
-null
-null
 (n)
 trí tuệ, sự hiểu biết
+
 |because
-null
-null
 (conj)
 bởi vì, vì
+
 |silence
-null
-null
 (n)
 sự im lặng, sự yên tĩnh
+
 |educate
-null
-null
 (v)
 giáo dục, cho ăn học; rèn luyện
+
 |moving
-null
-null
 (adj)
 động, hoạt động
+
 |ashamed
-null
-null
 (adj)
 ngượng, xấu hổ
+
 |unlikely
-null
-null
 (adj)
 không thể xảy ra, không chắc xảy ra
+
 |excellent
-null
-null
 (adj)
 xuất sắc, xuất chúng
+
 |mayor
-null
-null
 (n)
 thị trưởng
+
 |virtually
-null
-null
 (adv)
 thực sự, hầu như, gần như
+
 |fairly
-null
-null
 (adv)
 hợp lý, công bằng
+
 |pool
-null
-null
 (n)
 vũng nước; bể bơi, hồ bơi
+
 |raw
-null
-null
 (adj)
 sống (# chín), thô, còn nguyên chất
+
 |economy
-null
-null
 (n)
 sự tiết kiệm, sự quản lý kinh tế
+
 |community
-null
-null
 (n)
 dân chúng, nhân dân
+
 |packet
-null
-null
 (n)
 gói nhỏ
+
 |version
-null
-null
 (n)
 bản dịch sang một ngôn ngữ khác
+
 |exam
-null
-null
 (n)
 viết tắt của Examination
+
 |planning
-null
-null
 (n)
 sự lập kế hoạch, sự quy hoạch
+
 |selection
-null
-null
 (n)
 sự lựa chọn, sự chọc lọc
+
 |stop
-null
-null
 (v) (n)
 dừng, ngừng, nghỉ, thôi; sự dừng, sự ngừng, sự đỗ lại
+
 |guess
-null
-null
 (v) (n)
 đoán, phỏng đoán; sự đoán, sự ước chừng
+
 |science
-null
-null
 (n)
 khoa học, khoa học tự nhiên
+
 |guest
-null
-null
 (n)
 khách, khách mời
+
 |institute
-null
-null
 (n)
 viện, học viện
+
 |detail
-null
-null
 (n) (v)
 chi tiết
+
 |hobby
-null
-null
 (n)
 sở thích riêng
+
 |shortly
-null
-null
 (adv)
 trong thời gian ngắn, sớm
+
 |firmly
-null
-null
 (adv)
 vững chắc, kiên quyết
+
 |southern
-null
-null
 (adj)
 thuộc phương Nam
+
 |forest
-null
-null
 (n)
 rừng
+
 |criterion
-null
-null
 (n)
 tiêu chuẩn
+
 |throat
-null
-null
 (n)
 cổ, cổ họng
+
 |for instance
-null
-null
-null
 ví dụ chẳng hạn
+
 |least
-null
-null
 pro (n) (adv)
 tối thiểu; ít nhất
+
 |immediately
-null
-null
 (adv)
 ngay lập tức
+
 |measurement
-null
-null
 (n)
 sự đo lường, phép đo
+
 |dollar
-null
-null
 (n)
 đô la Mỹ
+
 |sleep
-null
-null
 (v) (n)
 ngủ; giấc ngủ
+
 |hungry
-null
-null
 (adj)
 đói
+
 |swimming
-null
-null
 (n)
 sự bơi lội
+
 |refuse
-null
-null
 (v)
 từ chối, khước từ
+
 |vocabulary
-null
-null
 (n)
 từ vựng
+
 |retire
-null
-null
 (v)
 rời bỏ, rút về; thôi, nghỉ việc, về hưu
+
 |aspect
-null
-null
 (n)
 vẻ bề ngoài, diện mạo
+
 |aggressive
-null
-null
 (adj)
 xâm lược, hung hăng (US: xông xáo)
+
 |close
-null
-null
 (v) (adj)
 gần (mqh), thân thiết,chặt chẽ, đóng, khép, kết thúc
+
 |musician
-null
-null
 (n)
 nhạc sĩ
+
 |secretly
-null
-null
 (adv)
 bí mật, riêng tư
+
 |chemistry
-null
-null
 (n)
 hóa học, môn hóa học, ngành hóa học
+
 |sweep
-null
-null
 (v)
 quét
+
 |unfriendly
-null
-null
-null
 đối địch, không thân thiện
+
 |website
-null
-null
 (n)
 không gian liên tới với Internet
+
 |flavour
-null
-null
 (n) (v)
 vị, mùi; cho gia vị, làm tăng thêm mùi vị
+
 |learn
-null
-null
 (v)
 học, nghiên cứu
+
 |neck
-null
-null
 (n)
 cổ
+
 |embarrassment
-null
-null
 (n)
 sự lúng túng, sự bối rối
+
 |logical
-null
-null
 (adj)
 hợp lý, hợp logic
+
 |ridiculous
-null
-null
 (adj)
 buồn cười, lố bịch, lố lăng
+
 |swing
-null
-null
 (n) (v)
 sự đu đưa, lúc lắc; đánh đu, đu đưa, lúc lắc
+
 |fast
-null
-null
 (adj) (adv)
 nhanh
+
 |loosely
-null
-null
 (adv)
 lỏng lẻo
+
 |severe
-null
-null
 (adj)
 khắt khe, gay gắt; giản dị, mộc mạc
+
 |spin
-null
-null
 (v)
 quay, quay tròn
+
 |grocery
-null
-null
 (n)
 cửa hàng tạp phẩm
+
 |emerge
-null
-null
 (v)
 nổi lên, hiện ra; nổi bật lên
+
 |shallow
-null
-null
 (adj)
 nông, cạn
+
 |sweet
-null
-null
 (adj) (n)
 ngọt, có vị ngọt; sự ngọt bùi, đồ ngọt
+
 |register
-null
-null
 (v) (n)
 đăng ký, ghi vào sổ; sổ, sổ sách, máy ghi
+
 |steeply
-null
-null
 (adv)
 dốc, cheo leo
+
 |couple
-null
-null
 (n)
 đôi, cặp
+
 |communicate
-null
-null
 (v)
 truyền, truyền đạt; giao thiệp, liên lạc
+
 |evidence
-null
-null
 (n)
 điều hiển nhiên, điều rõ ràng
+
 |well known
-null
-null
 (adj)
 nổi tiếng, được nhiều người biết đến
+
 |rural
-null
-null
 (adj) (thuộc)
 nông thôn, vùng nông thôn
+
 |historical
-null
-null
 (adj)
 lịch sử, thuộc lịch sử
+
 |official
-null
-null
 (adj) (n) (thuộc)
 chính quyền, văn phòng; viên chức, công chức
+
 |acid
-null
-null
 (n)
 axit
+
 |spring
-null
-null
 (n)
 mùa xuân
+
 |post
-null
-null
 (n) (v)
 thư, bưu kiện; gửi thư
+
 |excluding
-null
-null
 (prep)
 ngoài ra, trừ ra
+
 |cottage
-null
-null
 (n)
 nhà tranh
+
 |finish
-null
-null
 (v) (n)
 kết thúc, hoàn thành; sự kết thúc, phần cuối
+
 |female
-null
-null
 (adj) (n)
 thuộc giống cái; giống cái
+
 |faint
-null
-null
 (adj)
 nhút nhát, yếu ớt
+
 |add
-null
-null
 (v)
 cộng, thêm vào
+
 |minister
-null
-null
 (n)
 bộ trưởng
+
 |cruel
-null
-null
 (adj)
 độc ác, dữ tợn, tàn nhẫn
+
 |need
-null
-null
 (v) (n)
 cần, đòi hỏi; sự cần
+
 |pose
-null
-null
 (v) (n)
 đưa ra, đề ra, đặt; sự đặt, đề ra
+
 |shade
-null
-null
 (n)
 bóng, bóng tối
+
 |originally
-null
-null
 (adv)
 một cách sáng tạo, mới mẻ, độc đáo; khởi đầu, đầu tiên
+
 |instead of
-null
-null
-null
 thay cho
+
 |gather
-null
-null
 (v)
 tập hợp; hái, lượm, thu thập
+
 |article
-null
-null
 (n)
 bài báo, đề mục
+
 |respect
-null
-null
 (n) (v)
 sự kính trọng, sự lễ phép; tôn trọng, kính trọng, khâm phục
+
 |shelf
-null
-null
 (n)
 kệ, ngăn, giá
+
 |kindly
-null
-null
 (adv)
 tử tế, tốt bụng
+
 |volume
-null
-null
 (n)
 thế tích, quyển, tập
+
 |port
-null
-null
 (n)
 cảng
+
 |shell
-null
-null
 (n)
 vỏ, mai; vẻ bề ngoài
+
 |loose
-null
-null
 (adj)
 lỏng, không chặt
+
 |therefore
-null
-null
 (adv)
 bởi vậy, cho nên, vì thế
+
 |exchange
-null
-null
 (v) (n)
 trao đổi; sự trao đổi
+
 |hesitate
-null
-null
 (v)
 ngập ngừng, do dự
+
 |hardly
-null
-null
 (adv)
 khắc nghiệt, nghiêm khắc, tàn tệ, khó khăn
+
 |sailing
-null
-null
 (n)
 sự đi thuyền
+
 |bored
-null
-null
 (adj)
 buồn chán
+
 |useful
-null
-null
 (adj)
 hữu ích, giúp ích
+
 |income
-null
-null
 (n)
 lợi tức, thu nhập
+
 |trust
-null
-null
 (n) (v)
 niềm tin, sự phó thác; tin, tin cậy, phó thác
+
 |private
-null
-null
 (adj)
 cá nhân, riêng
+
 |baggage
-null
-null
 (n)
 hành lý
+
 |technical
-null
-null
 (adj) (thuộc)
 kỹ thuật, chuyên môn
+
 |production
-null
-null
 (n)
 sự sản xuất, chế tạo
+
 |united
-null
-null
 (adj)
 liên minh, đoàn kết, chung, thống nhất
+
 |choose
-null
-null
 (v)
 chọn, lựa chọn
+
 |ride
-null
-null
 (v) (n)
 đi, cưỡi (ngựa); sự đi, đường đi
+
 |used to doing sth
-null
-null
-null
 sử dụng gì, sử dụng để làm gì
+
 |finely
-null
-null
 (adv)
 đẹp đẽ, tế nhị, cao thượng
+
 |peaceful
-null
-null
 (adj)
 hòa bình, thái bình, yên tĩnh
+
 |prevent
-null
-null
 (v)
 ngăn cản, ngăn chặn, ngăn ngừa
+
 |behave
-null
-null
 (v)
 đối xử, ăn ở, cư xử
+
 |precisely
-null
-null
 (adv)
 đúng, chính xác, cần thận
+
 |stretch
-null
-null
 (v)
 căng ra, duỗi ra, kéo dài ra
+
 |undo
-null
-null
-null
 tháo, gỡ, xóa, hủy bỏ
+
 |previously
-null
-null
 (adv)
 trước, trước đây
+
 |engine
-null
-null
 (n)
 máy, động cơ
+
 |happiness
-null
-null
 (n)
 sự sung sướng, hạnh phúc
+
 |mixture
-null
-null
 (n)
 sự pha trộn, sự hỗn hợp
+
 |sorry
-null
-null
 (adj)
 xin lỗi, lấy làm tiếc, lấy làm buồn
+
 |irritate
-null
-null
 (v)
 làm phát cáu, chọc tức
+
 |responsible
-null
-null
 (adj)
 chịu trách nhiệm về, chịu trách nhiệm trước ai,cái gì
+
 |end
-null
-null
 (n) (v)
 giới hạn, sự kết thúc; kết thúc, chấm dứt
+
 |photographer
-null
-null
 (n)
 thợ chụp ảnh, nhà nhiếp ảnh
+
 |bullet
-null
-null
 (n)
 đạn (súng trường, súng lục)
+
 |mistake
-null
-null
 (n) (v)
 lỗi, sai lầm, lỗi lầm; phạm lỗi, phạm sai lầm
+
 |furthest
-null
-null
 (adj) (adv)
 xa hơn hết, xa nhất
+
 |identify
-null
-null
 (v)
 nhận biết, nhận ra, nhận dạng
+
 |pour
-null
-null
 (v)
 rót, đổ, giội
+
 |rich
-null
-null
 (adj)
 giàu, giàu có
+
 |label
-null
-null
 (n) (v)
 nhãn, mác; dán nhãn, ghi mác
+
 |improvement
-null
-null
 (n)
 sự cái thiện, sự cải tiến, sự mở mang
+
 |message
-null
-null
 (n)
 tin nhắn, thư tín, điện thông báo, thông điệp
+
 |rice
-null
-null
 (n)
 gạo, thóc, cơm; cây lúa
+
 |praise
-null
-null
 (n) (v)
 sự ca ngợi, sự tán dương, lòng tôn kính, tôn thờ; khen ngợi, tán dương
+
 |scissors
-null
-null
 (n)
 cái kéo
+
 |special
-null
-null
 (adj)
 đặc biệt, riêng biệt
+
 |environment
-null
-null
 (n)
 môi trường, hoàn cảnh xung quanh
+
 |truth
-null
-null
 (n)
 sự thật
+
 |sweat
-null
-null
 (n) (v)
 mồ hôi; đổ mồ hô
+
 |pronounce
-null
-null
 (v)
 tuyên bố, thông báo, phát âm
+
 |family
-null
-null
 (n) (adj)
 gia đình, thuộc gia đình
+
 |deliberate
-null
-null
 (adj)
 thận trọng, có tính toán, chủ tâm, có suy nghĩ cân nhắc
+
 |age
-null
-null
 (n)
 tuổi
+
 |swear
-null
-null
 (v)
 chửi rủa, nguyền rủa; thề, hứa
+
 |atmosphere
-null
-null
 (n)
 khí quyển
+
 |college
-null
-null
 (n)
 trường cao đẳng
+
 |gift
-null
-null
 (n)
 quà tặng
+
 |prime minister
-null
-null
 (n)
 thủ tướng
+
 |decorate
-null
-null
 (v)
 trang hoàng, trang trí
+
 |slightly
-null
-null
 (adv)
 mảnh khảnh, mỏng manh, yếu ớt
+
 |career
-null
-null
 (n)
 nghề nghiệp, sự nghiệp
+
 |education
-null
-null
 (n)
 sự giáo dục, sự rèn luyện (kỹ năng)
+
 |tendency
-null
-null
 (n)
 xu hướng, chiều hướng, khuynh hướng
+
 |release
-null
-null
 (v) (n)
 làm nhẹ, bớt, thả, phóng thích, phát hành; sự giải thoát, thoát khỏi, sự thả
+
 |ago
-null
-null
 (adv)
 trước đây
+
 |rid
-null
-null
 (v)
 giải thoát
+
 |variation
-null
-null
 (n)
 sự biến đổi, sự thay đổi mức độ, sự khác nhau
+
 |moral
-null
-null
 (adj) (thuộc)
 đạo đức, luân lý, phẩm hạnh; có đạo đức
+
 |newly
-null
-null
 (adv)
 mới
+
 |gradually
-null
-null
 (adv)
 dần dần, từ từ
+
 |disappointment
-null
-null
 (n)
 sự chán ngán, sự thất vọng
+
 |explode
-null
-null
 (v)
 đập tan (hy vọng...), làm nổ, nổ
+
 |punish
-null
-null
 (v)
 phạt, trừng phạt
+
 |property
-null
-null
 (n)
 tài sản, của cải; đất đai, nhà cửa, bất động sản
+
 |strangely
-null
-null
 (adv)
 lạ, xa lạ, chưa quen
+
 |brave
-null
-null
 (adj)
 gan dạ, can đảm
+
 |narrow
-null
-null
 (adj)
 hẹp, chật hẹp
+
 |judge
-null
-null
 (n) (v)
 xét xử, phân xử; quan tòa, thẩm phán
+
 |similar
-null
-null
 (adj)
 giống như, tương tự như
+
 |partnership
-null
-null
 (n)
 sự chung phần, sự cộng tác
+
 |shape
-null
-null
 (n) (v)
 hình, hình dạng, hình thù
+
 |whistle
-null
-null
 (n) (v)
 sự huýt sáo, sự thổi còi; huýt sáo, thổi còi
+
 |handle
-null
-null
 (v) (n)
 cầm, sờ mó; tay cầm, móc quai
+
 |tough
-null
-null
 (adj)
 chắc, bền, dai
+
 |exit
-null
-null
 (n)
 lỗi ra, sự đi ra, thoát ra
+
 |happily
-null
-null
 (adv)
 sung sướng, hạnh phúc
+
 |system
-null
-null
 (n)
 hệ thống, chế độ
+
 |driver
-null
-null
 (n)
 người lái xe
+
 |spot
-null
-null
 (n)
 dấu, đốm, vết
+
 |silver
-null
-null
 (n) (adj)
 bạc, đồng bạc; làm bằng bạc, trắng như bạc
+
 |generously
-null
-null
 (adv)
 rộng lượng, hào phóng
+
 |aim
-null
-null
 (n) (v)
 sự nhắm (bắn), mục tiêu, ý định; nhắm, tập trung, hướng vào
+
 |singer
-null
-null
 (n)
 ca sĩ
+
 |tone
-null
-null
 (n)
 tiếng, giọng
+
 |city
-null
-null
 (n)
 thành phố
+
 |skilfully
-null
-null
 (adv)
 tài giỏi, khéo tay
+
 |confident
-null
-null
 (adj)
 tin tưởng, tin cậy, tự tin
+
 |uncle
-null
-null
 (n)
 chú, bác
+
 |retain
-null
-null
 (v)
 giữ lại, nhớ được
+
 |air
-null
-null
 (n)
 không khí, bầu không khí, không gian
+
 |cell
-null
-null
 (n)
 ô, ngăn
+
 |skilled
-null
-null
 (adj)
 có kỹ năng, có kỹ sảo, khẻo tay; có kinh nghiệm, lành nghề
+
 |swell
-null
-null
 (v)
 phồng, sưng lên
+
 |local
-null
-null
 (adj)
 địa phương, bộ phận, cục bộ
+
 |manufacturer
-null
-null
 (n)
 người chế tạo, người sản xuất
+
 |remind
-null
-null
 (v)
 nhắc nhở, gợi nhớ
+
 |defeat
-null
-null
 (v) (n)
 đánh bại, sự thất bại
+
 |valid
-null
-null
 (adj)
 chắc chắn, hiệu quả, hợp lý
+
 |encourage
-null
-null
 (v)
 động viên, ủng hộ, giúp đỡ, làm can đảm, mạnh dạn
+
 |bubble
-null
-null
 (n)
 bong bóng, bọt, tăm
+
 |insist on
-null
-null
 (v)
 cứ nhất định, cứ khăng khăng
+
 |potato
-null
-null
 (n)
 khoai tây
+
 |steadily
-null
-null
 (adv)
 vững chắc, vững vàng, kiên định
+
 |electronic
-null
-null
 (adj) (thuộc)
 điện tử
+
 |promptly
-null
-null
 (adv)
 mau lẹ, ngay lập tức
+
 |vacation
-null
-null
 (n)
 kỳ nghỉ hè, kỳ nghỉ lễ; ngày nghỉ, ngày lễ
+
 |share
-null
-null
 (v) (n)
 đóng góp, tham gia, chia sẻ; phần đóng góp, phần tham gia, chia sẻ
+
 |speak
-null
-null
 (v)
 nói
+
 |elegant
-null
-null
 (adj)
 thanh lịch, tao nhã
+
 |infected
-null
-null
 (adj)
 bị nhiễm, bị đầu độc
+
 |thoroughly
-null
-null
 (adv)
 kỹ lưỡng, thấu đáo, triệt để
+
 |honestly
-null
-null
 (adj)
 lương thiện, trung thực, chân thật
+
 |television
-null
-null
 (n)
 vô tuyến truyền hình
+
 |chairman
-null
-null
 (n)
 chủ tịch, chủ tọa
+
 |satisfaction
-null
-null
 (n)
 sự làm cho thỏa mãn, toại nguyện; sự trả nợ, bồi thường
+
 |boat
-null
-null
 (n)
 tàu, thuyền
+
 |sharp
-null
-null
 (adj)
 sắc, nhọn, bén
+
 |powerful
-null
-null
 (adj)
 hùng mạnh, hùng cường
+
 |slip
-null
-null
 (v)
 trượt, tuột, trôi qua, chạy qua
+
 |future
-null
-null
 (n) (adj)
 tương lai
+
 |logic
-null
-null
 (n)
 lô gic
+
 |take sth off
-null
-null
-null
 cởi, bỏ cái gì, lấy đi cái gì
+
 |atom
-null
-null
 (n)
 nguyên tử
+
 |movement
-null
-null
 (n)
 sự chuyển động, sự hoạt động; cử động, động tác
+
 |royal
-null
-null
 (adj) (thuộc)
 vua, nữ hoàng, hoàng gia
+
 |shake
-null
-null
 (v) (n)
 rung, lắc, giũ; sự rung, sự lắc, sự giũ
+
 |cent
-null
-null
 (n)
 đồng xu
+
 |glove
-null
-null
 (n)
 bao tay, găng tay
+
 |impressed
-null
-null
 (adj)
 được ghi, khắc, in sâu vào
+
 |spice
-null
-null
 (n)
 gia vị
+
 |screen
-null
-null
 (n)
 màn che, màn ảnh, màn hình; phim ảnh nói chung
+
 |body
-null
-null
 (n)
 thân thể, thân xác
+
 |naked
-null
-null
 (adj)
 trần, khỏa thân, trơ trụi
+
 |trial
-null
-null
 (n)
 sự thử nghiệm, cuộc thử nghiệm
+
 |rear
-null
-null
 (n) (adj)
 phía sau; ở đằng sau, ở đằng sau
+
 |insect
-null
-null
 (n)
 sâu bọ, côn trùng
+
 |entrance
-null
-null
 (n)
 sự đi vào, sự nhậm chức
+
 |net
-null
-null
 (n)
 lưới, mạng
+
 |cable
-null
-null
 (n)
 dây cáp
+
 |qualify
-null
-null
 (v)
 đủ khả năng, đủ tư cách, điều kiện
+
 |pregnant
-null
-null
 (adj)
 mang thai; giàu trí tưởng tượng, sáng tạo
+
 |all
-null
-null
 (n) (adv)
 tất cả
+
 |always
-null
-null
 (adv)
 luôn luôn
+
 |border
-null
-null
 (n)
 bờ, mép, vỉa, lề (đường)
+
 |already
-null
-null
 (adv)
 đã, rồi, đã… rồi
+
 |below
-null
-null
 (prep) (adv)
 ở dưới, dưới thấp, phía dưới
+
 |estate
-null
-null
 (n)
 tài sản, di sản, bất động sản
+
 |shall
-null
-null
 (v)
 dự đoán tương lai: sẽ
+
 |touch
-null
-null
 (v) (n)
 sờ, mó, tiếp xúc; sự sờ, sự mó, sự tiếp xúc
+
 |clock
-null
-null
 (n)
 đồng hồ
+
 |real
-null
-null
 (adj)
 thực, thực tế, có thật
+
 |spicy
-null
-null
 (adj)
 có gia vị
+
 |expense
-null
-null
 (n)
 chi phí
+
 |in exchange for
-null
-null
-null
 trong việc trao đổi về
+
 |rumour
-null
-null
 (n)
 tin đồn, lời đồn
+
 |tool
-null
-null
 (n)
 dụng cụ, đồ dùng
+
 |unit
-null
-null
 (n)
 đơn vị
+
 |contemporary
-null
-null
 (adj)
 đương thời, đương đại
+
 |collect
-null
-null
 (v)
 sưu tập, tập trung lại
+
 |gear
-null
-null
 (n)
 cơ cấu, thiết bị, dụng cụ
+
 |shame
-null
-null
 (n)
 sự xấu hổ, thẹn thùng, sự ngượng
+
 |entertaining
-null
-null
 (adj)
 giải trí
+
 |rob
-null
-null
 (v)
 cướp, lấy trộm
+
 |elderly
-null
-null
 (adj)
 có tuổi, cao tuổi
+
 |financial
-null
-null
 (adj)
 thuộc (tài chính)
+
 |keen on
-null
-null
-null
 say mê, ưa thích
+
 |media
-null
-null
 (n)
 phương tiện truyền thông đại chúng
+
 |trick
-null
-null
 (n) (v)
 mưu mẹo, thủ đoạn, trò lừa gạt; lừa, lừa gạt
+
 |around
-null
-null
-null
 (adv, prep.)xung quanh, vòng quanh
+
 |favour
-null
-null
 (n)
 thiện ý, sự quý mến; sự đồng ý; sự chiếu cố
+
 |running
-null
-null
 (n)
 sự chạy, cuộc chạy đua
+
 |disappoint
-null
-null
 (v)
 không làm thỏa ước nguyện,
+
 |weakness
-null
-null
 (n)
 tình trạng yếu đuối, yếu ớt
+
 |and
-null
-null
 (conj)
 và
+
 |define
-null
-null
 (v)
 định nghĩa
+
 |construction
-null
-null
 (n)
 sự xây dựng, công trình
+
 |predict
-null
-null
 (v)
 báo trước, tiên đoán, dự báo
+
 |dump
-null
-null
 (v) (n)
 đổ rác; đống rác, nơi đổ rác
+
 |row
-null
-null
 (n)
 hàng, dãy
+
 |photocopy
-null
-null
 (n) (v)
 bản sao chụp; sao chụp
+
 |chemist
-null
-null
 (n)
 nhà hóa học
+
 |abroad
-null
-null
 (adv)
 ở, ra nước ngoài, ngoài trời
+
 |drawer
-null
-null
 (n)
 người vẽ, người kéo
+
 |employment
-null
-null
 (n)
 sự thuê mướn
+
 |requirement
-null
-null
 (n)
 nhu cầu, sự đòi hỏi; luật lệ, thủ tục
+
 |transport
-null
-null
 (v) (n)
 sự vận chuyển, sự vận tải;chuyên chở, phương tiện đi lại
+
 |pencil
-null
-null
 (n)
 bút chì
+
 |specific
-null
-null
 (adj)
 đặc trưng, riêng biệt
+
 |minute
-null
-null
 (n)
 phút
+
 |engage
-null
-null
 (v)
 hứa hẹn, cam kết, đính ước
+
 |whisper
-null
-null
 (v) (n)
 nói thì thầm, xì xào; tiếng nói thì thầm, tiếng xì xào
+
 |until
-null
-null
 (conj) (prep)
 trước khi, cho đến khi
+
 |needle
-null
-null
 (n)
 cái kim, mũi nhọn
+
 |strategy
-null
-null
 (n)
 chiến lược
+
 |collapse
-null
-null
 (v) (n)
 đổ, sụp đổ; sự đổ nát, sự sụp đổ
+
 |dull
-null
-null
 (adj)
 chậm hiểu, ngu đần
+
 |reason
-null
-null
 (n)
 lý do, lý lẽ
+
 |accurate
-null
-null
 (adj)
 đúng đắn, chính xác, xác đáng
+
 |thought
-null
-null
 (n)
 sự suy nghĩ, khả năng suy nghĩ; ý nghĩ, tư tưởng, tư duy
+
 |ring
-null
-null
 (n) (v)
 chiếc nhẫn, đeo nhẫn cho ai
+
 |maintain
-null
-null
 (v)
 giữ gìn, duy trì, bảo vệ
+
 |shift
-null
-null
 (v) (n)
 đổi chỗ, dời chỗ, chuyển, giao; sự thay đổi, sự luân phiên
+
 |taste
-null
-null
 (n) (v)
 vị, vị giác; nếm
+
 |gambling
-null
-null
 (n)
 trò cờ bạc
+
 |ship
-null
-null
 (n)
 tàu, tàu thủy
+
 |bargain
-null
-null
 (n)
 sự mặc cả, sự giao kèo mua bán
+
 |cheese
-null
-null
 (n)
 pho mát
+
 |professional
-null
-null
 (adj) (n) (thuộc)
 nghề, nghề nghiệp; chuyên nghiệp
+
 |take sth over
-null
-null
-null
 chở, chuyển cái gì; tiếp quản, kế tục cái gì
+
 |locally
-null
-null
 (adv)
 có tính chất địa phương, cục bộ
+
 |cake
-null
-null
 (n)
 bánh ngọt
+
 |jam
-null
-null
 (n)
 mứt
+
 |gentle
-null
-null
 (adj)
 hiền lành, dịu dàng, nhẹ nhàng
+
 |sweater
-null
-null
 (n)
 người ra mồ hôi,kẻ bóc lột lao động
+
 |resort
-null
-null
 (n)
 kế sách, phương kế
+
 |shoulder
-null
-null
 (n)
 vai
+
 |dance
-null
-null
 (n) (v)
 sự nhảy múa, sự khiêu vũ; nhảy múa, khiêu vũ
+
 |boil
-null
-null
 (v)
 sôi, luộc
+
 |fully
-null
-null
 (adv)
 đầy đủ, hoàn toàn
+
 |shopping
-null
-null
 (n)
 sự mua sắm
+
 |so that
-null
-null
-null
 để, để cho, để mà
+
 |remain
-null
-null
 (v)
 còn lại, vẫn còn như cũ
+
 |expected
-null
-null
 (adj)
 được chờ đợi, được hy vọng
+
 |amaze
-null
-null
 (v)
 làm ngạc nhiên, làm sửng sốt
+
 |demand
-null
-null
 (n) (v)
 sự đòi hỏi, sự yêu cầu; đòi hỏi, yêu cầu
+
 |mount
-null
-null
 (v) (n)
 leo, trèo; núi
+
 |envelope
-null
-null
 (n)
 phong bì
+
 |toilet
-null
-null
 (n)
 nhà vệ sinh; sự trang điểm (rửa mặt, ăn mặc, chải tóc...)
+
 |dictionary
-null
-null
 (n)
 từ điển
+
 |mystery
-null
-null
 (n)
 điều huyền bí, điều thần bí
+
 |slow
-null
-null
 (adj)
 chậm, chậm chạp
+
 |immoral
-null
-null
 (adj)
 trái đạo đức, luân lý; xấu xa
+
 |gently
-null
-null
 (adv)
 nhẹ nhàng, êm ái, dịu dàng
+
 |grade
-null
-null
 (n) (v)
 điểm, điểm số; phân loại, xếp loại
+
 |letter
-null
-null
 (n)
 thư; chữ cái, mẫu tự
+
 |deposit
-null
-null
 (n) (v)
 vật gửi, tiền gửi, tiền đặt cọc; gửi, đặt cọc
+
 |photography
-null
-null
 (n)
 thuật chụp ảnh, nghề nhiếp ảnh
+
 |a few
-null
-null
-null
 một ít, một vài
+
 |flash
-null
-null
 (v) (n)
 loé sáng, vụt sáng; ánh sáng lóe lên, đèn nháy
+
 |continent
-null
-null
 (n)
 lục địa, đại lục
+
 |accuse
-null
-null
 (v)
 tố cáo, buộc tội, kết tội
+
 |housing
-null
-null
 (n)
 nơi ăn chốn ở
+
 |maybe
-null
-null
 (adv)
 có thể, có lẽ
+
 |frequently
-null
-null
 (adv)
 thường xuyên
+
 |guarantee
-null
-null
 (n) (v)
 sự bảo hành, bảo lãnh, người bảo lãnh; cam đoan, đảm bảo
+
 |enemy
-null
-null
 (n)
 kẻ thù, quân địch
+
 |recommend
-null
-null
 (v)
 giới thiệu, tiến cử; đề nghị, khuyên bảo
+
 |acquire
-null
-null
 (v)
 dành được, đạt được, kiếm được
+
 |matching
-null
-null
 (adj)
 tính địch thù, thi đấu
+
 |in order to
-null
-null
-null
 hợp lệ
+
 |gray
-null
-null
 (adj)
 xám, hoa râm (tóc)
+
 |advertisement
-null
-null
 (n)
 quảng cáo
+
 |patience
-null
-null
 (n)
 tính kiên nhẫn, nhẫn nại, kiên trì, sự chịu đựng
+
 |arm
-null
-null
 (n) (v)
 cánh tay; vũ trang, trang bị (vũ khí)
+
 |art
-null
-null
 (n)
 nghệ thuật, mỹ thuật
+
 |horror
-null
-null
 (n)
 điều kinh khủng, sự ghê rợn
+
 |curly
-null
-null
 (adj)
 quăn, xoắn
+
 |poison
-null
-null
 (n) (v)
 chất độc, thuốc độc; đánh thuốc độc, tẩm thuốc độc
+
 |silly
-null
-null
 (adj)
 ngớ ngẩn, ngu ngốc, khờ dại
+
 |gram
-null
-null
 (n)
 đậu xanh
+
 |black
-null
-null
 (adj) (n)
 đen; màu đen
+
 |knitted
-null
-null
 (adj)
 được đan, được thêu
+
 |lacking
-null
-null
 (adj)
 ngu đần, ngây ngô
+
 |nest
-null
-null
 (n) (v)
 tổ, ổ; làm tổ
+
 |supporter
-null
-null
 (n)
 vật chống đỡ; người cổ vũ, người ủng hộ
+
 |tour
-null
-null
 (n) (v)
 cuộc đi du lịch, cuộc đi dạo, chuyến du lịch; đi du lịch
+
 |persuade
-null
-null
 (v)
 thuyết phục
+
 |call
-null
-null
 (v) (n)
 gọi; tiếng kêu, tiếng gọi
+
 |calm
-null
-null
 (adj) (v) (n)
 yên lặng, làm dịu đi; sự yên lặng, sự êm ả
+
 |such
-null
-null
 pro(n)
 như thế, như vậy, như là
+
 |classic
-null
-null
 (adj) (n)
 cổ điển, kinh điển
+
 |kick
-null
-null
 (v) (n)
 đá; cú đá
+
 |absolute
-null
-null
 (adj)
 tuyệt đối, hoàn toàn
+
 |grab
-null
-null
 (v)
 túm lấy, vồ, chộp lấy
+
 |suck
-null
-null
 (v)
 bú, hút; hấp thụ, tiếp thu
+
 |rub
-null
-null
 (v)
 cọ xát, xoa bóp, nghiền, tán
+
 |through
-null
-null
 (adv)
 qua, xuyên qua
+
 |castle
-null
-null
 (n)
 thành trì, thành quách
+
 |strength
-null
-null
 (n)
 sức mạnh, sức khỏe
+
 |officer
-null
-null
 (n)
 viên chức, cảnh sát, sĩ quan
+
 |genuinely
-null
-null
 (adv)
 thành thật, chân thật
+
 |justified
-null
-null
 (adj)
 hợp lý, được chứng minh là đúng
+
 |remains
-null
-null
 (n)
 đồ thừa, cái còn lại
+
 |bomb
-null
-null
 (n) (v)
 quả bom; đánh bom, thả bom
+
 |repeated
-null
-null
 (adj)
 được nhắc lại, được lặp lại
+
 |research
-null
-null
 (n)
 sự nghiên cứu
+
 |mouse
-null
-null
 (n)
 chuột
+
 |either
-null
-null
 (adv)
 mỗi, một; cũng phải thế
+
 |view
-null
-null
 (n) (v)
 sự nhìn, tầm nhìn; nhìn thấy, xem, quan sát
+
 |openly
-null
-null
 (adv)
 công khai, thẳng thắn
+
 |white
-null
-null
 (adj) (n)
 trắng; màu trắng
+
 |as soon as
-null
-null
-null
 ngay khi
+
 |furniture
-null
-null
 (n)
 đồ đạc (trong nhà)
+
 |stripe
-null
-null
 (n)
 sọc, vằn, viền
+
 |huge
-null
-null
 (adj)
 to lớn, khổng lồ
+
 |helpful
-null
-null
 (adj)
 có ích; giúp đỡ
+
 |dust
-null
-null
 (n) (v)
 bụi, rác; rắc (bụi, phấn), quét bụi, phủi bụi
+
 |palace
-null
-null
 (n)
 cung điện, lâu đài
+
 |attractive
-null
-null
 (adj)
 hút, thu hút, có duyên, lôi cuốn
+
 |imagine
-null
-null
 (v)
 tưởng tượng, hình dung; tưởng rằng, cho rằng
+
 |town
-null
-null
 (n)
 thị trấn, thị xã, thành phố nhỏ
+
 |telephone
-null
-null
 (n) (v)
 máy điện thoại, gọi điện thoại
+
 |engineering
-null
-null
 (n)
 nghề kỹ sư, công việc của kỹ sư
+
 |significant
-null
-null
 (adj)
 nhiều ý nghĩa, quan trọng
+
 |mentally
-null
-null
 (adv)
 về mặt tinh thần
+
 |decrease
-null
-null
 (v) (n)
 giảm bớt, làm suy giảm, sự giảm đi, sự giảm sút
+
 |whatever
-null
-null
 pro (n)
 bất cứ thứ gì, bất kể thứ gì
+
 |museum
-null
-null
 (n)
 bảo tàng
+
 |embarrassing
-null
-null
 (adj)
 làm lúng túng, ngăn trở
+
 |senate
-null
-null
 (n)
 thượng nghi viện, ban giám hiệu
+
 |aloud
-null
-null
 (adv)
 lớn tiếng, to tiếng
+
 |crop
-null
-null
 (n)
 vụ mùa
+
 |blind
-null
-null
 (adj)
 đui, mù
+
 |shop
-null
-null
 (n) (v)
 cửa hàng; đi mua hàng, đi chợ
+
 |color
-null
-null
 (n)
 Màu sắc
+
 |distance
-null
-null
 (n)
 khoảng cách, tầm xa
+
 |import
-null
-null
 (n) (v)
 sự nhập, sự nhập khẩu; nhập, nhập khẩu
+
 |mood
-null
-null
 (n)
 lối, thức, điệu
+
 |occupy
-null
-null
 (v)
 giữ, chiếm lĩnh, chiếm giữ
+
 |string
-null
-null
 (n)
 dây, sợi dây
+
 |absence
-null
-null
 (n)
 sự vắng mặt
+
 |attract
-null
-null
 (v)
 hút; thu hút, hấp dẫn
+
 |book
-null
-null
 (n) (v)
 sách; ghi chép
+
 |nearly
-null
-null
 (adv)
 gần, sắp, suýt
+
 |truck
-null
-null
 (n)
 rau quả tươi
+
 |show
-null
-null
 (v) (n)
 biểu diễn, trưng bày; sự biểu diễn, sự bày tỏ
+
 |description
-null
-null
 (n)
 sự mô tả, sự tả, sự miêu tả
+
 |edition
-null
-null
 (n)
 nhà xuất bản, sự xuất bản
+
 |disappear
-null
-null
 (v)
 biến mất, biến đi
+
 |shot
-null
-null
 (n)
 đạn, viên đạn
+
 |button
-null
-null
 (n)
 cái nút, cái khuy, cúc
+
 |conclusion
-null
-null
 (n)
 sự kết thúc, sự kết luận, phần kết luận
+
 |nor
-null
-null
 (conj) (adv)
 cũng không
+
 |negative
-null
-null
 (adj)
 phủ định
+
 |impose
-null
-null
 (v)
 đánh (thuế...), bắt gánh vác; đánh tráo, lợi dụng
+
 |defend
-null
-null
 (v)
 che chở, bảo vệ, bào chữa
+
 |arrive
-null
-null
 (+at, in) (v)
 đến, tới nơi
+
 |street
-null
-null
 (n)
 phố, đườmg phố
+
 |statement
-null
-null
 (n)
 sự bày tỏ, sự phát biểu; sự tuyên bố, sự trình bày
+
 |hence
-null
-null
 (adv)
 sau đây, kể từ đây; do đó, vì thế
+
 |boot
-null
-null
 (n)
 khởi động
+
 |factor
-null
-null
 (n)
 nhân tố
+
 |faintly
-null
-null
 (adv)
 nhút nhát, yếu ớt
+
 |in spite of
-null
-null
-null
 mặc dù, bất chấp
+
 |shoe
-null
-null
 (n)
 giày
+
 |news
-null
-null
 (n)
 tin, tin tức
+
 |delivery
-null
-null
 (n)
 sự phân phát, sự phân phối
+
 |election
-null
-null
 (n)
 sự bầu cử, cuộc tuyển cử
+
 |race
-null
-null
 (n) (v)
 loài, chủng, giống; cuộc đua; đua
+
 |effectively
-null
-null
 (adv)
 có kết quả, có hiệu lực
+
 |in a hurry
-null
-null
-null
 vội vàng, hối hả, gấp rút
+
 |introduce
-null
-null
 (v)
 giới thiệu
+
 |substance
-null
-null
 (n)
 chất liệu; bản chất; nội dung
+
 |war
-null
-null
 (n)
 chiến tranh
+
 |bone
-null
-null
 (n)
 xương
+
 |suddenly
-null
-null
 (adv)
 thình lình, đột ngột
+
 |way
-null
-null
 (n)
 đường, đường đi
+
 |grey
-null
-null
 (adj)
 xám, hoa râm (tóc),xám xịt
+
 |target
-null
-null
 (n)
 bia, mục tiêu, đích
+
 |mouth
-null
-null
 (n)
 miệng
+
 |urban
-null
-null
 (adj) (thuộc)
 thành phố, khu vực
+
 |nervous
-null
-null
 (adj)
 hoảng sợ, dễ bị kích thích, hay lo lắng
+
 |restricted
-null
-null
 (adj)
 bị hạn chế, có giới hạn; vùng cấm
+
 |duty
-null
-null
 (n)
 sự tôn kính, kính trọng; bồn phận, trách nhiệm
+
 |risk
-null
-null
 (n) (v)
 sự liều, mạo hiểm; liều
+
 |stranger
-null
-null
 (n)
 người lạ
+
 |flame
-null
-null
 (n)
 ngọn lửa
+
 |rise
-null
-null
 (n) (v)
 sự lên, sự tăng lương, thăng cấp; dậy, đứng lên, mọc (mặt trời), thành đạt
+
 |penny
-null
-null
 (n)
 đồng xu, số tiền
+
 |container
-null
-null
 (n)
 cái đựng, chứa; công te nơ
+
 |delicate
-null
-null
 (adj)
 thanh nhã, thanh tú, tế nhị, khó xử
+
 |leader
-null
-null
 (n)
 người lãnh đạo, lãnh tụ
+
 |fancy
-null
-null
 (v) (adj)
 tưởng tượng, cho, nghĩ rằng; tưởng tượng
+
 |quickly
-null
-null
 (adv)
 nhanh
+
 |decide
-null
-null
 (v)
 quyết định, giải quyết, phân xử
+
 |rent
-null
-null
 (n) (v)
 sự thuê mướn; cho thuê, thuê
+
 |nearby
-null
-null
 (adj) (adv)
 gần
+
 |cast
-null
-null
 (v) (n)
 quăng, ném, thả, đánh gục; sự quăng, sự ném (lưới), sự thả (neo)
+
 |crush
-null
-null
 (v)
 ép, vắt, đè nát, đè bẹp
+
 |hatred
-null
-null
 (n)
 lòng căm thì, sự căm ghét
+
 |largely
-null
-null
 (adv)
 phong phú, ở mức độ lớn
+
 |slice
-null
-null
 (n) (v)
 miếng, lát mỏng; cắt ra thành miếng mỏng, lát mỏng
+
 |far
-null
-null
 (adv) (adj)
 xa
+
 |broad
-null
-null
 (adj)
 rộng
+
 |fat
-null
-null
 (adj) (n)
 béo, béo bở; mỡ, chất béo
+
 |princess
-null
-null
 (n)
 công chúa
+
 |catch
-null
-null
 (v)
 bắt lấy, nắm lấy, tóm lấy, chộp lấy
+
 |severely
-null
-null
 (adv)
 khắt khe, gay gắt; giản dị, mộc mạc
+
 |truly
-null
-null
 (adv)
 đúng sự thật, đích thực, thực sự
+
 |cash
-null
-null
 (n)
 tiền, tiền mặt
+
 |plan
-null
-null
 (n) (v)
 bản đồ, kế hoạch; vẽ bản đồ, lập kế hoạch, dự kiến
+
 |case
-null
-null
 (n)
 vỏ, ngăn, túi
+
 |generation
-null
-null
 (n)
 sự sinh ra, sự phát sinh ra; thế hệ, đời
+
 |metre
-null
-null
 (n)
 mét
+
 |give
-null
-null
 (v)
 cho, biếu, tặng
+
 |item
-null
-null
 (n)
 tin tức; khoả(n)., mó(n).., tiết mục
+
 |stiffly
-null
-null
 (adv)
 cứng, cứng rắn, kiên quyết
+
 |double
-null
-null
 (adj) (adv) (n) (v)
 đôi, hai, kép; cái gấp đôi, lượng gấp đôi; làm gấp đôi
+
 |hollow
-null
-null
 (adj)
 rỗng, trống rỗng
+
 |comfortably
-null
-null
 (adv)
 dễ chịu, thoải mái, tiện nghi, ấm cúng
+
 |wind sth up
-null
-null
-null
 lên dây, quấn, giải quyết
+
 |saving
-null
-null
 (n)
 sự cứu, sự tiết kiệm
+
 |moon
-null
-null
 (n)
 mặt trăng
+
 |comfortable
-null
-null
 (adj)
 thoải mái, tiện nghi, đầy đủ
+
 |determined
-null
-null
 (adj)
 đã được xác định, đã được xác định rõ
+
 |slide
-null
-null
 (v)
 trượtc, chuyển động nhẹ, lướt qua
+
 |sticky
-null
-null
 (adj)
 dính, nhớt
+
 |style
-null
-null
 (n)
 phong cách, kiểu, mẫu, loại
+
 |waist
-null
-null
 (n)
 eo, chỗ thắt lưng
+
 |flesh
-null
-null
 (n)
 thịt
+
 |suit
-null
-null
 (n) (v)
 bộ com lê, trang phục; thích hợp, quen, hợp với
+
 |card
-null
-null
 (n)
 thẻ, thiếp
+
 |care
-null
-null
 (n) (v)
 sự chăm sóc, chăm nom; chăm sóc
+
 |damage
-null
-null
 (n) (v)
 mối hại, điều hại, sự thiệt hại; làm hư hại, làm hỏng
+
 |purely
-null
-null
 (adv)
 hoàn toàn, chỉ là
+
 |study
-null
-null
 (n) (v)
 sự học tập, sự nghiên cứu; học tập, nghiên cứu
+
 |boss
-null
-null
 (n)
 ông chủ, thủ trưởng
+
 |guard
-null
-null
 (n) (v)
 cái chắn, người bảo vệ; bảo vệ, gác, canh giữ
+
 |direct
-null
-null
 (adj)
 trực tiếp, thẳng, thẳng thắn
+
 |pattern
-null
-null
 (n)
 mẫu, khuôn mẫu
+
 |settle
-null
-null
 (v)
 giải quyết, dàn xếp, hòa giải, đặt, bố trí
+
 |exercise
-null
-null
 (n) (v)
 bài tập, sự thi hành, sự thực hiện; làm, thi hành, thực hiện
+
 |fever
-null
-null
 (n)
 cơn sốt, bệnh sốt
+
 |pick sth up
-null
-null
-null
 cuốc, vỡ, xé
+
 |gain
-null
-null
 (v) (n)
 lợi, lợi ích; giành được, kiếm được, đạt tới
+
 |labour
-null
-null
 (n)
 lao động; công việc
+
 |vehicle
-null
-null
 (n)
 xe cộ
+
 |supermarket
-null
-null
 (n)
 siêu thị
+
 |confuse
-null
-null
 (v)
 làm lộn xộn, xáo trộn
+
 |freedom
-null
-null
 (n)
 sự tự do; nền tự do
+
 |modern
-null
-null
 (adj)
 hiện đại, tân tiến
+
 |web
-null
-null
 (n)
 mạng, lưới
+
 |physics
-null
-null
 (n)
 vật lý học
+
 |occasionally
-null
-null
 (adv)
 thỉnh thoảng, đôi khi
+
 |protect
-null
-null
 (v)
 bảo vệ, che chở
+
 |stress
-null
-null
 (n) (v)
 sự căng thẳng; căng thẳng, ép, làm căng
+
 |explore
-null
-null
 (v)
 thăm dò, thám hiểm
+
 |born
-null
-null
 (v)
 sinh, đẻ
+
 |display
-null
-null
 (v) (n)
 bày tỏ, phô trương, trưng bày; sự bày ra, phô bày,trưng bày
+
 |wet
-null
-null
 (adj)
 ướt, ẩm ướt
+
 |electricity
-null
-null
 (n)
 điện, điện lực; điện lực học
+
 |climate
-null
-null
 (n)
 khí hậu, thời tiết
+
 |great
-null
-null
 (adj)
 to, lớn, vĩ đại
+
 |bore
-null
-null
 (n)
 khoan
+
 |get on
-null
-null
-null
 leo, trèo lên (xe buýt, xe lửa,..)
+
 |criticize
-null
-null
 (v)
 phê bình, phê phán, chỉ trích
+
 |shirt
-null
-null
 (n)
 áo sơ mi
+
 |organization
-null
-null
 (n)
 tổ chức, cơ quan; sự tổ chức
+
 |pleased
-null
-null
 (adj)
 hài lòng
+
 |width
-null
-null
 (n)
 tính chất rộng, bề rộng
+
 |certain
-null
-null
 (adj),pro(n)
 chắc chắn
+
 |board
-null
-null
 (n) (v)
 tấm ván; lát ván, lót ván
+
 |economic
-null
-null
 (adj) (thuộc)
 Kinh tế
+
 |noisily
-null
-null
 (adv)
 ồn ào, huyên náo
+
 |stuff
-null
-null
 (n)
 chất liệu, chất
+
 |shut
-null
-null
 (v) (adj)
 đóng, khép, đậy; tính khép kín
+
 |luck
-null
-null
 (n)
 may mắn, vận may
+
 |arrest
-null
-null
 (v) (n)
 bắt giữ, sự bắt giữ
+
 |navy
-null
-null
 (n)
 hải quân
+
 |fee
-null
-null
 (n)
 tiền thù lao, học phí
+
 |section
-null
-null
 (n)
 mục, phần
+
 |simple
-null
-null
 (adj)
 đơn, đơn giản, dễ dàng
+
 |used
-null
-null
 (adj)
 đã dùng, đã sử dụng
+
 |constantly
-null
-null
 (adv)
 kiên định
+
 |nut
-null
-null
 (n)
 quả hạch; đầu
+
 |retirement
-null
-null
 (n)
 sự ẩn dật, nơi hẻo lánh, sự về hưu, sự nghỉ việc
+
 |influence
-null
-null
 (n) (v)
 sự ảnh hưởng, sự tác dụng; ảnh hưởng, tác động
+
 |cloud
-null
-null
 (n)
 mây, đám mây
+
 |stressed
-null
-null
 (adj)
 bị căng thẳng, bị ép, bị căng
+
 |threaten
-null
-null
 (v)
 dọa, đe dọa
+
 |totally
-null
-null
 (adv)
 hoàn toàn
+
 |otherwise
-null
-null
 (adv)
 khác, cách khác; nếu không thì...; mặt khác
+
 |strain
-null
-null
 (n)
 sự căng thẳng, sự căng
+
 |licence
-null
-null
 n)
 bằng, chứng chỉ, bằng cử nhân;sự cho phép
+
 |hunt
-null
-null
 (v)
 săn, đi săn
+
 |package
-null
-null
 (n) (v)
 gói đồ, bưu kiện; đóng gói, đóng kiện
+
 |visible
-null
-null
 (adj)
 hữu hình, thấy được
+
 |crisis
-null
-null
 (n)
 sự khủng hoảng, cơn khủng hoảng
+
 |pronunciation
-null
-null
 (n)
 sự phát âm
+
 |king
-null
-null
 (n)
 vua, quốc vương
+
 |kind
-null
-null
 (n) (adj)
 loại, giống; tử tế, có lòng tốt
+
 |in the end
-null
-null
-null
 cuối cùng, về sau
+
 |rail
-null
-null
 (n)
 đường ray
+
 |temporarily
-null
-null
 (adv)
 tính chất tạm thời, nhất thời
+
 |inner
-null
-null
 (adj)
 ở trong, nội bộ; thân cận
+
 |pleasing
-null
-null
 (adj)
 mang lại niềm vui thích; dễ chịu
+
 |both
-null
-null
 det., pro(n)
 cả hai
+
 |important
-null
-null
 (adj)
 quan trọng, hệ trọng
+
 |market
-null
-null
 (n)
 chợ, thị trường
+
 |most
-null
-null
 pro (n) (adv)
 lớn nhất, nhiều nhất; nhất, hơn cả
+
 |keen
-null
-null
 (adj)
 sắc, bén
+
 |transfer
-null
-null
 (v) (n)
 dời, di chuyển; sự di chuyển, sự dời chỗ
+
 |personally
-null
-null
 (adv)
 đích thân, bản thân, về phần rôi, đối với tôi
+
 |phrase
-null
-null
 (n)
 câu; thành ngữ, cụm từ
+
 |outside
-null
-null
 (adj) (adv)
 bề ngoài, bên ngoài; ở ngoài
+
 |affection
-null
-null
 (n)
 tình cảm, cảm xúc
+
 |daily
-null
-null
 (adj)
 hàng ngày
+
 |effect
-null
-null
 (n)
 hiệu ứng, hiệu quả, kết quả
+
 |keep
-null
-null
 (v)
 giữ, giữ lại
+
 |nerve
-null
-null
 (n)
 khí lực, thần kinh, can đảm
+
 |producer
-null
-null
 (n)
 nhà sản xuất
+
 |rudely
-null
-null
 (adv)
 bất lịch sự, thô lỗ; thô sơ, đơn giản
+
 |topic
-null
-null
 (n)
 đề tài, chủ đề
+
 |daughter
-null
-null
 (n)
 con gái
+
 |sugar
-null
-null
 (n)
 đường
+
 |embarrass
-null
-null
 (v)
 lúng túng, làm ngượng nghịu; làm rắc rối, gây khó khăn
+
 |centimeter
-null
-null
 (n)
 xen ti met
+
 |cloth
-null
-null
 (n)
 vải, khăn trải bàn, áo thầy tu
+
 |option
-null
-null
 (n)
 sự lựa chọn
+
 |weigh
-null
-null
 (v)
 cân, cân nặng
+
 |politics
-null
-null
 (n)
 họat động chính trị, đời sống chính trị, quan điểm chính trị
+
 |crucial
-null
-null
 (adj)
 quyết định, cốt yếu, chủ yếu
+
 |contribute
-null
-null
 (v)
 đóng góp, góp phần
+
 |faith
-null
-null
 (n)
 sự tin tưởng, tin cậy; niềm tin, vật đảm bảo
+
 |insert
-null
-null
 (v)
 chèn vào, lồng vào
+
 |remark
-null
-null
 (n) (v)
 sự nhận xét, phê bình, sự để ý, chú ý; nhận xét, phê bình
+
 |captain
-null
-null
 (n)
 người cầm đầu, người chỉ huy, thủ lĩnh
+
 |bowl
-null
-null
 (n)
 cái bát
+
 |necessarily
-null
-null
 (adv)
 tất yếu, nhất thiết
+
 |relaxed
-null
-null
 (adj)
 thanh thản, thoải mái
+
 |highlight
-null
-null
 (v) (n)
 làm nổi bật, nêu bật; chỗ nổi bật nhất, đẹp, sáng nhất
+
 |alone
-null
-null
 (adj) (adv)
 cô đơn, một mình
+
 |candidate
-null
-null
 (n)
 người ứng cử, thí sinh, người dự thi
+
 |joy
-null
-null
 (n)
 niềm vui, sự vui mừng
+
 |parallel
-null
-null
 (adj)
 song song, tương đương
+
 |patient
-null
-null
 (n) (adj)
 bệnh nhân; kiên nhẫn, nhẫn nại, bền chí
+
 |reject
-null
-null
 (v)
 không chấp nhận, loại bỏ, bác bỏ
+
 |sad
-null
-null
 (adj)
 buồn, buồn bã
+
 |sheet
-null
-null
 (n)
 chăn, khăn trải giường; lá, tấm, phiến, tờ
+
 |diet
-null
-null
 (n)
 chế độ ăn uống, chế độ ăn kiêng
+
 |profit
-null
-null
 (n)
 thuận lợi, lợi ích, lợi nhuận
+
 |win
-null
-null
 (v)
 chiếm, đọat, thu được
+
 |lawyer
-null
-null
 (n)
 luật sư
+
 |sheep
-null
-null
 (n)
 con cừu
+
 |rest
-null
-null
 (n) (v)
 sự nghỉ ngơi, lúc nghỉ; nghỉ, nghỉ ngơi
+
 |amount
-null
-null
 (n) (v)
 số lượng, số nhiều; lên tới (money)
+
 |butter
-null
-null
 (n)
 bơ
+
 |move
-null
-null
 (v) (n)
 di chuyển, chuyển động; sự di chuyển, sự chuyển động
+
 |original
-null
-null
 (adj) (n) (thuộc)
 gốc, nguồn gốc, căn nguyên; nguyên bản
+
 |electric
-null
-null
 (adj) (thuộc)
 điện, có điện, phát điện
+
 |also
-null
-null
 (adv)
 cũng, cũng vậy, cũng thế
+
 |enough
-null
-null
 pro (n) (adv)
 đủ
+
 |increase
-null
-null
 (v) (n)
 tăng, tăng thêm; sự tăng, sự tăng thêm
+
 |shine
-null
-null
 (v)
 chiếu sáng, tỏa sáng
+
 |spread
-null
-null
 (v)
 trải, căng ra, bày ra; truyền bá
+
 |afternoon
-null
-null
 (n)
 buổi chiều
+
 |educated
-null
-null
 (adj)
 được giáo dục, được đào tạo
+
 |rely on
-null
-null
 (v)
 tin vào, tin cậy, tin tưởng vào
+
 |various
-null
-null
 (adj)
 khác nhau, thuộc về nhiều loại
+
 |attention
-null
-null
 (n)
 sự chú ý
+
 |interruption
-null
-null
 (n)
 sự gián đoạn, sự ngắt lời
+
 |investigation
-null
-null
 (n)
 sự điều tra, nghiên cứu
+
 |latter
-null
-null
 (adj) (n)
 sau cùng, gần đây, mới đây
+
 |shiny
-null
-null
 (adj)
 sáng chói, bóng
+
 |front
-null
-null
 (n) (adj)
 mặt; đằng trước, về phía trước
+
 |headache
-null
-null
 (n)
 chứng nhức đầu
+
 |visit
-null
-null
 (v) (n)
 đi thăm hỏi, đến chơi, tham quan; sự đi thăm,
+
 |reduction
-null
-null
 (n)
 sự giảm giá, sự hạ giá
+
 |user
-null
-null
 (n)
 người dùng, người sử dụng
+
 |simply
-null
-null
 (adv)
 một cách dễ dàng, giản dị
+
 |extent
-null
-null
 (n) (v)
 quy mô, phạm vi
+
 |plane
-null
-null
 (n)
 mặt phẳng, mặt bằng
+
 |equivalent
-null
-null
 (adj) (n)
 tương đương; từ, vật tương đương
+
 |parent
-null
-null
 (n)
 cha, mẹ
+
 |stupid
-null
-null
 (adj)
 ngu ngốc, ngu đần, ngớ ngẩn
+
 |tie sth up
-null
-null
-null
 có quan hệ mật thiết, gắn chặt
+
 |bad
-null
-null
 (adj)
 xấu, tồi
+
 |bring
-null
-null
 (v)
 mang, cầm , xách lại
+
 |bag
-null
-null
 (n)
 bao, túi, cặp xách
+
 |awake
-null
-null
 (adj)
 đánh thức, làm thức dậy
+
 |sauce
-null
-null
 (n)
 nước xốt, nước chấm
+
 |fit
-null
-null
 (v) (adj)
 hợp, vừa; thích hợp, xứng đáng
+
 |offer
-null
-null
 (v) (n)
 biếu, tặng, cho; sự trả giá
+
 |bar
-null
-null
 (n)
 quán bán rượu
+
 |suffer
-null
-null
 (v)
 chịu đựng, chịu thiệt hại, đau khổ
+
 |fix
-null
-null
 (v)
 đóng, gắn, lắp; sửa chữa, sửa sang
+
 |neighbourhood
-null
-null
 (n)
 hàng xóm, vùng lân cận, khoảng, chừng
+
 |complex
-null
-null
 (adj)
 phức tạp, rắc rối
+
 |draft
-null
-null
 (n) (adj) (v)
 bản phác thảo, sơ đồ thiết kế; phác thảo, thiết kế
+
 |honest
-null
-null
 (adj)
 lương thiện, trung thực, chân thật
+
 |manufacturing
-null
-null
 (n)
 sự sản xuất, sự chế tạo
+
 |giant
-null
-null
 (n) (adj)
 người khổng lồ, người phi thường; khổng lồ, phi thường
+
 |pension
-null
-null
 (n)
 tiền trợ cấp, lương hưu
+
 |rank
-null
-null
 (n) (v)
 hàng, dãy; sắp xếp thành hàng, dãy
+
 |bay
-null
-null
 (n)
 gian (nhà), nhịp (cầu), chuồng (ngựa); bays: vòng nguyệt quế
+
 |cinema
-null
-null
 (n)
 rạp chiếu bóng
+
 |rubbish
-null
-null
 (n)
 vật vô giá trị, bỏ đi, rác rưởi
+
 |grandchild
-null
-null
 (n)
 cháu (của ông bà)
+
 |afterwards
-null
-null
 (adv)
 sau này, về sau, rồi thì, sau đấy
+
 |grow
-null
-null
 (v)
 mọc, mọc lên
+
 |sure
-null
-null
 (adj) (adv)
 chắc chắn, xác thực
+
 |excited
-null
-null
 (adj)
 bị kích thích, bị kích động
+
 |league
-null
-null
 (n)
 liên minh, liên hoàn
+
 |personal
-null
-null
 (adj)
 cá nhân, tư, riêng tư
+
 |angry
-null
-null
 (adj)
 giận, tức giận
+
 |former
-null
-null
 (adj)
 trước, cũ, xưa, nguyên
+
 |extend
-null
-null
 (v)
 giơ, duỗi ra (tay, chân); kéo dài (thời gian),dành cho, gửi lời
+
 |fold
-null
-null
 (v) (n)
 gấp, vén, xắn; nếp gấp
+
 |as
-null
-null
 (prep,adv, conj.)
 như
+
 |plastic
-null
-null
 (n) (adj)
 chất dẻo, làm bằng chất dẻo
+
 |delay
-null
-null
 (n) (v)
 sự chậm trễ, sự trì hoãn, sự cản trở; làm chậm trễ
+
 |chemical
-null
-null
 (adj) (n)
 thuộc hóa học; chất hóa học, hóa chất
+
 |interpretation
-null
-null
 (n)
 sự giải thích
+
 |peace
-null
-null
 (n)
 hòa bình, sự hòa thuận
+
 |plant
-null
-null
 (n) (v)
 thực vật, sự mọc lên; trồng, gieo
+
 |competitive
-null
-null
 (adj)
 cạnh tranh, đua tranh
+
 |consideration
-null
-null
 (n)
 sự cân nhắc, sự xem xét, sự để ý, sự quan tâm
+
 |enquiry
-null
-null
 (n)
 sự điều tra, sự thẩm vấn
+
 |drive
-null
-null
 (v) (n)
 lái , đua xe; cuộc đua xe (điều khiển)
+
 |greatly
-null
-null
 (adv)
 rất, lắm; cao thượng, cao cả
+
 |hurt
-null
-null
 (v)
 làm bị thương, gây thiệt hại
+
 |take notice of
-null
-null
-null
 chú ý
+
 |strong
-null
-null
 (adj)
 khỏe, mạnh, bền, vững, chắc chắn
+
 |abuse
-null
-null
 (n) (v)
 lộng hành, lạm dụng
+
 |prove
-null
-null
 (v)
 chứng tỏ, chứng minh
+
 |hello, world!
-null
-null
 (v)
 xin chào thế giới
+
 |scheme
-null
-null
 (n)
 sự sắp xếp, sự phối hợp; kế hoạch thực hiện; lược đồ, sơ đồ
+
 |affect
-null
-null
 (v)
 làm ảnh hưởng, tác động đến
+
 |admire
-null
-null
 (v)
 khâm phục, thán phục
+
 |deaf
-null
-null
 (adj)
 điếc, làm thinh, làm ngơ
+
 |dead
-null
-null
 (adj)
 chết, tắt
+
 |tomato
-null
-null
 (n)
 cà chua
+
 |in honour of
-null
-null
-null
 để tỏ lòng tôn kính, trân trọng đối với
+
 |virus
-null
-null
 (n)
 vi rút
+
 |coldly
-null
-null
 (adv)
 lạnh nhạt, hờ hững, vô tâm
+
 |amuse
-null
-null
 (v)
 làm cho vui, thích, làm buồn cười,thích thú
+
 |sailor
-null
-null
 (n)
 thủy thủ
+
 |smoothly
-null
-null
 (adv)
 một cách êm ả, trôi chảy
+
 |search
-null
-null
 (n) (v)
 sự tìm kiếm, sự thăm dò, sự điều tra; tìm kiếm, thăm dò, điều tra
+
 |see
-null
-null
 (v)
 nhìn, nhìn thấy, quan sát
+
 |servant
-null
-null
 (n)
 người hầu, đầy tớ
+
 |responsibility
-null
-null
 (n)
 trách nhiệm, sự chịu trách nhiệm
+
 |sudden
-null
-null
 (adj)
 thình lình, đột ngột
+
 |by
-null
-null
 (prep) (adv)
 bởi, bằng
+
 |civil
-null
-null
 (adj) (thuộc)
 công dân
+
 |national
-null
-null
 (adj) (thuộc)
 quốc gia, dân tộc
+
 |cardboard
-null
-null
 (n)
 bìa cứng, các tông
+
 |indicate
-null
-null
 (v)
 chỉ, cho biết; biểu thị, trình bày ngắn gọn
+
 |dear
-null
-null
 (adj)
 thân, thân yêu, thân mến; kính thưa, thưa
+
 |panel
-null
-null
 (n)
 ván ô (cửa, tường), pa nô
+
 |foot
-null
-null
 (n)
 chân, bàn chân
+
 |tooth
-null
-null
 (n)
 răng
+
 |salty
-null
-null
 (adj)
 chứ vị muối, có muối, mặn
+
 |contain
-null
-null
 (v)
 bao hàm, chứa đựng, bao gồm
+
 |outstanding
-null
-null
 (adj)
 nổi bật, đáng chú ý; còn tồn lại
+
 |set
-null
-null
 (n) (v)
 bộ, bọn, đám, lũ; đặt để, bố trí
+
 |take part in
-null
-null
-null
 tham gia vào
+
 |sew
-null
-null
 (v)
 may, khâu
+
 |sex
-null
-null
 (n)
 giới, giống
+
 |column
-null
-null
 (n)
 cột , mục (báo)
+
 |medicine
-null
-null
 (n)
 y học, y khoa; thuốc
+
 |familiar
-null
-null
 (adj)
 thân thiết, quen thuộc
+
 |procedure
-null
-null
 (n)
 thủ tục
+
 |breathe
-null
-null
 (v)
 hít, thở
+
 |sample
-null
-null
 (n)
 mẫu, hàng mẫu
+
 |flu
-null
-null
 (n)
 bệnh cúm
+
 |actor
-null
-null
 (n)
 diễn viên nam
+
 |battle
-null
-null
 (n)
 trận đánh, chiến thuật
+
 |tropical
-null
-null
 (adj)
 nhiệt đới
+
 |admiration
-null
-null
 (n)
 sự khâm phục,người khâm phục, thán phục
+
 |fly
-null
-null
 (v) (n)
 bay; sự bay, quãng đường bay
+
 |partner
-null
-null
-null
 (n)/ đối tác, cộng sự
+
 |somewhat
-null
-null
 (adv)
 đến mức độ nào đó, hơi, một chút
+
 |freely
-null
-null
 (adv)
 tự do, thoải mái
+
 |interview
-null
-null
 (n) (v)
 cuộc phỏng vấn, sự gặp mặt; phỏng vấn, nói chuyện riêng
+
 |spider
-null
-null
 (n)
 con nhện
+
 |essential
-null
-null
 (adj) (n)
 bản chất, thực chất, cốt yếu; yếu tố cần thiết
+
 |bed
-null
-null
 (n)
 cái giường
+
 |good for
-null
-null
-null
 có lợi cho
+
 |beauty
-null
-null
 (n)
 vẻ đẹp, cái đẹp; người đẹp
+
 |scare
-null
-null
 (v) (n)
 làm kinh hãi, sợ hãi, dọa; sự sợ hãi, sự kinh hoàng
+
 |language
-null
-null
 (n)
 ngôn ngữ
+
 |observe
-null
-null
 (v)
 quan sát, theo dõi
+
 |be sick
-null
-null
-null
 bị ốm
+
 |humorous
-null
-null
 (adj)
 hài hước, hóm hỉnh
+
 |bet
-null
-null
 (v) (n)
 đánh cược, cá cược; sự đánh cược
+
 |in public
-null
-null
-null
 giữa công chúng, công khai
+
 |contact
-null
-null
 (n) (v)
 sự liên lạc, sự giao thiệp; tiếp xúc
+
 |rare
-null
-null
 (adj)
 hiếm, ít
+
 |useless
-null
-null
 (adj)
 vô ích, vô dụng
+
 |warning
-null
-null
 (n)
 sự báo trước, lời cảnh báo
+
 |exclude
-null
-null
 (v)
 ngăn chạn, loại trừ
+
 |make sth up
-null
-null
-null
 làm thành, cấu thành, gộp thành
+
 |criticism
-null
-null
 (n)
 sự phê bình, sự phê phán, lời phê bình, lời phê phán
+
 |heating
-null
-null
 (n)
 sự đốt nóng, sự làm nóng
+
 |disadvantage
-null
-null
 (n)
 sự bất lợi, sự thiệt hại
+
 |image
-null
-null
 (n)
 ảnh, hình ảnh
+
 |typically
-null
-null
 (adv)
 điển hình, tiêu biểu
+
 |dishonest
-null
-null
 (adj)
 bất lương, không thành thật
+
 |garbage
-null
-null
 (n)
 lòng, ruột (thú)
+
 |suspicious
-null
-null
 (adj)
 có sự nghi ngờ, tỏ ra nghi ngờ, khả nghi
+
 |complain
-null
-null
 (v)
 phàn nàn, kêu ca
+
 |downstairs
-null
-null
 (adv) (adj) (n)
 ở dưới nhà, ở tầng dưới
+
 |celebration
-null
-null
 (n)
 sự kỷ niệm, lễ kỷ niệm; sự tán dương, sự ca tụng
+
 |knife
-null
-null
 (n)
 con dao
+
 |grow up
-null
-null
-null
 lớn lên, trưởng thành
+
 |piece
-null
-null
 (n)
 mảnh, mẩu; đồng tiền
+
 |adjust
-null
-null
 (v)
 sửa lại cho đúng, điều chỉnh
+
 |oddly
-null
-null
 (adv)
 kỳ quặc, kỳ cục, lẻ (số)
+
 |carry
-null
-null
 (v)
 mang, vác, khuân chở
+
 |western
-null
-null
 (adj)
 về phía tây, của phía tây
+
 |debt
-null
-null
 (n)
 nợ
+
 |refrigerator
-null
-null
-null
 tủ lạnh
+
 |party
-null
-null
 (n)
 tiệc, buổi liên hoan; đảng
+
 |frame
-null
-null
 (n) (v)
 cấu trúc, hệ thống; dàn xếp, bố trí
+
 |little
-null
-null
 pro (n) (adv)
 nhỏ, bé, chút ít; không nhiều; một chút
+
 |lucky
-null
-null
 (adj)
 gặp may, gặp may mắn, hạnh phúc
+
 |deep
-null
-null
 (adj) (adv)
 sâu, khó lường, bí ẩn
+
 |shy
-null
-null
 (adj)
 nhút nhát, e thẹn
+
 |forgive
-null
-null
 (v)
 tha, tha thứ
+
 |origin
-null
-null
 (n)
 gốc, nguồn gốc, căn nguyên
+
 |for
-null
-null
 (prep)
 cho, dành cho...
+
 |depress
-null
-null
 (v)
 làm chán nản, làm phiền muộn; làm suy giảm
+
 |mistaken
-null
-null
 (adj)
 sai lầm, hiểu lầm
+
 |content
-null
-null
 (n)
 nội dung, sự hài lòng
+
 |perhaps
-null
-null
 (adv)
 có thể, có lẽ
+
 |personality
-null
-null
 (n)
 nhân cách, tính cách; nhân phẩm, cá tính
+
 |plot
-null
-null
 (n) (v)
 mảnh đất nhở, sơ đồ, đồ thị, đồ án; vẽ sơ đồ, dựng đồ án
+
 |rate
-null
-null
 (n) (v)
 tỷ lệ, tốc độ
+
 |aunt
-null
-null
 (n)
 cô, dì
+
 |skill
-null
-null
 (n)
 kỹ năng, kỹ sảo
+
 |client
-null
-null
 (n)
 khách hàng
+
 |trouble
-null
-null
 (n)
 điều lo lắng, điều muộn phiền
+
 |divide
-null
-null
 (v)
 chia, chia ra, phân ra
+
 |sir
-null
-null
 (n)
 xưng hô lịch sự Ngài, Ông
+
 |lump
-null
-null
 (n)
 cục, tảng, miếng; cái bướu
+
 |sit
-null
-null
 (v)
 ngồi
+
 |over
-null
-null
-null
 (adv).prep. bên trên, vượt qua; lên, lên trên
+
 |brilliant
-null
-null
 (adj)
 tỏa sáng, rực rỡ, chói lọi
+
 |living
-null
-null
 (adj)
 sống, đang sống
+
 |practical
-null
-null
 (adj)
 thực hành; thực tế
+
 |unacceptable
-null
-null
 (adj)
 không thể chấp nhận
+
 |oven
-null
-null
 (n)
 lò (nướng)
+
 |gamble
-null
-null
 (v) (n)
 đánh bạc; cuộc đánh bạc
+
 |bound
-null
-null
 (+to) (adj)
 nhất định, chắc chắn
+
 |false
-null
-null
 (adj)
 sai, nhầm, giả dối
+
 |obviously
-null
-null
 (adv)
 một cách rõ ràng, có thể thấy được
+
 |packaging
-null
-null
 (n)
 bao bì
+
 |counter
-null
-null
 (n)
 quầy hàng, quầy thu tiền, máy đếm
+
 |football
-null
-null
 (n)
 bóng đá
+
 |rhythm
-null
-null
 (n)
 nhịp điệu
+
 |dinner
-null
-null
 (n)
 bữa trưa, chiều
+
 |stroke
-null
-null
 (n) (v)
 cú đánh, cú đòn; cái vuốt ve, sự vuốt ve; vuốt ve
+
 |breed
-null
-null
 (v) (n)
 nuôi dưỡng, chăm sóc, giáo dục; sinh đẻ; nòi giống
+
 |fork
-null
-null
 (n)
 cái nĩa
+
 |formalize
-null
-null
 (v)
 nghi thức hóa,trang trọng hóa
+
 |form
-null
-null
 (n) (v)
 hình thể, hình dạng, hình thức; làm thành, được tạo thành
+
 |management
-null
-null
 (n)
 sự quản lý, sự trông nom, sự điều khiển
+
 |a little
-null
-null
-null
 nhỏ, một ít
+
 |publish
-null
-null
 (v)
 công bố, ban bố; xuất bản
+
 |cheque
-null
-null
 (n)
 séc
+
 |farmer
-null
-null
 (n)
 nông dân, người chủ trại
+
 |avoid
-null
-null
 (v)
 tránh, tránh xa
+
 |gate
-null
-null
 (n)
 cổng
+
 |bid
-null
-null
 (v) (n)
 đặt giá, trả giá; sự đặt giá, sự trả giá
+
 |fresh
-null
-null
 (adj)
 tươi, tươi tắn
+
 |prompt
-null
-null
 (adj) (v)
 mau lẹ, nhanh chóng; xúi, giục, nhắc nhở
+
 |significantly
-null
-null
 (adv)
 đáng kể
+
 |tunnel
-null
-null
 (n)
 đường hầm, hang
+
 |promotion
-null
-null
 (n)
 sự thăng chức, sự thăng cấp
+
 |withdraw
-null
-null
 (v)
 rút, rút khỏi, rút lui
+
 |big
-null
-null
 (adj)
 to, lớn
+
 |feather
-null
-null
 (n)
 lông chim
+
 |hi
-null
-null
 (v)
 xin chào
+
 |decade
-null
-null
 (n)
 thập kỷ, bộ mười, nhóm mười
+
 |expert
-null
-null
 (n) (adj)
 chuyên gia; chuyên môn, thành thạo
+
 |practice
-null
-null
 (n) (v)
 thực hành, thực tiễn
+
 |select
-null
-null
 (v)
 chọn lựa, chọn lọc
+
 |crowd
-null
-null
 (n)
 đám đông
+
 |bin
-null
-null
 (n)
 thùng, thùng đựng rượu
+
 |cycling
-null
-null
 (n)
 sự đi xe đạp
+
 |sick
-null
-null
 (adj)
 ốm, đau, bệnh
+
 |bit
-null
-null
 (n)
 miếng, mảnh
+
 |output
-null
-null
 (n)
 sự sản xuất; sản phẩm, sản lượng
+
 |thanks
-null
-null
 (n)
 sự cảm ơn, lời cảm ơn
+
 |striking
-null
-null
 (adj)
 nổi bật, gây ấn tượng
+
 |corner
-null
-null
 (n)
 góc (tường, nhà, phố...)
+
 |else
-null
-null
-null
 khác, nữa; nếu không
+
 |context
-null
-null
 (n)
 văn cảnh, khung cảnh, phạm vi
+
 |easily
-null
-null
 (adv)
 dễ dàng
+
 |beside
-null
-null
 (prep)
 bên cạnh, so với
+
 |majority
-null
-null
 (n)
 phần lớn, đa số, ưu thế
+
 |model
-null
-null
 (n)
 mẫu, kiểu mẫu
+
 |drag
-null
-null
 (v)
 lôi kéo, kéo lê
+
 |join
-null
-null
 (v)
 gia nhập, tham gia; nối, chắp, ghép
+
 |crown
-null
-null
 (n)
 vương miện, vua, ngai vàng; đỉnh cao nhất
+
 |reduce
-null
-null
 (v)
 giảm, giảm bớt
+
 |sentence
-null
-null
 (n)
 câu
+
 |sky
-null
-null
 (n)
 trời, bầu trời
+
 |violently
-null
-null
 (adv)
 mãnh liệt, dữ dội
+
 |likely
-null
-null
 (adj) (adv)
 có thể đúng, có thể xảy ra, có khả năng; có thể,chắc vậy
+
 |faithfully
-null
-null
 (adv)
 trung thành, chung thủy, trung thực
+
 |issue
-null
-null
 (n) (v)
 sự phát ra, sự phát sinh; phát hành, đưa ra
+
 |large
-null
-null
 (adj)
 rộng, lớn, to
+
 |surface
-null
-null
 (n)
 mặt, bề mặt
+
 |director
-null
-null
 (n)
 giám đốc, người điều khiển, chỉ huy
+
 |satisfied
-null
-null
 (adj)
 cảm thấy hài lòng, vừa ý, thoả mãn
+
 |metal
-null
-null
 (n)
 kim loại
+
 |tomorrow
-null
-null
 (adv) (n)
 vào ngày mai; ngày mai
+
 |index
-null
-null
 (n)
 chỉ số, sự biểu thị
+
 |ordinary
-null
-null
 (adj)
 thường, thông thường
+
 |fry
-null
-null
 (v) (n)
 rán, chiên; thịt rán
+
 |drink
-null
-null
 (n) (v)
 đồ uống; uống
+
 |odd
-null
-null
 (adj)
 kỳ quặc, kỳ cục, lẻ (số)
+
 |somebody
-null
-null
 pro(n)
 người nào đó
+
 |lung
-null
-null
 (n)
 phổi
+
 |traditional
-null
-null
 (adj)
 theo truyền thống, theo lối cổ
+
 |lively
-null
-null
 (adj)
 sống, sinh động
+
 |operate
-null
-null
 (v)
 hoạt động, điều khiển
+
 |contrast
-null
-null
 (n) (v)
 sự tương phản; làm tương phản, trái ngược
+
 |hello
-null
-null
 (v)
 xin chào
+
 |begin
-null
-null
 (v)
 bắt đầu, khởi đầu
+
 |become
-null
-null
 (v)
 trở thành, trở nên
+
 |judgement
-null
-null
-null
 (n)
+
 |alive
-null
-null
 (adj)
 sống, vẫn còn sống, còn tồn tại
+
 |proportion
-null
-null
 (n)
 sự cân xứng, sự cân đối
+
 |weekend
-null
-null
 (n)
 cuối tuần
+
 |eventually
-null
-null
 (adv)
 cuối cùng
+
 |neighbour
-null
-null
 (n)
 hàng xóm
+
 |plate
-null
-null
 (n)
 bản, tấm kim loại
+
 |cycle
-null
-null
 (n) (v)
 chu kỳ, chu trình, vòng; quay vòng theo chu kỳ, đi xe đạp
+
 |thinking
-null
-null
 (n)
 sự suy nghĩ, ý nghĩ
+
 |literature
-null
-null
 (n)
 /ˈlɪtərətʃər/ văn chương, văn học
+
 |library
-null
-null
 (n)
 thư viện
+
 |dissolve
-null
-null
 (v)
 tan rã, phân hủy, giải tán
+
 |december
-null
-null
-null
 (n)tháng mười hai, tháng Chạp
+
 |ability
-null
-null
 (n)
 khả năng, năng lực
+
 |tradition
-null
-null
 (n)
 truyền thống
+
 |urgent
-null
-null
 (adj)
 gấp, khẩn cấp
+
 |at least
-null
-null
-null
 ít ra, ít nhất, chí ít
+
 |programme
-null
-null
 (n)
 chương trình
+
 |delight
-null
-null
 (n) (v)
 sự vui thích, sự vui sướng
+
 |table
-null
-null
 (n)
 cái bàn
+
 |sadly
-null
-null
 (adv)
 một cách buồn bã, đáng buồn là, không may mà
+
 |bread
-null
-null
 (n)
 bánh mỳ
+
 |side
-null
-null
 (n)
 mặt, mặt phẳng
+
 |break
-null
-null
 (v) (n)
 bẻ gãy, đập vỡ; sự gãy, sự vỡ
+
 |change
-null
-null
 (v) (n)
 thay đổi, sự thay đổi, sự biến đổi
+
 |restaurant
-null
-null
 (n)
 nhà hàng ăn, hiệu ăn
+
 |suggestion
-null
-null
 (n)
 sự đề nghị, sự đề xuất, sự khêu gợi
+
 |willingness
-null
-null
 (n)
 sự bằng lòng, sự vui lòng
+
 |indirectly
-null
-null
 (adv)
 gián tiếp
+
 |draw
-null
-null
 (v)
 vẽ, kéo
+
 |cupboard
-null
-null
 (n)
 1 loại tủ có ngăn
+
 |comfort
-null
-null
 (n) (v)
 sự an ủi, khuyên giải, lời động viên, sự an nhàn
+
 |joke
-null
-null
 (n) (v)
 trò cười, lời nói đùa; nói đùa, giễu cợt
+
 |off
-null
-null
 (adv) (prep)
 tắt; khỏi, cách, rời
+
 |generally
-null
-null
 (adv)
 nói chung, đại thể
+
 |knee
-null
-null
 (n)
 đầu gối
+
 |century
-null
-null
 (n)
 thế kỷ
+
 |hide
-null
-null
 (v)
 trốn, ẩn nấp; che giấu
+
 |punishment
-null
-null
 (n)
 sự trừng phạt, sự trừng trị
+
 |traditionally
-null
-null
 (adv) (thuộc)
 truyền thống, là truyền thống
+
 |discovery
-null
-null
 (n)
 sự khám phá, sự tìm ra, sự phát hiện ra
+
 |instruction
-null
-null
 (n)
 sự dạy, tài liệu cung cấp
+
 |report
-null
-null
 (v) (n)
 báo cáo, tường trình; bản báo cáo, bản tường trình
+
 |complete
-null
-null
 (adj) (v)
 hoàn thành, xong
+
 |married
-null
-null
 (adj)
 cưới, kết hôn
+
 |conscious
-null
-null
 (adj)
 tỉnh táo, có ý thức, biết rõ
+
 |fun
-null
-null
 (n) (adj)
 sự vui đùa, sự vui thích; hài hước
+
 |fur
-null
-null
 (n)
 bộ da lông thú
+
 |constant
-null
-null
 (adj)
 kiên trì, bền lòng
+
 |pants
-null
-null
 (n)
 quần lót, đùi
+
 |sign
-null
-null
 (n) (v)
 dấu, dấu hiệu, kí hiệu; đánh dấu, viết ký hiệu
+
 |cotton
-null
-null
 (n)
 bông, chỉ, sợi
+
 |political
-null
-null
 (adj)
 về chính trị, về chính phủ, có tính chính trị
+
 |office
-null
-null
 (n)
 cơ quan, văn phòng, bộ
+
 |northern
-null
-null
 (adj)
 Bắc
+
 |while
-null
-null
 (conj) (n)
 trong lúc, trong khi; lúc, chốc, lát
+
 |second
-null
-null
 (adv) (n)
 thứ hai, ở vị trí thứ 2, thứ nhì; người về nhì
+
 |that
-null
-null
 pro(n) (conj)
 người ấy, đó, vật ấy, đó; rằng, là
+
 |edge
-null
-null
 (n)
 lưỡi, cạnh sắc (dao)
+
 |high
-null
-null
 (adj) (adv)
 cao, ở mức độ cao
+
 |split
-null
-null
 (v) (n)
 chẻ, tách, chia ra; sự chẻ, sự tách, sự chia ra
+
 |skirt
-null
-null
 (n)
 váy, đầm
+
 |publication
-null
-null
 (n)
 sự công bố; sự xuất bản
+
 |than
-null
-null
 (conj)
 hơn
+
 |limit
-null
-null
 (n) (v)
 giới hạn, ranh giới; giới hạn, hạn chế
+
 |claim
-null
-null
 (v) (n)
 đòi hỏi, yêu sách; sự đòi hỏi, sự yêu sách, sự thỉnh cầu
+
 |communication
-null
-null
 (n)
 sự giao tiếp, liên lạc, sự truyền đạt, truyền tin
+
 |different
-null
-null
 (adj)
 khác, khác biệt, khác nhau
+
 |fasten
-null
-null
 (v)
 buộc, trói
+
 |officially
-null
-null
 (adv)
 một cách trịnh trọng, một cách chính thứ
+
 |contest
-null
-null
 (n)
 cuộc thi, trận đấu, cuộc tranh luận, cuộc chiến đấu,chiến tranh
+
 |level
-null
-null
 (n) (adj)
 trình độ, cấp, vị trí; bằng, ngang bằng
+
 |dirt
-null
-null
 (n)
 đồ bẩn thỉu, đồ dơ bẩn, vật rác rưởi
+
 |give sth out
-null
-null
-null
 chia, phân phối
+
 |feeling
-null
-null
 (n)
 sự cảm thấy, cảm giác
+
 |preserve
-null
-null
 (v)
 bảo quản, giữ gìn
+
 |establish
-null
-null
 (v)
 lập, thành lập
+
 |permanently
-null
-null
 (adv)
 cách thường xuyên, vĩnh cửu
+
 |plus
-null
-null
 (adj) (conj)
 cộng với (số, người...); dấu cộng; cộng,thêm vào
+
 |relevant
-null
-null
 (adj)
 thích hợp, có liên quan
+
 |coat
-null
-null
 (n)
 áo choàng
+
 |entry
-null
-null
 (n)
 sự ghi vào sổ sách, sự đi vào, sự tiếp nhận (pháp lý)
+
 |license
-null
-null
 (v)
 cấp chứng chỉ, cấp bằng, cho phép
+
 |disk
-null
-null
 (n)
 đĩa, đĩa hát
+
 |expand
-null
-null
 (v)
 mở rộng, phát triển, nở, giãn ra
+
 |dream
-null
-null
 (n) (v)
 giấc mơ, mơ
+
 |essay
-null
-null
 (n)
 bài tiểu luận
+
 |coal
-null
-null
 (n)
 than đá
+
 |survey
-null
-null
 (n) (v)
 sự nhìn chung, sự khảo sát; quan sát, nghiên cứu
+
 |plug
-null
-null
 (n)
 nút (thùng, chậu, bồn..)
+
 |bunch
-null
-null
 (n)
 búi, chùm, bó, cụm, buồng; bầy, đàn
+
 |birthday
-null
-null
 (n)
 ngày sinh, sinh nhật
+
 |heat
-null
-null
 (n) (v)
 hơi nóng, sức nóng
+
 |behind
-null
-null
 (prep) (adv)
 sau, ở đằng sau
+
 |code
-null
-null
 (n)
 mật mã, luật, điều lệ
+
 |hammer
-null
-null
 (n)
 búa
+
 |candy
-null
-null
 (n)
 kẹo
+
 |careful
-null
-null
 (adj)
 cẩn thận, cẩn trọng, biết giữ gìn
+
 |seal
-null
-null
 (n) (v)
 hải cẩu; săn hải cẩu
+
 |drugstore
-null
-null
 (n)
 hiệu thuốc, cửa hàng dược phẩm
+
 |box
-null
-null
 (n)
 hộp, thùng
+
 |mental
-null
-null
 (adj) (thuộc)
 trí tuệ, trí óc; mất trí
+
 |mixed
-null
-null
 (adj)
 lẫn lộn, pha trộn
+
 |tiring
-null
-null
 (adj)
 sự mệt mỏi, sự mệt nhọc
+
 |investigate
-null
-null
 (v)
 điều tra, nghiên cứu
+
 |switch
-null
-null
 (n) (v)
 công tắc, roi; tắt, bật, đánh bằng gậy, roi
+
 |head
-null
-null
 (n) (v)
 cái đầu (người, thú); chỉ huy, lãnh đại, dẫn đầu
+
 |total
-null
-null
 (adj) (n)
 tổng cộng, toàn bộ; tổng số, toàn bộ số lượng
+
 |considerable
-null
-null
 (adj)
 lớn lao, to tát, đáng kể
+
 |niece
-null
-null
 (n)
 cháu gái
+
 |upstairs
-null
-null
 (adv) (adj) (n)
 ở tên gác, cư ngụ ở tầng gác; tầng trên
+
 |heal
-null
-null
 (v)
 chữa khỏi, làm lành
+
 |reserve
-null
-null
 (v) (n)
 dự trữ, để dành, đặt trước, đăng ký trước; sự dự trữ, sự để dành, sự đặt trước
+
 |politely
-null
-null
 (adv)
 lễ phép, lịch sự
+
 |somehow
-null
-null
 (adv)
 không biết làm sao, bằng cách này hay cách khác
+
 |brick
-null
-null
 (n)
 gạch
+
 |sympathy
-null
-null
 (n)
 sự đồng cảm, sự đồng ý
+
 |consumer
-null
-null
 (n)
 người tiêu dùng
+
 |fight
-null
-null
 (v) (n)
 đấu tranh, chiến đấu; sự đấu tranh, cuộc chiến đấu
+
 |hear
-null
-null
 (v)
 nghe
+
 |occupied
-null
-null
 (adj)
 đang sử dụng, đầy (người)
+
 |rescue
-null
-null
 (v) (n)
 giải thoát, cứu nguy; sự giải thoát, sự cứu nguy
+
 |highly
-null
-null
 (adv)
 tốt, cao; hết sức, ở mức độ cao
+
 |skilful
-null
-null
 (adj)
 tài giỏi, khéo tay
+
 |brief
-null
-null
 (adj)
 ngắn, gọn, vắn tắt
+
 |keyboard
-null
-null
 (n)
 bàn phím
+
 |pretty
-null
-null
 (adv) (adj)
 khá, vừa phải; xinh, xinh xắn; đẹp
+
 |unfortunate
-null
-null
 (adj)
 không may, rủi ro, bất hạnh
+
 |chance
-null
-null
 (n)
 sự may mắn
+
 |initiative
-null
-null
 (n)
 bước đầu, sự khởi đầu
+
 |recover
-null
-null
 (v)
 lấy lại, giành lại
+
 |determine
-null
-null
 (v)
 xác định, định rõ; quyết định
+
 |nature
-null
-null
 (n)
 tự nhiên, thiên nhiên
+
 |social
-null
-null
 (adj)
 có tính xã hội
+
 |wheel
-null
-null
 (n)
 bánh xe
+
 |considerably
-null
-null
 (adv)
 đáng kể, lớn lao, nhiều
+
 |illegally
-null
-null
 (adv)
 trái luật, bất hợp pháp
+
 |interesting
-null
-null
 (adj)
 làm thích thú, làm quan tâm, làm chú ý
+
 |cross
-null
-null
 (n) (v)
 cây Thánh Giá, nỗi thống khổ; sự băng qua; băng qua, vượt qua
+
 |switch sth on
-null
-null
-null
 bật điện
+
 |control
-null
-null
 (n) (v)
 sự điều khiển, quyền hành, quyền lực, quyền chỉ huy
+
 |cousin
-null
-null
 (n)
 anh em họ
+
 |intelligent
-null
-null
 (adj)
 thông minh, sáng trí
+
 |whilst
-null
-null
 (conj)
 trong lúc, trong khi
+
 |clerk
-null
-null
 (n)
 thư ký, linh mục, mục sư
+
 |acknowledge
-null
-null
 (v)
 công nhận, thừa nhận
+
 |painting
-null
-null
 (n)
 sự sơn; bức họa, bức tranh
+
 |earth
-null
-null
 (n)
 đất, trái đất
+
 |spiritual
-null
-null
 (adj) (thuộc)
 tinh thần, linh hồn
+
 |essentially
-null
-null
 (adv)
 về bản chất, về cơ bản
+
 |knit
-null
-null
 (v)
 đan, thêu
+
 |increasingly
-null
-null
 (adv)
 tăng thêm
+
 |elbow
-null
-null
 (n)
 khuỷu tay
+
 |salad
-null
-null
 (n)
 sa lát (xà lách trộng dầu dấm); rau sống
+
 |nation
-null
-null
 (n)
 dân tộc, quốc gia
+
 |vary
-null
-null
 (v)
 thay đổi, làm cho khác nhau, biến đổi
+
 |threatening
-null
-null
 (adj)
 sự đe dọa, sự hăm dọa
+
 |upper
-null
-null
 (adj)
 cao hơn
+
 |county
-null
-null
 (n)
 hạt, tỉnh
+
 |paint
-null
-null
 (n) (v)
 sơn, vôi màu; sơn, quét sơn
+
 |determination
-null
-null
 (n)
 sự xác định, sự định rõ; sự quyết định
+
 |discipline
-null
-null
 (n)
 kỷ luật
+
 |fighting
-null
-null
 (n)
 sự chiến đấu, sự đấu tranh
+
 |behalf
-null
-null
 (n)
 sự thay mặt
+
 |somewhere
-null
-null
 (adv)
 nơi nào đó. đâu đó
+
 |get rid of
-null
-null
-null
 tống khứ
+
 |injure
-null
-null
 (v)
 làm tổn thương, làm hại, xúc phạm
+
 |scene
-null
-null
 (n)
 cảnh, phong cảnh
+
 |extremely
-null
-null
 (adv)
 vô cùng, cực độ
+
 |freeze
-null
-null
 (v)
 đóng băng, đông lạnh
+
 |inevitably
-null
-null
 (adv)
 chắc chắn
+
 |geography
-null
-null
 (n)
 địa lý, khoa địa lý
+
 |estimate
-null
-null
 (n) (v)
 sự ước lượng, đánh giá; ước lượng, đánh giá
+
 |injury
-null
-null
 (n)
 sự làm tổn thương, làm hại; điều hại, điều tổn hại
+
 |exhibit
-null
-null
 (v) (n)
 trưng bày, triển lãm; vật trưng bày, vật triển lãm
+
 |brand
-null
-null
 (n)
 nhãn (hàng hóa)
+
 |publishing
-null
-null
 (n)
 công việc, nghề xuất bản
+
 |recent
-null
-null
 (adj)
 gần đây, mới đây
+
 |alcohol
-null
-null
 (n)
 rừợu cồn
+
 |proposal
-null
-null
 (n)
 sự đề nghị, đề xuất
+
 |inevitable
-null
-null
 (adj)
 không thể tránh được, chắc chắn xảy ra; vẫn thường thấy,nghe
+
 |deny
-null
-null
 (v)
 từ chối, phản đối, phủ nhận
+
 |pleasure
-null
-null
 (n)
 niềm vui thích, điều thích thú, điều thú vị; ý muốn, ý thích
+
 |put sth out
-null
-null
-null
 tắt, dập tắt
+
 |then
-null
-null
 (adv)
 khi đó, lúc đó, tiếp đó
+
 |ancient
-null
-null
 (adj)
 xưa, cổ
+
 |remaining
-null
-null
 (adj)
 còn lại
+
 |accept
-null
-null
 (v)
 chấp nhận, chấp thuận
+
 |horse
-null
-null
 (n)
 ngựa
+
 |seat
-null
-null
 (n)
 ghế, chỗ ngồi
+
 |secondary
-null
-null
 (adj)
 trung học, thứ yếu
+
 |adopt
-null
-null
 (v)
 nhận làm con nuôi, bố mẹ nuôi
+
 |attorney
-null
-null
 (n)
 người được ủy quyền
+
 |wander
-null
-null
 (v) (n)
 đi lang thang; sự đi lang thang
+
 |underwater
-null
-null
 (adj) (adv)
 ở dưới mặt nước, dưới mặt nước
+
 |oppose
-null
-null
 (v)
 đối kháng, đối chọi, đối lập; chống đối, phản đối
+
 |autumn
-null
-null
 (n)
 mùa thu (US: mùa thu là fall)
+
 |bridge
-null
-null
 (n)
 cái cầu
+
 |device
-null
-null
 (n)
 kế sách; thiết bị, dụng cụ, máy móc
+
 |give sth up
-null
-null
-null
 bỏ, từ bỏ
+
 |motor
-null
-null
 (n)
 động cơ mô tô
+
 |conservative
-null
-null
 (adj)
 thận trọng, dè dặt, bảo thủ
+
 |access
-null
-null
 (n)
 lối, cửa, đường vào
+
 |conference
-null
-null
 (n)
 hội nghị, sự bàn bạc
+
 |activity
-null
-null
 (n)
 sự tích cực, sự hoạt động, sự hăng hái
+
 |seed
-null
-null
 (n)
 hạt, hạt giống
+
 |overcome
-null
-null
 (v)
 thắng, chiến thắng, khắc phục, đánh bại
+
 |sum
-null
-null
 (n)
 tổng, toàn bộ
+
 |unusually
-null
-null
 (adv)
 cực kỳ, khác thường
+
 |seek
-null
-null
 (v)
 tìm, tìm kiếm, theo đuổi,đòi hỏi
+
 |seem
-null
-null
 (v)
 có vẻ như, dường như
+
 |secretary
-null
-null
 (n)
 thư ký
+
 |heel
-null
-null
 (n)
 gót chân
+
 |variety
-null
-null
 (n)
 sự đa dạng, trạng thái khác nhau
+
 |disturb
-null
-null
 (v)
 làm mất yên tĩnh, làm náo động, quấy rầy
+
 |lecture
-null
-null
 (n)
 bài diễn thuyết, bài thuyết trình, bài nói chuyện
+
 |so
-null
-null
 (adv) (conj)
 như vậy, như thế; vì thế, vì vậy, vì thế cho nên
+
 |unemployed
-null
-null
 (adj)
 thất nghiệp; không dùng, không sử dụng được
+
 |offensive
-null
-null
 (adj)
 sự tấn công, cuộc tấn công
+
 |silk
-null
-null
 (n)
 tơ, chỉ, lụa
+
 |silent
-null
-null
 (adj)
 im lặng, yên tĩnh
+
 |storm
-null
-null
 (n)
 cơn giông, bão
+
 |decision
-null
-null
 (n)
 sự quyết định, sự giải quyết, sự phân xử
+
 |manager
-null
-null
 (n)
 người quản lý, giám đốc
+
 |necessary
-null
-null
 (adj)
 cần, cần thiết, thiết yếu
+
 |garage
-null
-null
 (n)
 nhà để ô tô
+
 |closet
-null
-null
 (n)
 buồng, phòng để đồ, phòng kho
+
 |launch
-null
-null
 (v) (n)
 hạ thủy (tàu); khai trương; sự hạ thủy, buổi giới thiệu sản phẩm
+
 |store
-null
-null
 (n) (v)
 cửa hàng, kho hàng; tích trữ, cho vào kho
+
 |ideally
-null
-null
 (adv)
 lý tưởng, đúng như lý tưởng
+
 |confirm
-null
-null
 (v)
 xác nhận, chứng thực
+
 |single
-null
-null
 (adj)
 đơn, đơn độc, đơn lẻ
+
 |hill
-null
-null
 (n)
 đồi
+
 |pull
-null
-null
 (v) (n)
 lôi, kéo, giật; sự lôi kéo, sự giật
+
 |gallon
-null
-null
 (n)
 Galông 1gl = 4, 54 lít ở Anh, 3, 78 lít ở Mỹ
+
 |tightly
-null
-null
 (adv)
 chặc chẽ, sít sao
+
 |assist
-null
-null
 (v)
 giúp, giúp đỡ; tham dự, có mặt
+
 |vast
-null
-null
 (adj)
 rộng lớn, mênh mông
+
 |story
-null
-null
 (n)
 chuyện, câu chuyện
+
 |country
-null
-null
 (n)
 nước, quốc gia, đất nước
+
 |sincerely
-null
-null
 (adv)
 một cách chân thành
+
 |symbol
-null
-null
 (n)
 biểu tượng, ký hiệu
+
 |commercial
-null
-null
 (adj)
 buôn bán, thương mại
+
 |joint
-null
-null
 (adj) (n)
 chung (giữa 2 người hoặc hơn); chỗ nối, đầu nối
+
 |declare
-null
-null
 (v)
 tuyên bố, công bố
+
 |remarkably
-null
-null
 (adv)
 đáng chú ý, đáng để ý; khác thường
+
 |separate
-null
-null
 (adj) (v)
 khác nhau, riêng biệt; làm rời, tách ra, chia tay
+
 |dislike
-null
-null
 (v) (n)
 sự không ưa, không thích, sự ghét
+
 |reasonable
-null
-null
 (adj)
 có lý, hợp lý
+
 |willing
-null
-null
 (adj)
 bằng lòng, vui lòng, muốn
+
 |buy
-null
-null
 (v)
 mua
+
 |available
-null
-null
 (adj)
 có thể dùng được, có giá trị, hiệu lực
+
 |express
-null
-null
 (v) (adj)
 diễn tả, biểu lộ, bày tỏ; nhanh, tốc hành
+
 |ruler
-null
-null
 (n)
 người cai trị, người trị vì; thước kẻ
+
 |confine
-null
-null
 (v)
 giam giữ, hạn chế
+
 |horizontal
-null
-null
 (adj) (thuộc)
 chân trời, ở chân trời; ngang, nằm ngang (trục hoành)
+
 |regularly
-null
-null
 (adv)
 đều đặn, thường xuyên
+
 |luggage
-null
-null
 (n)
 hành lý
+
 |military
-null
-null
 (adj) (thuộc)
 quân đội, quân sự
+
 |up
-null
-null
 (adv) (prep)
 ở trên, lên trên, lên
+
 |generate
-null
-null
 (v)
 sinh, đẻ ra
+
 |sector
-null
-null
 (n)
 khu vực, lĩnh vực
+
 |unusual
-null
-null
-null
 hiếm, khác thường
+
 |extreme
-null
-null
 (adj) (n)
 vô cùng, khắc nghiệt, quá khích, cực đoan; sự quá khích
+
 |ensure
-null
-null
 (v)
 bảo đảm, chắc chắn
+
 |usual
-null
-null
 (adj)
 thông thường, thường dùng
+
 |sink
-null
-null
 (v)
 chìm, lún, đắm
+
 |degree
-null
-null
 (n)
 mức độ, trình độ; bằng cấp; độ
+
 |this
-null
-null
 pro(n)
 cái này, điều này, việc này
+
 |reasonably
-null
-null
 (adv)
 hợp lý
+
 |suppose
-null
-null
 (v)
 cho rằng, tin rằng, nghĩ rằng
+
 |thin
-null
-null
 (adj)
 mỏng, mảnh
+
 |remarkable
-null
-null
 (adj)
 đáng chú ý, đáng để ý; khác thường
+
 |tube
-null
-null
 (n)
 ống, tuýp
+
 |especially
-null
-null
 (adv)
 đặc biệt là, nhất là
+
 |ocean
-null
-null
 (n)
 đại dương
+
 |once
-null
-null
 (adv) (conj)
 một lần; khi mà, ngay khi, một khi
+
 |failure
-null
-null
 (n)
 sự thất bại, người thất bại
+
 |carpet
-null
-null
 (n)
 tấm thảm, thảm (cỏ)
+
 |desk
-null
-null
 (n)
 bàn (học sinh, viết, làm việc)
+
 |solve
-null
-null
 (v)
 giải, giải thích, giải quyết
+
 |knot
-null
-null
 (n)
 cái nơ; điểm nút, điểm trung tâm
+
 |sing
-null
-null
 (v)
 hát, ca hát
+
 |demonstrate
-null
-null
 (v)
 chứng minh, giải thích; bày tỏ, biểu lộ
+
 |region
-null
-null
 (n)
 vùng, miền
+
 |frightened
-null
-null
 (adj)
 hoảng sợ, khiếp sợ
+
 |support
-null
-null
 (n) (v)
 sự chống đỡ, sự ủng hộ; chống đỡ, ủng hộ
+
 |coin
-null
-null
 (n)
 tiền kim loại
+
 |drop
-null
-null
 (v) (n)
 chảy nhỏ giọt, rơi, rớt; giọt (nước, máu...)
+
 |hire
-null
-null
 (v) (n)
 thuê, cho thuê (nhà...); sự thuê, sự cho thuê
+
 |idea
-null
-null
 (n)
 ý tưởng, quan niệm
+
 |kid
-null
-null
 (n)
 con dê non,đứa trẻ con
+
 |shaped
-null
-null
 (adj)
 có hình dáng được chỉ rõ
+
 |cold
-null
-null
 (adj) (n)
 lạnh, sự lạnh lẽo, lạnh nhạt
+
 |vertical
-null
-null
 (adj)
 thẳng đứng, đứng
+
 |pure
-null
-null
 (adj)
 nguyên chất, tinh khiết, trong lành
+
 |life
-null
-null
 (n)
 đời, sự sống
+
 |willingly
-null
-null
 (adv)
 sẵn lòng, tự nguyện
+
 |examination
-null
-null
 (n)
 sự thi cử, kỳ thi
+
 |gap
-null
-null
 (n)
 đèo, lỗ hổng, kẽ hở; chỗ trống
+
 |screw
-null
-null
 (n) (v)
 đinh vít, đinh ốc; bắt vít, bắt ốc
+
 |gas
-null
-null
 (n)
 khí, hơi đốt
+
 |missing
-null
-null
 (adj)
 vắng, thiếu, thất lạc
+
 |throughout
-null
-null
 (adv)
 khắp nơi, từ đầu đến cuối, suốt
+
 |emphasize
-null
-null
 (v)
 nhấn mạnh, làm nổi bật
+
 |set fire to
-null
-null
-null
 đốt cháy cái gì
+
 |successful
-null
-null
 (adj)
 thành công, thắng lợi, thành đạt
+
 |normal
-null
-null
 (adj) (n)
 thường, bình thường; tình trạng bình thường
+
 |figure
-null
-null
 (n) (v)
 hình dáng, nhân vật; hình dung, miêu tả
+
 |gradual
-null
-null
 (adj)
 dần dần, từng bước một
+
 |slight
-null
-null
 (adj)
 mỏng manh, thon, gầy
+
 |previous
-null
-null
 (adj)
 vội vàng, hấp tấp; trước (vd. ngày hôm trước), ưu tiên
+
 |wide
-null
-null
 (adj)
 rộng, rộng lớn
+
 |teach
-null
-null
 (v)
 dạy
+
 |reading
-null
-null
 (n)
 sự đọc
+
 |argue
-null
-null
 (v)
 tranh luận
+
 |technology
-null
-null
 (n)
 kỹ thuật học, công nghệ học
+
 |as well as
-null
-null
-null
 cũng, cũng như
+
 |stone
-null
-null
 (n)
 đá
+
 |superior
-null
-null
 (n) (adj)
 cao hơn, mạnh hơn,người cấp trên,thượng cấp
+
 |refer to
-null
-null
 (v)
 xem, tham khảo; ám chỉ, nhắc đến
+
 |succeed
-null
-null
 (v)
 nối tiếp, kế tiếp; kế nghiệp, kế vị
+
 |location
-null
-null
 (n)
 vị trí, sự định vị
+
 |specially
-null
-null
 (adv)
 đặc biệt, riêng biệt
+
 |passing
-null
-null
 (n) (adj)
 sự đi qua, sự trôi qua; thoáng qua, ngắn ngủi
+
 |gentleman
-null
-null
 (n)
 người quý phái, người thượng lưu
+
 |advertise
-null
-null
 (v)
 báo cho biết, báo cho biết trước
+
 |kilometre
-null
-null
-null
 Kilômet
+
 |sack
-null
-null
 (n) (v)
 bào tải; đóng bao, bỏ vào bao
+
 |software
-null
-null
 (n)
 phần mềm (máy tính)
+
 |reach
-null
-null
 (v)
 đến, đi đến, tới
+
 |lightly
-null
-null
 (adv)
 nhẹ nhàng
+
 |competition
-null
-null
 (n)
 sự cạnh tranh, cuộc thi, cuộc thi đấu
+
 |react
-null
-null
 (v)
 tác động trở lại, phản ứng
+
 |none
-null
-null
 pro(n)
 không ai, không người, vật gì
+
 |type
-null
-null
 (n) (v)
 loại, kiểu, mẫu; phân loại, xếp loại
+
 |beyond
-null
-null
 (prep) (adv)
 ở xa, phía bên kia
+
 |pupil
-null
-null
 (n)
 học sinh
+
 |practise
-null
-null
 (v)
 thực hành, tập luyện
+
 |problem
-null
-null
 (n)
 vấn đề, điều khó giải quyết
+
 |road
-null
-null
 (n)
 con đường, đường phố
+
 |justify
-null
-null
 (v)
 bào chữa, biện hộ
+
 |review
-null
-null
 (n) (v)
 sự xem lại, sự xét lại; làm lại, xem xét lại
+
 |sight
-null
-null
 (n)
 cảnh đẹp; sự nhìn
+
 |weather
-null
-null
 (n)
 thời tiết
+
 |connection
-null
-null
 (n)
 sự kết nối, sự giao kết
+
 |asleep
-null
-null
 (adj)
 ngủ, đang ngủ
+
 |proof
-null
-null
 (n)
 chứng, chứng cớ, bằng chứng; sự kiểm chứng
+
 |presence
-null
-null
 (n)
 sự hiện diện, sự có mặt; người, vât hiện diện
+
 |traveller
-null
-null
 (n)
 người đi, lữ khách
+
 |between
-null
-null
 (prep) (adv)
 giữa, ở giữa
+
 |guide
-null
-null
 (n) (v)
 điều chỉ dẫn, người hướng dẫn; dẫn đường, chỉ đường
+
 |phase
-null
-null
 (n)
 tuần trăng; giai đoạn, thời kỳ
+
 |surrounding
-null
-null
 (adj)
 bao quanh, vây quanh; ngoại vi
+
 |inability
-null
-null
 (n)
 sự bất lực, bất tài
+
 |old fashioned
-null
-null
 (adj)
 lỗi thời
+
 |swearing
-null
-null
 (n)
 lời thề, lời nguyền rủa, lời thề hứa
+
 |goal
-null
-null
 (n)
 khung thành, bàn thắng, đích, mục đích
+
 |method
-null
-null
 (n)
 phương pháp, cách thức
+
 |natural
-null
-null
 (adj) (thuộc)
 tự nhiên, thiên nhiên
+
 |rightly
-null
-null
 (adv)
 đúng, phải, có lý
+
 |contract
-null
-null
 (n) (v)
 hợp đồng, sự ký hợp đồng; ký kết
+
 |go down
-null
-null
-null
 đi xuống
+
 |conclude
-null
-null
 (v)
 kết luận, kết thúc, chấm dứt (công việc)
+
 |leather
-null
-null
 (v)
 bỏ đi, rời đi, để lại
+
 |push
-null
-null
 (v) (n)
 xô đẩy; sự xô đẩy
+
 |exist
-null
-null
 (v)
 tồn tại, sống
+
 |freshly
-null
-null
 (adv)
 tươi mát, khỏe khoắn
+
 |following
-null
-null
-null
 (adj) (n)prep.tiếp theo, theo sau, sau đây; sau, tiếp theo
+
 |exact
-null
-null
 (adj)
 chính xác, đúng
+
 |unemployment
-null
-null
 (n)
 sự thất nghiệp, tình trạng thất nghiệp
+
 |indoor
-null
-null
 (adj)
 trong nhà
+
 |lift
-null
-null
 (v) (n)
 giơ lên, nhấc lên; sự nâng, sự nhấc lên
+
 |force
-null
-null
 (n) (v)
 sức mạnh; ép buộc, cưỡng ép
+
 |substantially
-null
-null
 (adv)
 về thực chất, về căn bản
+
 |scared
-null
-null
 (adj)
 bị hoảng sợ, bị sợ hãi
+
 |sexual
-null
-null
 (adj)
 giới tính, các vấn đề sinh lý
+
 |flag
-null
-null
 (n)
 quốc kỳ
+
 |racing
-null
-null
 (n)
 cuộc đua
+
 |sympathetic
-null
-null
 (adj)
 đồng cảm, đáng mến, dễ thương
+
 |south
-null
-null
 (n) (adj) (adv)
 phương Nam, hướng Nam; ở phía Nam
+
 |north
-null
-null
 (n) (adj) (adv)
 phía bắc, phương bắc
+
 |wear
-null
-null
 (v)
 mặc, mang, đeo
+
 |range
-null
-null
 (n)
 dãy, hàng, loại; phạm vi, trình độ
+
 |nervously
-null
-null
 (adv)
 bồn chồn, lo lắng
+
 |derive
-null
-null
 (v)
 nhận được từ, lấy được từ;
+
 |tyre
-null
-null
 (n)
 lốp, vỏ xe
+
 |capacity
-null
-null
 (n)
 năng lực, khả năng tiếp thu, năng suất
+
 |cope
-null
-null
 (v + with)
 đối phó, đương đầu
+
 |weak
-null
-null
 (adj)
 yếu, yếu ớt
+
 |rock
-null
-null
 (n)
 đá
+
 |impress
-null
-null
 (v)
 ghi, khắc, in sâu vào; gây ấn tượng, làm cảm động
+
 |feature
-null
-null
 (n) (v)
 nét đặt biệt, điểm đặc trưng; mô tả nét đặc biệt,đặc trưng của...
+
 |lean
-null
-null
 (v)
 nghiêng, dựa, ỷ vào
+
 |flat
-null
-null
 (adj) (n)
 bằng phẳng, bẹt, nhẵn; dãy phòng, căn phòng, mặt phẳng
+
 |get
-null
-null
 (v)
 được, có được
+
 |recall
-null
-null
 (v)
 gọi về, triệu hồi; nhặc lại, gợi lại
+
 |dark
-null
-null
 (adj) (n)
 tối, tối tăm; bóng tối, ám muội
+
 |course
-null
-null
 (n)
 tiến trình, quá trình diễn tiến; sân chạy đua
+
 |sewing
-null
-null
 (n)
 sự khâu, sự may vá
+
 |copy
-null
-null
 (n) (v)
 bản sao, bản chép lại; sự sao chép; sao chép, bắt chước
+
 |place
-null
-null
 (n) (v)
 nơi, địa điểm; quảng trường
+
 |power
-null
-null
 (n)
 khả năng, tài năng, năng lực; sức mạnh, nội lực; quyền lực
+
 |precise
-null
-null
 (adj)
 rõ ràng, chính xác; tỉ mỉ, kỹ tính
+
 |involved in
-null
-null
-null
 để hết tâm trí vào
+
 |dare
-null
-null
 (v)
 dám, dám đương đầu với; thách
+
 |regular
-null
-null
 (adj)
 thường xuyên, đều đặn
+
 |sensible
-null
-null
 (adj)
 có óc xét đoán; hiểu, nhận biết được
+
 |pleasantly
-null
-null
 (adv)
 vui vẻ, dễ thương; thân mật
+
 |cook
-null
-null
 (v) (n)
 nấu ăn, người nấu ăn
+
 |observation
-null
-null
 (n)
 sự quan sát, sự theo dõi
+
 |cool
-null
-null
 (adj) (v)
 mát mẻ, điềm tĩnh; làm mát
+
 |sell
-null
-null
 (v)
 bán
+
 |twisted
-null
-null
 (adj)
 được xoắn, được cuộn
+
 |tired
-null
-null
 (adj)
 mệt, muốn ngủ, nhàm chán
+
 |suggest
-null
-null
 (v)
 đề nghị, đề xuất; gợi
+
 |suspect
-null
-null
 (v) (n)
 nghi ngờ, hoài nghi; người khả nghi, người bị tình nghi
+
 |upside down
-null
-null
 (adv)
 lộn ngược
+
 |brain
-null
-null
 (n)
 óc não; đầu óc, trí não
+
 |leaf
-null
-null
 (n)
 lá cây, lá (vàng...)
+
 |lead
-null
-null
 (v) (n)
 lãnh đạo, dẫn dắt; sự lãnh đạo, sự hướng dẫn
+
 |expect
-null
-null
 (v)
 chờ đợi, mong ngóng; liệu trước
+
 |site
-null
-null
 (n)
 chỗ, vị trí
+
 |cease
-null
-null
 (v)
 dừng, ngừng, ngớt, thôi, hết, tạnh
+
 |depth
-null
-null
 (n)
 chiều sâu, độ dày
+
 |emotion
-null
-null
 (n)
 sự xúc động, sự cảm động, mối xúc cảm
+
 |massive
-null
-null
 (adj)
 to lớn, đồ sộ
+
 |located
-null
-null
 (adj)
 định vị
+
 |self
-null
-null
 (n)
 bản thân mình
+
 |behaviour
-null
-null
 (n)
 cách đối xử, cách ăn ở,tư cách đạo đức
+
 |owe
-null
-null
 (v)
 nợ, hàm ơn; có được (cái gì)
+
 |insulting
-null
-null
 (adj)
 lăng mạ, xỉ nhục
+
 |minimum
-null
-null
 (adj) (n)
 tối thiểu; số lượng tối thiểu, mức tối thiểu
+
 |date
-null
-null
 (n) (v)
 ngày, kỳ, kỳ hạn, thời kỳ
+
 |dress
-null
-null
 (n) (v)
 váy, quần áo, mặc (quần áo), ăn mặc
+
 |argument
-null
-null
 (n)
 lý lẽ
+
 |reveal
-null
-null
 (v)
 bộc lộ, biểu lộ, tiết lộ; phát hiện, khám phá
+
 |switch sth off
-null
-null
-null
 ngắt điện
+
 |data
-null
-null
 (n)
 số liệu, dữ liệu
+
 |passage
-null
-null
 (n)
 sự đi qua, sự trôi qua; hành lang
+
 |adequate
-null
-null
 (adj)
 đầy, đầy đủ
+
 |onion
-null
-null
 (n)
 củ hành
+
 |sound
-null
-null
 (n) (v)
 âm thanh; nghe
+
 |drum
-null
-null
 (n)
 cái trống, tiếng trống
+
 |dozen
-null
-null
-null
 (n)det. tá (12)
+
 |translate
-null
-null
 (v)
 dịch, biên dịch, phiên dịch
+
 |drug
-null
-null
 (n)
 thuốc, dược phẩm; ma túy
+
 |barrier
-null
-null
 (n)
 đặt chướng ngại vật
+
 |realistic
-null
-null
 (adj)
 hiện thực
+
 |plain
-null
-null
 (adj)
 ngay thẳng, đơn giản, chất phác
+
 |surprisingly
-null
-null
 (adv)
 làm ngạc nhiên, làm bất ngờ
+
 |only
-null
-null
 (adj) (adv)
 chỉ có 1, duy nhất; chỉ, mới
+
 |create
-null
-null
 (v)
 sáng tạo, tạo nên
+
 |justice
-null
-null
 (n)
 sự công bằng
+
 |criminal
-null
-null
 (adj) (n)
 có tội, phạm tội; kẻ phạm tội, tội phạm
+
 |blow
-null
-null
 (v) (n)
 nở hoa; sự nở hoa
+
 |development
-null
-null
 (n)
 sự phát triển, sự trình bày, sự bày tỏ
+
 |tap
-null
-null
 (v) (n)
 mở vòi, đóng vồi; vòi, khóa
+
 |curious
-null
-null
 (adj)
 ham muốn, tò mò, lạ lùng
+
 |proud
-null
-null
 (adj)
 tự hào, kiêu hãnh
+
 |indirect
-null
-null
 (adj)
 gián tiếp
+
 |individual
-null
-null
 (adj) (n)
 riêng, riêng biệt; cá nhân
+
 |resource
-null
-null
 (n)
 tài nguyên; kế sách, thủ đoạn
+
 |ugly
-null
-null
 (adj)
 xấu xí, xấu xa
+
 |tax
-null
-null
 (n) (v)
 thuế; đánh thuế
+
 |towards
-null
-null
 (prep)
 theo hướng, về hướng
+
 |excitement
-null
-null
 (n)
 sự kích thích, sự kích động
+
 |core
-null
-null
 (n)
 nòng cốt, hạt nhân; đáy lòng
+
 |ending
-null
-null
 (n)
 sự kết thúc, sự chấm dứt; phần cuối, kết cục
+
 |council
-null
-null
 (n)
 hội đồng
+
 |person
-null
-null
 (n)
 con người, người
+
 |safe
-null
-null
 (adj)
 an toàn, chắc chắn, đáng tin
+
 |ground
-null
-null
 (n)
 mặt đất, đất, bãi đất
+
 |departure
-null
-null
 (n)
 sự rời khỏi, sự đi, sự khởi hành
+
 |visitor
-null
-null
 (n)
 khách, du khách
+
 |send
-null
-null
 (v)
 gửi, phái đi
+
 |potentially
-null
-null
 (adv)
 tiềm năng, tiềm ẩn
+
 |concrete
-null
-null
 adj., (n)
 bằng bê tông; bê tông
+
 |note
-null
-null
 (n) (v)
 lời ghi, lời ghi chép; ghi chú, ghi chép
+
 |week
-null
-null
 (n)
 tuần, tuần lễ
+
 |sail
-null
-null
 (v) (n)
 đi tàu, thuyền, nhổ neo; buồm, cánh buồm, chuyến đi bằng thuyền buồm
+
 |purpose
-null
-null
 (n)
 mục đích, ý định
+
 |regret
-null
-null
 (v) (n)
 đáng tiếc, hối tiếc; lòng thương tiếc, sự hối tiếc
+
 |line
-null
-null
 (n)
 dây, đường, tuyến
+
 |link
-null
-null
 (n) (v)
 mắt xích, mối liên lạc; liên kết, kết nối
+
 |snake
-null
-null
 (n)
 con rắn; người nham hiểm, xảo trá
+
 |scale
-null
-null
 (n)
 vảy (cá..)
+
 |riding
-null
-null
 (n)
 môn thể thao cưỡi ngựa, sự đi xe (bus, điện, xe đạp)
+
 |tune
-null
-null
 (n) (v)
 điệu, giai điệu; lên dây, so dây (đàn)
+
 |aware
-null
-null
 (adj)
 biết, nhận thức, nhận thức thấy
+
 |can
-null
-null
 (v) (n)
 có thể; nhà tù, nhà giam, bình, ca đựng
+
 |drama
-null
-null
 (n)
 kịch, tuồng
+
 |security
-null
-null
 (n)
 sự an toàn, sự an ninh
+
 |award
-null
-null
 (n) (v)
 phần thưởng; tặng, thưởng
+
 |cap
-null
-null
 (n)
 mũ lưỡi trai, mũ vả
+
 |organize
-null
-null
 (v)
 tổ chức, thiết lập
+
 |marriage
-null
-null
 (n)
 sự cưới xin, sự kết hôn, lễ cưới
+
 |ready
-null
-null
 (adj)
 sẵn sàng
+
 |stove
-null
-null
 (n)
 bếp lò, lò sưởi
+
 |alarm
-null
-null
 (n) (v)
 báo động, báo nguy
+
 |station
-null
-null
 (n)
 trạm, điểm, đồn
+
 |village
-null
-null
 (n)
 làng, xã
+
 |by means of
-null
-null
-null
 bằng phương tiện
+
 |privately
-null
-null
 (adv)
 riêng tư, cá nhân
+
 |smooth
-null
-null
 (adj)
 nhẵn, trơn, mượt mà
+
 |nose
-null
-null
 (n)
 mũi
+
 |factory
-null
-null
 (n)
 nhà máy, xí nghiệp, xưởng
+
 |unconscious
-null
-null
 (adj)
 bất tỉnh, ngất đi
+
 |cost
-null
-null
 (n) (v)
 giá, chi phí; trả giá, phải trả
+
 |motion
-null
-null
 (n)
 sự chuyển động, sự di động
+
 |limited
-null
-null
 (adj)
 hạn chế, có giới hạn
+
 |satisfy
-null
-null
 (v)
 làm thỏa mãn, hài lòng; trả (nợ), chuộc tội
+
 |will
-null
-null
 (v) (n)
 sẽ; ý chí, ý định
+
 |confidence
-null
-null
 (n)
 lòng tin tưởng, sự tin cậy
+
 |february
-null
-null
-null
 tháng 2
+
 |fishing
-null
-null
 (n)
 sự câu cá, sự đánh cá
+
 |match
-null
-null
 (n) (v)
 trận thi đấu, đối thủ, địch thủ; đối chọi, sánh được
+
 |smoke
-null
-null
 (n) (v)
 khói, hơi thuốc; hút thuốc, bốc khói, hơi
+
 |fault
-null
-null
 (n)
 sự thiết sót, sai sót
+
 |follow
-null
-null
 (v)
 đi theo sau, theo, tiếp theo
+
 |accent
-null
-null
 (n)
 trọng âm, dấu trọng âm
+
 |really
-null
-null
 (adv)
 thực, thực ra, thực sự
+
 |lorry
-null
-null
-null
 xe tải
+
 |washing
-null
-null
 (n)
 sự tắm rửa, sự giặt
+
 |tuesday
-null
-null
-null
 thứ 3
+
 |response
-null
-null
 (n)
 sự trả lời, câu trả lời, sự hưởng ứng, sự đáp lại
+
 |swollen
-null
-null
 (adj)
 sưng phồng, phình căng
+
 |challenge
-null
-null
 (n) (v)
 sự thử thách, sự thách thức; thách thức, thử thách
+
 |independently
-null
-null
-null
 (adv)độc lập
+
 |category
-null
-null
 (n)
 hạng, loại; phạm trù
+
 |harmless
-null
-null
 (adj)
 không có hại
+
 |informal
-null
-null
 (adj)
 không chính thức, không nghi thức
+
 |intend
-null
-null
 (v)
 ý định, có ý định
+
 |rival
-null
-null
 (n) (adj)
 đối thủ, địch thủ; đối địch, cạnh tranh
+
 |wild
-null
-null
 (adj)
 dại, hoang
+
