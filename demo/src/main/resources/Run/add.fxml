@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="510.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.AddController">
+<AnchorPane prefHeight="510.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.AddController">
     <AnchorPane layoutY="38.0" prefHeight="474.0" prefWidth="769.0">
-        <Label layoutX="31.0" layoutY="55.0" text="Từ tiếng anh " textFill="#28e644">
+        <Label layoutX="29.0" layoutY="29.0" text="Từ tiếng anh " textFill="#28e644">
             <font>
                 <Font name="System Bold" size="16.0" />
             </font>
@@ -22,8 +17,8 @@
                 </ImageView>
             </graphic>
         </Label>
-        <TextField fx:id="wordTargetInput" layoutX="31.0" layoutY="85.0" prefHeight="32.0" prefWidth="701.0" promptText="Nhập từ tiếng anh..." styleClass="english-word-input" stylesheets="@../Utils/style.css" />
-        <Label layoutX="30.0" layoutY="125.0" text="Giải nghĩa" textFill="#28e644">
+        <TextField fx:id="wordTargetInput" layoutX="31.0" layoutY="64.0" prefHeight="32.0" prefWidth="701.0" promptText="Nhập từ tiếng anh..." styleClass="english-word-input" stylesheets="@../Utils/style.css" />
+        <Label layoutX="29.0" layoutY="103.0" text="Giải nghĩa" textFill="#28e644">
             <font>
                 <Font name="System Bold" size="16.0" />
             </font>
@@ -33,15 +28,48 @@
                 </ImageView>
             </graphic>
         </Label>
-        <TextArea fx:id="wordExplainInput" layoutX="31.0" layoutY="155.0" prefHeight="200.0" prefWidth="701.0" promptText="Nhập giải nghĩa của từ...." styleClass="meaning-input" stylesheets="@../Utils/style.css" wrapText="true" />
-        <Button fx:id="addButton" layoutX="31.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleClickToAddButton" prefHeight="32.0" prefWidth="60.0" styleClass="add-button" stylesheets="@../Utils/style.css" text="Thêm " />
-        <Label fx:id="successAlert" alignment="CENTER" layoutX="141.0" layoutY="363.0" prefHeight="32.0" prefWidth="273.0" styleClass="success-alert" stylesheets="@../Utils/style.css" text="Thành công">
+        <TextArea fx:id="wordExplainInput" layoutX="31.0" layoutY="128.0" prefHeight="73.0" prefWidth="701.0" promptText="Nhập giải nghĩa của từ...." styleClass="meaning-input" stylesheets="@../Utils/style.css" wrapText="true" />
+        <Button fx:id="addButton" layoutX="31.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleClickToAddButton" prefHeight="17.0" prefWidth="60.0" styleClass="add-button" stylesheets="@../Utils/style.css" text="Thêm " />
+        <Label fx:id="successAlert" alignment="CENTER" layoutX="141.0" layoutY="378.0" prefHeight="25.0" prefWidth="273.0" styleClass="success-alert" stylesheets="@../Utils/style.css" text="Thành công">
             <graphic>
                 <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@../Utils/icons/icons8_ok_48px.png" />
                 </ImageView>
             </graphic>
         </Label>
+        <Label layoutX="29.0" layoutY="283.0" prefHeight="9.0" prefWidth="130.0" text="Từ loại " textFill="#28e644">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../Utils/icons/part-of-speech.png" />
+                </ImageView>
+            </graphic>
+        </Label>
+        <TextArea fx:id="wordFormInput" layoutX="31.0" layoutY="309.0" prefHeight="45.0" prefWidth="200.0" promptText="Nhập từ loại...." styleClass="meaning-input" stylesheets="@../Utils/style.css" wrapText="true" />
+        <Label layoutX="29.0" layoutY="206.0" prefHeight="25.0" prefWidth="130.0" text="Phiên âm " textFill="#28e644">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../Utils/icons/IPA-spelling.png" />
+                </ImageView>
+            </graphic>
+        </Label>
+        <TextArea fx:id="wordSpellingInput" layoutX="31.0" layoutY="229.0" prefHeight="32.0" prefWidth="200.0" promptText="Nhập phiên âm...." styleClass="meaning-input" stylesheets="@../Utils/style.css" wrapText="true" />
+        <Label layoutX="348.0" layoutY="203.0" prefHeight="25.0" prefWidth="130.0" text="Thí dụ " textFill="#28e644">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../Utils/icons/example.png" />
+                </ImageView>
+            </graphic>
+        </Label>
+        <TextArea fx:id="exampleInput" layoutX="350.0" layoutY="228.0" prefHeight="131.0" prefWidth="383.0" promptText="Nhập thí dụ...." styleClass="meaning-input" stylesheets="@../Utils/style.css" wrapText="true" />
     </AnchorPane>
      <Pane layoutX="3.0" layoutY="7.0" prefHeight="45.0" prefWidth="764.0" styleClass="title" stylesheets="@../Utils/style.css">
          <Label layoutX="20.0" prefHeight="45.0" prefWidth="240.0" text="Thêm từ vựng mới" textFill="WHITE">

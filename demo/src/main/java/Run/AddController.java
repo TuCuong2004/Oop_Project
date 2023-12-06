@@ -25,6 +25,12 @@ public class AddController implements Initializable {
     @FXML
     private TextArea wordExplainInput;
     @FXML
+    private TextArea wordSpellingInput;
+    @FXML
+    private TextArea wordFormInput;
+    @FXML
+    private TextArea exampleInput;
+    @FXML
     private Label successAlert;
     @FXML
     private Button addButton;
@@ -46,6 +52,9 @@ public class AddController implements Initializable {
     private void resetInput() {
         wordTargetInput.setText("");
         wordExplainInput.setText("");
+        wordFormInput.setText("");
+        wordSpellingInput.setText("");
+        exampleInput.setText("");
     }
 
     @Override
@@ -61,6 +70,15 @@ public class AddController implements Initializable {
         wordExplainInput.setOnKeyTyped(keyEvent -> addButton.setDisable(wordExplainInput.getText().isEmpty() ||
                 wordTargetInput.getText().isEmpty()));
 
+        wordFormInput.setOnKeyTyped(keyEvent -> addButton.setDisable(wordExplainInput.getText().isEmpty() ||
+                wordTargetInput.getText().isEmpty()));
+
+        wordSpellingInput.setOnKeyTyped(keyEvent -> addButton.setDisable(wordExplainInput.getText().isEmpty() ||
+                wordTargetInput.getText().isEmpty()));
+
+        exampleInput.setOnKeyTyped(keyEvent -> addButton.setDisable(wordExplainInput.getText().isEmpty() ||
+                wordTargetInput.getText().isEmpty()));
+
         successAlert.setVisible(false);
     }
 
@@ -72,14 +90,18 @@ public class AddController implements Initializable {
         Alert alertConfirmation = dictionaryAlerts.alertConfirmation("Add this word?",
                 "Bạn xác nhận thêm từ này?");
         Optional<ButtonType> option = alertConfirmation.showAndWait();
-        String englishWord = wordTargetInput.getText().trim();
-        String meaning = wordExplainInput.getText().trim();
+        String englishWord = wordTargetInput.getText();
+        String form = "* " + wordFormInput.getText().trim();
+        String spelling = "/" + wordSpellingInput.getText().trim() + "/";
+        String example = "= " + exampleInput.getText().trim();
+        String meaning =  form + "\n" +  "- " + wordExplainInput.getText().trim() + "\n" + example;
+        Word word = new Word(englishWord, meaning, form, spelling, example);
 
         if (option.isPresent()) {
             if (option.get() == ButtonType.OK) {
-                Word word = new Word(englishWord, meaning);
 //                String path = "C:\\Users\\Admin\\IdeaProjects\\Oop_Project\\demo\\src\\main\\resources\\Utils\\dictionaries.txt";
-                if (dictionaryCommandline.getWord(englishWord) != null) {
+                if (dictionaryCommandline.getWord(word.getWord_target()) != null) {
+                    System.out.println("Đã có");
 //                    int indexOfWord = dictionaryCommandline.dictionarySearcher(dictionary, englishWord);
                     Alert selectionAlert = dictionaryAlerts.alertConfirmation("This word has already existed",
                             "Từ này đã tồn tại.\nBạn hãy thay thế hoặc bổ sung nghĩa vừa nhập cho từ này.");
@@ -96,14 +118,23 @@ public class AddController implements Initializable {
                         if (selection.get() == replaceButton) {
 //                            dictionary.get(indexOfWord).setWord_explain(meaning);
                             dictionaryCommandline.getWord(word.getWord_target()).setWord_explain(word.getWord_explain());
+                            dictionaryCommandline.getWord(word.getWord_target()).setWordForm(word.getWordForm());
+                            dictionaryCommandline.getWord(word.getWord_target()).setSpelling(word.getSpelling());
+                            dictionaryCommandline.getWord(word.getWord_target()).setExample(word.getExample());
 //                            dictionaryCommandline.dictionaryExportToFile(dictionary, path);
                             showSuccessAlert();
                         }
 
                         if (selection.get() == insertButton) {
                             String oldMeaning = dictionaryCommandline.getWord(word.getWord_target()).getWord_explain();
+                            String oldForm = dictionaryCommandline.getWord(word.getWord_target()).getWordForm();
+                    //        String oldSpelling = dictionaryCommandline.getWord(word.getWord_target()).getSpelling();
+                            String oldExample = dictionaryCommandline.getWord(word.getWord_target()).getExample();
 //                            dictionary.get(indexOfWord).setWord_explain(oldMeaning + "\n-> " + meaning);
-                            dictionaryCommandline.getWord(word.getWord_target()).setWord_explain(oldMeaning + "\n-> " + meaning);
+                            dictionaryCommandline.getWord(word.getWord_target()).setWord_explain(oldMeaning + "\n" + "/* new add */" + "\n " + meaning);
+                            dictionaryCommandline.getWord(word.getWord_target()).setWordForm(oldForm + "\n " + form);
+                    //        dictionaryCommandline.getWord(word.getWord_target()).setSpelling(oldSpelling + "\n " + spelling);
+                            dictionaryCommandline.getWord(word.getWord_target()).setExample(oldExample + "\n " + example);
 //                            dictionaryCommandline.dictionaryExportToFile(dictionary, path);
                             showSuccessAlert();
                         }
