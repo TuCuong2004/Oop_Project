@@ -2,19 +2,12 @@ package Run;
 
 
 import DictionaryApplication.GgTranslateTextToSpeech;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
@@ -118,8 +111,8 @@ public class TranslateController implements Initializable {
 
         try {
             Parent root = loader.load();
-            Bookmark bookmark = loader.getController();
-            bookmark.setBookMarkText(word_target, word_explain, stage);
+            BookmarkController bookmarkController = loader.getController();
+            bookmarkController.setBookMarkText(word_target, word_explain, stage);
             Scene scene = new Scene(root, 432, 300);
             stage.setScene(scene);
 

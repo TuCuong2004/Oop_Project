@@ -1,15 +1,14 @@
-package model;
+package game_model;
 
 import DictionaryApplication.DictionaryManagement;
-import Run.WordSearchController;
-import javafx.scene.control.Button;
 import javafx.util.Pair;
 
+import java.io.FileNotFoundException;
 import java.util.*;
 
-public class WordSearchModel {
+public class WordSearchGameModel extends Game<Character> {
 
-    public static final int GRID_SIZE = 10;
+    private int numberOfWords;
 
     private DictionaryManagement dictionaryManagement = new DictionaryManagement();
     private ArrayList<String> words;
@@ -17,27 +16,29 @@ public class WordSearchModel {
     private List<Pair<Integer, Integer>> suggestCells = new ArrayList<>();
     private Random random = new Random();
 
-    Board board = new Board(GRID_SIZE);
     private List<String> foundWords = new ArrayList<>();
 
-    public WordSearchModel() {
+    public WordSearchGameModel(int gridSize, int numberOfWords) throws FileNotFoundException {
+        super(new Board<>(gridSize));
+        this.numberOfWords = numberOfWords;
         initEmptySlots();
         initializeWords();
         generateGrid();
     }
 
-    private void initializeWords() {
+    private void initializeWords() throws FileNotFoundException {
+        dictionaryManagement.insertFromFilePath();
         Random rand = new Random();
         List<String> values = new ArrayList<>(dictionaryManagement.getWordlist().keySet());
         words = new ArrayList<>();
 
-        while (words.size() <= 10) {
+        while (words.size() < numberOfWords) {
             String word = values.get(rand.nextInt(values.size()));
-            if (word.length() < GRID_SIZE && !word.contains(" ") && !words.contains(word.toUpperCase())) {
+            if (word.length() >= 2 && word.length() < board.getSize() &&
+                    !word.contains(" ") && !words.contains(word.toUpperCase())) {
                 words.add(word.toUpperCase());
             }
         }
-//        System.out.println(words);
     }
 
     public void generateGrid() {
@@ -63,29 +64,28 @@ public class WordSearchModel {
         }
 
         fillEmptySpaces();
-//        board.print();
     }
 
     boolean isValid(String word, int row, int col, boolean isHorizontal) {
         boolean ok = true;
 
         if (isHorizontal) {
-            if (col + word.length() > GRID_SIZE) {
+            if (col + word.length() > board.getSize()) {
                 ok = false;
             } else {
                 for (int i = 0; i < word.length(); i++) {
-                    if (board.getCell(row, col + i) != 0 && board.getCell(row, col + i) != word.charAt(i)) {
+                    if (board.getCell(row, col + i) != null && board.getCell(row, col + i) != word.charAt(i)) {
                         ok = false;
                         break;
                     }
                 }
             }
         } else {
-            if (row + word.length() > GRID_SIZE) {
+            if (row + word.length() > board.getSize()) {
                 ok = false;
             } else {
                 for (int i = 0; i < word.length(); i++) {
-                    if (board.getCell(row + i, col) != 0 && board.getCell(row + i, col) != word.charAt(i)) {
+                    if (board.getCell(row + i, col) != null && board.getCell(row + i, col) != word.charAt(i)) {
                         ok = false;
                         break;
                     }
@@ -111,8 +111,8 @@ public class WordSearchModel {
     }
 
     private void initEmptySlots() {
-        for (int row = 0; row < GRID_SIZE; row++) {
-            for (int col = 0; col < GRID_SIZE; col++) {
+        for (int row = 0; row < board.getSize(); row++) {
+            for (int col = 0; col < board.getSize(); col++) {
                 emptySlots.add(new Pair<>(row, col));
             }
         }
@@ -122,9 +122,9 @@ public class WordSearchModel {
     private void fillEmptySpaces() {
         Random random = new Random();
 
-        for (int i = 0; i < GRID_SIZE; i++) {
-            for (int j = 0; j < GRID_SIZE; j++) {
-                if (board.getGrid()[i][j] == 0) {
+        for (int i = 0; i < board.getSize(); i++) {
+            for (int j = 0; j < board.getSize(); j++) {
+                if (board.getCell(i, j) == null) {
                     char randomLetter = (char) ('a' + random.nextInt(26));
                     board.setCell(i, j, randomLetter);
                 }
@@ -141,7 +141,19 @@ public class WordSearchModel {
                 return true;
             }
         }
-        return dictionaryManagement.getWordlist().get(selectedWord) != null;
+        return false;
+    }
+
+    public boolean checkIfContainWord(String selectedWord) {
+        if (selectedWord.length() < 3) {
+            return false;
+        }
+        for (String word : words) {
+            if (word.contains(selectedWord)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public Board getBoard() {
@@ -162,5 +174,13 @@ public class WordSearchModel {
 
     public ArrayList<String> getWords() {
         return words;
+    }
+
+    public int getNumberOfWords() {
+        return numberOfWords;
+    }
+
+    public void setNumberOfWords(int numberOfWords) {
+        this.numberOfWords = numberOfWords;
     }
 }

@@ -55,7 +55,7 @@ D
 Charles Dickens __________ many wonderful characters in his novels.
 A. invented		B. discovered		C. uncovered		D. created
 D
-The children had __________ argument about what game to play.
+The children had __________ argument about what cmdGame to play.
 A. the			B. a			C. an			D. (no article)
 C
 I'll call you before I ___________.

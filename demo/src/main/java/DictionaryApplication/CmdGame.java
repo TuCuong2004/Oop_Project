@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Game {
+public class CmdGame {
     private final HashMap<Question, String> questionlist = new HashMap<>();
 
     public HashMap<Question, String> getQuestionlist() {

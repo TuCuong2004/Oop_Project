@@ -81,20 +81,10 @@ public class MenuController implements Initializable {
     }
 
     public void goToAdd(ActionEvent event) throws IOException {
-//       stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("add.fxml"));
-//        Scene scene = new Scene(fxmlLoader_menu.load());
-//        stage.setScene(scene);
-//        stage.show();
         showComponent("add.fxml");
     }
 
     public void goToSearch(ActionEvent event) throws IOException {
-//        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("search.fxml"));
-//        Scene scene = new Scene(fxmlLoader_menu.load());
-//        stage.setScene(scene);
-//        stage.show();
         showComponent("search.fxml");
 
     }
@@ -108,22 +98,10 @@ public class MenuController implements Initializable {
     }
 
     public void goToWordSearchGame(ActionEvent event) throws IOException {
-//        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("game.fxml"));
-//        Scene scene = new Scene(fxmlLoader_menu.load());
-//        stage.setScene(scene);
-//        stage.show();
-        showComponent("word_search.fxml");
-//        removeOthers(event);
+        showComponent("word_search_game.fxml");
     }
     public void goToConnectWordGame(ActionEvent event) throws IOException {
-//        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//        FXMLLoader fxmlLoader_menu = new FXMLLoader(getClass().getResource("game.fxml"));
-//        Scene scene = new Scene(fxmlLoader_menu.load());
-//        stage.setScene(scene);
-//        stage.show();
-        showComponent("game.fxml");
-//        removeOthers(event);
+        showComponent("word_matching_game.fxml");
     }
 
     public void gotoTranslate(ActionEvent event) throws IOException {
@@ -170,13 +148,10 @@ public class MenuController implements Initializable {
         transition.play();
         shadowPane.toFront();
         dashboard.toFront();
-//        dashboard.setLayoutX(0);
     }
 
     public void setDashboardHidden() {
         shadowPane.setVisible(false);
-//        dashboard.setLayoutX(-200);
-//        if(dashboard.getLayoutX() <= -200) return;
         TranslateTransition transition = new TranslateTransition();
         transition.setNode(dashboard);
         transition.setByX(-DASHBOARD_WIDTH);

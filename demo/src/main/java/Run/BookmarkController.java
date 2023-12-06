@@ -12,7 +12,7 @@ import java.util.Optional;
 import static Run.App.dictionaryCommandline;
 
 
-public class Bookmark {
+public class BookmarkController {
     private final DictionaryAlerts dictionaryAlerts = new DictionaryAlerts();
     @FXML
     private TextArea word_target;

@@ -5,6 +5,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
+import java.io.FileNotFoundException;
+
 public class GameWinningController {
 
     @FXML
@@ -14,10 +16,17 @@ public class GameWinningController {
     private Button newGameButton;
 
     private Stage primaryStage;
-    private WordSearchController wordSearchController;
+    private WordSearchGameController wordSearchGameController;
+    private WordMatchingGameController wordMatchingGameController;
 
     public void initialize() {
-        newGameButton.setOnAction(event -> handleNewGameButton());
+        newGameButton.setOnAction(event -> {
+            try {
+                handleNewGameButton();
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
 
     public void setWinningMessage(String message) {
@@ -28,13 +37,18 @@ public class GameWinningController {
         this.primaryStage = primaryStage;
     }
 
-    private void handleNewGameButton() {
+    private void handleNewGameButton() throws FileNotFoundException {
         primaryStage.close();
-
-//        wordSearchController.startNewGame();
+        if(wordSearchGameController != null) wordSearchGameController.startNewGame();
+        else if (wordMatchingGameController != null) {
+            wordMatchingGameController.startNewGame();
+        }
     }
 
-    public void setWordSearchController(WordSearchController wordSearchController) {
-        this.wordSearchController = wordSearchController;
+    public void setGameController(WordSearchGameController wordSearchGameController) {
+        this.wordSearchGameController = wordSearchGameController;
+    }
+    public void setGameController(WordMatchingGameController wordMatchingGameController) {
+        this.wordMatchingGameController = wordMatchingGameController;
     }
 }

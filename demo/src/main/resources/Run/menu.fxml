@@ -41,7 +41,7 @@
                               </ImageView>
                               <Button fx:id="closeMenu_button" mnemonicParsing="false" onAction="#clickMenuPaneButton" styleClass="menu">
                                  <graphic>
-                                    <ImageView fx:id="clo" fitHeight="26.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="26.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@../Utils/icons/x-button.png" />
                                        </image>

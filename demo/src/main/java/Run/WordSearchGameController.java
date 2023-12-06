@@ -1,30 +1,28 @@
 package Run;
 
-import DictionaryApplication.DictionaryManagement;
+import DictionaryApplication.DictionaryAlerts.DictionaryAlerts;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.geometry.Pos;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
-import javafx.scene.control.ButtonType;
+import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
 import javafx.util.Pair;
-import model.Score;
-import model.WordSearchModel;
+import game_model.Score;
+import game_model.WordSearchGameModel;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.*;
 
-public class WordSearchController implements Initializable {
+public class WordSearchGameController implements Initializable {
 
     @FXML
     private GridPane gridPane;
@@ -40,6 +38,11 @@ public class WordSearchController implements Initializable {
     private Button deleteWordButton;
     @FXML
     private Button suggestWordButton;
+    @FXML
+    private ChoiceBox<String> gridSizeChoiceBox;
+    @FXML
+    private ChoiceBox<Integer> numberOfWordsChoiceBox;
+    private DictionaryAlerts dictionaryAlerts;
     private static Stage winningStage;
     private DropShadow highlightEffect = new DropShadow();
 
@@ -48,27 +51,45 @@ public class WordSearchController implements Initializable {
     private Pair<Integer, Integer> firstSelectButton = new Pair<>(null, null);
     private StringBuilder selectedLetters = new StringBuilder();
     private Score score;
-
-    private WordSearchModel model;
-
+    private final String[] gridSizeList = {"5x5", "8x8", "10x10"};
+    private final Integer[] numberOfWordsList = {5, 8, 10};
+    private WordSearchGameModel model;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         gridPane.setAlignment(Pos.CENTER);
+        gridSizeChoiceBox.getItems().addAll(gridSizeList);
+        gridSizeChoiceBox.setValue("10x10");
+        gridSizeChoiceBox.getSelectionModel().selectedIndexProperty().addListener((observableValue, number, t1)
+                -> model.getBoard().setSize(getGridSize(gridSizeList[t1.intValue()])));
+        numberOfWordsChoiceBox.getItems().addAll(numberOfWordsList);
+        numberOfWordsChoiceBox.setValue(10);
+        numberOfWordsChoiceBox.getSelectionModel().selectedIndexProperty().addListener((observableValue, number, t1)
+                -> model.setNumberOfWords(getNumberOfWords(numberOfWordsList[t1.intValue()])));
         highlightEffect.setColor(Color.BLUE);
+        dictionaryAlerts = new DictionaryAlerts();
         score = new Score();
         if (model == null) {
-            model = new WordSearchModel();
+            try {
+                model = new WordSearchGameModel(getGridSize(gridSizeChoiceBox.getValue()), getNumberOfWords(numberOfWordsChoiceBox.getValue()));
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            }
             initModel(model);
         }
+        initTable();
+    }
 
-        for (int i = 0; i < WordSearchModel.GRID_SIZE; i++) {
-            for (int j = 0; j < WordSearchModel.GRID_SIZE; j++) {
-                Button button = createLetterButton(i, j);
-                letterButtons.add(button);
-                gridPane.add(button, j, i);
-            }
-        }
+    public int getGridSize(String gridSize) {
+        return switch (gridSize) {
+            case "5x5" -> 5;
+            case "8x8" -> 8;
+            default -> 10;
+        };
+    }
+
+    public int getNumberOfWords(int numberOfWords) {
+        return numberOfWords;
     }
 
     @FXML
@@ -87,7 +108,7 @@ public class WordSearchController implements Initializable {
                 );
                 score.increaseScore();
                 updateScoreLabel();
-                showAlert("Congratulations!", "You found the word: " + selectedWord);
+                dictionaryAlerts.showAlertInformation("Chúc mừng!", "Bạn đã thấy từ: " + selectedWord);
 
                 if (model.getWords().isEmpty()) {
                     winningStage = new Stage();
@@ -97,29 +118,50 @@ public class WordSearchController implements Initializable {
                     winningStage.show();
                     GameWinningController controller = fxmlLoaderGame.getController();
                     controller.setPrimaryStage(winningStage);
-                    controller.setWordSearchController(this);
+                    controller.setGameController(this);
                 }
+            } else if (model.checkIfContainWord(selectedWord)) {
+                dictionaryAlerts.showAlertInformation("Chưa chính xác!", "Bạn đến gần rồi đấy!");
             } else {
-                showAlert("Incorrect!", "Try again.");
+                clearSelection();
+                dictionaryAlerts.showAlertInformation("Chưa chính xác!", "Hãy thử lại!");
             }
         } else {
-            showAlert("No Selection", "Please select letters before submitting.");
+            dictionaryAlerts.showAlertInformation("No Selection", "Please select letters before submitting.");
         }
     }
 
     @FXML
-    private void restartGame() {
-        model = new WordSearchModel();
+    private void restartGame() throws FileNotFoundException {
+        int size = getGridSize(gridSizeChoiceBox.getValue());
+        int numOfWords = getNumberOfWords(numberOfWordsChoiceBox.getValue());
+        if (size < numOfWords) {
+            dictionaryAlerts.showAlertInformation("Không hợp lệ", "Kích thước bảng cần lớn hơn số từ!");
+            return;
+        }
+        model = new WordSearchGameModel(size, numOfWords);
         initModel(model);
-
         gridPane.getChildren().clear();
+        if (size == 8) {
+            gridPane.setLayoutX(90);
+            gridPane.setLayoutY(90);
+        } else if (size == 5) {
+            gridPane.setLayoutX(150);
+            gridPane.setLayoutY(150);
+        } else {
+            gridPane.setLayoutX(50);
+            gridPane.setLayoutY(50);
+        }
         letterButtons.clear();
         foundWordsLabel.setText("Đã thấy từ: ");
         score.setScore(0);
         updateScoreLabel();
+        initTable();
+    }
 
-        for (int i = 0; i < WordSearchModel.GRID_SIZE; i++) {
-            for (int j = 0; j < WordSearchModel.GRID_SIZE; j++) {
+    private void initTable() {
+        for (int i = 0; i < model.getBoard().getSize(); i++) {
+            for (int j = 0; j < model.getBoard().getSize(); j++) {
                 Button button = createLetterButton(i, j);
                 letterButtons.add(button);
                 gridPane.add(button, j, i);
@@ -127,21 +169,13 @@ public class WordSearchController implements Initializable {
         }
     }
 
-    public void startNewGame() {
-        model = new WordSearchModel();
+    public void startNewGame() throws FileNotFoundException {
+        model = new WordSearchGameModel(getGridSize(gridSizeChoiceBox.getValue()), getNumberOfWords(numberOfWordsChoiceBox.getValue()));
         initModel(model);
-
         gridPane.getChildren().clear();
         letterButtons.clear();
         foundWordsLabel.setText("Đã thấy từ: ");
-
-        for (int i = 0; i < WordSearchModel.GRID_SIZE; i++) {
-            for (int j = 0; j < WordSearchModel.GRID_SIZE; j++) {
-                Button button = createLetterButton(i, j);
-                letterButtons.add(button);
-                gridPane.add(button, j, i);
-            }
-        }
+        initTable();
     }
 
     @FXML
@@ -163,8 +197,8 @@ public class WordSearchController implements Initializable {
         }
 
         Button lastSelectedButton = selectedLetterButtons.get(selectedLetterButtons.size() - 1);
-        int lastSelectedRow = letterButtons.indexOf(lastSelectedButton) / WordSearchModel.GRID_SIZE;
-        int lastSelectedCol = letterButtons.indexOf(lastSelectedButton) % WordSearchModel.GRID_SIZE;
+        int lastSelectedRow = letterButtons.indexOf(lastSelectedButton) / model.getBoard().getSize();
+        int lastSelectedCol = letterButtons.indexOf(lastSelectedButton) % model.getBoard().getSize();
 
         return Math.abs(row - lastSelectedRow) <= 1 && Math.abs(col - lastSelectedCol) <= 1;
     }
@@ -177,11 +211,11 @@ public class WordSearchController implements Initializable {
 
 
     private void handleLetterButtonClick(int row, int col) {
-        Button clickedButton = letterButtons.get(row * WordSearchModel.GRID_SIZE + col);
+        Button clickedButton = letterButtons.get(row * model.getBoard().getSize() + col);
         if (selectedLetterButtons.contains(clickedButton)) {
             return;
         }
-        char clickedLetter = model.getBoard().getGrid()[row][col];
+        char clickedLetter = (char) model.getBoard().getGrid()[row][col];
         if (!isAdjacent(row, col)) {
             clearSelection();
         }
@@ -191,36 +225,18 @@ public class WordSearchController implements Initializable {
             firstSelectButton = new Pair<>(row, col);
         }
         selectedLetterButtons.add(clickedButton);
-
-    }
-
-    private void showAlert(String title, String content) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle(title);
-        alert.setHeaderText(null);
-        alert.setContentText(content);
-        alert.showAndWait();
-    }
-
-    private void updateButtonLabels() {
-        for (int i = 0; i < WordSearchModel.GRID_SIZE; i++) {
-            for (int j = 0; j < WordSearchModel.GRID_SIZE; j++) {
-                char letter = model.getBoard().getGrid()[i][j];
-                letterButtons.get(i * WordSearchModel.GRID_SIZE + j).setText(Character.toString(letter));
-            }
-        }
     }
 
     private void updateScoreLabel() {
         scoreLabel.setText("Score: " + score.getScore());
     }
 
-    public void initModel(WordSearchModel model) {
+    public void initModel(WordSearchGameModel model) {
         this.model = model;
     }
 
     private Button createLetterButton(int row, int col) {
-        char letter = model.getBoard().getGrid()[row][col];
+        char letter = (char) model.getBoard().getGrid()[row][col];
         Button button = new Button(Character.toString(letter));
         button.setMinSize(35, 35);
         button.setMaxSize(35, 35);

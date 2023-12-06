@@ -1,4 +1,4 @@
-package model;
+package game_model;
 
 import java.time.LocalDateTime;
 

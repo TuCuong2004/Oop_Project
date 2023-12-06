@@ -7,7 +7,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="300.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.Bookmark">
+<AnchorPane prefHeight="300.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.BookmarkController">
    <children>
       <TextArea fx:id="word_target" layoutX="51.0" layoutY="100.0" prefHeight="150.0" prefWidth="150.0" styleClass="english-word-input" />
       <TextArea fx:id="word_explain" layoutX="249.0" layoutY="100.0" prefHeight="150.0" prefWidth="150.0" styleClass="english-word-input" />
