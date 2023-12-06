@@ -9,14 +9,19 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
+import javafx.scene.layout.VBox;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.Scanner;
 
 import static Run.App.dictionaryCommandline;
 
@@ -26,6 +31,8 @@ public class SearchController implements Initializable {
     private final Dictionary dictionary = new Dictionary();
     private final DictionaryManagement dictionaryManagement = new DictionaryManagement();
     private final DictionaryAlerts dictionaryAlerts = new DictionaryAlerts();
+    @FXML
+    private VBox searchVBox ;
     @FXML
     public AnchorPane searchResult;
     @FXML
@@ -52,6 +59,95 @@ public class SearchController implements Initializable {
     private int firstIndexOfListFound;
 
     public SearchController() throws FileNotFoundException {
+    }
+
+    public void setSearchBox(String wordExplain) {
+        searchVBox.getChildren().clear();
+//        searchVBox = new VBox();
+//        File path = new File(filePath);
+//
+//        Scanner sc = new Scanner(path);
+//        String s;
+//        while (sc.hasNextLine()) {
+//            s = sc.nextLine();
+//            //System.out.println(s);
+//            String[] temp = s.split("\t");
+//
+//            if (temp.length == 2) {
+//                super.getWordlist().put(temp[0], new Word(temp[0], temp[1]));
+//            } // từ và nghĩa
+//
+//            if (temp.length == 3) {
+//                super.getWordlist().put(temp[0], new Word(temp[0], temp[2], temp[1]));
+//            } // từ ,từ loại và nghĩa
+//        }
+        String[] line = wordExplain.split("\n");
+        for(int i=0; i<line.length; i++)
+        {
+                AnchorPane anchorPane = new AnchorPane();
+            if(line[i].contains("*"))
+            {
+
+                TextField textField = new TextField();
+                textField.setText(line[i]);
+                textField.getStyleClass().add("wordFormField");
+                textField.setPrefColumnCount( calculatePrefColumnCount(textField.getText(),10));
+                textField.setEditable(false);
+//                textField.setPrefColumnCount(line[i].length());
+//                System.out.println("co chay den");
+                anchorPane.getChildren().add(textField);
+            }
+            else if(line[i].startsWith("-"))
+            {
+                line[i] = line[i].replace("-","");
+                TextField textField1 = new TextField("-");
+                textField1.setEditable(false);
+                TextField textField2 = new TextField(line[i]);
+                textField1.getStyleClass().add("explain-text");
+                textField2.getStyleClass().add("explain-text");
+                textField1.setPrefColumnCount(calculatePrefColumnCount(textField1.getText(),7));
+//                textField1.setPrefColumnCount(1);
+                textField2.setPrefColumnCount(calculatePrefColumnCount(textField2.getText(),7));
+                textField2.setLayoutX(10);
+                anchorPane.getChildren().addAll(textField1,textField2);
+            }
+            else if(line[i].contains("VD:"))
+            {
+//                System.out.println(line[i]);
+                line[i] = line[i].replace("VD:","");
+                TextField textField1 = new TextField("VD:");
+                textField1.setEditable(false);
+                textField1.setLayoutX(10);
+                textField1.getStyleClass().add("explain-text");
+                textField1.setStyle("-fx-font-weight: bold;");
+                TextField textField2 = new TextField(line[i]);
+                textField2.getStyleClass().add("explain-text");
+                textField2.setLayoutX(30);
+                textField1.setPrefColumnCount(calculatePrefColumnCount(textField1.getText(),7));
+                textField2.setPrefColumnCount(calculatePrefColumnCount(textField2.getText(),7));
+                anchorPane.getChildren().addAll(textField1,textField2);
+            }
+            else if(line[i].startsWith("/*"))
+            {
+                TextField textField = new TextField("/* new add */");
+                textField.getStyleClass().add("new-add");
+                textField.setEditable(false);
+//                textField.setPrefColumnCount(1000);
+                anchorPane.getChildren().addAll(textField);
+            }
+            else
+            {
+//                AnchorPane anchorPane1 = new AnchorPane();
+                TextField textField = new TextField();
+                textField.setText(line[i]);
+                textField.getStyleClass().add("explain-text");
+                textField.setPrefColumnCount( calculatePrefColumnCount(textField.getText(),10));
+                textField.setEditable(false);
+                anchorPane.getChildren().add(textField);
+            }
+            searchVBox.getChildren().add(anchorPane);
+        }
+
     }
 
     /**
@@ -107,12 +203,12 @@ public class SearchController implements Initializable {
 //            setListDefault(0);
         });
 
-        explanation.setVisible(false);
+      //  explanation.setVisible(false);
 //        IPA_pronunciation.setVisible(false);
 //        partOfSpeech.setVisible(false);
 //        example.setVisible(false);
 
-        saveButton.setVisible(false);
+//        saveButton.setVisible(false);
         cancelButton.setVisible(false);
         notAvailableAlert.setVisible(false);
     }
@@ -154,11 +250,12 @@ public class SearchController implements Initializable {
 //            if (indexOfSelectedWord == -1) return;
             pronounced.setText(selectedWord.getSpelling());
             englishWord.setText(selectedWord.getWord_target());
-            explanation.setText(selectedWord.getWord_explain());
+//            explanation.setText(selectedWord.getWord_explain());
             headerOfExplanation.setVisible(true);
-            explanation.setVisible(true);
-            explanation.setEditable(false);
-            saveButton.setVisible(false);
+//            explanation.setVisible(true);
+//            explanation.setEditable(false);
+//            saveButton.setVisible(false);
+            setSearchBox(selectedWord.getWord_explain());
         }
     }
 
@@ -167,7 +264,7 @@ public class SearchController implements Initializable {
      */
     @FXML
     private void handleClickingEditButton() {
-        explanation.setEditable(true);
+//        explanation.setEditable(true);
         saveButton.setVisible(true);
         dictionaryAlerts.showAlertWarning("Warning(Cảnh báo)",
                 "Explanation editing allowed\n" +
@@ -194,7 +291,7 @@ public class SearchController implements Initializable {
         Optional<ButtonType> option = alertConfirmation.showAndWait();
         if (option.isPresent()) {
             if (option.get() == ButtonType.OK) {
-                dictionaryManagement.updateWord(selectedWord.getWord_target(), explanation.getText());
+                dictionaryCommandline.updateWord(selectedWord.getWord_target(),getStringFromVbox());
                 dictionaryAlerts.showAlertInformation("Successfully updated!",
                         "Cập nhật nghĩa thành công!");
             } else {
@@ -202,8 +299,9 @@ public class SearchController implements Initializable {
                         "Cập nhật thất bại hoặc đã bị huỷ!");
             }
             saveButton.setVisible(false);
-            explanation.setEditable(false);
+//            explanation.setEditable(false);
         }
+
     }
 
     /**
@@ -218,7 +316,7 @@ public class SearchController implements Initializable {
         }
         listResults.setItems(list);
         listHeader.setVisible(false);
-        explanation.setVisible(false);
+//        explanation.setVisible(false);
     }
 
     /**
@@ -242,5 +340,29 @@ public class SearchController implements Initializable {
                         "Deletion failed or cancelled(Xoá từ thất bại hoặc đã bị huỷ)!");
             }
         }
+    }
+
+    private int calculatePrefColumnCount(String text,int t) {
+        // Tính độ rộng của văn bản
+        double textWidth = new javafx.scene.text.Text(text).getBoundsInLocal().getWidth();
+
+        // Tính số cột ước lượng dựa trên độ rộng của văn bản
+        return (int) Math.ceil(textWidth / t); // 7 là một giá trị thử nghiệm, có thể điều chỉnh
+    }
+
+    public String getStringFromVbox () {
+        String relust = "";
+        for(Node a : searchVBox.getChildren())
+        {
+            AnchorPane anchorPane = (AnchorPane) a;
+            for (Node b : anchorPane.getChildren())
+            {
+                TextField textField = (TextField) b;
+                relust += textField.getText();
+            }
+            relust += "\n";
+        }
+
+        return relust;
     }
 }

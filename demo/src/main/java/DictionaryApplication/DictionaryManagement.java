@@ -93,28 +93,16 @@ public class DictionaryManagement extends Dictionary {
                     word.setSpelling(line);
                     line = bufferedReader.readLine();
                 }
-//                if (line.startsWith("*")) {
-//                    word.setWordForm(line);
-//                    line = bufferedReader.readLine();
-//                }
-//                if (line.startsWith("=")) {
-//                    line = line.replace("=", "!");
-//                    if (line.contains("+")) line = line.replace("+", "\n-");
-//                    System.out.println(line);
-//                    word.setExample(line);
-//                    System.out.println(word.getExample());
-//                    line = bufferedReader.readLine();
-//                }
                 word.setWord_target(englishWord.trim());
                 String meaning = line + "\n";
                 while ((line = bufferedReader.readLine()) != null) {
-                    if (line.startsWith("-")) meaning += line + "\n";
-                    else if (line.startsWith("|")) {
+                    if (!line.startsWith("|")) meaning += line + "\n";
+                    else {
                         englishWord = line.replace("|", "");
                         break;
                     }
                 }
-                word.setWord_explain(meaning.trim());
+                    word.setWord_explain(meaning.trim());
                 super.getWordlist().put(word.getWord_target(),word);
             }
             bufferedReader.close();
