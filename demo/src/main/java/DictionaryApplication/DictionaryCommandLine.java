@@ -26,7 +26,7 @@ public class DictionaryCommandLine extends DictionaryManagement {
         Scanner sc = new Scanner(System.in);
         String s_in = sc.nextLine();
         for (String word : super.getWordlist().keySet()) {
-            if (word.startsWith(s_in))
+            if (word.contains(s_in))
                 System.out.println(word);
         }
     }

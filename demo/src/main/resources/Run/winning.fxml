@@ -12,7 +12,7 @@
       <font>
          <Font name="System Bold Italic" size="19.0" />
       </font></Label>
-   <Button fx:id="newGameButton" layoutX="88.0" layoutY="164.0" mnemonicParsing="false" styleClass="add-button" text="Ván mới" />
+   <Button fx:id="newGameButton" layoutX="88.0" layoutY="164.0" mnemonicParsing="false" styleClass="add-button" stylesheets="@../Utils/style.css" text="Ván mới" />
    <ImageView fitHeight="71.0" fitWidth="158.0" layoutX="102.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
       <image>
          <Image url="@../Utils/icons/success.png" />

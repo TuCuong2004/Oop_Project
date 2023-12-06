@@ -12,7 +12,14 @@
 
 <AnchorPane prefHeight="530.0" prefWidth="830.0" styleClass="root1" stylesheets="@../Utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Run.MenuController">
    <children>
-      <AnchorPane fx:id="container" layoutX="48.0" layoutY="10.0" prefHeight="510.0" prefWidth="770.0" styleClass="root" AnchorPane.bottomAnchor="11.333333333333371" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="14.666666666666742" AnchorPane.topAnchor="10.0" />
+      <AnchorPane fx:id="container" layoutX="48.0" layoutY="10.0" prefHeight="510.0" prefWidth="770.0" styleClass="english-word-input" AnchorPane.bottomAnchor="11.333333333333371" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="14.666666666666742" AnchorPane.topAnchor="10.0">
+         <children>
+            <ImageView fitHeight="472.0" fitWidth="461.0" layoutX="202.66666666666669" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="201.0" AnchorPane.topAnchor="25.0">
+               <image>
+                  <Image url="@../logo.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
 
       <ImageView fx:id="menu" fitHeight="45.0" fitWidth="49.0" onMouseClicked="#clickMenuButton" pickOnBounds="true" preserveRatio="true">
          <image>

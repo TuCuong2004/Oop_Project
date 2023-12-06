@@ -1,9 +1,5 @@
 package DictionaryApplication;
 
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.stage.Stage;
-
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -44,8 +40,8 @@ public class CommandlineApp  {
                 case 5 -> dictionaryCommandline.dictionaryLookup();
                 case 6 -> dictionaryCommandline.dictionarySearcher();
                 case 7 -> {
-                    Game game = new Game();
-                    game.start();
+                    CmdGame cmdGame = new CmdGame();
+                    cmdGame.start();
                 }
                 case 8 -> {
                     System.out.println("nhập đường dẫn :");
@@ -57,19 +53,4 @@ public class CommandlineApp  {
             }
         }
     }
-
-    Stage window ;
-    Scene scene1,scene2;
-    Button button1  = new Button();
-    Button button2 = new Button();
-    Button button3 = new Button();
-//    @Override
-//    public void start(Stage stage) throws IOException {
-//    }
-//
-//
-//
-//    public static void main(String[] args) {
-//        launch();
-//    }
 }

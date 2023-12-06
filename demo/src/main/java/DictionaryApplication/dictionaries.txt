@@ -1559,7 +1559,7 @@ mix	(v) (n)	pha, trộn lẫn; sự pha trộn
 mixed	(adj)	lẫn lộn, pha trộn
 mixture	(n)	sự pha trộn, sự hỗn hợp
 mobile	(adj)	chuyển động, di động
-model	(n)	mẫu, kiểu mẫu
+game_model	(n)	mẫu, kiểu mẫu
 modern	(adj)	hiện đại, tân tiến
 moment	(n)	chốc, lát
 monitor	(n) (v)	lớp trưởng, màn hình máy tính; nghe, ghi phát thanh, giám sát
