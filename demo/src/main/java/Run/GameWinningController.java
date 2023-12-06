@@ -31,7 +31,7 @@ public class GameWinningController {
     private void handleNewGameButton() {
         primaryStage.close();
 
-        wordSearchController.startNewGame();
+//        wordSearchController.startNewGame();
     }
 
     public void setWordSearchController(WordSearchController wordSearchController) {

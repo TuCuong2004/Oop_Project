@@ -33,12 +33,12 @@ public class App extends Application {
         window.setTitle("Từ điển");
         window.show();
         window.setOnCloseRequest(t -> {
-            try {
-                dictionaryCommandline.saveChanges();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            System.exit(0);
+//            try {
+//                dictionaryCommandline.saveChanges();
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
+//            System.exit(0);
         });
 
     }

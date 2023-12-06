@@ -91,10 +91,10 @@ public class AddController implements Initializable {
                 "Bạn xác nhận thêm từ này?");
         Optional<ButtonType> option = alertConfirmation.showAndWait();
         String englishWord = wordTargetInput.getText();
-        String meaning = "+ " + wordExplainInput.getText().trim();
         String form = "* " + wordFormInput.getText().trim();
         String spelling = "/" + wordSpellingInput.getText().trim() + "/";
         String example = "= " + exampleInput.getText().trim();
+        String meaning =  form + "\n" +  "- " + wordExplainInput.getText().trim() + "\n" + example;
         Word word = new Word(englishWord, meaning, form, spelling, example);
 
         if (option.isPresent()) {
@@ -128,13 +128,13 @@ public class AddController implements Initializable {
                         if (selection.get() == insertButton) {
                             String oldMeaning = dictionaryCommandline.getWord(word.getWord_target()).getWord_explain();
                             String oldForm = dictionaryCommandline.getWord(word.getWord_target()).getWordForm();
-                            String oldSpelling = dictionaryCommandline.getWord(word.getWord_target()).getSpelling();
+                    //        String oldSpelling = dictionaryCommandline.getWord(word.getWord_target()).getSpelling();
                             String oldExample = dictionaryCommandline.getWord(word.getWord_target()).getExample();
 //                            dictionary.get(indexOfWord).setWord_explain(oldMeaning + "\n-> " + meaning);
-                            dictionaryCommandline.getWord(word.getWord_target()).setWord_explain(oldMeaning + "\n-> " + meaning);
-                            dictionaryCommandline.getWord(word.getWord_target()).setWordForm(oldForm + "\n-> " + form);
-                            dictionaryCommandline.getWord(word.getWord_target()).setSpelling(oldSpelling + "\n-> " + spelling);
-                            dictionaryCommandline.getWord(word.getWord_target()).setExample(oldExample + "\n-> " + example);
+                            dictionaryCommandline.getWord(word.getWord_target()).setWord_explain(oldMeaning + "\n" + "/* new add */" + "\n " + meaning);
+                            dictionaryCommandline.getWord(word.getWord_target()).setWordForm(oldForm + "\n " + form);
+                    //        dictionaryCommandline.getWord(word.getWord_target()).setSpelling(oldSpelling + "\n " + spelling);
+                            dictionaryCommandline.getWord(word.getWord_target()).setExample(oldExample + "\n " + example);
 //                            dictionaryCommandline.dictionaryExportToFile(dictionary, path);
                             showSuccessAlert();
                         }

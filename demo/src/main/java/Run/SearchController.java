@@ -154,7 +154,7 @@ public class SearchController implements Initializable {
 //            if (indexOfSelectedWord == -1) return;
             pronounced.setText(selectedWord.getSpelling());
             englishWord.setText(selectedWord.getWord_target());
-            explanation.setText(selectedWord.getWord_explain() + '\n' + selectedWord.getExample() + '\n' + selectedWord.getWordForm());
+            explanation.setText(selectedWord.getWord_explain());
             headerOfExplanation.setVisible(true);
             explanation.setVisible(true);
             explanation.setEditable(false);

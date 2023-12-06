@@ -17,7 +17,7 @@ import static Run.App.dictionaryCommandline;
 public class DictionaryManagement extends Dictionary {
 
     private Trie trie = new Trie();
-    public final String path = "demo/src/main/resources/Utils/test.txt";
+    public final String path = "demo/src/main/resources/Utils/dictionaries.txt";
 
     public DictionaryManagement() {
         insertFromFile();
@@ -93,18 +93,19 @@ public class DictionaryManagement extends Dictionary {
                     word.setSpelling(line);
                     line = bufferedReader.readLine();
                 }
-                if (line.startsWith("*")) {
-                    word.setWordForm(line);
-                    line = bufferedReader.readLine();
-                }
-                if (line.startsWith("=")) {
+//                if (line.startsWith("*")) {
+//                    word.setWordForm(line);
+//                    line = bufferedReader.readLine();
+//                }
+//                if (line.startsWith("=")) {
 //                    line = line.replace("=", "!");
 //                    if (line.contains("+")) line = line.replace("+", "\n-");
-                    //System.out.println(line);
-                    word.setExample(line);
-                    System.out.println(word.getExample());
-                    line = bufferedReader.readLine();
-                }
+//                    System.out.println(line);
+//                    word.setExample(line);
+//                    System.out.println(word.getExample());
+//                    line = bufferedReader.readLine();
+//                }
+                word.setWord_target(englishWord.trim());
                 String meaning = line + "\n";
                 while ((line = bufferedReader.readLine()) != null) {
                     if (line.startsWith("-")) meaning += line + "\n";

@@ -1,19 +1,24 @@
 package Run;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 import DictionaryApplication.DictionaryManagement;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 
 import java.util.Random;
 
 
 public class GameController {
+    private int point = 0;
     @FXML
     Button startButton;
     @FXML
@@ -282,184 +287,280 @@ public class GameController {
         }
     }
 
-    public void clickOnButton1() {
+    public void clickOnButton1() throws IOException {
         if (wordTarget.get(textField1.getText()) == selectWordId && selectPaneId > 6) {
             textField1.setVisible(false);
             button1.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane1.setVisible(true);
             selectPaneId = 1;
             selectWordId = wordTarget.get(textField1.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton2() {
+    public void clickOnButton2() throws IOException {
         if (wordTarget.get(textField2.getText()) == selectWordId && selectPaneId > 6) {
             textField2.setVisible(false);
             button2.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane2.setVisible(true);
             selectPaneId = 2;
             selectWordId = wordTarget.get(textField2.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton3() {
+    public void clickOnButton3() throws IOException {
         if (wordTarget.get(textField3.getText()) == selectWordId && selectPaneId > 6) {
             textField3.setVisible(false);
             button3.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane3.setVisible(true);
             selectPaneId = 3;
             selectWordId = wordTarget.get(textField3.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton4() {
+    public void clickOnButton4() throws IOException {
         if (wordTarget.get(textField4.getText()) == selectWordId && selectPaneId > 6) {
             textField4.setVisible(false);
             button4.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane4.setVisible(true);
             selectPaneId = 4;
             selectWordId = wordTarget.get(textField4.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton5() {
+    public void clickOnButton5() throws IOException {
         if (wordTarget.get(textField5.getText()) == selectWordId && selectPaneId > 6) {
             textField5.setVisible(false);
             button5.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane5.setVisible(true);
             selectPaneId = 5;
             selectWordId = wordTarget.get(textField5.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton6() {
+    public void clickOnButton6() throws IOException {
         if (wordTarget.get(textField6.getText()) == selectWordId && selectPaneId > 6) {
             textField6.setVisible(false);
             button6.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane6.setVisible(true);
             selectPaneId = 6;
             selectWordId = wordTarget.get(textField6.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
 
-    public void clickOnButton7() {
+    public void clickOnButton7() throws IOException {
         if (wordExplain.get(textField7.getText()) == selectWordId && selectPaneId <= 6) {
             textField7.setVisible(false);
             button7.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane7.setVisible(true);
             selectPaneId = 7;
             selectWordId = wordExplain.get(textField7.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton8() {
+    public void clickOnButton8() throws IOException {
         if (wordExplain.get(textField8.getText()) == selectWordId && selectPaneId <= 6) {
             textField8.setVisible(false);
             button8.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane8.setVisible(true);
             selectPaneId = 8;
             selectWordId = wordExplain.get(textField8.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton9() {
+    public void clickOnButton9() throws IOException {
         if (wordExplain.get(textField9.getText()) == selectWordId && selectPaneId <= 6) {
             textField9.setVisible(false);
             button9.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane9.setVisible(true);
             selectPaneId = 9;
             selectWordId = wordExplain.get(textField9.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton10() {
+    public void clickOnButton10() throws IOException {
         if (wordExplain.get(textField10.getText()) == selectWordId && selectPaneId <= 6) {
             textField10.setVisible(false);
             button10.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane10.setVisible(true);
             selectPaneId = 10;
             selectWordId = wordExplain.get(textField10.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton11() {
+    public void clickOnButton11() throws IOException {
         if (wordExplain.get(textField11.getText()) == selectWordId && selectPaneId <= 6) {
             textField11.setVisible(false);
             button11.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane11.setVisible(true);
             selectPaneId = 11;
             selectWordId = wordExplain.get(textField11.getText());
         }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
+        }
     }
 
-    public void clickOnButton12() {
+    public void clickOnButton12() throws IOException {
         if (wordExplain.get(textField12.getText()) == selectWordId && selectPaneId <= 6) {
             textField12.setVisible(false);
             button12.setVisible(false);
             getSelectedPane().setVisible(false);
             getSelectedTextField().setVisible(false);
             getSelectedButton().setVisible(false);
+            point++;
         } else {
             getSelectedPane().setVisible(false);
             pane12.setVisible(true);
             selectPaneId = 12;
             selectWordId = wordExplain.get(textField12.getText());
+        }
+        if(point == 6)  {
+            Stage winningStage = new Stage();
+            FXMLLoader fxmlLoaderGame = new FXMLLoader(getClass().getResource("winning.fxml"));
+            Scene scene = new Scene(fxmlLoaderGame.load());
+            winningStage.setScene(scene);
+            winningStage.show();
         }
     }
 
